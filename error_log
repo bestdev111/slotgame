@@ -1,0 +1,573 @@
+[29-Sep-2022 01:20:50 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function getTranslation() in /home/slotgame/public_html/footer.php:4
+Stack trace:
+#0 /home/slotgame/public_html/login.php(444): include()
+#1 {main}
+  thrown in /home/slotgame/public_html/footer.php on line 4
+[29-Sep-2022 02:50:49 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function getTranslation() in /home/slotgame/public_html/footer.php:4
+Stack trace:
+#0 /home/slotgame/public_html/login.php(444): include()
+#1 {main}
+  thrown in /home/slotgame/public_html/footer.php on line 4
+[29-Sep-2022 03:35:49 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function getTranslation() in /home/slotgame/public_html/footer.php:4
+Stack trace:
+#0 /home/slotgame/public_html/login.php(444): include()
+#1 {main}
+  thrown in /home/slotgame/public_html/footer.php on line 4
+[29-Sep-2022 05:03:13 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function getTranslation() in /home/slotgame/public_html/footer.php:4
+Stack trace:
+#0 /home/slotgame/public_html/login.php(444): include()
+#1 {main}
+  thrown in /home/slotgame/public_html/footer.php on line 4
+[29-Sep-2022 08:12:28 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function getTranslation() in /home/slotgame/public_html/footer.php:4
+Stack trace:
+#0 /home/slotgame/public_html/login.php(444): include()
+#1 {main}
+  thrown in /home/slotgame/public_html/footer.php on line 4
+[29-Sep-2022 08:12:28 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function getTranslation() in /home/slotgame/public_html/footer.php:4
+Stack trace:
+#0 /home/slotgame/public_html/login.php(444): include()
+#1 {main}
+  thrown in /home/slotgame/public_html/footer.php on line 4
+[29-Sep-2022 10:10:48 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function getTranslation() in /home/slotgame/public_html/footer.php:4
+Stack trace:
+#0 /home/slotgame/public_html/login.php(444): include()
+#1 {main}
+  thrown in /home/slotgame/public_html/footer.php on line 4
+[29-Sep-2022 10:18:37 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function getTranslation() in /home/slotgame/public_html/footer.php:4
+Stack trace:
+#0 /home/slotgame/public_html/login.php(444): include()
+#1 {main}
+  thrown in /home/slotgame/public_html/footer.php on line 4
+[29-Sep-2022 12:14:58 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function getTranslation() in /home/slotgame/public_html/footer.php:4
+Stack trace:
+#0 /home/slotgame/public_html/login.php(444): include()
+#1 {main}
+  thrown in /home/slotgame/public_html/footer.php on line 4
+[29-Sep-2022 12:24:49 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function getTranslation() in /home/slotgame/public_html/footer.php:4
+Stack trace:
+#0 /home/slotgame/public_html/login.php(444): include()
+#1 {main}
+  thrown in /home/slotgame/public_html/footer.php on line 4
+[29-Sep-2022 13:09:49 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function getTranslation() in /home/slotgame/public_html/footer.php:4
+Stack trace:
+#0 /home/slotgame/public_html/login.php(444): include()
+#1 {main}
+  thrown in /home/slotgame/public_html/footer.php on line 4
+[29-Sep-2022 13:54:49 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function getTranslation() in /home/slotgame/public_html/footer.php:4
+Stack trace:
+#0 /home/slotgame/public_html/login.php(444): include()
+#1 {main}
+  thrown in /home/slotgame/public_html/footer.php on line 4
+[29-Sep-2022 14:39:49 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function getTranslation() in /home/slotgame/public_html/footer.php:4
+Stack trace:
+#0 /home/slotgame/public_html/login.php(444): include()
+#1 {main}
+  thrown in /home/slotgame/public_html/footer.php on line 4
+[29-Sep-2022 22:10:01 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function getTranslation() in /home/slotgame/public_html/footer.php:4
+Stack trace:
+#0 /home/slotgame/public_html/login.php(444): include()
+#1 {main}
+  thrown in /home/slotgame/public_html/footer.php on line 4
+[29-Sep-2022 22:51:23 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function getTranslation() in /home/slotgame/public_html/footer.php:4
+Stack trace:
+#0 /home/slotgame/public_html/login.php(444): include()
+#1 {main}
+  thrown in /home/slotgame/public_html/footer.php on line 4
+[30-Sep-2022 00:51:03 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function getTranslation() in /home/slotgame/public_html/footer.php:4
+Stack trace:
+#0 /home/slotgame/public_html/login.php(444): include()
+#1 {main}
+  thrown in /home/slotgame/public_html/footer.php on line 4
+[30-Sep-2022 04:33:43 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function getTranslation() in /home/slotgame/public_html/footer.php:4
+Stack trace:
+#0 /home/slotgame/public_html/login.php(444): include()
+#1 {main}
+  thrown in /home/slotgame/public_html/footer.php on line 4
+[30-Sep-2022 05:34:29 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function getTranslation() in /home/slotgame/public_html/footer.php:4
+Stack trace:
+#0 /home/slotgame/public_html/login.php(444): include()
+#1 {main}
+  thrown in /home/slotgame/public_html/footer.php on line 4
+[30-Sep-2022 08:48:32 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function getTranslation() in /home/slotgame/public_html/footer.php:4
+Stack trace:
+#0 /home/slotgame/public_html/login.php(444): include()
+#1 {main}
+  thrown in /home/slotgame/public_html/footer.php on line 4
+[30-Sep-2022 10:47:23 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function getTranslation() in /home/slotgame/public_html/footer.php:4
+Stack trace:
+#0 /home/slotgame/public_html/login.php(444): include()
+#1 {main}
+  thrown in /home/slotgame/public_html/footer.php on line 4
+[30-Sep-2022 11:06:17 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function getTranslation() in /home/slotgame/public_html/footer.php:4
+Stack trace:
+#0 /home/slotgame/public_html/login.php(444): include()
+#1 {main}
+  thrown in /home/slotgame/public_html/footer.php on line 4
+[30-Sep-2022 11:06:17 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function getTranslation() in /home/slotgame/public_html/footer.php:4
+Stack trace:
+#0 /home/slotgame/public_html/login.php(444): include()
+#1 {main}
+  thrown in /home/slotgame/public_html/footer.php on line 4
+[30-Sep-2022 20:01:59 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function getTranslation() in /home/slotgame/public_html/footer.php:4
+Stack trace:
+#0 /home/slotgame/public_html/login.php(444): include()
+#1 {main}
+  thrown in /home/slotgame/public_html/footer.php on line 4
+[01-Oct-2022 04:04:41 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function getTranslation() in /home/slotgame/public_html/footer.php:4
+Stack trace:
+#0 /home/slotgame/public_html/login.php(444): include()
+#1 {main}
+  thrown in /home/slotgame/public_html/footer.php on line 4
+[01-Oct-2022 04:21:03 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function getTranslation() in /home/slotgame/public_html/footer.php:4
+Stack trace:
+#0 /home/slotgame/public_html/login.php(444): include()
+#1 {main}
+  thrown in /home/slotgame/public_html/footer.php on line 4
+[01-Oct-2022 05:06:03 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function getTranslation() in /home/slotgame/public_html/footer.php:4
+Stack trace:
+#0 /home/slotgame/public_html/login.php(444): include()
+#1 {main}
+  thrown in /home/slotgame/public_html/footer.php on line 4
+[01-Oct-2022 13:31:10 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function getTranslation() in /home/slotgame/public_html/footer.php:4
+Stack trace:
+#0 /home/slotgame/public_html/login.php(444): include()
+#1 {main}
+  thrown in /home/slotgame/public_html/footer.php on line 4
+[01-Oct-2022 13:58:07 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function getTranslation() in /home/slotgame/public_html/footer.php:4
+Stack trace:
+#0 /home/slotgame/public_html/login.php(444): include()
+#1 {main}
+  thrown in /home/slotgame/public_html/footer.php on line 4
+[01-Oct-2022 17:56:26 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function getTranslation() in /home/slotgame/public_html/footer.php:4
+Stack trace:
+#0 /home/slotgame/public_html/login.php(444): include()
+#1 {main}
+  thrown in /home/slotgame/public_html/footer.php on line 4
+[01-Oct-2022 18:31:12 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function getTranslation() in /home/slotgame/public_html/footer.php:4
+Stack trace:
+#0 /home/slotgame/public_html/login.php(444): include()
+#1 {main}
+  thrown in /home/slotgame/public_html/footer.php on line 4
+[02-Oct-2022 01:39:18 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function getTranslation() in /home/slotgame/public_html/footer.php:4
+Stack trace:
+#0 /home/slotgame/public_html/login.php(444): include()
+#1 {main}
+  thrown in /home/slotgame/public_html/footer.php on line 4
+[02-Oct-2022 01:39:18 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function getTranslation() in /home/slotgame/public_html/footer.php:4
+Stack trace:
+#0 /home/slotgame/public_html/login.php(444): include()
+#1 {main}
+  thrown in /home/slotgame/public_html/footer.php on line 4
+[02-Oct-2022 02:29:18 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function getTranslation() in /home/slotgame/public_html/footer.php:4
+Stack trace:
+#0 /home/slotgame/public_html/login.php(444): include()
+#1 {main}
+  thrown in /home/slotgame/public_html/footer.php on line 4
+[02-Oct-2022 02:52:26 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function getTranslation() in /home/slotgame/public_html/footer.php:4
+Stack trace:
+#0 /home/slotgame/public_html/login.php(444): include()
+#1 {main}
+  thrown in /home/slotgame/public_html/footer.php on line 4
+[02-Oct-2022 03:41:12 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function getTranslation() in /home/slotgame/public_html/footer.php:4
+Stack trace:
+#0 /home/slotgame/public_html/login.php(444): include()
+#1 {main}
+  thrown in /home/slotgame/public_html/footer.php on line 4
+[02-Oct-2022 04:24:05 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function getTranslation() in /home/slotgame/public_html/footer.php:4
+Stack trace:
+#0 /home/slotgame/public_html/login.php(444): include()
+#1 {main}
+  thrown in /home/slotgame/public_html/footer.php on line 4
+[02-Oct-2022 04:24:08 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function getTranslation() in /home/slotgame/public_html/footer.php:4
+Stack trace:
+#0 /home/slotgame/public_html/login.php(444): include()
+#1 {main}
+  thrown in /home/slotgame/public_html/footer.php on line 4
+[02-Oct-2022 04:59:03 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function getTranslation() in /home/slotgame/public_html/footer.php:4
+Stack trace:
+#0 /home/slotgame/public_html/login.php(444): include()
+#1 {main}
+  thrown in /home/slotgame/public_html/footer.php on line 4
+[02-Oct-2022 05:34:57 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function getTranslation() in /home/slotgame/public_html/footer.php:4
+Stack trace:
+#0 /home/slotgame/public_html/login.php(444): include()
+#1 {main}
+  thrown in /home/slotgame/public_html/footer.php on line 4
+[02-Oct-2022 05:34:59 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function getTranslation() in /home/slotgame/public_html/footer.php:4
+Stack trace:
+#0 /home/slotgame/public_html/login.php(444): include()
+#1 {main}
+  thrown in /home/slotgame/public_html/footer.php on line 4
+[02-Oct-2022 05:35:00 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function getTranslation() in /home/slotgame/public_html/footer.php:4
+Stack trace:
+#0 /home/slotgame/public_html/login.php(444): include()
+#1 {main}
+  thrown in /home/slotgame/public_html/footer.php on line 4
+[02-Oct-2022 05:45:18 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function getTranslation() in /home/slotgame/public_html/footer.php:4
+Stack trace:
+#0 /home/slotgame/public_html/login.php(444): include()
+#1 {main}
+  thrown in /home/slotgame/public_html/footer.php on line 4
+[02-Oct-2022 08:05:53 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function getTranslation() in /home/slotgame/public_html/footer.php:4
+Stack trace:
+#0 /home/slotgame/public_html/login.php(444): include()
+#1 {main}
+  thrown in /home/slotgame/public_html/footer.php on line 4
+[02-Oct-2022 11:17:03 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function getTranslation() in /home/slotgame/public_html/footer.php:4
+Stack trace:
+#0 /home/slotgame/public_html/login.php(444): include()
+#1 {main}
+  thrown in /home/slotgame/public_html/footer.php on line 4
+[02-Oct-2022 11:17:03 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function getTranslation() in /home/slotgame/public_html/footer.php:4
+Stack trace:
+#0 /home/slotgame/public_html/login.php(444): include()
+#1 {main}
+  thrown in /home/slotgame/public_html/footer.php on line 4
+[02-Oct-2022 11:17:03 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function getTranslation() in /home/slotgame/public_html/footer.php:4
+Stack trace:
+#0 /home/slotgame/public_html/login.php(444): include()
+#1 {main}
+  thrown in /home/slotgame/public_html/footer.php on line 4
+[02-Oct-2022 11:17:03 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function getTranslation() in /home/slotgame/public_html/footer.php:4
+Stack trace:
+#0 /home/slotgame/public_html/login.php(444): include()
+#1 {main}
+  thrown in /home/slotgame/public_html/footer.php on line 4
+[02-Oct-2022 11:17:03 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function getTranslation() in /home/slotgame/public_html/footer.php:4
+Stack trace:
+#0 /home/slotgame/public_html/login.php(444): include()
+#1 {main}
+  thrown in /home/slotgame/public_html/footer.php on line 4
+[02-Oct-2022 11:17:04 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function getTranslation() in /home/slotgame/public_html/footer.php:4
+Stack trace:
+#0 /home/slotgame/public_html/login.php(444): include()
+#1 {main}
+  thrown in /home/slotgame/public_html/footer.php on line 4
+[02-Oct-2022 11:17:05 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function getTranslation() in /home/slotgame/public_html/footer.php:4
+Stack trace:
+#0 /home/slotgame/public_html/login.php(444): include()
+#1 {main}
+  thrown in /home/slotgame/public_html/footer.php on line 4
+[02-Oct-2022 11:17:06 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function getTranslation() in /home/slotgame/public_html/footer.php:4
+Stack trace:
+#0 /home/slotgame/public_html/login.php(444): include()
+#1 {main}
+  thrown in /home/slotgame/public_html/footer.php on line 4
+[02-Oct-2022 14:48:40 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function getTranslation() in /home/slotgame/public_html/footer.php:4
+Stack trace:
+#0 /home/slotgame/public_html/login.php(444): include()
+#1 {main}
+  thrown in /home/slotgame/public_html/footer.php on line 4
+[02-Oct-2022 14:48:40 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function getTranslation() in /home/slotgame/public_html/footer.php:4
+Stack trace:
+#0 /home/slotgame/public_html/login.php(444): include()
+#1 {main}
+  thrown in /home/slotgame/public_html/footer.php on line 4
+[02-Oct-2022 14:48:41 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function getTranslation() in /home/slotgame/public_html/footer.php:4
+Stack trace:
+#0 /home/slotgame/public_html/login.php(444): include()
+#1 {main}
+  thrown in /home/slotgame/public_html/footer.php on line 4
+[02-Oct-2022 14:48:45 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function getTranslation() in /home/slotgame/public_html/footer.php:4
+Stack trace:
+#0 /home/slotgame/public_html/login.php(444): include()
+#1 {main}
+  thrown in /home/slotgame/public_html/footer.php on line 4
+[02-Oct-2022 14:48:46 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function getTranslation() in /home/slotgame/public_html/footer.php:4
+Stack trace:
+#0 /home/slotgame/public_html/login.php(444): include()
+#1 {main}
+  thrown in /home/slotgame/public_html/footer.php on line 4
+[02-Oct-2022 14:54:36 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function getTranslation() in /home/slotgame/public_html/footer.php:4
+Stack trace:
+#0 /home/slotgame/public_html/login.php(444): include()
+#1 {main}
+  thrown in /home/slotgame/public_html/footer.php on line 4
+[02-Oct-2022 14:54:36 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function getTranslation() in /home/slotgame/public_html/footer.php:4
+Stack trace:
+#0 /home/slotgame/public_html/login.php(444): include()
+#1 {main}
+  thrown in /home/slotgame/public_html/footer.php on line 4
+[02-Oct-2022 14:57:17 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function getTranslation() in /home/slotgame/public_html/footer.php:4
+Stack trace:
+#0 /home/slotgame/public_html/login.php(444): include()
+#1 {main}
+  thrown in /home/slotgame/public_html/footer.php on line 4
+[02-Oct-2022 14:57:17 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function getTranslation() in /home/slotgame/public_html/footer.php:4
+Stack trace:
+#0 /home/slotgame/public_html/login.php(444): include()
+#1 {main}
+  thrown in /home/slotgame/public_html/footer.php on line 4
+[02-Oct-2022 15:02:32 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function getTranslation() in /home/slotgame/public_html/footer.php:4
+Stack trace:
+#0 /home/slotgame/public_html/login.php(444): include()
+#1 {main}
+  thrown in /home/slotgame/public_html/footer.php on line 4
+[02-Oct-2022 15:02:32 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function getTranslation() in /home/slotgame/public_html/footer.php:4
+Stack trace:
+#0 /home/slotgame/public_html/login.php(444): include()
+#1 {main}
+  thrown in /home/slotgame/public_html/footer.php on line 4
+[02-Oct-2022 15:02:37 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function getTranslation() in /home/slotgame/public_html/footer.php:4
+Stack trace:
+#0 /home/slotgame/public_html/login.php(444): include()
+#1 {main}
+  thrown in /home/slotgame/public_html/footer.php on line 4
+[02-Oct-2022 15:02:37 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function getTranslation() in /home/slotgame/public_html/footer.php:4
+Stack trace:
+#0 /home/slotgame/public_html/login.php(444): include()
+#1 {main}
+  thrown in /home/slotgame/public_html/footer.php on line 4
+[02-Oct-2022 15:05:02 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function getTranslation() in /home/slotgame/public_html/footer.php:4
+Stack trace:
+#0 /home/slotgame/public_html/login.php(444): include()
+#1 {main}
+  thrown in /home/slotgame/public_html/footer.php on line 4
+[02-Oct-2022 15:05:02 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function getTranslation() in /home/slotgame/public_html/footer.php:4
+Stack trace:
+#0 /home/slotgame/public_html/login.php(444): include()
+#1 {main}
+  thrown in /home/slotgame/public_html/footer.php on line 4
+[02-Oct-2022 15:15:12 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function getTranslation() in /home/slotgame/public_html/footer.php:4
+Stack trace:
+#0 /home/slotgame/public_html/login.php(444): include()
+#1 {main}
+  thrown in /home/slotgame/public_html/footer.php on line 4
+[02-Oct-2022 15:18:31 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function getTranslation() in /home/slotgame/public_html/footer.php:4
+Stack trace:
+#0 /home/slotgame/public_html/login.php(444): include()
+#1 {main}
+  thrown in /home/slotgame/public_html/footer.php on line 4
+[02-Oct-2022 15:18:31 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function getTranslation() in /home/slotgame/public_html/footer.php:4
+Stack trace:
+#0 /home/slotgame/public_html/login.php(444): include()
+#1 {main}
+  thrown in /home/slotgame/public_html/footer.php on line 4
+[04-Oct-2022 10:13:48 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function getTranslation() in /home/slotgame/public_html/footer.php:4
+Stack trace:
+#0 /home/slotgame/public_html/login.php(444): include()
+#1 {main}
+  thrown in /home/slotgame/public_html/footer.php on line 4
+[04-Oct-2022 10:13:48 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function getTranslation() in /home/slotgame/public_html/footer.php:4
+Stack trace:
+#0 /home/slotgame/public_html/login.php(444): include()
+#1 {main}
+  thrown in /home/slotgame/public_html/footer.php on line 4
+[04-Oct-2022 10:13:48 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function getTranslation() in /home/slotgame/public_html/footer.php:4
+Stack trace:
+#0 /home/slotgame/public_html/login.php(444): include()
+#1 {main}
+  thrown in /home/slotgame/public_html/footer.php on line 4
+[04-Oct-2022 10:15:07 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function getTranslation() in /home/slotgame/public_html/footer.php:4
+Stack trace:
+#0 /home/slotgame/public_html/login.php(444): include()
+#1 {main}
+  thrown in /home/slotgame/public_html/footer.php on line 4
+[04-Oct-2022 10:15:07 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function getTranslation() in /home/slotgame/public_html/footer.php:4
+Stack trace:
+#0 /home/slotgame/public_html/login.php(444): include()
+#1 {main}
+  thrown in /home/slotgame/public_html/footer.php on line 4
+[04-Oct-2022 10:15:38 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function getTranslation() in /home/slotgame/public_html/footer.php:4
+Stack trace:
+#0 /home/slotgame/public_html/login.php(444): include()
+#1 {main}
+  thrown in /home/slotgame/public_html/footer.php on line 4
+[04-Oct-2022 10:15:38 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function getTranslation() in /home/slotgame/public_html/footer.php:4
+Stack trace:
+#0 /home/slotgame/public_html/login.php(444): include()
+#1 {main}
+  thrown in /home/slotgame/public_html/footer.php on line 4
+[04-Oct-2022 10:16:42 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function getTranslation() in /home/slotgame/public_html/footer.php:4
+Stack trace:
+#0 /home/slotgame/public_html/login.php(444): include()
+#1 {main}
+  thrown in /home/slotgame/public_html/footer.php on line 4
+[04-Oct-2022 10:16:43 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function getTranslation() in /home/slotgame/public_html/footer.php:4
+Stack trace:
+#0 /home/slotgame/public_html/login.php(444): include()
+#1 {main}
+  thrown in /home/slotgame/public_html/footer.php on line 4
+[04-Oct-2022 10:16:48 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function getTranslation() in /home/slotgame/public_html/footer.php:4
+Stack trace:
+#0 /home/slotgame/public_html/login.php(444): include()
+#1 {main}
+  thrown in /home/slotgame/public_html/footer.php on line 4
+[04-Oct-2022 10:16:49 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function getTranslation() in /home/slotgame/public_html/footer.php:4
+Stack trace:
+#0 /home/slotgame/public_html/login.php(444): include()
+#1 {main}
+  thrown in /home/slotgame/public_html/footer.php on line 4
+[04-Oct-2022 10:38:14 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function getTranslation() in /home/slotgame/public_html/footer.php:4
+Stack trace:
+#0 /home/slotgame/public_html/login.php(444): include()
+#1 {main}
+  thrown in /home/slotgame/public_html/footer.php on line 4
+[04-Oct-2022 10:48:00 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function getTranslation() in /home/slotgame/public_html/footer.php:4
+Stack trace:
+#0 /home/slotgame/public_html/login.php(444): include()
+#1 {main}
+  thrown in /home/slotgame/public_html/footer.php on line 4
+[04-Oct-2022 11:20:13 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function getTranslation() in /home/slotgame/public_html/footer.php:4
+Stack trace:
+#0 /home/slotgame/public_html/login.php(444): include()
+#1 {main}
+  thrown in /home/slotgame/public_html/footer.php on line 4
+[04-Oct-2022 11:20:14 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function getTranslation() in /home/slotgame/public_html/footer.php:4
+Stack trace:
+#0 /home/slotgame/public_html/login.php(444): include()
+#1 {main}
+  thrown in /home/slotgame/public_html/footer.php on line 4
+[04-Oct-2022 11:51:31 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function getTranslation() in /home/slotgame/public_html/footer.php:4
+Stack trace:
+#0 /home/slotgame/public_html/login.php(444): include()
+#1 {main}
+  thrown in /home/slotgame/public_html/footer.php on line 4
+[04-Oct-2022 12:06:15 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function getTranslation() in /home/slotgame/public_html/footer.php:4
+Stack trace:
+#0 /home/slotgame/public_html/login.php(444): include()
+#1 {main}
+  thrown in /home/slotgame/public_html/footer.php on line 4
+[04-Oct-2022 12:06:15 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function getTranslation() in /home/slotgame/public_html/footer.php:4
+Stack trace:
+#0 /home/slotgame/public_html/login.php(444): include()
+#1 {main}
+  thrown in /home/slotgame/public_html/footer.php on line 4
+[04-Oct-2022 13:03:39 UTC] PHP Fatal error:  Call to undefined function getTranslation() in /home/slotgame/public_html/footer.php on line 4
+[04-Oct-2022 13:03:40 UTC] PHP Fatal error:  Call to undefined function getTranslation() in /home/slotgame/public_html/footer.php on line 4
+[04-Oct-2022 13:03:40 UTC] PHP Fatal error:  Call to undefined function getTranslation() in /home/slotgame/public_html/footer.php on line 4
+[04-Oct-2022 13:26:37 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function getTranslation() in /home/slotgame/public_html/footer.php:4
+Stack trace:
+#0 /home/slotgame/public_html/login.php(444): include()
+#1 {main}
+  thrown in /home/slotgame/public_html/footer.php on line 4
+[04-Oct-2022 13:26:56 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function getTranslation() in /home/slotgame/public_html/footer.php:4
+Stack trace:
+#0 /home/slotgame/public_html/login.php(444): include()
+#1 {main}
+  thrown in /home/slotgame/public_html/footer.php on line 4
+[04-Oct-2022 14:11:01 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function getTranslation() in /home/slotgame/public_html/footer.php:4
+Stack trace:
+#0 /home/slotgame/public_html/login.php(444): include()
+#1 {main}
+  thrown in /home/slotgame/public_html/footer.php on line 4
+[04-Oct-2022 14:13:51 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function getTranslation() in /home/slotgame/public_html/footer.php:4
+Stack trace:
+#0 /home/slotgame/public_html/login.php(444): include()
+#1 {main}
+  thrown in /home/slotgame/public_html/footer.php on line 4
+[04-Oct-2022 14:13:52 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function getTranslation() in /home/slotgame/public_html/footer.php:4
+Stack trace:
+#0 /home/slotgame/public_html/login.php(444): include()
+#1 {main}
+  thrown in /home/slotgame/public_html/footer.php on line 4
+[04-Oct-2022 15:23:36 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function getTranslation() in /home/slotgame/public_html/footer.php:4
+Stack trace:
+#0 /home/slotgame/public_html/login.php(444): include()
+#1 {main}
+  thrown in /home/slotgame/public_html/footer.php on line 4
+[04-Oct-2022 15:45:06 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function getTranslation() in /home/slotgame/public_html/footer.php:4
+Stack trace:
+#0 /home/slotgame/public_html/login.php(444): include()
+#1 {main}
+  thrown in /home/slotgame/public_html/footer.php on line 4
+[04-Oct-2022 15:50:22 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function getTranslation() in /home/slotgame/public_html/footer.php:4
+Stack trace:
+#0 /home/slotgame/public_html/login.php(444): include()
+#1 {main}
+  thrown in /home/slotgame/public_html/footer.php on line 4
+[04-Oct-2022 17:46:07 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function getTranslation() in /home/slotgame/public_html/footer.php:4
+Stack trace:
+#0 /home/slotgame/public_html/login.php(444): include()
+#1 {main}
+  thrown in /home/slotgame/public_html/footer.php on line 4
+[04-Oct-2022 17:46:07 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function getTranslation() in /home/slotgame/public_html/footer.php:4
+Stack trace:
+#0 /home/slotgame/public_html/login.php(444): include()
+#1 {main}
+  thrown in /home/slotgame/public_html/footer.php on line 4
+[04-Oct-2022 18:18:29 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function getTranslation() in /home/slotgame/public_html/footer.php:4
+Stack trace:
+#0 /home/slotgame/public_html/login.php(444): include()
+#1 {main}
+  thrown in /home/slotgame/public_html/footer.php on line 4
+[04-Oct-2022 18:18:30 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function getTranslation() in /home/slotgame/public_html/footer.php:4
+Stack trace:
+#0 /home/slotgame/public_html/login.php(444): include()
+#1 {main}
+  thrown in /home/slotgame/public_html/footer.php on line 4
+[04-Oct-2022 22:07:38 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function getTranslation() in /home/slotgame/public_html/footer.php:4
+Stack trace:
+#0 /home/slotgame/public_html/login.php(444): include()
+#1 {main}
+  thrown in /home/slotgame/public_html/footer.php on line 4
+[04-Oct-2022 23:02:39 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function getTranslation() in /home/slotgame/public_html/footer.php:4
+Stack trace:
+#0 /home/slotgame/public_html/login.php(444): include()
+#1 {main}
+  thrown in /home/slotgame/public_html/footer.php on line 4
+[04-Oct-2022 23:06:01 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function getTranslation() in /home/slotgame/public_html/footer.php:4
+Stack trace:
+#0 /home/slotgame/public_html/login.php(444): include()
+#1 {main}
+  thrown in /home/slotgame/public_html/footer.php on line 4
+[05-Oct-2022 01:14:27 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function getTranslation() in /home/slotgame/public_html/footer.php:4
+Stack trace:
+#0 /home/slotgame/public_html/login.php(444): include()
+#1 {main}
+  thrown in /home/slotgame/public_html/footer.php on line 4
+[05-Oct-2022 01:34:38 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function getTranslation() in /home/slotgame/public_html/footer.php:4
+Stack trace:
+#0 /home/slotgame/public_html/login.php(444): include()
+#1 {main}
+  thrown in /home/slotgame/public_html/footer.php on line 4
+[05-Oct-2022 02:12:57 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function getTranslation() in /home/slotgame/public_html/footer.php:4
+Stack trace:
+#0 /home/slotgame/public_html/login.php(444): include()
+#1 {main}
+  thrown in /home/slotgame/public_html/footer.php on line 4
+[05-Oct-2022 02:31:24 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function getTranslation() in /home/slotgame/public_html/footer.php:4
+Stack trace:
+#0 /home/slotgame/public_html/login.php(444): include()
+#1 {main}
+  thrown in /home/slotgame/public_html/footer.php on line 4
+[05-Oct-2022 02:39:45 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function getTranslation() in /home/slotgame/public_html/footer.php:4
+Stack trace:
+#0 /home/slotgame/public_html/login.php(444): include()
+#1 {main}
+  thrown in /home/slotgame/public_html/footer.php on line 4
+[05-Oct-2022 03:45:45 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function getTranslation() in /home/slotgame/public_html/footer.php:4
+Stack trace:
+#0 /home/slotgame/public_html/login.php(444): include()
+#1 {main}
+  thrown in /home/slotgame/public_html/footer.php on line 4
+[05-Oct-2022 04:22:14 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function getTranslation() in /home/slotgame/public_html/footer.php:4
+Stack trace:
+#0 /home/slotgame/public_html/login.php(444): include()
+#1 {main}
+  thrown in /home/slotgame/public_html/footer.php on line 4
+[05-Oct-2022 06:15:44 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function getTranslation() in /home/slotgame/public_html/footer.php:4
+Stack trace:
+#0 /home/slotgame/public_html/login.php(444): include()
+#1 {main}
+  thrown in /home/slotgame/public_html/footer.php on line 4
+[05-Oct-2022 07:27:51 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function getTranslation() in /home/slotgame/public_html/footer.php:4
+Stack trace:
+#0 /home/slotgame/public_html/login.php(444): include()
+#1 {main}
+  thrown in /home/slotgame/public_html/footer.php on line 4
+[05-Oct-2022 08:33:59 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function getTranslation() in /home/slotgame/public_html/footer.php:4
+Stack trace:
+#0 /home/slotgame/public_html/login.php(444): include()
+#1 {main}
+  thrown in /home/slotgame/public_html/footer.php on line 4
+[05-Oct-2022 09:46:22 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function getTranslation() in /home/slotgame/public_html/footer.php:4
+Stack trace:
+#0 /home/slotgame/public_html/login.php(444): include()
+#1 {main}
+  thrown in /home/slotgame/public_html/footer.php on line 4
+[05-Oct-2022 10:17:02 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function getTranslation() in /home/slotgame/public_html/footer.php:4
+Stack trace:
+#0 /home/slotgame/public_html/login.php(444): include()
+#1 {main}
+  thrown in /home/slotgame/public_html/footer.php on line 4

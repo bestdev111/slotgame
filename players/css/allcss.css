@@ -1,0 +1,2105 @@
+.slongson .odds-cell
+{
+width: 138px !important;
+
+
+}
+.slongson .odds-cell .odd-label
+{
+width: 85px !important;
+
+
+}
+.systemContainer {
+    position: relative;
+    display: block;
+    padding: 2px 5px;
+    color: #000000;
+    font-size: 14px;
+    cursor: pointer;
+    background: #ebf8d1;
+    float: left;
+    border-bottom: 1px solid #DEDEDE;
+    margin-left: -8px;
+    width: 202px;
+}
+.systemTop
+{
+    position: relative;
+    display: block;
+    color: #000000;
+    cursor: pointer;
+    background: #ebf8d1;
+    border-bottom: 1px solid #636363;
+    width: 100%;
+    height: 18px;
+    font-size: 12px;
+}
+.systemTitle
+{
+    display: block;
+    float: left;
+}
+.systemCount
+{
+    display: block;
+    float: right;
+}
+.systemCenter .btnSys {
+    display: inline-block;
+    float: left;
+    border: solid 1px #d3d3d3;
+    background-color: #fff;
+    width: 20px;
+    text-align: center;
+    padding: 1px 0;
+    color: #0d4f67;
+    border-radius: 3px;
+    font-size: 11px;
+    font-weight: bold;
+    margin: 2px 0 2px 2px;
+    cursor: pointer;
+}
+.systemCenter .btnSys.active {
+    background-color: #ffe98d;
+    border: 1px solid #fdcd00;
+}
+
+.livebetsmain {
+background: url(../img/lwk-clock-4431AA4FDF944164F8D2F2AA8621E3C0.png) no-repeat 8px center white;
+    background-size: 18px 18px;
+    color: #ef8107;
+    padding-left: 22px;
+    border-bottom: 3px solid #ef8107;
+}
+
+
+.t_foot {
+    border-top: 3px solid rgb(239, 129, 7);
+}
+.t_foot .button_new_bg {
+    display: block;
+    float: right;
+    background: url(../img/arrow_white-E408B9F4209A9246067D83C48CB6342B.png) left center no-repeat;
+}
+.button_new {
+    white-space: nowrap;
+    padding-right: 3px;
+    cursor: pointer;
+    padding-left: 3px;
+    display: block;
+}
+.t_subhead {
+    line-height: 24px;
+    background: #2B7394;
+    color: white;padding-left: 13px;
+}
+.left {
+    float: left;
+}
+
+.type-small {
+    float: left;
+    width: 40px;
+    line-height: 12px;
+    text-align: center;
+    color: #FFFFFF;
+    white-space: nowrap;
+    overflow: hidden;
+    padding-top: 6px;
+}
+
+
+.t_row {
+	line-height: 28px;
+	border-top: 1px solid #CCC;
+}
+.pulsation {
+	color: #FFF;
+	background: #ef8107;
+	text-align: center;
+}
+
+.even .pulsation {
+	background: #ef8107;
+}
+.t_cell .teamname {
+    display: block;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.teamname
+{
+white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+span.icon_flag{float:left;margin-left: 9px;
+    margin-top: 6px;display:inline;width:16px;height:11px;background:transparent url(/resources/themes/v1/images/livebet/flags.png) no-repeat center left;}span.cc-ad{background-position:0 -5px;}span.cc-219{background-position:0 -36px;}span.cc-af{background-position:0 -67px;}span.cc-ag{background-position:0 -98px;}span.cc-ai{background-position:0 -129px;}span.cc-al{background-position:0 -160px;}span.cc-75{background-position:0 -191px;}span.cc-an{background-position:0 -222px;}span.cc-ao{background-position:0 -253px;}span.cc-38{background-position:0 -284px;}span.cc-as{background-position:0 -315px;}span.cc-8{background-position:0 -346px;}span.cc-60{background-position:0 -377px;}span.cc-aw{background-position:0 -408px;}span.cc-ax{background-position:0 -439px;}span.cc-77{background-position:0 -470px;}span.cc-86{background-position:0 -501px;}span.cc-bb{background-position:0 -532px;}span.cc-bd{background-position:0 -563px;}span.cc-35{background-position:0 -594px;}span.cc-bf{background-position:0 -625px;}span.cc-63{background-position:0 -656px;}span.cc-79{background-position:0 -687px;}span.cc-bi{background-position:0 -718px;}span.cc-bj{background-position:0 -749px;}span.cc-bm{background-position:0 -780px;}span.cc-bn{background-position:0 -811px;}span.cc-44{background-position:0 -842px;}span.cc-33{background-position:0 -873px;}span.cc-bs{background-position:0 -904px;}span.cc-bt{background-position:0 -935px;}span.cc-bv{background-position:0 -966px;}span.cc-bw{background-position:0 -997px;}span.cc-55{background-position:0 -1028px;}span.cc-bz{background-position:0 -1059px;}span.cc-94{background-position:0 -1090px;}span.cc-cc{background-position:0 -1121px;}span.cc-cd{background-position:0 -1152px;}span.cc-cf{background-position:0 -1183px;}span.cc-cg{background-position:0 -1214px;}span.cc-30{background-position:0 -1245px;}span.cc-ci{background-position:0 -1276px;}span.cc-ck{background-position:0 -1307px;}span.cc-56{background-position:0 -1338px;}span.cc-cm{background-position:0 -1369px;}span.cc-57{background-position:0 -1400px;}span.cc-45{background-position:0 -1431px;}span.cc-104{background-position:0 -1462px;}span.cc-cs{background-position:0 -1493px;}span.cc-cu{background-position:0 -1524px;}span.cc-cv{background-position:0 -1555px;}span.cc-cx{background-position:0 -1586px;}span.cc-58{background-position:0 -1617px;}span.cc-12{background-position:0 -1648px;}span.cc-17{background-position:0 -1679px;}span.cc-dj{background-position:0 -1710px;}span.cc-13{background-position:0 -1741px;}span.cc-dm{background-position:0 -1772px;}span.cc-do{background-position:0 -1803px;}span.cc-69{background-position:0 -1834px;}span.cc-6{background-position:0 -1865px;}span.cc-110{background-position:0 -1896px;}span.cc-61{background-position:0 -1927px;}span.cc-111{background-position:0 -1958px;}span.cc-eh{background-position:-36px -5px;}span.cc-14{background-position:-36px -36px;}span.cc-er{background-position:-36px -67px;}span.cc-28{background-position:-36px -98px;}span.cc-et{background-position:-36px -129px;}span.cc-fam{background-position:-36px -160px;}span.cc-15{background-position:-36px -191px;}span.cc-fj{background-position:-36px -222px;}span.cc-fk{background-position:-36px -253px;}span.cc-fm{background-position:-36px -284px;}span.cc-116{background-position:-36px -315px;}span.cc-16{background-position:-36px -346px;}span.cc-ga{background-position:-36px -377px;}span.cc-gb{background-position:-36px -408px;}span.cc-gd{background-position:-36px -439px;}span.cc-ge{background-position:-36px -470px;}span.cc-123{background-position:-36px -501px;}span.cc-gi{background-position:-36px -532px;}span.cc-gl{background-position:-36px -563px;}span.cc-gm{background-position:-36px -594px;}span.cc-gn{background-position:-36px -625px;}span.cc-gp{background-position:-36px -656px;}span.cc-gq{background-position:-36px -687px;}span.cc-18{background-position:-36px -718px;}span.cc-gs{background-position:-36px -749px;}span.cc-127{background-position:-36px -780px;}span.cc-gu{background-position:-36px -811px;}span.cc-gw{background-position:-36px -842px;}span.cc-gy{background-position:-36px -873px;}span.cc-133{background-position:-36px -904px;}span.cc-132{background-position:-36px -935px;}span.cc-50{background-position:-36px -966px;}span.cc-ht{background-position:-36px -997px;}span.cc-19{background-position:-36px -1028px;}span.cc-135{background-position:-36px -1059px;}span.cc-23{background-position:-36px -1090px;}span.cc-62{background-position:-36px -1121px;}span.cc-134{background-position:-36px -1152px;}span.cc-io{background-position:-36px -1183px;}span.cc-iq{background-position:-36px -1214px;}span.cc-136{background-position:-36px -1245px;}span.cc-49{background-position:-36px -1276px;}span.cc-20{background-position:-36px -1307px;}span.cc-ja{background-position:-36px -1338px;}span.cc-jm{background-position:-36px -1369px;}span.cc-139{background-position:-36px -1400px;}span.cc-52{background-position:-36px -1431px;}span.cc-ke{background-position:-36px -1462px;}span.cc-kg{background-position:-36px -1493px;}span.cc-kh{background-position:-36px -1524px;}span.cc-ki{background-position:-36px -1555px;}span.cc-km{background-position:-36px -1586px;}span.cc-kn{background-position:-36px -1617px;}span.cc-kp{background-position:-36px -1648px;}span.cc-198{background-position:-36px -1679px;}span.cc-142{background-position:-36px -1710px;}span.cc-ky{background-position:-36px -1741px;}span.cc-140{background-position:-36px -1772px;}span.cc-la{background-position:-36px -1803px;}span.cc-lb{background-position:-36px -1834px;}span.cc-lc{background-position:-36px -1865px;}span.cc-li{background-position:-36px -1896px;}span.cc-lk{background-position:-36px -1927px;}span.cc-lr{background-position:-36px -1958px;}span.cc-ls{background-position:-72px -5px;}span.cc-151{background-position:-72px -36px;}span.cc-152{background-position:-72px -67px;}span.cc-145{background-position:-72px -98px;}span.cc-ly{background-position:-72px -129px;}span.cc-166{background-position:-72px -160px;}span.cc-mc{background-position:-72px -191px;}span.cc-162{background-position:-72px -222px;}span.cc-232{background-position:-72px -253px;}span.cc-mg{background-position:-72px -285px;}span.cc-mh{background-position:-72px -316px;}span.cc-154{background-position:-72px -347px;}span.cc-ml{background-position:-72px -378px;}span.cc-mm{background-position:-72px -409px;}span.cc-mn{background-position:-72px -440px;}span.cc-mo{background-position:-72px -471px;}span.cc-mp{background-position:-72px -502px;}span.cc-mq{background-position:-72px -533px;}span.cc-mr{background-position:-72px -564px;}span.cc-ms{background-position:-72px -595px;}span.cc-159{background-position:-72px -626px;}span.cc-mu{background-position:-72px -657px;}span.cc-mv{background-position:-72px -688px;}span.cc-mw{background-position:-72px -719px;}span.cc-43{background-position:-72px -750px;}span.cc-66{background-position:-72px -781px;}span.cc-mz{background-position:-72px -812px;}span.cc-65{background-position:-36px -408px;}span.cc-na{background-position:-72px -843px;}span.cc-nc{background-position:-72px -874px;}span.cc-ne{background-position:-72px -905px;}span.cc-nf{background-position:-72px -936px;}span.cc-ng{background-position:-72px -967px;}span.cc-ni{background-position:-72px -998px;}span.cc-36{background-position:-72px -1029px;}span.cc-21{background-position:-72px -1060px;}span.cc-np{background-position:-72px -1091px;}span.cc-nr{background-position:-72px -1122px;}span.cc-nu{background-position:-72px -1153px;}span.cc-173{background-position:-72px -1184px;}span.cc-om{background-position:-72px -1215px;}span.cc-pa{background-position:-72px -1246px;}span.cc-59{background-position:-72px -1277px;}span.cc-pf{background-position:-72px -1308px;}span.cc-pg{background-position:-72px -1339px;}span.cc-ph{background-position:-72px -1370px;}span.cc-179{background-position:-72px -1401px;}span.cc-22{background-position:-72px -1432px;}span.cc-pm{background-position:-72px -1463px;}span.cc-pn{background-position:-72px -1494px;}span.cc-pr{background-position:-72px -1525px;}span.cc-ps{background-position:-72px -1556px;}span.cc-37{background-position:-72px -1587px;}span.cc-pw{background-position:-72px -1618px;}span.cc-48{background-position:-72px -1649px;}span.cc-186{background-position:-72px -1680px;}span.cc-24{background-position:-72px -1711px;}span.cc-231{background-position:-72px -1742px;}span.cc-25{background-position:-72px -1773px;}span.cc-rw{background-position:-72px -1804px;}span.cc-26{background-position:-72px -1835px;}span.cc-191{background-position:-72px -1866px;}span.cc-sb{background-position:-72px -1897px;}span.cc-sc{background-position:-72px -1928px;}span.cc-sd{background-position:-72px -1959px;}span.cc-29{background-position:-108px -5px;}span.cc-54{background-position:-108px -36px;}span.cc-sh{background-position:-108px -67px;}span.cc-27{background-position:-108px -98px;}span.cc-51{background-position:-108px -129px;}span.cc-sl{background-position:-108px -160px;}span.cc-189{background-position:-108px -191px;}span.cc-sn{background-position:-108px -222px;}span.cc-so{background-position:-108px -253px;}span.cc-sr{background-position:-108px -284px;}span.cc-st{background-position:-108px -315px;}span.cc-sv{background-position:-108px -346px;}span.cc-sy{background-position:-108px -377px;}span.cc-sz{background-position:-108px -408px;}span.cc-tc{background-position:-108px -439px;}span.cc-td{background-position:-108px -470px;}span.cc-tf{background-position:-108px -501px;}span.cc-tg{background-position:-108px -532px;}span.cc-210{background-position:-108px -563px;}span.cc-tj{background-position:-108px -594px;}span.cc-tk{background-position:-108px -625px;}span.cc-tl{background-position:-108px -656px;}span.cc-tm{background-position:-108px -687px;}span.cc-214{background-position:-108px -718px;}span.cc-to{background-position:-108px -749px;}span.cc-31{background-position:-108px -780px;}span.cc-tt{background-position:-108px -811px;}span.cc-tv{background-position:-108px -842px;}span.cc-tw{background-position:-108px -873px;}span.cc-tz{background-position:-108px -904px;}span.cc-53{background-position:-108px -935px;}span.cc-ug{background-position:-108px -966px;}span.cc-um{background-position:-108px -997px;}span.cc-233{background-position:-108px -1028px;}span.cc-9{background-position:-108px -1028px;}span.cc-47{background-position:-108px -1059px;}span.cc-uz{background-position:-108px -1090px;}span.cc-va{background-position:-108px -1121px;}span.cc-vc{background-position:-108px -1152px;}span.cc-223{background-position:-108px -1183px;}span.cc-vg{background-position:-108px -1214px;}span.cc-vi{background-position:-108px -1245px;}span.cc-vn{background-position:-108px -1276px;}span.cc-vu{background-position:-108px -1307px;}span.cc-64{background-position:-108px -1338px;}span.cc-wf{background-position:-108px -1369px;}span.cc-ws{background-position:-108px -1400px;}span.cc-ye{background-position:-108px -1431px;}span.cc-yt{background-position:-108px -1462px;}span.cc-yu{background-position:-108px -1493px;}span.cc-197{background-position:-108px -1524px;}span.cc-zh{background-position:-108px -1555px;}span.cc-zht{background-position:-108px -1586px;}span.cc-zm{background-position:-108px -1617px;}span.cc-zw{background-position:-108px -1648px;}span.cc-7{background-position:-108px -1680px;}
+
+.live-icon {
+    background: url(../img/live-sprite.Z0zWyV.png) no-repeat transparent;
+    display: inline-block;
+}
+
+
+.live-icon.messages._\30{height:20px;width:10px;background-position:-360px -168px}.live-icon.messages._\31 1_241{height:20px;width:16px;background-position:-380px -168px}.live-icon.messages._\31 1_242{height:20px;width:16px;background-position:-406px -168px}.live-icon.messages._\31 1_243{height:16px;width:17px;background-position:-432px -168px}.live-icon.messages._\31 1_244{height:16px;width:17px;background-position:-459px -168px}.live-icon.messages._\31 1_245{height:16px;width:18px;background-position:-486px -168px}.live-icon.messages._\31 1_246{height:16px;width:16px;background-position:-514px -168px}.live-icon.messages._\31 1_247{height:16px;width:16px;background-position:-540px -168px}.live-icon.messages._\31 1_248{height:16px;width:20px;background-position:-566px -168px}.live-icon.messages._\31 1_249{height:16px;width:22px;background-position:-596px -168px}.live-icon.messages._\31 1_250{height:16px;width:16px;background-position:-628px -168px}.live-icon.messages._\31 1_251{height:16px;width:16px;background-position:-654px -168px}.live-icon.messages._\31 1_252{height:16px;width:16px;background-position:-680px -168px}.live-icon.messages._\31 1_253{height:16px;width:16px;background-position:-706px -168px}.live-icon.messages._\31 1_254{height:14px;width:11px;background-position:0 -238px}.live-icon.messages._\31 1_255{height:14px;width:11px;background-position:-21px -238px}.live-icon.messages._\31 2_1{height:20px;width:11px;background-position:-42px -238px}.live-icon.messages._\31 2_246{height:20px;width:19px;background-position:-63px -238px}.live-icon.messages._\31 2_251{height:20px;width:20px;background-position:-92px -238px}.live-icon.messages._\31 2_252{height:20px;width:20px;background-position:-122px -238px}.live-icon.messages._\31 2_253{height:20px;width:20px;background-position:-152px -238px}.live-icon.messages._\31 2_254{height:20px;width:17px;background-position:-182px -238px}.live-icon.messages._\31 2_255{height:20px;width:20px;background-position:-209px -238px}.live-icon.messages._\31 6_1{height:20px;width:11px;background-position:-239px -238px}.live-icon.messages._\31 6_10{height:20px;width:34px;background-position:-260px -238px}.live-icon.messages._\31 6_246{height:17px;width:10px;background-position:-304px -238px}.live-icon.messages._\31 6_247{height:20px;width:16px;background-position:-324px -238px}.live-icon.messages._\31 6_248{height:20px;width:16px;background-position:-350px -238px}.live-icon.messages._\31 6_249{height:12px;width:19px;background-position:-376px -238px}.live-icon.messages._\31 6_250{height:20px;width:7px;background-position:-405px -238px}.live-icon.messages._\31 6_251{height:20px;width:10px;background-position:-422px -238px}.live-icon.messages._\31 6_252{height:12px;width:12px;background-position:-442px -238px}.live-icon.messages._\31 6_253{height:20px;width:20px;background-position:-464px -238px}.live-icon.messages._\31 6_254{height:14px;width:11px;background-position:-494px -238px}.live-icon.messages._\31 6_255{height:14px;width:11px;background-position:-515px -238px}.live-icon.messages._\31 6_5{height:20px;width:34px;background-position:-536px -238px}.live-icon.messages._\31 8_1{height:20px;width:11px;background-position:-580px -238px}.live-icon.messages._\31 8_253{height:20px;width:16px;background-position:-601px -238px}.live-icon.messages._\31 8_254{height:14px;width:11px;background-position:-627px -238px}.live-icon.messages._\31 8_255{height:14px;width:11px;background-position:-648px -238px}.live-icon.messages._\32 3_1{height:20px;width:11px;background-position:-669px -238px}.live-icon.messages._\32 3_247{height:20px;width:10px;background-position:-690px -238px}.live-icon.messages._\32 3_248{height:20px;width:16px;background-position:0 -282px}.live-icon.messages._\32 3_249{height:20px;width:16px;background-position:-26px -282px}.live-icon.messages._\32 3_250{height:20px;width:15px;background-position:-52px -282px}.live-icon.messages._\32 3_251{height:20px;width:24px;background-position:-77px -282px}.live-icon.messages._\32 3_252{height:20px;width:24px;background-position:-111px -282px}.live-icon.messages._\32 3_254{height:20px;width:23px;background-position:-145px -282px}.live-icon.messages._\32 3_255{height:20px;width:7px;background-position:-178px -282px}.live-icon.messages._\32 3_256{height:20px;width:23px;background-position:-195px -282px}.live-icon.messages._\32 3_257{height:20px;width:23px;background-position:-228px -282px}.live-icon.messages._\32 3_258{height:20px;width:23px;background-position:-261px -282px}.live-icon.messages._\33 3_1{height:20px;width:11px;background-position:-294px -282px}.live-icon.messages._\33 3_242{height:20px;width:16px;background-position:-315px -282px}.live-icon.messages._\33 3_243{height:20px;width:17px;background-position:-341px -282px}.live-icon.messages._\33 3_244{height:20px;width:17px;background-position:-368px -282px}.live-icon.messages._\33 3_245{height:20px;width:27px;background-position:-395px -282px}.live-icon.messages._\33 3_246{height:20px;width:22px;background-position:-432px -282px}.live-icon.messages._\33 3_247{height:20px;width:10px;background-position:-464px -282px}.live-icon.messages._\33 3_248{height:20px;width:9px;background-position:-484px -282px}.live-icon.messages._\33 3_249{height:20px;width:9px;background-position:-503px -282px}.live-icon.messages._\33 3_250{height:20px;width:9px;background-position:-522px -282px}.live-icon.messages._\33 3_251{height:20px;width:10px;background-position:-541px -282px}.live-icon.messages._\33 3_252{height:20px;width:9px;background-position:-561px -282px}.live-icon.messages._\33 3_253{height:20px;width:9px;background-position:-580px -282px}.live-icon.messages._\33 3_254{height:20px;width:10px;background-position:-599px -282px}.live-icon.messages._\33 3_255{height:20px;width:17px;background-position:-619px -282px}.live-icon.messages._\33 5_252{height:20px;width:16px;background-position:-646px -282px}.live-icon.messages._\33 5_253{height:20px;width:16px;background-position:-672px -282px}.live-icon.messages._\34 4_1{height:20px;width:11px;background-position:-698px -282px}.live-icon.messages._\34 4_250{height:20px;width:16px;background-position:0 -319px}.live-icon.messages._\34 4_251{height:20px;width:16px;background-position:-26px -319px}.live-icon.messages._\34 4_252{height:20px;width:16px;background-position:-52px -319px}.live-icon.messages._\34 4_253{height:20px;width:14px;background-position:-78px -319px}.live-icon.messages._\34 4_254{height:20px;width:10px;background-position:-102px -319px}.live-icon.messages._\34 4_255{height:20px;width:14px;background-position:-122px -319px}.live-icon.messages._\34_1{height:20px;width:11px;background-position:-146px -319px}.live-icon.messages._\34_102{height:20px;width:16px;background-position:-167px -319px}.live-icon.messages._\34_244{height:16px;width:16px;background-position:-193px -319px}.live-icon.messages._\34_245{height:20px;width:19px;background-position:-219px -319px}.live-icon.messages._\34_246{height:16px;width:16px;background-position:-248px -319px}.live-icon.messages._\34_247{height:16px;width:16px;background-position:-274px -319px}.live-icon.messages._\34_248{height:16px;width:16px;background-position:-300px -319px}.live-icon.messages._\34_249{height:20px;width:9px;background-position:-326px -319px}.live-icon.messages._\34_250{height:16px;width:16px;background-position:-345px -319px}.live-icon.messages._\34_251{height:16px;width:16px;background-position:-371px -319px}.live-icon.messages._\34_252{height:16px;width:16px;background-position:-397px -319px}.live-icon.messages._\34_253{height:16px;width:16px;background-position:-423px -319px}.live-icon.messages._\34_254{height:16px;width:16px;background-position:-449px -319px}.live-icon.messages._\34_255{height:16px;width:16px;background-position:-475px -319px}.live-icon.messages._\35 0_253{height:20px;width:16px;background-position:-501px -319px}.live-icon.messages._\35 0_254{height:20px;width:16px;background-position:-527px -319px}.live-icon.messages._\35_1{height:20px;width:11px;background-position:-553px -319px}.live-icon.messages._\35_10{height:20px;width:34px;background-position:-574px -319px}.live-icon.messages._\35_15{height:20px;width:34px;background-position:-618px -319px}.live-icon.messages._\35_20{height:20px;width:34px;background-position:-662px -319px}.live-icon.messages._\35_249{height:20px;width:18px;background-position:-706px -319px}.live-icon.messages._\35_250{height:20px;width:16px;background-position:0 -363px}.live-icon.messages._\35_251{height:20px;width:23px;background-position:-26px -363px}.live-icon.messages._\35_252{height:20px;width:17px;background-position:-59px -363px}.live-icon.messages._\35_253{height:17px;width:10px;background-position:-86px -363px}.live-icon.messages._\35_254{height:20px;width:12px;background-position:-106px -363px}.live-icon.messages._\35_255{height:20px;width:12px;background-position:-128px -363px}.live-icon.messages._\36 3_1{height:20px;width:11px;background-position:-150px -363px}.live-icon.messages._\36 3_253{height:20px;width:13px;background-position:-171px -363px}.live-icon.messages._\36 3_254{height:14px;width:11px;background-position:-194px -363px}.live-icon.messages._\36 3_255{height:14px;width:11px;background-position:-215px -363px}.live-icon.messages._\36_247{height:20px;width:15px;background-position:-236px -363px}.live-icon.messages._\36_249{height:18px;width:19px;background-position:-261px -363px}.live-icon.messages._\36_251{height:15px;width:13px;background-position:-290px -363px}.live-icon.messages._\36_253{height:15px;width:13px;background-position:-313px -363px}.live-icon.messages._\36_254{height:20px;width:27px;background-position:-336px -363px}.live-icon.messages._\37 0_1{height:20px;width:11px;background-position:-373px -363px}.live-icon.messages._\37 0_239{height:16px;width:16px;background-position:-394px -363px}.live-icon.messages._\37 0_240{height:20px;width:22px;background-position:-420px -363px}.live-icon.messages._\37 0_241{height:16px;width:16px;background-position:-452px -363px}.live-icon.messages._\37 0_243{height:16px;width:16px;background-position:-478px -363px}.live-icon.messages._\37 0_245{height:16px;width:18px;background-position:-504px -363px}.live-icon.messages._\37 0_247{height:16px;width:18px;background-position:-532px -363px}.live-icon.messages._\37 0_249{height:16px;width:16px;background-position:-560px -363px}.live-icon.messages._\37 0_250{height:16px;width:16px;background-position:-586px -363px}.live-icon.messages._\37 0_251{height:16px;width:16px;background-position:-612px -363px}.live-icon.messages._\37 0_253{height:20px;width:12px;background-position:-638px -363px}.live-icon.messages._\37 0_254{height:20px;width:12px;background-position:-660px -363px}.live-icon.messages._\37 0_255{height:20px;width:12px;background-position:-682px -363px}.live-icon.messages._\37 8_1{height:20px;width:11px;background-position:-704px -363px}.live-icon.messages._\37 8_249{height:20px;width:16px;background-position:0 -400px}.live-icon.messages._\37 8_250{height:20px;width:16px;background-position:-26px -400px}.live-icon.messages._\37 8_251{height:20px;width:16px;background-position:-52px -400px}.live-icon.messages._\37 8_252{height:20px;width:12px;background-position:-78px -400px}.live-icon.messages._\37 8_253{height:20px;width:9px;background-position:-100px -400px}.live-icon.messages._\37 8_254{height:20px;width:12px;background-position:-119px -400px}.live-icon.messages._\37 8_255{height:20px;width:14px;background-position:-141px -400px}.live-icon.messages._\37_1{height:20px;width:11px;background-position:-165px -400px}.live-icon.messages._\37_233{height:14px;width:11px;background-position:-186px -400px}.live-icon.messages._\37_234{height:14px;width:11px;background-position:-207px -400px}.live-icon.messages._\37_237{height:20px;width:10px;background-position:-228px -400px}.live-icon.messages._\37_247{height:20px;width:34px;background-position:-248px -400px}.live-icon.messages._\37_248{height:20px;width:34px;background-position:-292px -400px}.live-icon.messages._\37_249{height:20px;width:17px;background-position:-336px -400px}.live-icon.messages._\37_250{height:20px;width:16px;background-position:-363px -400px}.live-icon.messages._\37_251{height:20px;width:13px;background-position:-389px -400px}.live-icon.messages._\37_252{height:20px;width:15px;background-position:-412px -400px}.live-icon.messages._\37_253{height:20px;width:13px;background-position:-437px -400px}.live-icon.messages._\37_254{height:20px;width:13px;background-position:-460px -400px}.live-icon.messages._\37_255{height:20px;width:10px;background-position:-483px -400px}.live-icon.messages._\5f 10{height:20px;width:34px;background-position:-503px -400px}.live-icon.messages._\5f 15{height:20px;width:34px;background-position:-547px -400px}.live-icon.messages._\5f 20{height:20px;width:34px;background-position:-591px -400px}.live-icon.messages._\5f 5{height:20px;width:34px;background-position:-635px -400px}
+
+
+.ipe-InPlayScoreboardContainer_BG18 {
+    background-image: url(/assets/images/spid_18.jpg);
+    background-color: #065f87;
+}
+.ipe-InPlayScoreboardContainer_BG56 {
+    background-image: url(/assets/images/spid_56.jpg);
+    background-color: #315299;
+}
+
+.ipe-InPlayScoreboardContainer_BG4 {
+    background-image: url(/assets/images/spid_4.jpg);
+    background-color: #4b6f0b;
+}
+
+.ipe-InPlayScoreboardContainer_BG7 {
+    background-image: url(/assets/images/spid_7.jpg);
+    background-color: #c0712c;
+}
+.ipe-InPlayScoreboardContainer_BG5 {
+    background-image: url(/assets/images/spid_5.jpg);
+    background-color: #3572a9;
+}
+.ipe-InPlayScoreboardContainer_BG16 {
+    background-image: url(/assets/images/spid_16.jpg);
+    background-color: #5094a9;
+}
+
+.live-icon.sports._\37 {
+    height: 19px;
+    width: 19px;
+    background-position: -348px -604px;
+}
+.live-icon.sports._\35 {
+    height: 19px;
+    width: 19px;
+    background-position: -435px -575px;
+}
+.live-icon.turn._\35 {
+    height: 10px;
+    width: 8px;
+    background-position: -45px -662px;
+}
+
+
+.video-icon-gomainsecreedn
+{
+
+height: 19px;
+    width: 22px;
+    background-position: -347px -90px;
+
+
+}
+
+
+
+.livestatsdiv .content .match-type
+{
+background-color: rgba(0,0,0,.4);
+    font-size: 11px;
+    display: inline-block;
+    padding: 2px 4px;
+    margin: auto;
+    border-radius: 3px;
+    background-clip: padding-box;
+    position: relative;
+}
+.livestatsdiv .content .statistics {
+    max-width: 940px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 8px 10px 0 10px;
+    text-align: center;
+    min-height: 70px;
+    position: relative;
+    color: #fff;
+}
+.livestatsdiv .header {
+    text-align: left;
+    position: relative;
+    top: 1xp;
+    margin: 0;
+    box-sizing: content-box;
+    height: 32px;
+    background: rgba(0,0,0,.4);
+    border-bottom: 1px solid transparent;
+}
+
+.livestatsdiv .header .icons {
+    float: right;
+    height: 100%;
+}
+.livestatsdiv .header .icons ul.lb-icon-container {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    overflow: visible;
+    height: 100%;
+    position: relative;
+}
+
+
+.livestatsdiv .header .icons ul.lb-icon-container li.lb-icon-item {
+    display: inline-block;
+    text-align: center;
+    line-height: unset;
+    float: right;
+    box-sizing: border-box;
+    height: 100%;
+}
+.livestatsdiv .header .icons ul.lb-icon-container li.lb-icon-item .lb-icon-button {
+    padding-left: 8px;
+    padding-right: 8px;
+    height: 100%;
+    display: block;
+}
+.livestatsdiv .header .league {
+    font-family: 'Roboto';
+    font-size: 13px;
+    padding: 5px 10px 0 5px;
+    white-space: nowrap;
+    -o-text-overflow: ellipsis;
+    -ms-text-overflow: ellipsis;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    display: block;
+    color: #9a9a9a;
+}
+.livestatsdiv .header .league span {
+    vertical-align: middle;
+    margin-right: 3px;
+}
+
+.live-icon.sports._\34 {
+    height: 19px;
+    width: 19px;
+    background-position: -116px -575px;
+}
+
+.live-icon._live {
+    height: 14px;
+    width: 29px;
+    background-position: -432px -37px;
+}
+
+.livestatsdiv .header .icons ul.lb-icon-container li.lb-icon-item {
+    display: inline-block;
+    text-align: center;
+    line-height: unset;
+    float: right;
+    box-sizing: border-box;
+    height: 100%;
+}
+
+.livestatsdiv .header .icons ul.lb-icon-container li.lb-icon-item .lb-icon-button {
+    padding-left: 8px;
+    padding-right: 8px;
+    height: 100%;
+    display: block;
+}
+.live-icon._simulation-active {
+    height: 13px;
+    width: 17px;
+    background-position: 0 -128px;
+}
+.livestatsdiv .header .icons .live-icon[class*="_simulation"], #scoreboard .header .icons .live-icon[class*="_video"] {
+    -webkit-transform: translateY(-6px)!important;
+    transform: translateY(-6px)!important;
+}
+.livestatsdiv .header .icons ul.lb-icon-container li.lb-icon-item .lb-icon-button .lb-icon-button-icon {
+    float: left;
+    position: relative;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+.live-icon._stats_button {
+    height: 9px;
+    width: 11px;
+    background-position: -177px -128px;
+}
+
+.live-icon._stats_button.hover, .live-icon._stats_button:hover {
+    height: 9px;
+    width: 11px;
+    background-position: -156px -128px;
+}
+.livestatsdiv .header .icons .live-icon[class*="_stats"] {
+    -webkit-transform: translateY(-4px)!important;
+    transform: translateY(-4px)!important;
+}
+.live-icon._video-icon-inactive {
+    height: 13px;
+    width: 16px;
+    background-position: -578px -128px;
+}
+.live-icon._video-icon-inactive.hover, .live-icon._video-icon-inactive:hover {
+    height: 13px;
+    width: 16px;
+    background-position: -552px -128px;
+}
+.ipe-InPlayScoreboardContainer_BG {
+    display: table;
+    height: 149px;
+    width: 100%;
+    margin: 0 auto;
+    position: relative;
+    z-index: 10;
+    background-position: 50% 0;
+    background-repeat: no-repeat;
+    background-size: auto;
+}
+
+.livestatsdiv .gameTemplate {
+    font-family: 'Roboto';
+    margin-bottom: 17px;
+}
+
+.livestatsdiv .gameTemplate .title {
+    font-family: 'Roboto';
+    font-size: 18px;
+    text-align: center;
+    margin-bottom: 5px;
+    width: 100%;
+    text-shadow: 0 2px 2px rgba(0,0,0,.7);
+}
+.livestatsdiv .gameTemplate .title .participant {
+    font-size: 20px;
+    width: 43.6%;
+    line-height: 20px;
+    padding-top: 5px;
+    word-break: break-all;
+    word-break: break-word;
+    vertical-align: middle;
+}
+
+.livestatsdiv .gameTemplate .title .participant._\31 {
+    text-align: right;
+}
+
+
+
+.livestatsdiv .gameTemplate .title .participant._\31 .player-name-container {
+    float: right;
+    direction: rtl;
+}
+.livestatsdiv .gameTemplate .title .participant .jersey {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.livestatsdiv .gameTemplate .title .participant .gear {
+    font-family: 'playerregular';
+    font-size: 6px;
+    width: 19px;
+    height: 26px;
+    position: relative;
+    color: #7a7a7a;
+    top: -3px;
+    background-color: rgba(192,192,192,.3);
+    border-radius: 3px;
+   display:block;
+}
+.livestatsdiv .gameTemplate .title .participant._\31 .gear {
+    float: right;
+    margin-left: 8px;
+}
+.livestatsdiv .gameTemplate .title .participant .gear span {
+    position: absolute;
+}
+.livestatsdiv .gameTemplate .title .participant .gear span.tshirt {
+    top: 0;
+    left: 4px;
+}
+.livestatsdiv .gameTemplate .title .participant .gear span.shorts {
+    top: 7px;
+    left: 6px;
+}
+.livestatsdiv .gameTemplate .title .participant._\32 {
+    text-align: left;
+}
+
+.livestatsdiv .content .statistics {
+    max-width: 940px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 8px 10px 0 10px;
+    text-align: center;
+    min-height: 70px;
+    position: relative;
+    color: #fff;
+}
+
+.livestatsdiv .gameTemplate .title .participant .player-name .name
+{
+
+    background-color: rgba(0,0,0,.4);
+    padding: 4px;
+    border-radius: 5px;
+}
+
+.jersey
+{
+    background-color: rgba(0,0,0,.4);
+    padding: 2px;
+    border-radius: 5px;
+    margin-top: -5px;
+}
+
+
+.livestatsdiv .content .statistics.GeneralPairGame .title .score {
+    font-size: 34px;
+    margin: 0 20px;
+    display: inline-block;
+    text-align: center;
+    white-space: nowrap;
+    line-height: 40px;
+    vertical-align: middle;
+}
+.livestatsdiv .content .statistics.GeneralPairGame .title .score .counter-number {
+    position: relative;
+    height: 40px;
+    display: inline-block;
+    overflow: hidden;
+    vertical-align: bottom;
+}
+
+.livestatsdiv .content .statistics.GeneralPairGame .title .score .counter-number.player1 {
+    left: 2px;
+}
+.livestatsdiv .content .statistics.GeneralPairGame .title .score .counter-number span {
+    display: block;
+}
+.livestatsdiv .content .statistics.GeneralPairGame .title .score .counter-number.divider {
+    margin: 0 5px;
+}
+.livestatsdiv .content .statistics.GeneralPairGame .title .score .counter-number.player2 {
+    left: -10px;
+}
+
+.livestatsdiv .content .statistics .period {
+    background-color: rgba(0,0,0,.4);
+    font-size: 11px;
+    display: inline-block;
+    padding: 2px 4px;
+    margin: auto;
+    border-radius: 3px;
+    background-clip: padding-box;
+    position: relative;
+}
+.livestatsdiv .content .statistics .period span {
+    opacity: .9;
+}
+
+
+.livestatsdiv .content .statistics .scoreboard-common {
+    position: relative;
+}
+.livestatsdiv .content .statistics .scoreboard-common .buttons {
+    position: absolute;
+    z-index: 1;
+    right: 0;
+    top: 0;
+    font-size: 0;
+}
+
+.livestatsdiv .content .statistics .scoreboard-common .buttons a {
+    padding: 0;
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    background-color: rgba(0,0,0,.5);
+    position: relative;
+}
+.live-font-icon, .live-font-input-icon {
+    font-size: 13px;
+    line-height: 1;
+    display: inline-block;
+    color: #8d8d8d;
+}
+.livestatsdiv .content .statistics .scoreboard-common .buttons a .live-font-icon {
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+}
+.livestatsdiv .extended-stats {
+    border: none;
+    margin: 5px 0;
+}
+.livestatsdiv .extended-stats .view-menu {
+    margin-bottom: 1px;
+    background: rgba(0,0,0,.6);
+    color: #acacac;
+    box-sizing: border-box;
+    height: 30px;
+}
+.livestatsdiv .extended-stats .view-menu .item-list {
+    width: auto;
+    overflow: hidden;
+    text-align: left;
+}
+.livestatsdiv .extended-stats .view-menu .item-list .menu-item {
+    display: inline-block;
+    padding: 5px 10px;
+    margin-top: 3px;
+    margin-bottom: 3px;
+    cursor: pointer;
+    position: relative;
+    line-height: 14px;
+    font-size: 13px;
+    border-radius: 2px;
+}
+
+
+.livestatsdiv .extended-stats .view-menu .item-list .menu-item:first-child {
+    margin-left: 5px;
+}
+.livestatsdiv .extended-stats .view-menu .item-list .menu-item.selected {
+    color: #fc0;
+    background: transparent;
+    font-weight: normal;
+}
+.livestatsdiv .extended-stats .view-menu .item-list .menu-item.selected .highlight {
+    display: block;
+}
+.livestatsdiv .extended-stats .template {
+    font-size: 12px;
+    background: rgba(0,0,0,.4);
+    color: #fff;
+    padding-bottom: 5px;
+    padding-top: 4px;
+}
+.livestatsdiv .extended-stats .template.match-stats table, .livestatsdiv .extended-stats .template.race-to table {
+    width: 100%;
+margin: 0;
+    position: relative;
+}
+.livestatsdiv .extended-stats .darker {
+    background-color: transparent;
+}
+.livestatsdiv .extended-stats .template.match-stats table td, .livestatsdiv .extended-stats .template.race-to table td {
+    vertical-align: middle;
+    border-right: 1px solid transparent;
+}
+.livestatsdiv .extended-stats .template.match-stats table tr.stat-header td.filter, .livestatsdiv .extended-stats .template.race-to table tr.stat-header td.filter {
+    padding: 0;
+    text-align: left;
+}
+
+
+.livestatsdiv .extended-stats .template.match-stats table tr.team td.player,.livestatsdiv .extended-stats .template.race-to table tr.team td.player {
+    text-align: left;
+    position: relative;
+    height: 2em;
+}
+.livestatsdiv .extended-stats .template.match-stats table tr.team.team-1 td, .livestatsdiv .extended-stats .template.race-to table tr.team.team-1 td {
+    vertical-align: middle;
+}
+.livestatsdiv .extended-stats .template.match-stats table tr.team td.player .player-name-container, .livestatsdiv .extended-stats .template.race-to table tr.team td.player .player-name-container {
+    position: relative;
+    margin-left: 10px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+.livestatsdiv .extended-stats .template.match-stats table tr.team.team-1 td.player .player-name-container.has-gear, .livestatsdiv .extended-stats .template.race-to table tr.team.team-1 td.player .player-name-container.has-gear {
+    top: 3px;
+}
+
+.livestatsdiv .extended-stats .template.match-stats table tr.team td.player .player-name-container .gear, .livestatsdiv .extended-stats .template.race-to table tr.team td.player .player-name-container .gear {
+    font-family: 'playerregular';
+    font-size: 6px;
+    position: relative;
+    display: inline-block;
+    float: left;
+    width: 3em;
+    height: 4.4em;
+    color: #7a7a7a;
+}
+.livestatsdiv .extended-stats .template.match-stats table tr.team td.player .player-name-container .gear span, .livestatsdiv .extended-stats .template.race-to table tr.team td.player .player-name-container .gear span {
+    position: absolute;
+}
+.livestatsdiv .extended-stats .template.match-stats table tr.team td.player .player-name-container .gear span.tshirt, .livestatsdiv .extended-stats .template.race-to table tr.team td.player .player-name-container .gear span.tshirt {
+    top: .3em;
+}
+.livestatsdiv .extended-stats .template.match-stats table tr.team td.player .player-name-container .player-name, .livestatsdiv .extended-stats .template.race-to table tr.team td.player .player-name-container .player-name {
+    max-width: 180px;
+}
+
+.livestatsdiv .extended-stats .template.match-stats table tr.team td.player .player-name-container .gear span.shorts, .livestatsdiv .extended-stats .template.race-to table tr.team td.player .player-name-container .gear span.shorts {
+    top: 1.4em;
+    left: .33em;
+}
+.livestatsdiv .content .statistics .scoreboard-common .buttons a {
+    padding: 0;
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    background-color: rgba(0,0,0,.5);
+    position: relative;
+}
+
+.livestatsdiv .content .statistics .scoreboard-common .buttons a .live-font-icon {
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+}
+.livestatsdiv .extended-stats .view-menu .item-list .menu-item+.menu-item {
+    border-left: 1px solid rgba(255,255,255,.15);
+}
+
+
+.theme-down {
+    height: 30px;
+    width: 30px;
+background-position: -40px -37px;
+}
+.theme-up {
+    height: 30px;
+    width: 30px;
+    background-position: -434px -128px;
+}
+
+
+.livestatsdiv .extended-stats .template.message-board {
+    padding: 5px 0;
+}
+.live-scrollbar {
+    position: relative;
+    overflow: hidden;
+}
+.live-scrollbar.active .scrollbar {
+    display: block;
+    position: absolute;
+    z-index: 1;
+    right: 0;
+    width: 10px;
+}
+.live-scrollbar.active .track {
+    height: 100%;
+    width: 10px;
+    position: relative;
+    padding: 0;
+}
+.live-scrollbar.active .thumb {
+    background: rgba(255,255,255,.25);
+    border-radius: 5px;
+    height: 20px;
+    width: 5px;
+    cursor: pointer;
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+    left: 2px;
+    -moz-transition: background .2s ease-in-out;
+    -o-transition: background .2s ease-in-out;
+    -webkit-transition: background .2s ease-in-out;
+    transition: background .2s ease-in-out;
+}
+.livestatsdiv .live-scrollbar.active .thumb {
+    background: rgba(255,255,255,.25);
+}
+.live-scrollbar.active .thumb .end {
+    overflow: hidden;
+    height: 5px;
+    width: 10px;
+}
+.live-scrollbar.active .viewport {
+    width: 100%;
+overflow-y: scroll;
+    overflow-x: hidden;
+    position: relative;
+    height: 124px;
+}
+.livestatsdiv .extended-stats .template.message-board .viewport {
+    max-height: 124px;
+}
+.live-scrollbar.active .overview {
+    list-style: none;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    padding: 0;
+    margin: 0;
+}
+.livestatsdiv .extended-stats .template.message-board table {
+    width: 100%;
+}
+
+.livestatsdiv .extended-stats .template.message-board .message {
+    text-align: left;
+    border-top: 1px solid transparent;
+    font-size: 11px;
+}
+.livestatsdiv .extended-stats .template.message-board .message .msg-icon {
+    width: 20px;
+    height: 20px;
+    padding: 0 10px 0 10px;
+    vertical-align: middle;
+    text-align: center;
+}
+.livestatsdiv .extended-stats .template.message-board .message span {
+    display: inline-block;
+}
+.livestatsdiv .extended-stats .template.message-board .message .msg-icon .live-icon {
+    vertical-align: middle;
+}
+.livestatsdiv .extended-stats .template.message-board .message .info {
+    padding: 0;
+    width: 40px;
+    vertical-align: middle;
+    color: #fff;
+}
+.livestatsdiv .extended-stats .template.message-board .message span {
+    display: inline-block;
+}
+.livestatsdiv .extended-stats .template.message-board .message .msg {
+    padding: 0 0 0 10px;
+    color: rgba(255,255,255,.7);
+}
+
+
+.viewport::-webkit-scrollbar {
+    width: 12px;
+}
+
+.viewport::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3); 
+    border-radius: 10px;
+}
+
+.viewport::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.5); 
+}
+
+
+.livestatsdiv .content .statistics .messageboard {
+    overflow: hidden;
+    padding-right: 40px;
+    color: inherit;
+    background-color: rgba(0,0,0,.4);
+    line-height: 30px;
+    height: 30px;
+}
+
+.livestatsdiv .content .statistics .messageboard .message-list {
+    font-size: 12px;
+    text-align: left;
+    padding: 0 0 0 10px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+.livestatsdiv .content .statistics .messageboard .message-list .message {
+    padding: 0 4px 0 0;
+    opacity: .7;
+    line-height: 30px;
+}
+
+.ipe-InPlayScoreboardContainer_ScoreboardLayout {
+    display: table-cell;
+    vertical-align: middle;
+    height: 100%;
+    z-index: 20;
+}
+.ipe-EventIcon {
+    width: 90px;
+    height: 90px;
+    position: absolute;
+    left: 50%;
+    top: 29px;
+    -webkit-transform: translateX(-200%);
+    -ms-transform: translateX(-200%);
+    transform: translateX(-200%);
+    background-color: #bbb;
+    color: #333;
+    padding: 5px;
+    border-radius: 2px;
+    text-align: center;
+    overflow: hidden;
+    z-index: 20;
+    opacity: 0;
+}
+
+.ipe-SoccerHeaderLayout {
+    font-size: 0;
+    line-height: 0;
+    width: 450px;
+    z-index: 30;
+    background-color: #404040;
+    position: relative;
+    margin-right: auto;
+    margin-left: auto;
+}
+.ipe-InPlayScoreboardContainer_BG .ipe-SoccerHeaderLayout {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%);
+}
+.ipe-EventIcon_Image {
+    width: 100%;
+    height: 50px;
+    display: table;
+    background-repeat: no-repeat;
+    background-position: 50%;
+}
+.ipe-EventIcon_Title {
+    width: 100%;
+    height: 30px;
+    display: table;
+}
+.ipe-EventIcon_Text {
+    display: table-cell;
+    line-height: 13px;
+    font-size: 13px;
+    vertical-align: middle;
+    overflow: hidden;
+}
+
+.ipe-SoccerHeaderLayout_ExtraData {
+    cursor: default;
+    position: absolute;
+    padding: 0 9px;
+    background-color: #333;
+    font-size: 11px;
+    color: #a7a7a7;
+    line-height: 20px;
+}
+.ipe-SoccerGridContainer {
+    display: table;
+    table-layout: fixed;
+    background-color: #404040;
+    border: 1px solid #303030;
+}
+.ipe-SoccerGridContainer_TeamKitColumn {
+    display: table-cell;
+    vertical-align: top;
+}
+.ipe-SoccerGridContainer_TeamKitCell {
+    font-size: 0;
+    line-height: 0;
+    border-top: 1px solid transparent;
+    border-bottom: 1px solid transparent;
+    color: #999;
+    height: 20px;
+    text-align: center;
+    padding: 9px 10px 0;
+    width: 22px;
+    background-color: #333;
+}
+
+.ipe-SoccerGridContainer_TeamKitCell+.ipe-SoccerGridContainer_TeamKitCell {
+    height: 33px;
+    background-color: #404040;
+    min-height: 34px;
+}
+.ipe-SoccerGridContainer_TeamKitCell+.ipe-SoccerGridContainer_TeamKitCell+.ipe-SoccerGridContainer_TeamKitCell {
+    border-top-color: #545454;
+    padding-top: 10px;
+}
+.ipe-SoccerGridContainer_KitElement {
+    width: 12px;
+    height: 14px;
+}
+.ipe-SoccerGridColumn {
+    display: table-cell;
+    vertical-align: top;
+}
+.ipe-SoccerGridColumn_TextHeader {
+    border-top: 1px solid transparent;
+    border-bottom: 1px solid transparent;
+    min-height: 20px;
+    background-color: #333;
+}
+.ipe-SoccerGridColumn_TeamName {
+    display: table;
+    table-layout: fixed;
+    width: 100%;
+    cursor: default;
+    border-top: 1px solid transparent;
+    border-bottom: 1px solid transparent;
+    height: 34px;
+}
+.ipe-SoccerGridCell {
+    cursor: default;
+    border-top: 1px solid transparent;
+    line-height: 32px;
+    font-size: 13px;
+    color: #999;
+    text-align: center;
+    padding-bottom: 1px;
+}
+.ipe-SoccerGridColumn_TeamName .ipe-SoccerGridCell {
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    text-align: left;
+    font-size: 14px;
+    padding: 0 10px;
+    color: #c7c7c7;
+    line-height: 30px;
+}
+.ipe-SoccerGridColumn_TeamName+.ipe-SoccerGridColumn_TeamName {
+    border-top-color: #545454;
+    padding-top: 1px;
+}
+.ipe-SoccerGridColumn_ICorner, .ipe-SoccerGridColumn_IFreeKick, .ipe-SoccerGridColumn_IGoalKick, .ipe-SoccerGridColumn_IPenalty, .ipe-SoccerGridColumn_IRedCard, .ipe-SoccerGridColumn_ISubstitution, .ipe-SoccerGridColumn_IThrowIn, .ipe-SoccerGridColumn_IYellowCard {
+    width: 30px;
+}
+
+.ipe-SoccerGridColumn_ICorner>.ipe-SoccerGridColumn_TextHeader, .ipe-SoccerGridColumn_IFreeKick>.ipe-SoccerGridColumn_TextHeader, .ipe-SoccerGridColumn_IGoal>.ipe-SoccerGridColumn_TextHeader, .ipe-SoccerGridColumn_IGoalKick>.ipe-SoccerGridColumn_TextHeader, .ipe-SoccerGridColumn_IPenalty>.ipe-SoccerGridColumn_TextHeader, .ipe-SoccerGridColumn_IRedCard>.ipe-SoccerGridColumn_TextHeader, .ipe-SoccerGridColumn_ISubstitution>.ipe-SoccerGridColumn_TextHeader, .ipe-SoccerGridColumn_IThrowIn>.ipe-SoccerGridColumn_TextHeader, .ipe-SoccerGridColumn_IYellowCard>.ipe-SoccerGridColumn_TextHeader {
+    background-image: url(../img/imgssdv.png);
+    background-repeat: no-repeat;
+    background-size: 17px;
+}
+
+.ipe-SoccerGridColumn_ICorner .ipe-SoccerGridColumn_TextHeader {
+    background-position: 7px 3px;
+}
+
+.ipe-SoccerGridColumn_IYellowCard .ipe-SoccerGridColumn_TextHeader {
+    background-position: 7px -27px;
+}
+.ipe-SoccerGridColumn_IRedCard .ipe-SoccerGridColumn_TextHeader {
+    background-position: 7px -57px;
+}
+.ipe-SoccerGridColumn_IThrowIn .ipe-SoccerGridColumn_TextHeader {
+    background-position: 8px -87px;
+}
+.Hidden {
+    display: none!important;
+}
+.ipe-SoccerGridColumn_IPenalty .ipe-SoccerGridColumn_TextHeader {
+    background-position: 6px -206px;
+}
+.ipe-SoccerGridColumn_IGoal .ipe-SoccerGridColumn_TextHeader {
+    background-position: 8px -236px;
+}
+.ipe-SoccerGridColumn_IGoal {
+    width: 35px;
+}
+.ipe-SoccerGridColumn_IGoal .ipe-SoccerGridCell {
+    color: #ffdf1b;
+}
+.ipe-InPlayScoreboardContainer_BG .livestatsradar {
+    position: relative;
+    display: none;
+    cursor: pointer;
+    float: right;
+    margin-right: 5px;
+    background-position: left bottom;
+    background-repeat: no-repeat;
+    height: 24px;
+    width: 24px;
+    z-index: 9999;
+    background-image: url(/resources/themes/v1/images/livebet/changescoreboard.png);
+}
+
+
+
+.radarstatsds {
+    background-image: url(/resources/themes/common/icons/16/changesc2.png) !important;
+}
+
+
+
+
+.ipe-ScoreGridCell {
+    cursor: default;
+    border-top: 1px solid transparent;
+    border-bottom: 1px solid transparent;
+    line-height: 32px;
+    font-size: 13px;
+    color: #ddd;
+    min-height: 20px;
+    background-color: #333;
+    text-align: center;
+}
+
+.ipe-basket{
+    color: #a7a7a7;
+    font-size: 12px;
+    line-height: 18px;
+    text-align: center;
+}
+.ipe-ScoreGridColumn_Width30 {
+    text-align: center;
+    width: 30px;
+}
+
+.basketpid
+{
+background: #676666;
+}
+
+.owl-item
+{
+width: 416px;
+    position: absolute;
+    top: 22px;
+    left: 71px;
+    font-weight: 500;
+    height: 156px;
+    color: #fff;
+    z-index: 9;
+}
+
+.rb_teams
+{
+
+
+
+text-align: center;
+    height: 19px;
+    line-height: 19px;
+    display: block;
+    margin: 18px auto 0;
+
+
+}
+.rb_team
+{
+
+    width: 44%;
+    float: left;
+    position: relative;
+    font-size: 17px;
+    display: block;
+    text-align: center;
+    white-space: nowrap;
+
+}
+
+.rb_scorelive
+{
+
+    color: #ef8107;
+    width: 12%;
+    padding: 1px;
+    display: block;
+    float: left;
+    font-size: 20px;
+    font-weight: bold;
+
+
+
+}
+.rb_team .text
+{
+
+float: right;
+    width: 100%;
+    text-align: center;
+    display: block;
+white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+
+.rb_team .logo {
+    padding-right: 5px;
+    display: inline-block;
+    float: left;
+}
+.rb_rates
+{
+    font-weight: 600;
+    width: 287px;
+    margin: 3px auto 0;
+    font-size: 16px;
+    text-align: center;
+}
+
+.rb_rate
+{
+
+color: #FFFFFF !important;
+width: 91px;
+    margin-top: 5px;
+    float: left;
+    height: 30px;
+    margin-right: 4px;
+    line-height: 30px;
+    position: relative;
+    cursor: pointer;
+    -moz-transition: all 0.3s;
+    -webkit-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+    position: relative;
+    font-size: 16px;
+    border: 1px solid #FFF;
+    border-radius: 6px;
+
+}
+.rb_rate:hover
+{
+background: #b52427;
+    color: #FFFFFF;
+}
+
+
+.rb_rates .selected
+{ 
+background: #b52427;
+    color: #FFFFFF;
+}
+
+.rb_time
+{
+margin-top: 15px;
+}
+
+.headetlogo {
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 0px;
+    color: #ffffff;
+}
+
+#head + #content + #side {
+    margin-top: 10px;
+}
+
+#head {
+    display: flex;
+    flex: 0 0 calc(100% - 12px);
+    justify-content: space-between;
+    align-items: center;
+    height: 44px;
+    margin: 20px 0 5px 12px;
+    background: #fff;
+    -webkit-box-shadow: 0px 0px 5px 0px rgb(0 0 0 / 30%);
+    -moz-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.3);
+    box-shadow: 0px 0px 5px 0px rgb(0 0 0 / 30%);
+}
+
+#logo {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 180px;
+	height: 44px;
+	background: #f74835;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+
+#navbar {
+    display: flex;
+    flex: auto;
+    align-items: center;
+}
+
+#navbar li,
+#login_nav li {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    font-size: 14px;
+    color: #333;
+    position: relative;
+}
+
+#navbar #head_nav li > a {
+    display: flex;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    padding: 0 15px;
+color: #063448;
+}
+
+#navbar #head_nav li > a:hover,
+#casino #head_nav li > a:hover {
+    color: #ef8107;
+}
+
+#search_nav {
+    position: relative;
+	height: 44px;
+	margin-left: 11px;
+	display: flex;
+	align-items: center;
+}
+
+#search_nav #searchWrapper {
+    position: absolute;
+    z-index: 2;
+    top: 7px;
+    width: 0;
+    overflow: hidden;
+    transition: 0.2s ease-in-out;
+}
+
+#search_nav.on #searchWrapper {
+    width: 303px;
+    transition: 0.5s ease-in-out;
+}
+
+#search_nav #searchToggle,
+#search_nav #closeSearch {
+    position: absolute;
+    z-index: 3;
+    content: '';
+    display: block;
+	background: url("../img/header/search.png") no-repeat 12px center;
+	width: 41px;
+	height: 44px;
+	cursor: pointer;
+	left: 0;
+}
+
+#search_nav #closeSearch {
+    background: url("../img/closeX_grey.png") no-repeat center;
+    background-size: 10px 10px;
+    height: 30px;
+    width: 30px;
+    left: auto;
+    right: 0;
+    top: 0;
+}
+
+#searchField {
+    width: 100%;
+    height: 30px;
+    line-height: 30px;
+    padding-left: 0;
+    box-sizing: border-box;
+    padding-left: 41px;
+    border: 1px solid #ececec;
+}
+
+#comp-suggestion {
+	z-index: 102;
+	position: absolute;
+	width: 178px;
+	display: none;
+	-webkit-box-shadow: 0px 2px 3px 0px rgba(0, 0, 0, 0.5); /* WebKit */
+	-moz-box-shadow: 0px 2px 3px 0px rgba(0, 0, 0, 0.5); /* Firefox */
+	box-shadow: 0px 2px 3px 0px rgba(0, 0, 0, 0.5); /* Standard */
+}
+
+#comp-suggestion.b_top:before,
+#comp-suggestion.b_top:after {
+	top: 0;
+}
+
+#comp-suggestion li {
+	font-size: 11px;
+	color: #585858;
+	border-top: 1px solid #e3e3e3;
+	white-space: nowrap;
+	overflow: hidden;
+	padding: 0 8px 0 10px;
+	background: #fff;
+}
+
+#comp-suggestion > li {
+	background: #2a7394;
+	color: white;
+	height: 19px;
+	line-height: 19px;
+}
+
+#comp-suggestion > li:first-child {
+	border-top: none;
+}
+
+#comp-suggestion > li.all_results {
+	border: none;
+}
+
+#comp-suggestion > li.all_results a {
+	color: white;
+}
+
+#comp-suggestion li ul {
+	padding: 3px 0 3px 0;
+}
+
+#comp-suggestion li li {
+	border: 0;
+	padding: 0;
+}
+
+#comp-suggestion .results {
+	width: 224px;
+}
+
+#comp-suggestion a {
+	font-size: 11px;
+	line-height: 22px;
+	text-align: left;
+	color: #585858;
+	cursor: pointer;
+	display: block;
+}
+
+#comp-suggestion a:hover {
+	color: #ef8107;
+}
+
+#comp-suggestion a div:first-child {
+	float: left;
+	width: 129px;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+
+#comp-suggestion a div.num {
+	float: left;
+	width: 26px;
+	text-align: right;
+	padding-left: 5px;
+}
+
+#comp-suggestion .all_results a {
+	border: 0;
+	text-align: right;
+}
+
+#search_nav #comp-suggestion *,
+#search_nav #comp-suggestion:before,
+#search_nav #comp-suggestion:after {
+    display: none;
+}
+
+#search_nav.on #comp-suggestion * {
+    display: block;
+}
+
+#search_nav.on #comp-suggestion:before,
+#search_nav.on #comp-suggestion:after {
+    display: initial;
+}
+
+#virtualSportsChooser.b_top:before,
+#virtualSportsChooser.b_top:after {
+	top: 1px;
+}
+
+#navbar #head_nav,
+#login_nav,
+#loggedIn_nav {
+    display: flex;
+    width: auto;
+    height: 44px;
+    padding: 0;
+    flex: 1 0;
+    justify-content: center;
+}
+
+#login_nav,
+#loggedIn_nav {
+    width: 216px;
+    flex: 0 1 216px;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+#login_nav #signin,
+#login_nav #register {
+    padding: 0 6px;
+    width: 100%;
+    cursor: pointer;
+}
+
+#login_nav #register {
+    background: #2A7394;
+}
+
+#login_nav #signin {
+    position: relative;
+    min-width: 0;
+}
+
+#login_nav #signin > div:first-child,
+#login_nav #register div {
+    padding-left: 24px;
+    height: 22px;
+    line-height: 22px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+#login_nav #signin > div:first-child {
+    background: url("../img/header/myaccount.png") no-repeat left center;
+    background-size: 22px 22px;
+}
+
+#login_nav #register div {
+    background: url("../img/header/mydata.png") no-repeat left center;
+    background-size: 22px 22px;
+    color: #fff;
+    overflow: hidden;
+}
+
+#login_nav #register a {
+    color: #fff;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    min-width: 0;
+}
+
+#login_nav #register a:hover {
+    text-decoration: none;
+}
+
+#login_nav #signin #login_box,
+#loggedIn_nav #loggedIn_box,
+#comp-suggestion {
+    display: none;
+    position: absolute;
+    z-index: 1001;
+    top: 44px;
+    left: -50%;
+    padding-top: 10px;
+}
+
+#login_nav #signin.no-registration #login_box {
+    left: 13px;
+}
+
+#loggedIn_nav #loggedIn_box {
+    left: calc(50% - 95px);
+}
+
+#login_nav #signin #login_box > div,
+#loggedIn_nav #loggedIn_box > div {
+    position: relative;
+    width: 180px;
+    padding: 5px;
+    background: #fff;
+    -webkit-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.3); /* WebKit */
+    -moz-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.3); /* Firefox */
+    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.3); /* Standard */
+}
+
+#loggedIn_nav #loggedIn_box > div.b_top:after {
+	border-bottom: 9px solid #d8e8f0;
+}
+
+#loggedIn_nav #loggedIn_box > div {
+    border-bottom: 3px solid #2A7394;
+    background: #d8e8f0; /* Old browsers */
+    background: -moz-linear-gradient(top, #d8e8f0 0%, #ffffff 9%, #ffffff 65%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, #d8e8f0 0%,#ffffff 9%,#ffffff 65%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, #d8e8f0 0%,#ffffff 9%,#ffffff 65%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d8e8f0', endColorstr='#ffffff',GradientType=0 ); /* IE6-9 */
+}
+
+#loggedIn_nav > div {
+    position: relative;
+    height: 100%;
+    align-items: center;
+}
+
+#login_nav #signin #login_box.on,
+#login_nav #signin #login_box.stillOn,
+#login_nav #signin #login_box.autofilledOn,
+#loggedIn_nav #user.on #loggedIn_box {
+    display: block;
+}
+
+#login_nav #login_box input:not([type="checkbox"]) {
+    width: 100%;
+    box-sizing: border-box;
+    border: 1px solid #ececec;
+    height: 30px;
+    line-height: 30px;
+    padding-left: 30px;
+    font-size: 13px
+}
+
+#login_nav #login_input,
+#login_nav #password-login {
+    margin-bottom: 5px;
+    position: relative;
+}
+
+#login_nav #login_input:before,
+#login_nav #password-login:before {
+    position: absolute;
+    z-index: 2;
+    top: 0;
+    left: 0;
+    content: '';
+    display: block;
+    width: 28px;
+    height: 28px;
+    background: url("../img/header/myaccount_small.png") no-repeat center;
+    background-size: 16px 16px;
+}
+
+#login_nav #password-login:before {
+    background: url("../img/header/security_small.png") no-repeat center !important;
+    background-size: 16px 16px;
+}
+
+#login_nav #login_box .wrap.checkbox,
+#login_nav #login_box .wrap.loginLink {
+    font-size: 11px;
+    font-weight: 100;
+    text-align: center;
+    margin-top: 10px;
+}
+
+#login_nav #login_box .wrap.loginLink {
+    font-size: 9px;
+    margin-bottom: 7px;
+    margin-top: 4px;
+    display: block;
+    color: #bebebe;
+    text-align: center;
+}
+
+#login_nav #password-login {
+	position: relative;
+}
+
+#login_nav #show-password {
+	position: absolute;
+	z-index: 2;
+	top: 9px;
+	right: 8px;
+	background: url(../img/togglePassword-43B304CC416EAF3BDAED30CBABBA89F3.png) bottom center no-repeat;
+	background-size: 14px auto;
+	width: 14px;
+	height: 12px;
+	overflow: hidden;
+	cursor: pointer;
+}
+
+#login_nav input[type="password"] + #show-password {
+	background-position: top center;
+}
+
+#helplogin {
+    color: #bebebe;
+    display: inline;
+    margin-bottom: 5px;
+}
+
+#login_nav #login_box #loginButton {
+    width: 100%;
+    background: #2A7394;
+    color: #FFF;
+    overflow: hidden;
+    text-align: center;
+    height: 28px;
+    line-height: 28px;
+    font-size: 14px;
+    cursor: pointer;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    border-radius: 0;
+    border: none;
+    padding: 0;
+}
+
+#login_nav #login_box #loginButton:hover {
+    background: #de8600;
+}
+
+#login_nav #login_box #login_message {
+    color: #a09f9f;
+    font-size: 10px;
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+#loggedIn_nav #user,
+#loggedIn_nav #myBets,
+#loggedIn_nav #deposit {
+    position: relative;
+    flex: 0 1 72px;
+    display: flex;
+    float: left;
+    justify-content: center;
+    font-size: 10px;
+    height: 100%;
+    align-items: center;
+    box-sizing: border-box;
+    padding: 0 1px;
+}
+
+#loggedIn_nav #user > a,
+#loggedIn_nav #myBets > a,
+#loggedIn_nav #deposit > a {
+    padding-top: 25px;
+    box-sizing: border-box;
+    line-height: 10px;
+    text-align: center;
+}
+
+#loggedIn_nav.groupA #deposit {
+    background: #ef8107;
+    color: #fff;
+}
+
+#loggedIn_nav #myBets > a {
+    background: url("/img/header/tickets_header.png") no-repeat center top 5px;
+    background-size: 16px 16px;
+}
+
+#loggedIn_nav #user > a {
+    background: url("/img/header/myaccount_header.png") no-repeat center top 5px;
+    background-size: 16px 16px;
+    white-space: nowrap;
+}
+
+#loggedIn_nav #deposit > a {
+    background: url("/img/header/payin.png") no-repeat center top 3px;
+    background-size: 22px 22px;
+}
+
+#loggedIn_nav.groupA #deposit > a {
+    background-image: url("/img/header/payin.png");
+}
+
+#loggedIn_nav .count,
+#loggedIn_nav #myBets span span {
+    position: absolute;
+    z-index: 3;
+    top: 6px;
+    left: 37px;
+    background: #ef8107;
+    border-radius: 10px;
+    border: 1px solid #fff;
+    color: #fff;
+    min-width: 6px;
+    height: 12px;
+    padding: 0 3px;
+    font-size: 8px;
+    line-height: 11px;
+    text-align: center;}
+
+#loggedIn_box li a,
+#loggedIn_box #logoutLink span {
+    min-height: 34px;
+    padding-left: 40px;
+    position: relative;
+    display: block;
+    font-size: 12px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: flex;
+    align-items: center;
+}
+
+#loggedIn_box #logoutLink span {
+    padding-left: 0;
+}
+
+#loggedIn_box #logoutButton {
+    min-height: 34px;
+    width: 100%;
+    line-height: 34px;
+    font-size: 12px;
+    padding-left: 40px;
+    border: none;
+    color: inherit;
+    cursor: pointer;
+    background: transparent;
+    text-align: left;
+}
+
+#loggedIn_box li a:hover,
+#loggedIn_box li #logoutButton:hover {
+    color: #ef8107;
+}
+
+#loggedIn_box li {
+    border-bottom: 1px solid #F2F2F6;
+}
+
+#loggedIn_box li:last-child {
+    border-bottom: none;
+}
+
+#loggedIn_box #userDetails {
+    color: #2A7394;
+    padding-left: 40px;
+    position: relative;
+    font-size: 13px;
+    padding-top: 5px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+#loggedIn_box #userDetails span {
+    display: block;
+    font-size: 10px;
+}
+
+#loggedIn_box #userDetails span:first-child {
+    margin-top: 4px;
+}
+
+#loggedIn_box #userDetails span:last-child {
+    margin-bottom: 4px;
+}
+
+#loggedIn_box #userDetails:before,
+#loggedIn_box li a:before,
+#loggedIn_box #logoutLink span:before {
+    position: absolute;
+    z-index: 2;
+    top: 0;
+    left: 0;
+    content: '';
+    display: block;
+    width: 40px;
+    height: 34px;
+}
+
+#loggedIn_nav.groupB #loggedIn_box #depositLink {
+    background: #ef8107;
+    color: #fff;
+    margin: 0 -6px;
+    padding: 0 6px;
+}
+
+
+#loggedIn_nav.groupA #loggedIn_box #depositLink a {
+    color: #ef8107;
+}
+
+#loggedIn_nav.groupB #loggedIn_box #depositLink a:hover {
+    color: #fff;
+}
+
+#loggedIn_box #userDetails:before {
+    background: url("/img/header/myaccount_blue.png") no-repeat center;
+    background-size: 20px;
+}
+
+#loggedIn_box #depositLink a:before {
+    background: url("/img/header/payin.png") no-repeat center;
+    background-size: 20px;
+}
+
+#loggedIn_nav.groupA #loggedIn_box #depositLink a:before {
+    background-image: url("/img/header/payin_orange.png");
+}
+
+#loggedIn_nav.groupB #loggedIn_box #depositLink a:before {
+    background-image: url("/img/header/payin_white.png");
+}
+
+#loggedIn_box #withdrawalLink a:before {
+    background: url("/img/header/withdrawal.png") no-repeat center;
+    background-size: 20px;
+}
+
+#loggedIn_box #accountLink a:before {
+    background: url("/img/header/terms.png") no-repeat center;
+    background-size: 20px;
+}
+
+#loggedIn_box #personalLink a:before {
+    background: url("/img/header/contactdata.png") no-repeat center;
+    background-size: 20px;
+}
+
+#loggedIn_box #affiliateLink a:before {
+    background: url("/img/header/contactdata.png") no-repeat center;
+    background-size: 20px;
+}
+
+#loggedIn_box #mybetsLink a:before {
+    background: url("/img/header/tickets.png") no-repeat center;
+    background-size: 20px;
+}
+
+#loggedIn_box #messagesLink a:before {
+    background: url("/img/header/messages.png") no-repeat center;
+    background-size: 20px;
+}
+
+#loggedIn_box #bonusLink a:before {
+    background: url("/img/header/bonus.png") no-repeat center;
+    background-size: 20px;
+}
+
+#loggedIn_box #documentLink a:before {
+    background: url("/img/header/upload.png") no-repeat center;
+    background-size: 20px;
+}
+
+#loggedIn_box #settingsLink a:before {
+    background: url("/img/header/settings.png") no-repeat center;
+    background-size: 20px;
+}
+#loggedIn_box #securityLink a:before {
+    background: url("/img/header/security.png") no-repeat center;
+    background-size: 20px;
+}
+
+#loggedIn_box #logoutLink span:before {
+    background: url("/img/header/logout.png") no-repeat center;
+    background-size: 20px;
+    pointer-events: none;
+}
+
+#loggedIn_box #logoutLink {
+    cursor: pointer;
+}
+
+#loggedIn_box #accountBoxLastLogin {
+    font-size: 10px;
+    text-align: center;
+    padding: 6px 0 2px 0;
+}
+
+#loggedIn_box #mybetsLink span span:before {
+    content: " (";
+}
+
+#loggedIn_box #mybetsLink span span:after {
+    content: ")";
+}
+
+#coljuegos {
+    display: none;
+    width: 132px;
+    height: 44px;
+    overflow: hidden;
+}
+
+#head.colombia #coljuegos img {
+    width: 132px;
+    margin-top: -35px;
+}
+
+#head #logo.colombia {
+    width: 48px;
+    justify-content: start;
+    box-sizing: border-box;
+}
+
+
+#navbar #virtualSportsChooser {
+    top: 44px;
+    display: none;
+    border: none;
+    background: transparent;
+    padding: 10px 0 0 0;
+}
+
+#navbar #virtualSportsChooser > div {
+    position: relative;
+    background: #fff;
+    padding: 10px;
+    background: #fff;
+    -webkit-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.3); /* WebKit */
+    -moz-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.3); /* Firefox */
+    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.3); /* Standard */
+}
+
+#navbar #virtualSportsNav:hover #virtualSportsChooser {
+    display: block;
+}
+
+#navbar #virtualSportsChooser a span {
+	display: block;
+    float: left;
+    margin-left: 6px;
+}
+
+#navbar #virtualSportsChooser a {
+	font-size: 14px;
+	padding: 0 4px;
+    display: block;
+    color: #666;
+    height: 30px;
+    line-height: 30px;
+    clear: both;
+    overflow: hidden;
+    min-width: 158px;
+}
+.b_top:after {
+    left: 48%;
+    left: calc(50% - 5px);
+    border-bottom: 9px solid #fff;
+    border-right: 8px solid transparent;
+    border-left: 8px solid transparent;
+    top: -8px;
+}
+.bubble:before, .bubble:after {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 0;
+}
+#login_nav #login_input:before, #login_nav #password-login:before {
+    position: absolute;
+    z-index: 2;
+    top: 0;
+    left: 0;
+    content: '';
+    display: block;
+    width: 28px;
+    height: 28px;
+    background: url(../img/header/myaccount_small.png) no-repeat center;
+    background-size: 16px 16px;
+}
+.on #searchWrapper
+{
+overflow: initial !important;
+}
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active {
+    transition: background-color 5000s ease-in-out 0s;
+}
+#searchWrapper .dropdown-menu
+{
+min-width: 306px;
+}
+#searchWrapper .dropdown-menu li a
+{
+width: 100%;
+}
+.kupond {
+    position:fixed;
+    width:100%;
+    height:100%;
+    top:0px;
+    right:0px;
+    left:0px;
+    bottom:0px;
+    background-image:url(../img/black.png);
+    z-index:99999;
+    display:none;
+}
+#ickupon {
+    width:1000px;
+    margin:0 auto;
+    background-image:url(../img/wt.png);
+    margin-top:30px;
+    padding:10px;
+    border-radius:5px;
+    box-shadow:0px 0px 20px #000;
+}
+.kuponici {
+    background-color:#FFF;
+    box-shadow:0px 0px 8px #000;
+}
+.kuponkapat {
+    position:absolute;
+    cursor:pointer;
+    margin-left:975px;
+    margin-top:-10px;
+}
+.kuponload {
+    padding:10px;
+    text-align:center;
+}
+.kuponload span {
+    display:inherit;
+    font-size:12px;
+    color:#999;
+}
+.kic {
+    display:table;
+    width:100%;
+}
+.kic ul {
+    display:table-row;
+}
+.kic ul li {
+    display:table-cell;
+    padding:3px 10px 3px;
+    font-size:11px;
+    font-family:Tahoma;
+    background-color:#f0f0f0;
+    border-bottom:1px solid #ddd;
+    border-top:1px solid #fff;
+    border-right:1px solid #ddd;
+    border-left:1px solid #fff;
+}
+.kic .bas li {
+    padding:7px 10px 7px;
+    background-color:#ddd;
+    border-right:1px solid #ccc;
+    border-left:1px solid #f0f0f0;
+    font-weight:bold;
+    border-bottom:1px solid #ccc;
+}
+.kuponbaslik {
+    color:#fff;
+    font-size:12px;
+    display:inherit;
+    padding:8px 16px 6px;
+    background-color:#1b1b3a;
+    text-decoration:none;
+    font-weight:bold;
+}
+.kuponbot {
+    display:table;
+    width:100%;
+}
+.kuponbot ul {
+    display:table-row;
+}
+.kuponbot ul li {
+    display:table-cell;
+    padding:5px 10px 5px;
+    font-size:12px;
+    font-weight:bold;
+    background-color:#f0f0f0;
+    border-bottom:1px solid #f0f0f0;
+    border-top:1px solid #fff;
+    border-right:1px solid #f0f0f0;
+    border-left:1px solid #fff;
+}
+.kuponbot .bas li {
+    padding:5px 10px 5px;
+    background-color:#ddd;
+    border-right:1px solid #ccc;
+    border-left:1px solid #f9f9f9;
+    border-top:1px solid #fff;
+    font-weight:bold;
+    border-bottom:1px solid #ccc;
+}
+.durum_1_kd {
+    color:#222;
+}
+.durum_2_kd {
+    color:#060;
+}
+.durum_3_kd {
+    color:#F00;
+}
+.durum_4_kd {
+    color:#999;
+    text-decoration:line-through;
+}

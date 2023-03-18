@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 60 60">
+	
+<style>	
+	circle {fill: #ffffff}	
+	g.dice {display: none}
+	g.dice:target {display: inline}
+</style>
+
+<g class="dice" id='dice-1'>
+	<circle cx="30" cy="30" r="6.8"/>
+</g>
+
+<g class="dice" id='dice-2'>
+	<circle cx="10" cy="50" r="6.8"/>
+	<circle cx="50" cy="10" r="6.8"/>
+</g>
+
+<g class="dice" id='dice-3'>
+	<circle cx="10" cy="50" r="6.8"/>
+	<circle cx="30" cy="30" r="6.8"/>
+	<circle cx="50" cy="10" r="6.8"/>
+</g>
+
+<g class="dice" id='dice-4'>
+	<circle cx="10" cy="10" r="6.8"/>
+	<circle cx="10" cy="50" r="6.8"/>
+	<circle cx="50" cy="10" r="6.8"/>
+	<circle cx="50" cy="50" r="6.8"/>
+</g>
+
+<g class="dice" id='dice-5'>
+	<circle cx="10" cy="10" r="6.8"/>
+	<circle cx="10" cy="50" r="6.8"/>
+	<circle cx="30" cy="30" r="6.8"/>
+	<circle cx="50" cy="10" r="6.8"/>
+	<circle cx="50" cy="50" r="6.8"/>
+</g>
+
+<g class="dice" id='dice-6'>
+	<circle cx="10" cy="10" r="6.8"/>
+	<circle cx="10" cy="30" r="6.8"/>
+	<circle cx="10" cy="50" r="6.8"/>
+	<circle cx="50" cy="10" r="6.8"/>
+	<circle cx="50" cy="30" r="6.8"/>
+	<circle cx="50" cy="50" r="6.8"/>
+</g>
+
+</svg>

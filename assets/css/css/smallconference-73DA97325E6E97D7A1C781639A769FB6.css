@@ -1,0 +1,777 @@
+.cont_body_gadget {
+    background: url(../img/conference/smallconference_background-A16F1420E656A52397AB48C071C7EF9A.gif);
+    overflow: hidden;
+    padding-left: 6px;
+    padding-right: 2px;
+    width: 556px;
+    height: 255px;
+    /*height: 400px;*/
+}
+
+.livebets_underlined {
+    height: 6px;
+    background-repeat: repeat-x;
+    /*margin-right: 6px;*/
+    overflow: hidden;
+}
+
+.livebets_head {
+    font-size: 16px;
+    line-height: 16px;
+    padding: 10px 0 0 9px;
+}
+
+.loadingInfo {
+    text-align: center;
+    height: 225px;
+    width: 564px;
+    vertical-align: middle;
+}
+
+.loadingImg {
+    vertical-align: middle;
+}
+
+.tooltip_lwk {
+    border: 1px solid #999999;
+    background-color: #ffffff;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+div .moreLiveEvents {
+    text-align: right;
+    margin-top: 6px;
+}
+
+div .moreLiveEventsArrow {
+    width: 27px;
+}
+
+.c_but_base {
+    width: 40px;
+    height: 24px;
+    font-size: 11px;
+    text-align: center;
+    vertical-align: middle;
+    padding-bottom: 2px;
+    border: 0;
+    background: none;
+    cursor: pointer;
+}
+
+.c_but_off {
+    cursor: default;
+    display: none;
+}
+
+/*nich gedruckt*/
+
+.c_but {
+    background: url(../img/conference/but-705395A5910F4DE9A897C68AB86BE28F.png) 50% 50% no-repeat transparent;
+}
+
+.c_but_paused {
+    background: url(../img/conference/but_paused-DF0D2D219050D626691A1C993E9C8DAD.png) 50% 50% no-repeat transparent;
+}
+
+/*nicht gedruckt, quote steigt hoch*/
+
+.c_but_up {
+    background: url(../img/conference/but_up-5E64687A85A56ACBDAE71956F79C1181.png) no-repeat 50% 50% transparent;
+}
+
+/*nicht gedruckt, quote geht runter*/
+
+.c_but_down {
+    background: url(../img/conference/but_down-B2FB5FF32C701255CB4A291D4C61A954.png) no-repeat 50% 50% transparent;
+}
+
+/*gedruckt*/
+
+.c_but_on {
+    background: url(../img/conference/but_on-927ED94D314FD7612EBCF7AB271F5265.png) no-repeat 50% 50% transparent;
+    color: #ffffff;
+}
+
+/*gedruckt, quote steigt hoch*/
+
+.c_but_on_up {
+    background: url(../img/conference/but_on_up-ACCA032FD5B59EEAE2A20D5D504B840F.png) no-repeat 50% 50% transparent;
+    color: #ffffff;
+}
+
+/* gedruckt, quote geht runter*/
+
+.c_but_on_down {
+    background: url(../img/conference/but_on_down-E022CA7346B8D2B4F5EA6111872D4FEC.png) no-repeat 50% 50% transparent;
+    color: #ffffff;
+}
+
+.c_but:hover,
+.c_but_up:hover,
+.c_but_down:hover {
+    color: #ef8107;
+}
+
+.c_but_on:hover,
+.c_but_on_up:hover,
+.c_but_on_down:hover {
+    color: #333333;
+}
+
+/*gesperrt, nicht gedruckt*/
+
+.c_but_paused {
+    color: #aaaaaa;
+    cursor: default;
+}
+
+.c_but_paused:hover {
+    font-weight: normal;
+}
+
+/*gesperrt, gedruckt*/
+
+.c_but_on_paused {
+    color: #444444;
+    cursor: default;
+    background: url(../img/conference/but_on_paused-8C768EBADA7C485AF644597D07A55F52.png) no-repeat 50% 50% transparent;
+    color: #ffffff;
+}
+
+.c_but_off {
+    cursor: default;
+}
+
+/* table */
+
+table .fixedLayout {
+    table-layout: fixed;
+}
+
+table .conferenceWidth {
+    width: 762px;
+}
+
+table .conference td {
+    vertical-align: middle;
+}
+
+table .headerRowEmpty {
+    line-height: 27px;
+    height: 27px;
+}
+
+table .headerRowEmpty td {
+    line-height: 27px;
+    height: 27px;
+}
+
+table .headerRowEmptyTall {
+    line-height: 40px;
+    height: 40px;
+}
+
+table .headerRowEmptyTall td {
+    line-height: 40px;
+    height: 40px;
+}
+
+table .headerRow {
+    line-height: 27px;
+    height: 27px;
+    text-align: center;
+    font-weight: bold;
+    background: url(../img/conference/img_th_bg-81A15715BDCE707671F6BF2BEC78DD3A.gif) #d6d6d6;
+}
+
+table .headerRow table {
+    width: 100%;
+}
+
+table .emptyCell {
+    line-height: 27px;
+    height: 27px;
+    /*genauso wie in resultCell*/
+    /*border-top: 1px solid #ffffff;*/
+}
+
+table .headerRowChoiceParams {
+    line-height: 27px;
+    height: 27px;
+    text-align: center;
+}
+
+table .headerRowCell {
+    width: 100%;
+}
+
+table .embeddedHeaderImage {
+    width: 37px;
+    text-align: center;
+    padding-bottom: 3px;
+    padding-left: 3px;
+}
+
+table .embeddedHeaderText {
+    width: 100%;
+    text-align: center;
+}
+
+.eHISC {
+    width: 119px;
+    text-align: left;
+    padding-bottom: 3px;
+    padding-left: 3px;
+}
+
+.eHTSC {
+    text-align: left;
+    font-weight: bold;
+}
+
+table .imageMargin {
+    margin-top: -2px;
+}
+
+table .headerRow td div {
+    text-align: center;
+}
+
+table .timeCell {
+    text-align: center;
+    /*genauso wie in teamCell, betCell*/
+    /*border-top: 1px solid #ffffff;*/
+    width: 40px;
+    white-space: nowrap;
+    overflow: hidden;
+    /*damit laufende und nicht laufende Events die gleiche H�he haben*/
+    line-height: 27px;
+}
+
+table .timescale {
+    height: 3px;
+    margin: 20px 0 0 3px;
+    position: absolute;
+    width: 34px;
+    z-index: 2;
+    background-color: #558496;
+}
+
+table .timescaleimg {
+    background: url(../img/conference/p_white-320923438144B5D457EDCC7F16CF8974.gif);
+}
+
+table .timeCellRunning {
+    color: #ffffff;
+    background-color: #558496;
+}
+
+table .timeCellRunningEven {
+    color: #ffffff;
+    background-color: #6390a3;
+}
+
+table .timeCellNotRunning {
+    background-color: #ececec;
+}
+
+table .even .timeCellNotRunning {
+    background-color: #FFFFFF;
+}
+
+#box_lwk table .timeCellNotRunning {
+    background: transparent;
+    color: #333;
+}
+
+table .timeCellNotRunningEven {
+    background-color: #ffffff;
+    color: #000000;
+}
+
+table .hzwette {
+    background-color: #ef8107;
+    color: #ffffff;
+}
+
+table .borderRight {
+    /* 	border-right: 2px solid #ffffff; */
+    /*border-right: 2px solid black;*/
+}
+
+#box_lwk table .borderRight {
+    border-right: 2px solid rgba(0, 0, 0, 0);
+}
+
+table .borderRightBlue {
+    border-right: 2px solid #fcfefc;
+    /*border-right: 2px solid black;*/
+}
+
+/*wo mannschaften und spieltand stehen*/
+
+table .teamCell {
+    width: 227px;
+    /*border-top: 1px solid #ffffff;*/
+    /*kein padding, sonst kommt eine spalte zwischen �berschriftstabellen*/
+    /*padding: 0 2px 0 2px;*/
+}
+
+table .betCell {
+    width: 120px;
+}
+
+table .specialBetCell {
+    /*f�r IE, um Sonderwette linksb�ndig zu machen*/
+    text-align: left;
+}
+
+/*mannschaftsname soll abgeschnitten werden, wenn nicht passt (overflow:hidden)*/
+
+table .teamName {
+    white-space: nowrap;
+    width: 101px;
+    padding: 0 3px;
+    text-align: left;
+    overflow: hidden;
+    cursor: default;
+}
+
+.teamNameWithRedCard {
+    float: left;
+    width: 81px;
+    overflow: hidden;
+}
+
+div .teamNamePadded {
+    width: 101px;
+}
+
+/*roteKarte wird vor dem Mannschaftsnamen angezeigt*/
+
+table .teamNameRedCard1 {
+    padding-left: 16px;
+    background-image: url(../img/conference/icon-redcard1-C7559DF9B8C1BFD7CF55206BD2030FA1.gif);
+    background-repeat: no-repeat;
+    background-position: 1px;
+    float: left;
+    color: #ffffff;
+}
+
+table .teamNameRedCard2 {
+    padding-left: 16px;
+    background-image: url(../img/conference/icon-redcard2-D9E84CC1EF299EC51FBAFC7348558F8E.gif);
+    background-repeat: no-repeat;
+    background-position: 1px;
+    float: left;
+    color: #ffffff;
+}
+
+table .teamNameRedCard3 {
+    padding-left: 16px;
+    background-image: url(../img/conference/icon-redcard3-16636E3B1B8E9A69A4AA2A3F4521325C.gif);
+    background-repeat: no-repeat;
+    background-position: 1px;
+    float: left;
+    color: #ffffff;
+}
+
+table .teamNameRedCard4 {
+    padding-left: 16px;
+    background-image: url(../img/conference/icon-redcard4-2DCCB29612BC154010EA888513C43548.gif);
+    background-repeat: no-repeat;
+    background-position: 1px;
+    float: left;
+    color: #ffffff;
+}
+
+table .betName {
+    white-space: nowrap;
+    width: 300px;
+    text-align: left;
+    overflow: hidden;
+}
+
+table strong {
+    padding: 0px;
+    font-weight: normal;
+    color: #ababab;
+}
+
+table .imageCell {
+    width: 28px;
+    /*sport-Icon statt score*/
+    text-align: center;
+}
+
+/*damit score in gemerged zellen zentriert steht*/
+
+table .scoreCentered {
+    margin: 0px auto;
+}
+
+table .currentScoreCell {
+    font-weight: normal;
+    white-space: nowrap;
+    text-align: center;
+    overflow: hidden;
+}
+
+table .scoreCell {
+    white-space: nowrap;
+    width: 11px;
+    text-align: center;
+    overflow: hidden;
+}
+
+table .sportCell {
+    width: 21px;
+    text-align: center;
+}
+
+/*angewendet wenn score blinkt*/
+
+table .scoreInvisible {
+    visibility: hidden;
+}
+
+/*score-Styles braucht man um Spielstand anzuzeigen*/
+
+table .scoreCellLeft {
+    font-weight: bold;
+    white-space: nowrap;
+    /*margin: 0 0 0 4px;*/
+    margin: 0 0 0 0;
+    text-align: center;
+    overflow: hidden;
+    width: 11px;
+}
+
+table .scoreCellRight {
+    font-weight: bold;
+    white-space: nowrap;
+    width: 11px;
+    /*margin: 0 4px 0 0;*/
+    margin: 0 0 0 0;
+    text-align: center;
+    overflow: hidden;
+}
+
+table .scoreCell.small {
+    width: 3px;
+    padding: 0px;
+    margin: 0 1px;
+    font-weight: bold;
+}
+
+table .scoreCell.tall {
+    width: 17px;
+}
+
+table .conferenceRow {
+    /*sonst bewegt sich die Row wenn Quoten angelegt werden, weil table-layout:fixed wegen ie  entfernt wurde*/
+    height: 24px;
+    line-height: 24px;
+    text-align: center;
+    /* 	background-color: #ececec; */
+    /*braucht man sowohl an tds als auch an trs, weil sonst in firefox zu dick erscheint/in ie gar nicht angezeigt*/
+    border-top: 1px solid #cccccc;
+    border-bottom: 1px solid #cccccc;
+    color: #333333;
+    border-top: 1px solid #E3E3E3;
+    border-bottom: 1px solid #C8C8C8;
+    background: #D9D9D9;
+    background: -moz-linear-gradient(top, #D9D9D9 0%, #D0D0D0 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #D9D9D9), color-stop(100%, #D0D0D0));
+    background: -webkit-linear-gradient(top, #D9D9D9 0%, #D0D0D0 100%);
+    background: -o-linear-gradient(top, #D9D9D9 0%, #D0D0D0 100%);
+    background: -ms-linear-gradient(top, #D9D9D9 0%, #D0D0D0 100%);
+    background: linear-gradient(to bottom, #D9D9D9 0%, #D0D0D0 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d9d9d9', endColorstr='#d0d0d0', GradientType=0);
+}
+
+#box_lwk table .conferenceRow .timeCell {
+    color: white;
+}
+
+#box_lwk table .conferenceRow .timeCell.timeCellNotRunning .timeCell {
+    color: #333;
+}
+
+.teaser.live table .conferenceRow {
+    background: #f3f3f3;
+    border-bottom: 1px solid #999999;
+}
+
+.teaser.live table .conferenceRow.even {
+    background: #e5e5e5;
+}
+
+/*alternierungsstyle*/
+
+table .conferenceRow.even {
+    background-color: #ffffff;
+}
+
+table .underlined {
+    border-bottom: solid 1px #aeaeae;
+}
+
+.ticker {
+    background: url(../img/warning_inline-361F6D65A9607E78A8FD407C8D93EFD9.gif) 10px 7px no-repeat;
+    padding: 4px 4px 4px 19px;
+    width: 731px;
+    border: 1px solid #db0036;
+    background-color: #fcd6e0;
+}
+
+table .resultCell {
+    text-align: center;
+    width: 40px;
+    overflow: hidden;
+    /*auch entsprechend in emptyCell �ndern*/
+    /*border-top: 1px solid #ffffff;*/
+}
+
+table .debugArea {
+    background-color: white;
+    /*font-size: 11pt;*/
+    color: black;
+}
+
+/* RESULT 
+
+beeinflusst die Weite des teamName DIV: 
+
+z.B. 0:0 = result2 (default) | 10:1 = result3 |11:13 = result4 | 120:19 = result5 | 109:101 = reslut6 
+
+*/
+
+table .scoreCellResult2 {
+    width: 17px;
+}
+
+table .teamNameResult2 {
+    width: 95px;
+}
+
+table .teamNameResult2WithRedCard {
+    float: left;
+    /*f�r ie*/
+    overflow: hidden;
+    width: 73px;
+}
+
+table .scoreCellResult3 {
+    width: 23px;
+}
+
+table .teamNameResult3 {
+    width: 89px;
+}
+
+table .teamNameResult3WithRedCard {
+    float: left;
+    /*f�r ie*/
+    overflow: hidden;
+    width: 69px;
+}
+
+.team {
+    line-height: 17px;
+}
+
+.gwt-Label {
+    line-height: 27px;
+    text-align: center;
+    white-space: nowrap;
+}
+
+.lwk_but_label {
+    line-height: 32px;
+}
+
+.alignBottom {
+    vertical-align: bottom;
+}
+
+.penalty {
+    color: #558496;
+}
+
+.penaltySpecialBet {
+    float: left;
+    line-height: 27px;
+    padding: 0 6px;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.penaltyOverwritingQuoteText {
+    height: 50px;
+    /*nicht vergr��ern*/
+    padding-top: 2px;
+    padding-left: 5px;
+    overflow: hidden;
+}
+
+.overwritingQuoteText {
+    padding-left: 5px;
+    overflow: hidden;
+    width: 229px;
+    text-align: center;
+}
+
+.additionalPenaltyHeader {
+    color: #558496;
+}
+
+/*neue smallconference*/
+
+.box_lwk {
+    /* 	background: url(../img/conference/lwk_box_bg-4CF419DE805670AE23CE3392BEAAF318.gif) no-repeat 0 0 transparent; */
+    /* 	background: white; */
+    background: url(../img/button-dark-pattern-21C02025C30C5A009DA6E02106F50125.png) repeat;
+    border: 1px solid #999999;
+    line-height: 18px;
+    margin: 0 10px 0 0;
+    padding: 0;
+}
+
+.box_lwk>div:first-child>table:first-child {
+    background: white;
+}
+
+.box_lwk .on {
+    /* 	background: url(../img/conference/lwk_but_on-00F540EEFA1A239B829C33F3BC2EF94F.gif) no-repeat center top transparent; */
+    background: #ef8107;
+    cursor: auto;
+    color: white;
+}
+
+.box_lwk .fixedLayout {
+    color: white;
+}
+
+.box_lwk .this_button.flex_button_grey_bg {
+    color: white;
+    background: url(../img/arrow_white-E408B9F4209A9246067D83C48CB6342B.png) no-repeat center left;
+    padding-left: 3px;
+    border: none;
+}
+
+.box_lwk .this_button {
+    margin-top: 5px;
+    margin-right: 5px;
+}
+
+#comp-smallconference #box_lwk.box_lwk>div>table:first-child tr:first-child {
+    background: url(../img/3hborder_orange-E15AB9C97BF66D82FF4B27DDC93E2AC2.gif) bottom center repeat-x;
+}
+
+td.lwk_but {
+    height: 32px;
+    line-height: 32px;
+    border-left: 1px solid #999999;
+    padding: 0 12px;
+    white-space: nowrap;
+    cursor: pointer;
+}
+
+.align_c {
+    text-align: center;
+}
+
+.space_6 {}
+
+.box_lwk_foot {
+    /* 	background: url(../img/conference/lwk_box_foot_bg-A3475264AB36C01431C970FB5456498C.gif) no-repeat 0 0 transparent; */
+    /* 	height: 8px; */
+}
+
+.blink_1 {
+    background: url(../img/blink_1-30C2E1C63D7D641671C3514E5C5140C1.gif) repeat 0 0 transparent;
+    text-align: center;
+    line-height: 27px;
+}
+
+.blink_2 {
+    background: url(../img/blink_2-46724965D84C866B1F53327BBA815AED.gif) repeat 0 0 transparent;
+    text-align: center;
+    line-height: 27px;
+}
+
+.pipeBackground1 {
+    background: url(../img/conference/pipe_1-EF9AEC20B16F98FA8F59C02FE0588B86.gif) no-repeat 0% 0% transparent;
+    line-height: 27px;
+    width: 40px;
+    /*f�r ie8*/
+}
+
+.pipeBackground2 {
+    background: url(../img/conference/pipe_2-19095272A7C8A65420844CA30BEE4CF1.gif) no-repeat 0% 0% transparent;
+    line-height: 27px;
+    width: 40px;
+    /*f�r ie8*/
+}
+
+/*neue Styles: benutzen Vererbung f�r die Alternierung von Zeit-Zelle*/
+
+.blinking {
+    background: url(../img/blink_1-30C2E1C63D7D641671C3514E5C5140C1.gif) repeat 0 0 transparent;
+    text-align: center;
+    line-height: 27px;
+}
+
+.even .blinking {
+    background: url(../img/blink_2-46724965D84C866B1F53327BBA815AED.gif) repeat 0 0 transparent;
+    text-align: center;
+    line-height: 27px;
+}
+
+.pipe_trans {
+    background: url(../img/conference/pipe_trans-42323AF8630A4F98DDF7BF9E44AD7A9E.gif) no-repeat;
+}
+
+.pad_r_3 {
+    padding-right: 3px;
+}
+
+.liveButton {
+    padding-left: 4px;
+}
+
+table .conferenceRow.comment td.c_pad {
+    padding-top: 24px;
+}
+
+table.fixedLayout .c_pad img {
+    margin-left: 8px;
+    margin-right: 8px;
+}
+
+.livecomment {
+    position: absolute;
+    z-index: 10;
+    height: 24px;
+    background: url(../img/warning_2-D845C34349030FD8595CDC83EE402AAC.png) no-repeat 52px 5px #2B7394;
+    margin-top: -27px;
+    color: white;
+    text-align: left;
+}
+
+.livecomment div:first-child {
+    width: 480px;
+    padding-left: 84px;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.livecomment .pointer {
+    width: 33px;
+    height: 13px;
+    background: url(../img/live/livecomment-60F6CAA8929464F3BB7A8A1050C10BAE.png) no-repeat;
+    margin-left: 54px;
+}

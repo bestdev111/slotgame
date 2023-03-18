@@ -1,0 +1,894 @@
+body {
+    font-size: 12px;
+    font-weight: normal;
+    line-height: 14px;
+    color: #000;
+}
+
+p {
+    font-size: 14px;
+}
+
+p:first-child {
+    margin-top: 10px;
+}
+
+/* BEGIN clearfix */
+
+#registration #regForm .formGroup:after,
+#registration #regForm .formGroup:before,
+.container:before,
+.container:after,
+.clearfix:before,
+.clearfix:after {
+    content: " ";
+    display: table;
+}
+
+#registration #regForm .formGroup:after,
+.container:after,
+.clearfix:after {
+    clear: both;
+}
+
+/* For modern browsers */
+
+.cf:before,
+.cf:after {
+    content: "";
+    display: table;
+}
+
+.cf:after {
+    clear: both;
+}
+
+/* For IE 6/7 (trigger hasLayout) */
+
+.cf {
+    *zoom: 1;
+}
+
+/* END clearfix */
+
+#helpLogin:hover,
+a:hover {
+    color: #de8600;
+}
+
+input,
+textarea,
+.customSelect,
+*::-webkit-input-placeholder {
+    padding-left: 2px;
+}
+
+input,
+textarea,
+.customSelect {
+    padding-left: 2px;
+}
+
+#registration .casino .registerHeader {
+    width: 75%;
+}
+
+#registration.content {
+    width: auto;
+    border: none;
+    margin-left: 12px;
+    width: 984px;
+}
+
+.content {
+    min-height: 580px;
+    background: url(../img/bg-87F5C4551524D273F935550A0E54DCD7.png) #FFF repeat-x;
+}
+
+#registration .container {
+    background: white;
+}
+
+#lpage #registration .container col-lg-9+.col-lg-3 {
+    padding-right: 0;
+}
+
+#registration #regWrap {
+    padding: 10px;
+    /* wird auf 20px erhöht wenn > 764 px, siehe mediaquery unten */
+    background: #efefef;
+    /* fallback */
+    background: -moz-linear-gradient(top, rgba(239, 239, 239, 1) 0%, rgba(255, 255, 255, 0) 100%);
+    /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, rgba(239, 239, 239, 1)), color-stop(100%, rgba(255, 255, 255, 0)));
+    /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top, rgba(239, 239, 239, 1) 0%, rgba(255, 255, 255, 0) 100%);
+    /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top, rgba(239, 239, 239, 1) 0%, rgba(255, 255, 255, 0) 100%);
+    /* Opera 11.10+ */
+    background: -ms-linear-gradient(top, rgba(239, 239, 239, 1) 0%, rgba(255, 255, 255, 0) 100%);
+    /* IE10+ */
+    background: linear-gradient(to bottom, rgba(239, 239, 239, 1) 0%, rgba(255, 255, 255, 0) 100%);
+    /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#efefef', endColorstr='#00ffffff', GradientType=0);
+    /* IE6-9 */
+    clear: both;
+}
+
+#registration #bonusSlogan h1 {
+    text-transform: uppercase;
+    font-weight: bolder;
+    color: #de8600;
+    text-align: center;
+    padding: inherit;
+    margin-bottom: inherit;
+    border-bottom: inherit;
+}
+
+#registration #regForm .formGroup {
+    margin-bottom: 15px;
+}
+
+#registration #regForm .formGroup.reverse {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+#registration #regForm .formGroup>div:nth-child(1) {
+    float: left;
+}
+
+#registration #regForm .formGroup button,
+#registration #regForm .formGroup input,
+#registration #regForm .formGroup select,
+#registration #regForm .formGroup .customSelect {
+    width: 100%;
+    outline: none;
+}
+
+#registration #regForm .formGroup input,
+#registration #regForm .formGroup select,
+#registration #regForm .customSelect {
+    width: 100%;
+    height: 34px;
+    border: 1px solid #cecece;
+    padding: 0 10px;
+    border-radius: 0;
+    /* IOs default reset */
+    margin: 0;
+}
+
+#registration #regForm .formGroup input.ng-valid:not(.ng-pristine):not(.new),
+#registration #regForm input.ng-valid:not(.ng-pristine):not(.new)+.customSelect:not(.open) {
+    border-width: 1px;
+    border-style: solid;
+    background: url("../img/corner_valid-BB6124EE16C2CF523D9E4311DD9A2421.png") no-repeat #ffffff top right;
+}
+
+#registration #regForm input.ng-valid:not(.ng-pristine):not(.new)+.customSelect.prefilled:not(.open) {
+    border-width: 1px;
+    border-style: solid;
+    background: url("../img/corner_valid-BB6124EE16C2CF523D9E4311DD9A2421.png") no-repeat #EEE top right;
+}
+
+#registration #regForm .formGroup input.ng-invalid:not(.ng-pristine):not(.new),
+#registration #regForm input.ng-invalid:not(.ng-pristine):not(.new)+.customSelect:not(.open) {
+    border: 1px solid #DE8600;
+    background-image: url("../img/corner_invalid-9684A0430FDCAAB44713739035BC750D.png");
+    background-repeat: no-repeat;
+    background-position: right top;
+}
+
+#registration #regForm .formGroup input[type="checkbox"],
+#registration #regForm .formGroup input[type="radio"] {
+    margin-right: 5px;
+    width: auto;
+    height: auto;
+    float: left;
+}
+
+#registration #regForm .formGroup button:not(.customSelect) {
+    color: #fff;
+    height: 40px;
+    border: 1px dashed #fff;
+    outline-width: 3px;
+    outline-style: solid;
+    font-size: 28px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+}
+
+#registration #regForm .formGroup button[disabled]:not(.customSelect) {
+    cursor: pointer;
+}
+
+#registration #regForm .formGroup button:hover:not(.customSelect) {
+    background: #de8600;
+    outline: 3px solid #de8600;
+    /* not supported in ie */
+}
+
+#registration .buttonIcon.iconReg {
+    display: inline-block;
+    margin-right: 5px;
+    width: 19px;
+    height: 21px;
+    background: url("../img/iconReg.png") no-repeat;
+}
+
+#registration .checkboxWrap {
+    min-width: 50px;
+    float: left;
+}
+
+#registration .checkboxWrap label {
+    height: 34px;
+}
+
+#registration #foot {
+    background: initial;
+    min-height: 218px;
+}
+
+/* BEGIN custom select, via fancySelect.js */
+
+.customSelect {
+    position: relative;
+}
+
+div.fancy-select select:focus+div.trigger.open {
+    box-shadow: none;
+}
+
+#registration #regForm .customSelect {
+    cursor: pointer;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    position: relative;
+    background: white;
+    text-align: center;
+    line-height: 34px;
+    padding-right: 44px;
+    /* Breite von :after */
+    transition: all 240ms ease-out;
+    -webkit-transition: all 240ms ease-out;
+    -moz-transition: all 240ms ease-out;
+    -ms-transition: all 240ms ease-out;
+    -o-transition: all 240ms ease-out;
+}
+
+#registration #regForm .customSelect:after {
+    content: "";
+    display: block;
+    position: absolute;
+    width: 44px;
+    height: 34px;
+    border-left: 1px solid #cccccc;
+    top: 0;
+    right: 0;
+    background: url("../img/iconSelectArrow-29B22B2C7EB4875808229201D70B70D1.png") no-repeat;
+}
+
+/* #registration #regForm input.ng-valid:not(.ng-pristine) + .customSelect:after, */
+
+/* #registration #regForm input.ng-invalid:not(.ng-pristine) + .customSelect:after { */
+
+/* 	width: 54px; */
+
+/* } */
+
+/* #registration #regForm input.ng-valid:not(.ng-pristine) + .customSelect:after, */
+
+/* #registration #regForm input.ng-invalid:not(.ng-pristine) + .customSelect:after { */
+
+/* 	width: 54px; */
+
+/* } */
+
+#registration #regForm .customSelect.open {
+    background-repeat: no-repeat;
+    /* needed for correct transition */
+    background-position: top right;
+    /* needed for correct transition */
+    color: white;
+}
+
+#registration #regForm .customSelect.open:after {
+    background: url("../img/iconSelectArrow-29B22B2C7EB4875808229201D70B70D1.png") no-repeat;
+    background-position: 0 -34px;
+}
+
+#registration #regForm .customSelect.prefilled {
+    background: #eeeeee;
+}
+
+#registration #regForm .customSelect.prefilled.open {
+    color: #2B8686;
+}
+
+#registration #regForm .customSelect.prefilled:after {
+    background: url("../img/iconSelectArrow-29B22B2C7EB4875808229201D70B70D1.png") no-repeat;
+    background-position: 0 -34px;
+}
+
+#registration #regForm .customSelect+ul.options,
+#registration #regForm .customSelect+ul.dropdown-menu {
+    list-style: none;
+    margin: 0;
+    padding: 10px;
+    text-align: center;
+    position: absolute;
+    top: 40px;
+    left: 0;
+    visibility: hidden;
+    opacity: 0;
+    z-index: 50;
+    max-height: 200px;
+    overflow: auto;
+    background: white;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+    width: 100%;
+    transition: opacity 300ms ease-out, top 300ms ease-out, visibility 300ms ease-out;
+    -webkit-transition: opacity 300ms ease-out, top 300ms ease-out, visibility 300ms ease-out;
+    -moz-transition: opacity 300ms ease-out, top 300ms ease-out, visibility 300ms ease-out;
+    -ms-transition: opacity 300ms ease-out, top 300ms ease-out, visibility 300ms ease-out;
+    -o-transition: opacity 300ms ease-out, top 300ms ease-out, visibility 300ms ease-out;
+}
+
+#registration #regForm .customSelect+ul.options.open,
+#registration #regForm .customSelect+ul.dropdown-menu.open {
+    visibility: visible;
+    top: 34px;
+    opacity: 1;
+    /* have to use a non-visibility transition to prevent this iOS issue (bug?): */
+    /*http://stackoverflow.com/questions/10736478/css-animation-visibility-visible-works-on-chrome-and-safari-but-not-on-ios*/
+    transition: opacity 300ms ease-out, top 300ms ease-out;
+    -webkit-transition: opacity 300ms ease-out, top 300ms ease-out;
+    -moz-transition: opacity 300ms ease-out, top 300ms ease-out;
+    -ms-transition: opacity 300ms ease-out, top 300ms ease-out;
+    -o-transition: opacity 300ms ease-out, top 300ms ease-out;
+}
+
+.open>.dropdown-menu {
+    display: block;
+}
+
+#registration #regForm .customSelect+ul.options li,
+#registration #regForm .customSelect+ul.dropdown-menu li {
+    padding: 8px 12px;
+    color: #2B8686;
+    cursor: pointer;
+    white-space: nowrap;
+    transition: all 150ms ease-out;
+    -webkit-transition: all 150ms ease-out;
+    -moz-transition: all 150ms ease-out;
+    -ms-transition: all 150ms ease-out;
+    -o-transition: all 150ms ease-out;
+}
+
+#registration #regForm .customSelect+ul.options li.selected,
+#registration #regForm .customSelect+ul.dropdown-menu li.selected {
+    background: #EFEFEF;
+    /*color: rgba(255,255,255,0.75);*/
+}
+
+#registration #regForm .customSelect+ul.options li:hover,
+#registration #regForm .customSelect+ul.dropdown-menu li:hover {
+    background: #EFEFEF;
+}
+
+/* END custom select */
+
+/* BEGIN custom radiobox */
+
+/*
+    Hide the original radios
+    (but still accessible)
+
+    :not(#foo) > is a rule filter to block browsers
+                 that don't support that selector from
+                 applying rules they shouldn't
+
+*/
+
+#registration:not(#foo) #regForm .formGroup .radioWrap {
+    min-width: 90px;
+    float: left;
+    position: relative;
+}
+
+#registration:not(#foo) #regForm .formGroup input[type="radio"] {
+    /* Hide the input, but have it still be clickable */
+    opacity: 0;
+    float: left;
+    width: 14px;
+    height: 14px;
+    position: absolute;
+    cursor: pointer;
+}
+
+#registration:not(#foo) #regForm .formGroup input[type="radio"]+label.customRadio {
+    margin: 0;
+    clear: none;
+    padding: 5px 0 4px 20px;
+    cursor: pointer;
+    background: url("../img/customRadio_off.png") left center no-repeat;
+}
+
+#registration:not(#foo) #regForm .formGroup input[type="radio"]:checked+label.customRadio {
+    background: url("../img/customRadio_on.png") left center no-repeat;
+}
+
+/* END custom radiobox */
+
+/* BEGIN custom checkbox */
+
+/*
+    Hide the original checkboxes
+    (but still accessible)
+
+    :not(#foo) > is a rule filter to block browsers
+                 that don't support that selector from
+                 applying rules they shouldn't
+
+*/
+
+#registration:not(#foo) #regForm .formGroup .checkboxWrap {
+    min-width: 60px;
+    height: 18px;
+    float: left;
+    position: relative;
+}
+
+#registration:not(#foo) #regForm .formGroup .checkboxWrap.higher {
+    height: 44px;
+}
+
+#registration:not(#foo) #regForm .formGroup input[type="checkbox"] {
+    /* Hide the input, but have it still be clickable */
+    opacity: 0;
+    float: left;
+    width: 18px;
+    height: 18px;
+    position: absolute;
+    cursor: pointer;
+}
+
+#registration:not(#foo) #regForm .formGroup input[type="checkbox"]+label.customCheckbox {
+    display: block;
+    height: 18px;
+    margin: 0;
+    clear: none;
+    padding: 0 0 0 24px;
+    cursor: pointer;
+    background: url("../img/customCheckbox-D8BBC4A988C2B0C574AE1DA7DE4B3270.png") no-repeat;
+    background-position: 0px -18px;
+    line-height: 18px;
+}
+
+#registration:not(#foo) #regForm .formGroup input[type="checkbox"]:checked+label.customCheckbox {
+    padding: 0 0 0 24px;
+    background: url("../img/customCheckbox-D8BBC4A988C2B0C574AE1DA7DE4B3270.png") no-repeat;
+    background-position: 0px 0px;
+}
+
+#registration:not(#foo) #regForm .formGroup input[type="checkbox"]+label.customCheckbox.invalid {
+    display: block;
+    height: 18px;
+    margin: 0;
+    clear: none;
+    padding: 0 0 0 24px;
+    cursor: pointer;
+    background: url("../img/customCheckbox_invalid.png") no-repeat;
+    background-position: 0px -18px;
+    line-height: 18px;
+}
+
+#registration:not(#foo) #regForm .formGroup input[type="checkbox"]:checked+label.customCheckbox.invalid {
+    padding: 0 0 0 24px;
+    background: url("../img/customCheckbox_invalid.png") no-repeat;
+    background-position: 0px 0px;
+}
+
+/* END custom checkbox */
+
+/* BEGIN formError */
+
+.formGroup .wrap {
+    position: relative;
+}
+
+.errorHint {
+    position: absolute;
+    top: 34px;
+    left: 0;
+    z-index: 1010;
+    width: 100%;
+    padding: 10px;
+    text-align: left;
+    background: #eccdab;
+    color: #595758;
+    background-clip: padding-box;
+    border: 1px solid #CCC;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    -webkit-box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+    white-space: normal;
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity 300ms ease-out, top 300ms ease-out, visibility 300ms ease-out;
+    -webkit-transition: opacity 300ms ease-out, top 300ms ease-out, visibility 300ms ease-out;
+    -moz-transition: opacity 300ms ease-out, top 300ms ease-out, visibility 300ms ease-out;
+    -ms-transition: opacity 300ms ease-out, top 300ms ease-out, visibility 300ms ease-out;
+    -o-transition: opacity 300ms ease-out, top 300ms ease-out, visibility 300ms ease-out;
+}
+
+#registration #regForm .formGroup input:focus+.registerHintWrapper .infoHint,
+#registration #regForm .formGroup input.ng-invalid:not(.ng-pristine):not(.new):focus+.registerHintWrapper .errorHint,
+#registration #regForm .formGroup input.ng-invalid:not(.ng-pristine):not(.new):focus+.errorHint,
+#registration #regForm .customSelect.ng-invalid:not(.open):not(.ng-pristine):not(.new):focus+.errorHint {
+    visibility: visible;
+    opacity: 1;
+}
+
+#registration #regForm .formGroup.row.labelGroup {
+    color: grey;
+    font-size: 9px;
+    margin-top: -12px;
+    margin-bottom: 0px;
+    padding: 0px;
+}
+
+/* END formError */
+
+@media (min-width: 764px) {
+    #registration #regWrap {
+        padding: 20px;
+    }
+}
+
+@media (max-width: 763px) {
+    header {
+        display: none;
+    }
+}
+
+#registration .box {
+    border: 1px solid #CECECE;
+    margin-bottom: 35px;
+}
+
+#registration .box.affiliateMenu {
+    background: #efefef;
+}
+
+#registration .box.affiliateMenu a {
+    text-decoration: none;
+}
+
+#registration .box:not(:first-child) {
+    margin-top: 20px;
+}
+
+#registration .box h3 {
+    font-size: 15px;
+    font-weight: bold;
+    text-align: center;
+    margin: 0;
+    padding: 8px 0;
+}
+
+#registration .box.offBox h3 {
+    color: #9a9a9a;
+}
+
+#registration .box.affiliateMenu h3 {
+    border-bottom: 1px solid #e8e8e8;
+}
+
+#registration .box .btn {
+    display: table;
+    width: 100%;
+    border-collapse: separate;
+    font-size: 14px;
+    color: #666;
+    border-top: 1px solid #CECECE;
+    min-height: 34px;
+    padding: 10px;
+}
+
+#registration .box.affiliateMenu .btn {
+    border-top: 1px solid #f6f6f6;
+    border-bottom: 1px solid #e8e8e8;
+}
+
+#registration .box.affiliateMenu .btn:last-child {
+    border-bottom: none;
+}
+
+#registration .box .btn span {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+#registration .box .btn span.icon {
+    width: 38px;
+    height: 28px;
+    margin-right: 10px;
+}
+
+#registration .box .btn span.icon.secure {
+    background: url("../img/icon_secure.png") no-repeat;
+}
+
+#registration .box .btn span.icon.bonus {
+    background: url("../img/icon_bonus-16FEA824144380A32A46A59D4002FD8F.png") no-repeat;
+}
+
+#registration .box .btn span.icon.mobile {
+    background: url("../img/icon_mobile-AD431F04E1A5A2957717AE28C05F06F0.png") no-repeat;
+}
+
+#registration .box .btn span.icon.support {
+    background: url("../img/icon_support-EF5C3061BDB8AE70929619868B24B830.png") no-repeat;
+}
+
+#registration .box.offBox .btn span.icon.support {
+    background: url("../img/icon_support_off.png") no-repeat;
+}
+
+#registration .box.affiliateMenu .btn span.icon {
+    width: 38px;
+    height: 20px;
+    margin-right: 10px;
+    background: url("../img/iconArrowRight-CEE1303C14545889CABBB8D205818BE6.png") no-repeat;
+}
+
+#registration .box.affiliateMenu .btn:hover span.icon {
+    width: 38px;
+    height: 20px;
+    margin-right: 10px;
+    background: url("../img/iconArrowRight-CEE1303C14545889CABBB8D205818BE6.png") no-repeat;
+    background-position: 0 -20px;
+}
+
+#registration .box.offBox {
+    color: #9a9a9a;
+}
+
+#registration .box .chatLink {
+    cursor: pointer;
+}
+
+#registration .box .chatLink:hover {
+    color: #de8600;
+}
+
+#registration .box.offBox .supportLink {
+    color: #9a9a9a;
+    cursor: pointer;
+    display: block;
+}
+
+#registration .box.offBox .supportLink:hover {
+    color: #de8600;
+}
+
+#registration .box .supportLink {
+    display: none;
+}
+
+#registration .box.offBox .chatLink {
+    display: none;
+}
+
+/* BEGIN statusMessage */
+
+#registration #statusMessage {
+    border: 1px solid #DE8600;
+    padding: 27px 35px;
+    margin-bottom: 12px;
+}
+
+#registration #statusMessage.show {
+    display: table;
+    border: 1px solid #DE8600;
+    padding: 27px 35px;
+    margin-bottom: 12px;
+}
+
+#registration #statusMessage .icon {
+    display: table-cell;
+    width: 54px;
+    height: 53px;
+    background: url("../img/icon_message_cross.png") left center no-repeat;
+}
+
+#registration #statusMessage .message {
+    padding-left: 25px;
+    display: table-cell;
+    color: #666;
+}
+
+#registration #statusMessage .message h4 {
+    font-size: 16px;
+    text-transform: uppercase;
+    color: #DE8600;
+    font-weight: bold;
+    margin-top: 0;
+    margin-bottom: 0.3em;
+}
+
+#registration #statusMessage .message p {
+    padding-bottom: 0;
+}
+
+/* END statusMessage */
+
+#registration .box h3 {
+    color: #DE8600;
+}
+
+#registration .box {
+    border: 1px solid #CECECE;
+    margin-bottom: 15px;
+}
+
+#registration .slider_name.top {
+    border-top: 1px solid #CECECE;
+    border-bottom: 1px solid #CECECE;
+    color: #666;
+    font-size: 15px;
+    background: none;
+    line-height: 30px;
+    cursor: default;
+}
+
+#ticket_body {
+    border-left: 1px solid #CECECE;
+    border-right: 1px solid #CECECE;
+    border-bottom: 1px solid #CECECE;
+}
+
+.but_60 {
+    width: 63px;
+    height: 19px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.but_60.t_on {
+    background: #9a9a9a;
+    color: white;
+}
+
+#ticket .event,
+#ticket .col,
+#ticket .event_head {
+    width: 211px;
+}
+
+.line_black {
+    background: #CECECE;
+}
+
+#ticket .col.bg_midgrey {
+    background: none;
+    font-size: 11px;
+    line-height: 17px;
+    padding-right: 3px;
+    padding-left: 3px;
+}
+
+#ticket .col.bg_midgrey .left {
+    color: #666;
+}
+
+#ticket .col.bg_midgrey .right {
+    color: #666;
+}
+
+#ticket .input {
+    font-size: 11px;
+    height: 16px;
+}
+
+.check .cursor img {
+    width: 15px;
+    height: 15px;
+}
+
+#ticket table {
+    font-size: 11px;
+    line-height: 14px;
+    border: 0;
+    text-align: left;
+    border-collapse: collapse;
+}
+
+#ticket .system {
+    width: 215px;
+}
+
+#ticket p {
+    font-size: 11px;
+    margin: 0 0 0 0;
+}
+
+#ticket .system p {
+    font-size: 10px;
+}
+
+.helpIcon {
+    width: 13px;
+}
+
+#ticket .bank {
+    width: 15px;
+    vertical-align: top;
+    padding: 2px 0 0 4px;
+}
+
+#ticket .bank .cursor {
+    padding-right: 4px;
+}
+
+#registration #editorForm .slider_name.top {
+    color: #DE8600;
+    font-weight: bold;
+}
+
+#ticket {
+    margin-bottom: 20px;
+}
+
+.footNote {
+    font-size: 13px;
+    line-height: 15px;
+    padding-bottom: 0;
+}
+
+.tab {
+    color: #666666;
+    display: block;
+    line-height: 32px;
+    padding: 0 28px;
+    white-space: nowrap;
+    width: 50%;
+    float: left;
+    text-align: center;
+    border: 1px solid #cecece;
+    cursor: pointer;
+}
+
+.tab:first-child {
+    border-right: none;
+}
+
+.tab.active {
+    color: #fff;
+}
+
+.ticket_button_flex {
+    width: 100%;
+}
+
+#addiction {
+    margin: 10px 0px;
+}
+
+#addiction .image,
+#addiction .text {
+    display: inline-block;
+    font-size: 10px;
+    margin-right: 5px;
+}
+
+#addiction .image img {
+    width: 28px;
+    height: 28px;
+}

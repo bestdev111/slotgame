@@ -1,0 +1,1432 @@
+.cont_body_gadget {
+	/*background: url(../img/conference/cont_body_gadget-A2010B9B5B608ABDF3542DB596AD97BE.gif) repeat-y;*/
+	background: url(../img/conference/smallconference_background-4CA92965A06B6686601141D7A093896A.gif);
+	overflow: hidden;
+	padding-left: 6px;
+	padding-right: 2px;
+	width: 556px;
+	height: 255px;
+	/*height: 400px;*/
+}
+
+.livebets_underlined {
+	height: 6px;
+	background-repeat: repeat-x;
+	/*margin-right: 6px;*/
+	overflow: hidden;
+}
+
+.livebets_head {
+	font-size: 16px;
+	line-height: 16px;
+	font-family: 'Roboto', Verdana, Arial, Helvetica, sans-serif;
+	padding: 10px 0 0 9px;
+}
+
+.loadingInfo {
+	text-align: center;
+	height: 225px;
+	width: 564px;
+	vertical-align: middle;
+}
+
+.loadingImg {
+	vertical-align: middle;
+} 
+
+.tooltip_lwk {
+	border: 1px solid #999999;
+	background-color: #ffffff;
+	padding-left: 5px;
+	padding-right: 5px;
+}
+
+div .moreLiveEvents {
+	text-align: right;
+	margin-top: 6px;
+}
+
+div .moreLiveEventsArrow {
+	width: 27px;
+}
+
+.c_but_base {
+	width: 40px;
+	height: 24px;
+	font-size: 11px;
+	text-align: center;
+	vertical-align: middle;
+	padding-bottom: 2px;
+	font-family: 'Roboto', Arial, Verdana, Helvetica, sans-serif;
+	border: 0;
+	background: none;
+	cursor: pointer;
+}
+
+.c_but_off {
+	cursor: default;
+	display: none;
+}
+
+/*nich gedruckt*/
+.c_but {
+	background: url(../img/conference/but-705395A5910F4DE9A897C68AB86BE28F.png) 50% 50% no-repeat transparent;
+}
+
+.c_but_paused {
+	background: url(../img/conference/but_paused-8353B8CE9714BCFABA7252C4F8371B31.png) 50% 50% no-repeat transparent;
+}
+
+/*nicht gedruckt, quote steigt hoch*/
+.c_but_up {
+	background: url(../img/conference/but_up-5E64687A85A56ACBDAE71956F79C1181.png) no-repeat 50% 50% transparent;
+}
+
+/*nicht gedruckt, quote geht runter*/
+.c_but_down {
+	background: url(../img/conference/but_down-E14C04CB9B36753C6DE0CC624B42FBBC.png) no-repeat 50% 50% transparent;
+}
+
+/*gedruckt*/
+.c_but_on {
+	background: url(../img/conference/but_on-48D113DF75048A9914A289BF782AFC37.png) no-repeat 50% 50% transparent;
+	color: #ffffff;
+}
+
+/*gedruckt, quote steigt hoch*/
+.c_but_on_up {
+	background: url(../img/conference/but_on_up-D79A505EA4A033F6B2A0229C10D3BD73.png) no-repeat 50% 50% transparent;
+	color: #ffffff;
+}
+
+/* gedruckt, quote geht runter*/
+.c_but_on_down {
+	background: url(../img/conference/but_on_down-8491947120628CF017D67EA3182233B6.png) no-repeat 50% 50% transparent;
+	color: #ffffff;
+}
+
+.c_but:hover, .c_but_up:hover, .c_but_down:hover {
+	color: #ef8107;
+}
+
+.c_but_on:hover, .c_but_on_up:hover, .c_but_on_down:hover {
+	color: #333333;
+}
+
+/*gesperrt, nicht gedruckt*/
+.c_but_paused {
+	color: #aaaaaa;
+	cursor: default;
+}
+
+.c_but_paused:hover {
+	font-weight: normal;
+}
+
+/*gesperrt, gedruckt*/
+.c_but_on_paused {
+	color: #444444;
+	cursor: default;
+	background: url(../img/conference/but_on_paused-E800931C29642C83899CCEB9CDE641D3.png) no-repeat 50% 50% transparent;
+	color: #ffffff;
+}
+
+.c_but_off {
+	cursor: default;
+}
+
+/* table */
+table .fixedLayout{
+ 	table-layout: fixed;
+}
+
+table .conferenceWidth {
+	width: 762px;
+}
+
+table .conference td{
+	vertical-align: middle;
+}
+
+table .headerRowEmpty {
+	line-height: 27px;
+	height: 27px;
+}
+
+table .headerRowEmpty td {
+	line-height: 27px;
+	height: 27px;
+}
+
+table .headerRowEmptyTall {
+	line-height: 40px;
+	height: 40px;
+}
+
+table .headerRowEmptyTall td {
+	line-height: 40px;
+	height: 40px;
+}
+
+table .headerRow {
+	line-height: 27px;
+	height: 27px;
+	text-align: center;
+	font-weight: bold;
+	background: url(../img/conference/img_th_bg-81A15715BDCE707671F6BF2BEC78DD3A.gif) #d6d6d6;
+}
+
+table .headerRow table {
+	width: 100%;
+}
+
+table .emptyCell {
+	line-height: 27px;
+	height: 27px;
+	/*genauso wie in resultCell*/
+	/*border-top: 1px solid #ffffff;*/
+}
+
+table .headerRowChoiceParams {
+	line-height: 27px;
+	height: 27px;
+	text-align: center;
+}
+
+table .headerRowCell {
+	width: 100%;
+}
+
+table .embeddedHeaderImage {
+	width: 37px;
+	text-align: center;
+	padding-bottom: 3px;
+	padding-left: 3px;
+	
+}
+
+table .embeddedHeaderText {
+	width: 100%;
+	text-align: center;
+}
+
+.eHISC {
+	width: 119px;
+	text-align: left;
+	padding-bottom: 3px;
+	padding-left: 3px;
+}
+
+.eHTSC {
+	text-align: left;
+	font-weight: bold;
+}
+
+table .imageMargin {
+	margin-top: -2px;
+}
+
+table .headerRow td div {
+	text-align: center;
+}
+
+table .timeCell {
+	text-align: center;
+	/*genauso wie in teamCell, betCell*/
+	/*border-top: 1px solid #ffffff;*/
+	width: 40px;
+	white-space: nowrap;
+	overflow: hidden;
+	/*damit laufende und nicht laufende Events die gleiche H�he haben*/
+	line-height: 27px;
+}
+
+table .timescale {
+    height: 3px;
+    margin: 20px 0 0 3px;
+    position: absolute;
+    width: 34px;
+    z-index: 2;
+    background-color: #558496;
+}
+
+table .timescaleimg {
+	background: url(../img/conference/p_white-320923438144B5D457EDCC7F16CF8974.gif);
+}
+
+table .timeCellRunning {
+	color: #ffffff;
+	background-color: #558496;
+}
+
+table .timeCellRunningEven {
+	color: #ffffff;
+	background-color: #6390a3;
+}
+
+table .timeCellNotRunning {
+	background-color: #ececec;
+}
+
+table .even .timeCellNotRunning {
+	background-color: #FFFFFF;
+}
+
+#box_lwk table .timeCellNotRunning {
+	background: transparent;
+	color: #333;
+}
+
+table .timeCellNotRunningEven {
+	background-color: #ffffff;
+	color: #000000;
+}
+
+table .hzwette {
+	background-color: #ef8107;
+	color: #ffffff;
+}
+
+table .borderRight {
+/* 	border-right: 2px solid #ffffff; */
+	/*border-right: 2px solid black;*/
+}
+
+#box_lwk table .borderRight {
+	border-right: 2px solid rgba(0, 0, 0, 0);
+}
+
+table .borderRightBlue {
+	border-right: 2px solid #fcfefc;
+	/*border-right: 2px solid black;*/
+}
+
+/*wo mannschaften und spieltand stehen*/
+table .teamCell {
+	width: 227px;
+	/*border-top: 1px solid #ffffff;*/
+	/*kein padding, sonst kommt eine spalte zwischen �berschriftstabellen*/
+	/*padding: 0 2px 0 2px;*/
+}
+
+table .betCell {
+	width: 120px;
+}
+
+table .specialBetCell {
+	/*f�r IE, um Sonderwette linksb�ndig zu machen*/
+	text-align: left;
+}
+
+/*mannschaftsname soll abgeschnitten werden, wenn nicht passt (overflow:hidden)*/
+table .teamName {
+	white-space: nowrap;
+	width: 101px;
+	padding: 0 3px;
+	text-align: left;
+	overflow: hidden;
+	cursor: default;
+}
+
+.teamNameWithRedCard {
+	float: left;
+	width: 81px;
+	overflow: hidden;
+}
+
+div .teamNamePadded {
+	width: 101px;
+}
+
+/*roteKarte wird vor dem Mannschaftsnamen angezeigt*/
+table .teamNameRedCard1 {
+	padding-left: 16px;
+	background-image: url(../img/conference/icon-redcard1-C7559DF9B8C1BFD7CF55206BD2030FA1.gif);
+	background-repeat: no-repeat;
+	background-position: 1px;
+	float: left;
+	color: #ffffff;
+}
+
+table .teamNameRedCard2 {
+	padding-left: 16px;
+	background-image: url(../img/conference/icon-redcard2-D9E84CC1EF299EC51FBAFC7348558F8E.gif);
+	background-repeat: no-repeat;
+	background-position: 1px;
+	float: left;
+	color: #ffffff;
+}
+
+table .teamNameRedCard3 {
+	padding-left: 16px;
+	background-image: url(../img/conference/icon-redcard3-16636E3B1B8E9A69A4AA2A3F4521325C.gif);
+	background-repeat: no-repeat;
+	background-position: 1px;
+	float: left;
+	color: #ffffff;
+}
+
+table .teamNameRedCard4 {
+	padding-left: 16px;
+	background-image: url(../img/conference/icon-redcard4-2DCCB29612BC154010EA888513C43548.gif);
+	background-repeat: no-repeat;
+	background-position:1px;
+	float: left;
+	color: #ffffff;
+}
+
+table .betName {
+	white-space: nowrap;
+	width: 300px;
+	text-align: left;
+	overflow: hidden;
+}
+
+table strong{
+
+}
+
+table .imageCell {
+	width: 28px; /*sport-Icon statt score*/
+	text-align: center;
+}
+
+/*damit score in gemerged zellen zentriert steht*/
+table .scoreCentered {
+ 	margin: 0px auto;
+}
+
+table .currentScoreCell{
+	font-weight: normal;
+	white-space: nowrap;
+	text-align: center;
+	overflow: hidden;
+}
+
+table .scoreCell{
+	white-space: nowrap;
+	width: 11px;
+	text-align: center;
+	overflow: hidden;
+}
+
+table .sportCell{
+	width: 21px;
+	text-align: center;
+}
+
+/*angewendet wenn score blinkt*/
+table .scoreInvisible {
+	visibility: hidden;
+}
+
+/*score-Styles braucht man um Spielstand anzuzeigen*/
+table .scoreCellLeft {
+	font-weight: bold;
+	white-space: nowrap;
+	/*margin: 0 0 0 4px;*/
+	margin: 0 0 0 0;
+	text-align: center;
+	overflow: hidden;
+	width: 11px;
+}
+
+table .scoreCellRight {
+	font-weight: bold;
+	white-space: nowrap;
+	width: 11px;
+	/*margin: 0 4px 0 0;*/
+	margin: 0 0 0 0;
+	text-align: center;
+	overflow: hidden;
+}
+
+table .scoreCell.small {
+	width: 3px;
+	padding: 0px;
+	margin: 0 1px;
+	font-weight: bold;
+}
+
+table .scoreCell.tall {
+	width: 17px;
+}
+
+table .conferenceRow {
+	/*sonst bewegt sich die Row wenn Quoten angelegt werden, weil table-layout:fixed wegen ie  entfernt wurde*/
+	height: 24px;
+ 	line-height: 24px;
+	text-align: center;
+/* 	background-color: #ececec; */
+	/*braucht man sowohl an tds als auch an trs, weil sonst in firefox zu dick erscheint/in ie gar nicht angezeigt*/
+	border-top: 1px solid #cccccc;
+	border-bottom: 1px solid #cccccc;
+	
+	color: #333333;
+	border-top: 1px solid #E3E3E3;
+	border-bottom: 1px solid #C8C8C8;
+	background: #D9D9D9;
+	background: -moz-linear-gradient(top, #D9D9D9 0%, #D0D0D0 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#D9D9D9), color-stop(100%,#D0D0D0));
+	background: -webkit-linear-gradient(top, #D9D9D9 0%,#D0D0D0 100%);
+	background: -o-linear-gradient(top, #D9D9D9 0%,#D0D0D0 100%);
+	background: -ms-linear-gradient(top, #D9D9D9 0%,#D0D0D0 100%);
+	background: linear-gradient(to bottom, #D9D9D9 0%,#D0D0D0 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d9d9d9', endColorstr='#d0d0d0',GradientType=0 );
+}
+	
+#box_lwk table .conferenceRow .timeCell {
+	color: white;
+}
+
+#box_lwk table .conferenceRow .timeCell.timeCellNotRunning .timeCell {
+	color: #333;
+}
+	
+.teaser.live table .conferenceRow {
+	background: #f3f3f3;
+	border-bottom: 1px solid #999999;
+}
+
+.teaser.live table .conferenceRow.even {
+	background: #e5e5e5;
+}
+
+
+/*alternierungsstyle*/
+table .conferenceRow.even {
+	background-color: #ffffff;
+}
+
+
+table .underlined {
+	border-bottom: solid 1px #aeaeae;
+}
+
+.ticker {
+	background: url(../img/warning_inline-0E75AA8868EFBEC064E3B19E910B0189.gif) 10px 7px no-repeat;
+	padding: 4px 4px 4px 19px; 
+	width: 731px; 
+	border: 1px solid #db0036; 
+	background-color: #fcd6e0;
+}
+
+table .resultCell {
+	text-align: center;
+	width: 40px;
+	overflow: hidden;
+	/*auch entsprechend in emptyCell �ndern*/
+	/*border-top: 1px solid #ffffff;*/
+}
+
+table .debugArea {
+	background-color: white;
+	/*font-size: 11pt;*/
+	color: black;
+}
+
+/* RESULT 
+
+beeinflusst die Weite des teamName DIV: 
+
+z.B. 0:0 = result2 (default) | 10:1 = result3 |11:13 = result4 | 120:19 = result5 | 109:101 = reslut6 
+
+*/
+
+table .scoreCellResult2 {
+	width: 17px;
+}
+
+table .teamNameResult2 {
+	width: 95px;
+}
+
+table .teamNameResult2WithRedCard {
+	float: left; /*f�r ie*/
+	overflow: hidden;
+	width: 73px;
+}
+
+table .scoreCellResult3 {
+	width: 23px;
+}
+
+table .teamNameResult3 {
+	width: 89px;
+}
+
+table .teamNameResult3WithRedCard {
+	float: left; /*f�r ie*/
+	overflow: hidden;
+	width: 69px;
+}
+
+.team {
+	line-height: 17px;
+}
+
+.gwt-Label {
+	line-height: 27px;
+	text-align: center;
+	white-space: nowrap;
+}
+
+.lwk_but_label {
+	line-height: 32px;
+}
+
+.alignBottom {
+	vertical-align: bottom;
+}
+
+.penalty {
+	color: #558496;
+}
+
+.penaltySpecialBet {
+	float: left;
+	line-height: 27px;
+	padding: 0 6px;
+	overflow: hidden;
+	white-space: nowrap;
+}
+
+.penaltyOverwritingQuoteText {
+	height: 50px; /*nicht vergr��ern*/
+	padding-top: 2px;
+	padding-left: 5px;
+	overflow: hidden;
+}
+
+.overwritingQuoteText {
+	padding-left: 5px;
+	overflow: hidden;
+	width: 229px;
+	text-align: center;
+}
+
+.additionalPenaltyHeader {
+	color: #558496;
+}
+
+/*neue smallconference*/
+.box_lwk {
+/* 	background: url(../img/conference/lwk_box_bg-EBF9B933864FEE15FFF27524E5FC5DFC.gif) no-repeat 0 0 transparent; */
+/* 	background: white; */
+	background: url(../img/button-dark-pattern-21C02025C30C5A009DA6E02106F50125.png) repeat;
+	border: 1px solid #999999;
+	line-height: 18px;
+	margin: 0 10px 0 0;
+	padding: 0;
+}
+
+.box_lwk > div:first-child > table:first-child {
+	background: white;
+}
+
+.box_lwk .on {
+/* 	background: url(../img/conference/lwk_but_on-D0053708B0C82D1D4AB85C2A1B10FFE8.gif) no-repeat center top transparent; */
+	background: #ef8107;
+	cursor: auto;
+	color: white;
+}
+.box_lwk .fixedLayout {
+	color: white;
+}
+
+.box_lwk .this_button.flex_button_grey_bg {
+	color: white;
+	background: url(../img/arrow_white-E408B9F4209A9246067D83C48CB6342B.png) no-repeat center left;
+	padding-left: 3px;
+	border: none;
+}
+
+.box_lwk .this_button {
+	margin-top: 5px;
+	margin-right: 5px;
+}
+
+#comp-smallconference #box_lwk.box_lwk > div > table:first-child tr:first-child {
+	background: url(../img/3hborder_orange-E15AB9C97BF66D82FF4B27DDC93E2AC2.gif) bottom center repeat-x;
+}
+
+td.lwk_but {
+	height: 32px;
+	line-height: 32px;
+	border-left: 1px solid #999999;
+	padding: 0 12px;
+	white-space: nowrap;
+	cursor: pointer;
+}
+
+.align_c {
+	text-align: center;
+}
+
+.space_6 {
+
+}
+
+.box_lwk_foot {
+/* 	background: url(../img/conference/lwk_box_foot_bg-5E69B8ADF1712A1589B5E64BC65B62E0.gif) no-repeat 0 0 transparent; */
+/* 	height: 8px; */
+}
+
+.blink_1 {
+	background: url(../img/blink_1-30C2E1C63D7D641671C3514E5C5140C1.gif) repeat 0 0 transparent;
+	text-align: center;
+	line-height: 27px;
+}
+
+.blink_2 {
+	background: url(../img/blink_2-46724965D84C866B1F53327BBA815AED.gif) repeat 0 0 transparent;
+	text-align: center;
+	line-height: 27px;
+}
+
+.pipeBackground1 {
+	background: url(../img/conference/pipe_1-EF9AEC20B16F98FA8F59C02FE0588B86.gif) no-repeat 0% 0% transparent;
+	line-height: 27px;
+	width: 40px; /*f�r ie8*/
+}
+
+.pipeBackground2 {
+	background: url(../img/conference/pipe_2-19095272A7C8A65420844CA30BEE4CF1.gif) no-repeat 0% 0% transparent;
+	line-height: 27px;
+	width: 40px; /*f�r ie8*/
+}
+
+/*neue Styles: benutzen Vererbung f�r die Alternierung von Zeit-Zelle*/
+.blinking {
+	background: url(../img/blink_1-30C2E1C63D7D641671C3514E5C5140C1.gif) repeat 0 0 transparent;
+	text-align: center;
+	line-height: 27px;
+}
+
+.even .blinking {
+	background: url(../img/blink_2-46724965D84C866B1F53327BBA815AED.gif) repeat 0 0 transparent;
+	text-align: center;
+	line-height: 27px;
+}
+
+.pipe_trans {
+	background: url(../img/conference/pipe_trans-C08C7FD3B57BFB5CEA0532927F35ABDF.gif) no-repeat;
+}
+
+.pad_r_3 {
+    padding-right: 3px;
+}
+
+.liveButton {
+	padding-left: 4px;
+}
+
+table .conferenceRow.comment td.c_pad {
+	padding-top: 24px;
+}
+
+table.fixedLayout .c_pad img {
+	margin-left: 8px;
+	margin-right: 8px;
+}
+
+.livecomment {
+	position: absolute;
+	z-index: 10;
+	height: 24px;
+	background: url(../img/warning_2-76F64E7FE715B7AC4472E389AD7EDCB5.png) no-repeat 52px 5px #2B7394;
+	margin-top: -27px;
+	color: white;
+	text-align: left;
+}
+
+.livecomment div:first-child {
+	width: 480px;
+	padding-left: 84px;
+	white-space: nowrap;
+	overflow: hidden;
+}
+
+.livecomment .pointer {
+	width: 33px;
+	height: 13px;
+	background: url(../img/live/livecomment-C8F2F9819BAB07B86AD543A181D9F15B.png) no-repeat;
+	margin-left: 54px;
+
+}
+.select-style {
+    border: 1px solid #ccc;
+    width: 100%;
+    border-radius: 3px;
+    overflow: hidden;
+        font-family: 'Roboto', Arial, Verdana, Helvetica, sans-serif;
+}
+
+.select-style select {
+    padding: 5px 8px;
+    width: 130%;
+    border: none;
+    box-shadow: none;
+    background: transparent;
+    background-image: none;
+    -webkit-appearance: none;
+}
+
+.select-style select:focus {
+    outline: none;
+}
+.nav_box.dark .nav_99 {
+    width: 170px;
+    border-left: 1px solid #cfcfcf;
+    border-right: 1px solid #cfcfcf;
+    background: #fff;
+    padding-left: 5px;
+    border-bottom: 1px solid #cfcfcf;
+}
+
+.nav_box.dark .nav_99 span.num_r {
+    background: url(../img/nav/navrest.png) no-repeat;
+    min-width: 25px;
+    text-align: center;
+}
+
+
+
+.c_but_on:hover
+{
+    background: url(../img/conference/but_on-48D113DF75048A9914A289BF782AFC37.png) no-repeat 50% 50% transparent !important;
+}
+
+
+.sp_bets_cell:hover
+{
+background: #ebebeb;
+}
+
+
+.new_filtr_item2
+{
+
+    padding: 0 1px 0 1px;
+}
+
+.ipe-InPlayScoreboardContainer_BG1 {
+    background-image: url(../img/futbolspod.jpg);
+}
+
+
+.ipe-InPlayScoreboardContainer_BG {
+    display: table;
+    background-position: 50%;
+    background-repeat: no-repeat;
+    height: 149px;
+    width: 100%;
+    margin: 0 auto;
+    position: relative;
+    z-index: 10;
+}
+.ipe-InPlayScoreboardContainer_ScoreboardLayout {
+    display: table-cell;
+    vertical-align: middle;
+    height: 100%;
+    z-index: 20;
+}
+.ipe-EventIcon {
+    width: 90px;
+    height: 90px;
+    position: absolute;
+    left: 50%;
+    top: 29px;
+    -webkit-transform: translateX(-200%);
+    -ms-transform: translateX(-200%);
+    transform: translateX(-200%);
+    background-color: #bbb;
+    color: #333;
+    padding: 5px;
+    border-radius: 2px;
+    text-align: center;
+    overflow: hidden;
+    z-index: 20;
+    opacity: 0;
+}
+
+.ipe-SoccerHeaderLayout {
+    font-size: 0;
+    line-height: 0;
+    width: 450px;
+    z-index: 30;
+    background-color: #404040;
+    position: relative;
+    margin-right: auto;
+    margin-left: auto;
+}
+.ipe-InPlayScoreboardContainer_BG .ipe-SoccerHeaderLayout {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%);
+}
+.ipe-EventIcon_Image {
+    width: 100%;
+    height: 50px;
+    display: table;
+    background-repeat: no-repeat;
+    background-position: 50%;
+}
+.ipe-EventIcon_Title {
+    width: 100%;
+    height: 30px;
+    display: table;
+}
+.ipe-EventIcon_Text {
+    display: table-cell;
+    line-height: 13px;
+    font-size: 13px;
+    vertical-align: middle;
+    overflow: hidden;
+}
+
+.ipe-SoccerHeaderLayout_ExtraData {
+    cursor: default;
+    position: absolute;
+    padding: 0 9px;
+    background-color: #333;
+    font-size: 11px;
+    color: #a7a7a7;
+    line-height: 20px;
+}
+.ipe-SoccerGridContainer {
+    display: table;
+    table-layout: fixed;
+    background-color: #404040;
+    border: 1px solid #303030;
+}
+.ipe-SoccerGridContainer_TeamKitColumn {
+    display: table-cell;
+    vertical-align: top;
+}
+.ipe-SoccerGridContainer_TeamKitCell {
+    font-size: 0;
+    line-height: 0;
+    border-top: 1px solid transparent;
+    border-bottom: 1px solid transparent;
+    color: #999;
+    height: 20px;
+    text-align: center;
+    padding: 9px 10px 0;
+    width: 22px;
+    background-color: #333;
+}
+
+.ipe-SoccerGridContainer_TeamKitCell+.ipe-SoccerGridContainer_TeamKitCell {
+    height: 33px;
+    background-color: #404040;
+    min-height: 34px;
+}
+.ipe-SoccerGridContainer_TeamKitCell+.ipe-SoccerGridContainer_TeamKitCell+.ipe-SoccerGridContainer_TeamKitCell {
+    border-top-color: #545454;
+    padding-top: 10px;
+}
+.ipe-SoccerGridContainer_KitElement {
+    width: 12px;
+    height: 14px;
+}
+.ipe-SoccerGridColumn {
+    display: table-cell;
+    vertical-align: top;
+}
+.ipe-SoccerGridColumn_TextHeader {
+    border-top: 1px solid transparent;
+    border-bottom: 1px solid transparent;
+    min-height: 20px;
+    background-color: #333;
+}
+.ipe-SoccerGridColumn_TeamName {
+    display: table;
+    table-layout: fixed;
+    width: 100%;
+    cursor: default;
+    border-top: 1px solid transparent;
+    border-bottom: 1px solid transparent;
+    height: 34px;
+}
+.ipe-SoccerGridCell {
+    cursor: default;
+    border-top: 1px solid transparent;
+    line-height: 32px;
+    font-size: 13px;
+    color: #999;
+    text-align: center;
+    padding-bottom: 1px;
+}
+.ipe-SoccerGridColumn_TeamName .ipe-SoccerGridCell {
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    text-align: left;
+    font-size: 14px;
+    padding: 0 10px;
+    color: #c7c7c7;
+    line-height: 30px;
+}
+.ipe-SoccerGridColumn_TeamName+.ipe-SoccerGridColumn_TeamName {
+    border-top-color: #545454;
+    padding-top: 1px;
+}
+.ipe-SoccerGridColumn_ICorner, .ipe-SoccerGridColumn_IFreeKick, .ipe-SoccerGridColumn_IGoalKick, .ipe-SoccerGridColumn_IPenalty, .ipe-SoccerGridColumn_IRedCard, .ipe-SoccerGridColumn_ISubstitution, .ipe-SoccerGridColumn_IThrowIn, .ipe-SoccerGridColumn_IYellowCard {
+    width: 30px;
+}
+
+.ipe-SoccerGridColumn_ICorner>.ipe-SoccerGridColumn_TextHeader, .ipe-SoccerGridColumn_IFreeKick>.ipe-SoccerGridColumn_TextHeader, .ipe-SoccerGridColumn_IGoal>.ipe-SoccerGridColumn_TextHeader, .ipe-SoccerGridColumn_IGoalKick>.ipe-SoccerGridColumn_TextHeader, .ipe-SoccerGridColumn_IPenalty>.ipe-SoccerGridColumn_TextHeader, .ipe-SoccerGridColumn_IRedCard>.ipe-SoccerGridColumn_TextHeader, .ipe-SoccerGridColumn_ISubstitution>.ipe-SoccerGridColumn_TextHeader, .ipe-SoccerGridColumn_IThrowIn>.ipe-SoccerGridColumn_TextHeader, .ipe-SoccerGridColumn_IYellowCard>.ipe-SoccerGridColumn_TextHeader {
+    background-image: url(../img/imgssdv.png);
+    background-repeat: no-repeat;
+    background-size: 17px;
+}
+
+.ipe-SoccerGridColumn_ICorner .ipe-SoccerGridColumn_TextHeader {
+    background-position: 7px 3px;
+}
+
+.ipe-SoccerGridColumn_IYellowCard .ipe-SoccerGridColumn_TextHeader {
+    background-position: 7px -27px;
+}
+.ipe-SoccerGridColumn_IRedCard .ipe-SoccerGridColumn_TextHeader {
+    background-position: 7px -57px;
+}
+.ipe-SoccerGridColumn_IThrowIn .ipe-SoccerGridColumn_TextHeader {
+    background-position: 8px -87px;
+}
+.Hidden {
+    display: none!important;
+}
+.ipe-SoccerGridColumn_IPenalty .ipe-SoccerGridColumn_TextHeader {
+    background-position: 6px -206px;
+}
+.ipe-SoccerGridColumn_IGoal .ipe-SoccerGridColumn_TextHeader {
+    background-position: 8px -236px;
+}
+.ipe-SoccerGridColumn_IGoal {
+    width: 35px;
+}
+.ipe-SoccerGridColumn_IGoal .ipe-SoccerGridCell {
+    color: #ffdf1b;
+}
+.ipe-InPlayScoreboardContainer_BG .livestatsradar {
+    position: relative;
+    display: none;
+    cursor: pointer;
+    float: right;
+    margin-right: 5px;
+    background-position: left bottom;
+    background-repeat: no-repeat;
+    height: 24px;
+    width: 24px;
+    z-index: 9999;
+    background-image: url(/resources/themes/v1/images/livebet/changescoreboard.png);
+}
+
+
+
+.radarstatsds {
+    background-image: url(/resources/themes/common/icons/16/changesc2.png) !important;
+}
+
+
+
+.ipe-InPlayScoreboardContainer_BG18 {
+        background-image: url(../img/basketbgsif.jpg);
+}
+
+.ipe-ScoreGridCell {
+    cursor: default;
+    border-top: 1px solid transparent;
+    border-bottom: 1px solid transparent;
+    line-height: 32px;
+    font-size: 13px;
+    color: #ddd;
+    min-height: 20px;
+    background-color: #333;
+    text-align: center;
+}
+
+.ipe-basket{
+    color: #a7a7a7;
+    font-size: 12px;
+    line-height: 18px;
+    text-align: center;
+}
+.ipe-ScoreGridColumn_Width30 {
+    text-align: center;
+    width: 30px;
+}
+
+.basketpid
+{
+background: #676666;
+}
+
+.live-selection-column {
+    display: table;
+    /* height: 100px; */
+    margin: 0;
+    padding: 5px;
+}
+.dropdown {
+    position: relative;
+}
+.soundcom a, .soundcom span {
+    background: url(../img/sounds.png) no-repeat top left !important;
+    float: left;
+    width: 16px;
+    height: 14px;
+    margin: 2px 3px 0px 0px;
+    display: inline-block;
+}
+
+.soundcom .soundon, .soundcom .sound1, .soundcom .sound2 {
+    background-position: -48px 0px !important;
+}
+.dropdown-menu {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    z-index: 1000;
+    display: none;
+    float: left;
+    min-width: 160px;
+    padding: 5px 0;
+    margin: 2px 0 0;
+    font-size: 14px;
+    text-align: left;
+    list-style: none;
+    background-color: #fff;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box;
+    border: 1px solid #ccc;
+    border: 1px solid rgba(0,0,0,.15);
+    border-radius: 4px;
+    -webkit-box-shadow: 0 6px 12px rgba(0,0,0,.175);
+    box-shadow: 0 6px 12px rgba(0,0,0,.175);
+}
+.pull-left {
+    float: left!important;
+}
+.live-selection-column ul {
+    list-style-type: none;
+    display: table-row;
+    margin: 0;
+    padding: 0;
+}
+.pull-left {
+    float: left;
+}
+.dropdown-menu {
+    margin: 0px 0 0 0 !important;
+    background: #126f8e;
+    border: 1px solid #083e50;
+    border-radius: 6px;
+    -webkit-box-shadow: 0 6px 12px rgb(99, 176, 202);
+    box-shadow: 0 6px 12px rgb(59, 135, 160);
+    width: auto;
+    min-width: auto;
+}
+.live-selection-column ul li {
+    float: left;
+    width: 100%;
+}
+.dropdown-menu > li > a {
+    display: block;
+    /* padding: 10px 20px; */
+    padding: 0;
+    padding-right: 25px;
+    padding-left: 5px;
+    clear: both;
+    font-weight: normal;
+    line-height: 1.42857143;
+    color: #ffffff;
+    white-space: nowrap;
+    position: relative;
+}
+.live-selection-column ul li a {
+    /* font-size: 12px; */
+    font-size: 12px;
+    color: #999999;
+    text-decoration: none;
+    transition: all .1s ease-in;
+    -o-transition: all .1s ease-in;
+    -moz-transition: all .1s ease-in;
+    -webkit-transition: all .1s ease-in;
+    line-height: 1.2;
+    text-transform: uppercase;
+    /* border-right: 1px solid rgba(255,255,255,0.1); */
+    display: block;
+}
+
+.dropdown-menu li
+{
+
+float: left;
+    padding: 0;
+    border-bottom: 1px dotted #FFF;
+    width: 100%;
+}
+.dropdown-menu li:hover
+{
+    background: #b16511;
+}
+
+
+
+
+
+
+
+
+.soundcom a, .soundcom span {
+    background: url(../img/sounds.png) no-repeat top left !important;
+    float: left;
+    width: 16px;
+    height: 14px;
+    margin: 2px 3px 0px 0px;
+    display: inline-block;
+}
+
+
+.dropdown-menu li a
+{
+    color: #ffffff !important;
+    line-height: 18px;
+    padding: 0 !important;
+    font-size: 14px !important;
+    cursor: pointer;
+}
+
+div.errormsg, div.infomsg {
+    margin: 0.5em 0 1.3em 0;
+    border: 1px solid;
+    background-repeat: no-repeat;
+    background-position: 10px 50%;
+    padding: 10px 10px 10px 25px;
+    text-align: left;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    -moz-box-shadow: 0 1px 1px #fff inset;
+    -webkit-box-shadow: 0 1px 1px #fff inset;
+    box-shadow: 0 1px 1px #fff inset;
+}
+div.infomsg {
+    color: #000000;
+    background-color: #ebf8a4;
+}
+div.infomsg {
+    border-color: #a2d246;
+    background-image: url(../img/s_success.png);
+    background-repeat: no-repeat;
+    background-position: 5px 50%;
+}
+
+.soundcom .soundon, .soundcom .sound1, .soundcom .sound2 {
+    background-position: -48px 0px !important;
+}
+.soundcom .soundon, .soundcom .sound1, .soundcom .sound2 {
+    background-position: -48px 0px !important;
+}
+
+.soundcom .sound4 {
+    background-position: -73px 0px !important;
+}
+
+
+.soundcom .sound5 {
+    background-position: -26px 0px !important;
+}
+
+.bettable {
+    width: 99%;
+    margin-top: 2px;
+    margin-bottom: 10px;
+    border-bottom: 1px solid #47969D;
+    border-left: 1px solid #47969D;
+}
+.bettable tr.ligheader {
+    width: 100%;
+    font-weight: bold;
+    height: 30px!important;
+    line-height: 30px;
+    color: white;
+    background: #333 url(/resources/themes/v1/images/submenubg.png) repeat-x;
+}
+.bettable td {
+    font-weight: bold;
+    width: auto;
+    border-right: 1px solid #47969D;
+}
+.bettable .matchrow {
+    width: 100%;
+    height: 27px;
+    background: url(/resources/themes/v1/images/rowbg.png) repeat scroll 0% 0% transparent;
+    line-height: 27px;
+    color: #00647C;
+}
+
+.bettable tr {
+    margin: 0px;
+    padding: 0px;
+}
+.bettable td {
+    font-weight: bold;
+    width: auto;    text-align: center;
+    border-right: 1px solid #47969D;
+}
+.bettable .team {
+    width: 225px;
+    text-align: left;
+}
+.bettable .team div {
+    padding-left: 2px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    text-indent: 1px;
+    width: 220px;
+}
+.zipagin-light a
+{
+    display: block;
+    float: left;
+    padding: 0px 8px 0px 7px;
+    background: #ef8107;
+    height: 21px;
+    margin-top: 6px;
+    font-size: 14px;
+    margin-right: 2px;
+}
+
+.zipagin-light span {
+    display: block;
+    float: left;
+    padding: 0px 8px 0px 7px;
+    background: #9a9a9a;
+    height: 21px;
+    margin-top: 6px;
+    font-size: 14px;
+    margin-right: 2px;
+}
+table.tablesorter {
+    border: solid #ccc 1px;
+    -moz-border-radius: 6px;
+    -webkit-border-radius: 6px;
+    border-radius: 6px;
+    -webkit-box-shadow: 0 1px 1px #ccc;
+    -moz-box-shadow: 0 1px 1px #ccc;
+    box-shadow: 0 1px 1px #ccc;
+}
+
+table.tablesorter td, table.tablesorter th {
+    border-left: 1px solid #ccc;
+    border-top: 1px solid #ccc;
+    padding: 10px;
+background: #f1f1f1;
+}
+
+table.tablesorter th {
+    text-align: center;
+}
+
+
+table.tablesorter th {background-color: #f74835;background-image: -webkit-gradient(linear,left top,left bottom,from(#f74835),to(#f74835));background-image: -webkit-linear-gradient(top,#f74835,#f74835);-webkit-box-shadow: 0 1px 0 rgb(247, 72, 53) inset;-moz-box-shadow: 0 1px 0 rgba(255,255,255,.8) inset;box-shadow: 0 1px 0 rgb(247, 72, 53) inset;border-top: none;text-shadow: 0 1px 0 rgb(0, 0, 0);color: #FFF;}
+
+
+
+table.tablesorter tfoot th {
+    background-color: #dce9f9;
+    background-image: -webkit-gradient(linear,left top,left bottom,from(#ebf3fc),to(#dce9f9));
+    background-image: -webkit-linear-gradient(top,#ebf3fc,#dce9f9);
+    background-image: -moz-linear-gradient(top,#ebf3fc,#dce9f9);
+    background-image: -ms-linear-gradient(top,#ebf3fc,#dce9f9);
+    background-image: -o-linear-gradient(top,#ebf3fc,#dce9f9);
+    background-image: linear-gradient(top,#ebf3fc,#dce9f9);
+    -webkit-box-shadow: 0 1px 0 rgba(255,255,255,.8) inset;
+    -moz-box-shadow: 0 1px 0 rgba(255,255,255,.8) inset;
+    box-shadow: 0 1px 0 rgba(255,255,255,.8) inset;
+    border-top: none;
+    text-shadow: 0 1px 0 rgba(255,255,255,.5);    color: #000;
+}
+table.tablesorter td:first-child, table.tablesorter th:first-child {
+    border-left: none;
+}
+
+table.tablesorter th:first-child {
+    -moz-border-radius: 6px 0 0 0;
+    -webkit-border-radius: 6px 0 0 0;
+    border-radius: 6px 0 0 0;
+}
+.itext-3 {
+    color: black!important;
+    font-weight: bold;
+}
+table.tablesorter td, table.tablesorter th {
+    border-left: 1px solid #ccc;
+    border-top: 1px solid #ccc;
+    padding: 10px;
+}
+table.tablesorter td:first-child, table.tablesorter th:first-child {
+    border-left: none;
+}
+table.tablesorter tbody tr:nth-child(2n+1) td {
+    background-color: #F0F0F6;
+}
+
+.itext-1 {
+    color: green!important;
+    font-weight: bold;
+}
+
+.itext-4 {
+    color: blue!important;
+    font-weight: bold;
+}
+
+.itext-2 {
+    color: red!important;
+    font-weight: bold;
+}
+
+.activemnuitems
+{
+color: #ef8107;
+}
+
+.z-right-container
+{
+
+margin-bottom: 40px;
+
+
+}
+
+.filterTable{
+    background: #ffffff;
+    padding: 8px;
+    display: block;
+    border: 1px solid #f74835;
+    border-radius: 7px;
+	width: 741px;
+    margin-bottom: 4px;
+
+}
+
+.mbs1,.mbs2,.mbs3,.mbs4,.mbs5{    display: inline-block;
+    width: 20px;
+    line-height: 17px;
+    height: 16px;
+    text-align: center;
+    border-radius: 3px;
+    border: 1px #000 solid;
+    color: #fff;
+    font-family: Arial,sans-serif;
+    font-weight: bold;
+    margin-top: 5px;}.mbs1{background-color:#d00000;border-color:#9d0000}.mbs2{background-color:#ff7800;border-color:#cc6000}.mbs3{background-color:#438b00;border-color:#2a5800}.mbs4{background-color:#0d5b9f;border-color:#094070}.mbs5{background-color:#ff5c2c;border-color:#4a1405}

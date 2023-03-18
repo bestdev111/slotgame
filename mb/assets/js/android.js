@@ -1,0 +1,3 @@
+function showAndroidMessage(){
+    return true;
+}

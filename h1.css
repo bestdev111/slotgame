@@ -1,0 +1,80 @@
+
+.tablolink {
+	display:inline-block;
+	padding:5px 10px 5px;
+	color:#222;
+	font-size:12px;
+	font-weight:bold;
+	text-decoration:none;
+	background-color:#ddd;
+	border-radius:2px;
+}
+.redlink {
+	display:inline-block;
+	padding:5px 10px 5px;
+	color:#FFF;
+	font-size:12px;
+	font-weight:bold;
+	text-decoration:none;
+	background-color:#BC2121;
+	border-radius:2px;
+}
+.redlink2 {
+	display:inline-block;
+	padding:5px 10px 5px;
+	color:#FFF;
+	font-size:10px;
+	font-weight:bold;
+	text-decoration:none;
+	background-color:#BC2121;
+	border-radius:2px;
+}
+.orangelink {
+	display:inline-block;
+	padding:5px 10px 5px;
+	color:#FFF;
+	font-size:12px;
+	font-weight:bold;
+	text-decoration:none;
+	background-color:#c98e11;
+	border-radius:2px;
+}
+.greenlink {
+	display:inline-block;
+	padding:5px 10px 5px;
+	color:#FFF;
+	font-size:12px;
+	font-weight:bold;
+	text-decoration:none;
+	background-color:#14892c;
+	border-radius:2px;
+}
+.redlink:hover, .greenlink:hover, .tablolink:hover {
+	color:#fff;
+	background-color:#222;
+	transition:250ms all;
+	box-shadow:0px 0px 5px #000 inset;
+}
+span.krl_tablo {
+	display:inherit;
+	color:#555;
+	font-size:11px;
+}
+b.overoran {
+	background-color: #BC2121;
+	padding: 3px 5px 3px;
+	color:#FFF;
+	position: relative;
+}
+b.overoran span {
+	position: absolute;
+	background-color: #BC2121;
+	font-weight: normal;
+	font-size:10px;
+	padding: 2px 5px;
+	top:-15px;
+	right:0px;
+	width: 120px;
+	text-align: right;
+
+}

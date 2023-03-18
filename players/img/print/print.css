@@ -1,0 +1,94 @@
+body {
+	font-family:Verdana;
+	font-size:10px;
+	color:#000;
+	size:landscape;
+	margin:1mm;
+	-webkit-print-color-adjust:exact;
+}
+@page {
+    size: auto;   /* auto is the current printer page size */
+    margin: 1mm;  /* this affects the margin in the printer settings */
+}
+.printalan {
+	width:270px;
+	border:1px solid #111;
+}
+.printbaslik {
+	font-size:18px;
+	font-weight:bold;
+	padding:2px 0px 2px;
+	text-align:center;
+	border-bottom:1px solid #111;
+}
+.printtarih {
+	padding:2px;
+	text-align:center;
+	border-bottom:1px solid #111;
+}
+.kuponline {
+	padding:1px 5px 1px;
+	font-size:9px;
+	border-bottom:1px solid #222;
+}
+.buyuk {
+	font-size:13px;
+	padding:13px 5px 13px;
+}
+.clear {
+	clear:both;
+}
+.mac_tanim {
+}
+.mac_tanim span {
+	float:right;
+	font-weight:normal;
+}
+.mac_tanim font {
+	display:inherit;
+}
+.oranlar {
+	padding:3px 10px 3px;
+	border-bottom:1px solid #111;
+	font-size:13px;
+	font-weight:bold;
+}
+.oranlar span {
+	float:left;
+}
+.oranlar font {
+	float:right;
+}
+.oranlar strong {
+	float:right;
+	font-size:12px;
+}
+.a4alan {
+	width:100%;
+	border:1px solid #000;
+	display:table;
+	border-collapse:collapse;border-spacing:0;
+	font-size:11px;
+	font-family:Arial;
+}
+.a4alan ul {
+	display:table-row;
+	margin:0px;
+	padding:0px;
+}
+.a4alan ul li {
+	display:table-cell;
+	list-style:none;
+	padding:2px 5px 2px;
+	border:1px solid #000;
+	font-weight:bold;
+}
+.a4alan .br {
+	background:#f9f9f9;
+}
+.a4alan .kupl {
+	font-weight:normal;
+}
+.oranbilgileri {
+	font-weight:normal;
+}

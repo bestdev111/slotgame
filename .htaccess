@@ -1,0 +1,51 @@
+RewriteEngine On
+
+RewriteRule ^login$ login.php [L]
+RewriteRule ^canli-tv$ canlitv.php [L]
+RewriteRule ^livecasino$ livecasino.php [L]
+RewriteRule ^livetv$ canlitv.php [L]
+RewriteRule ^rulet$ rulet.php [L]
+RewriteRule ^slots$ slots.php [L]
+RewriteRule ^register$ register.php [L]
+RewriteRule ^promotions$ promotions.php [L]
+RewriteRule ^rulets$ rulets.php [L]
+RewriteRule ^ruletss$ ruletss.php [L]
+RewriteRule ^sanal-spor$ sanal_spor.php [L]
+RewriteRule ^spor-bahisleri$ /index.php [L]
+RewriteRule ^canli-bahis$ canlibahis.php [L]
+RewriteRule ^canli-bahis-2$ canlibahis_basketbol.php [L]
+RewriteRule ^canli-bahis-3$ canlibahis_tenis.php [L]
+RewriteRule ^canli-bahis-4$ canlibahis_voleybol.php [L]
+RewriteRule ^canli-bahis-5$ canlibahis_buzhokeyi.php [L]
+RewriteRule ^List$ yonetim.php [L]
+RewriteRule ^TicketList$ kuponlarim_ozel.php [L]
+RewriteRule ^statement$ statement.php [L]
+RewriteRule ^yardim$ yardim.php [L]
+RewriteRule ^bahis-sozlugu$ bahissozlugu.php [L]
+RewriteRule ^keyboardcodes$ keyboardcodes.php [L]
+RewriteRule ^novomatic$ novomatic.php [L]
+RewriteRule ^egt$ egt.php [L]
+RewriteRule ^amatic$ amatic.php [L]
+RewriteRule ^pragmatic$ pragmatic.php [L]
+RewriteRule ^playtech$ playtech.php [L]
+RewriteRule ^gamomat$ gamomat.php [L]
+RewriteRule ^netent$ netent.php [L]
+RewriteRule ^casinotechnology$ casinotechnology.php [L]
+RewriteRule ^skywind$ skywind.php [L]
+RewriteRule ^kagaming$ kagaming.php [L]
+RewriteRule ^isoftbet$ isoftbet.php [L]
+RewriteRule ^aristocrat$ aristocrat.php [L]
+RewriteRule ^wazdan$ wazdan.php [L]
+RewriteRule ^assets/betradar/get$ assets/betradar/get.php [L]
+
+php_value short_open_tag 1
+
+RewriteCond %{HTTP_HOST} ^jackpotmatic\.store$
+RewriteRule ^/?$ "https\:\/\/jackpotmatic.store\/" [R=301,L]
+
+# php -- BEGIN cPanel-generated handler, do not edit
+# Set the “ea-php72” package as the default “PHP” programming language.
+<IfModule mime_module>
+  AddHandler application/x-httpd-ea-php72___lsphp .php .php7 .phtml
+</IfModule>
+# php -- END cPanel-generated handler, do not edit

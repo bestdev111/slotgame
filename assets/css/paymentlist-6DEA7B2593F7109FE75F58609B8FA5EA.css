@@ -1,0 +1,1972 @@
+
+#registration #foot hr {
+	border: none;
+	border-bottom: 1px dotted #cdcdcd;
+	margin: 15px 0;
+}
+
+#registration #foot ul#paymentList {
+	padding: 0;
+}
+
+#foot ul#paymentList li {
+	display: block;
+	float: left;
+    height: 34px;
+    overflow: hidden;
+}
+
+#foot ul#paymentList li a {
+	display: block;
+	float: left;
+	height: 24px;
+	margin-right: 20px;
+	margin-bottom: 10px;
+	overflow: hidden;
+	color: transparent;
+}
+
+#casino .container.casino #foot,
+#lpage3.lpage3_dark #foot {
+	background: #24262e;
+	border-top: 1px solid #000000;
+	color: white;
+}
+
+#casino .container.casino #foot .foot_bottom,
+#lpage3.lpage3_dark #foot .foot_bottom {
+	background-image: url(../img/2pixel_line_casino-601BBF2F5106DE57FD6A44756C45A711.png);
+	background-repeat: repeat-x;
+	background-position: top center;
+}
+
+#foot ul#paymentList li a,
+#registration.casino #foot ul#paymentList li a,
+#casino .container.casino #foot ul#paymentList li a {
+	background-repeat: no-repeat;
+}
+
+#foot ul#paymentList li a:hover,
+#registration.casino #foot ul#paymentList li a:hover,
+#casino .container.casino #foot ul#paymentList li a:hover {
+	background-position: 0 -24px;
+}
+
+/* visa */
+#foot ul#paymentList li a.visa {
+	width: 36px;
+	background-image: url(../img/payment/icon_visa-B602BF03FB6B2D92A7918BDBE67F3CD4.png);
+}
+
+#casino .container.casino #foot ul#paymentList li a.visa,
+#registration.casino #foot ul#paymentList li a.visa,
+#lpage3.lpage3_dark #foot ul#paymentList li a.visa
+	{
+	width: 38px;
+	background-image: url(../img/payment/icon_casino_visa-B602BF03FB6B2D92A7918BDBE67F3CD4.png);
+}
+
+/* mastercard */
+#foot ul#paymentList li a.mastercard {
+	width: 41px;
+	background-image: url(../img/payment/icon_mastercard-2D910FBBD710DCF0E88AABA8F23E4DE5.png);
+}
+
+#casino .container.casino #foot ul#paymentList li a.mastercard,
+#registration.casino #foot ul#paymentList li a.mastercard,
+#lpage3.lpage3_dark #foot ul#paymentList li a.mastercard {
+	width: 41px;
+	background-image: url(../img/payment/icon_casino_mastercard-16D6BFF169062CE549E3092C66F582B4.png);
+}
+
+/* jcb */
+#foot ul#paymentList li a.jcb {
+	width: 32px;
+	background-image: url(../img/payment/icon_jcb-ED73771282AC46E5A649ECB015C15C5D.png);
+}
+
+#casino .container.casino #foot ul#paymentList li a.jcb,
+#registration.casino #foot ul#paymentList li a.jcb,
+#lpage3.lpage3_dark #foot ul#paymentList li a.jcb {
+	width: 32px;
+	background-image: url(../img/payment/icon_casino_jcb-0C0368F687701422CBDE6F4FF512ED72.png);
+}
+
+/* oriental wallet */
+#foot ul#paymentList li a.oriental_wallet {
+	width: 74px;
+	background-image: url(../img/payment/icon_oriental_wallet-6145DB2E16EBF8FF04BBB760E8ADB64E.png);
+}
+
+/* jpay */
+#foot ul#paymentList li a.jpay {
+	width: 74px;
+	background-image: url(../img/payment/icon_jpay-46A913530CA61F345226F17DB96BCE9A.png);
+}
+
+/* venus  point */
+#foot ul#paymentList li a.venus_point {
+	width: 76px;
+	background-image: url(../img/payment/icon_venus_point-6C00957764734025D5E6EE9B63C2E519.png);
+}
+
+/* cryptogo */
+#foot ul#paymentList li a.cryptogo {
+	width: 74px;
+	background-image: url(../img/payment/icon_cryptogo-DD9395DD3AE08F579D634A19FDC3CF99.png);
+}
+
+#casino .container.casino #foot ul#paymentList li a.cryptogo,
+#registration.casino #foot ul#paymentList li a.cryptogo,
+#lpage3.lpage3_dark #foot ul#paymentList li a.cryptogo {
+	width: 74px;
+	background-image: url(../img/payment/icon_casino_cryptogo-ED43E8219A0FA8E9F7C477C7419AE9D4.png);
+}
+
+/* kwickgo */
+#foot ul#paymentList li a.kwickgo {
+	width: 57px;
+	background-image: url(../img/payment/icon_kwickgo-4394023990D67328DF7F0E7DFB27690C.png);
+}
+
+#casino .container.casino #foot ul#paymentList li a.kwickgo,
+#registration.casino #foot ul#paymentList li a.kwickgo,
+#lpage3.lpage3_dark #foot ul#paymentList li a.kwickgo {
+	width: 57px;
+	background-image: url(../img/payment/icon_casino_kwickgo-521416C7237004557C172EDD1B67F747.png);
+}
+
+/* passngo */
+#foot ul#paymentList li a.passngo {
+	width: 74px;
+	background-image: url(../img/payment/icon_passngo-3C9379CD4670A3A700FC244FB8EBC662.png);
+}
+
+#casino .container.casino #foot ul#paymentList li a.passngo,
+#registration.casino #foot ul#paymentList li a.passngo,
+#lpage3.lpage3_dark #foot ul#paymentList li a.passngo {
+	width: 74px;
+	background-image: url(../img/payment/icon_casino_passngo-06B73FD5B3104FFBE49A6B506C9EB1D1.png);
+}
+
+/* skrill */
+#foot ul#paymentList li a.skrill {
+	width: 36px;
+	background-image: url(../img/payment/icon_skrill-F5140C41574097C90A53FB162A8E3E8C.png);
+    margin-top: -1px;
+}
+
+#casino .container.casino #foot ul#paymentList li a.skrill,
+#registration.casino #foot ul#paymentList li a.skrill,
+#lpage3.lpage3_dark #foot ul#paymentList li a.skrill {
+	width: 36px;
+	background-image: url(../img/payment/icon_casino_skrill-15F5EEE8C00DCE68F30BC887C8B8E0E1.png);
+}
+
+/* skrill_1tap */
+#foot ul#paymentList li a.skrill_1tap {
+	width: 75px;
+	background-image: url(../img/payment/icon_skrill_1tap-BF32685F71EAC56FCEE146B9CA088A03.png);
+    margin-top: -2px;
+}
+
+#casino .container.casino #foot ul#paymentList li a.skrill_1tap,
+#registration.casino #foot ul#paymentList li a.skrill_1tap,
+#lpage3.lpage3_dark #foot ul#paymentList li a.skrill_1tap {
+	width: 75px;
+	background-image: url(../img/payment/icon_casino_skrill_1tap-93C5FD02577E8A6E4FEF6ABDC74C6F22.png);
+}
+
+/* bankatransferi */
+#foot ul#paymentList li a.bankatransferi {
+       width: 68px;
+       background: url(../img/payment/icon_bankatransferi-3C5FC73208EB1ACE0C33A0981CEFA4A7.png) no-repeat;
+       margin-top: -2px;
+}
+
+#casino .container.casino #foot ul#paymentList li a.bankatransferi,
+#registration.casino #foot ul#paymentList li a.bankatransferi,
+#lpage3.lpage3_dark #foot ul#paymentList li a.bankatransferi  {
+       width: 68px;
+       background: url(../img/payment/icon_bankatransferi-3C5FC73208EB1ACE0C33A0981CEFA4A7.png) no-repeat;
+}
+
+#foot ul#paymentList li a.bankatransferi:hover,
+#registration.casino #foot ul#paymentList li a.bankatransferi:hover,
+#casino .container.casino #foot ul#paymentList li a.bankatransferi:hover  {
+       background-position: 0 -24px;
+}
+
+/* papara */
+#foot ul#paymentList li a.papara {
+	width: 68px;
+	background-image: url(../img/payment/icon_papara-71C367292833A951247F4269BF19E9D7.png);
+    margin-top: -1px;
+}
+
+#casino .container.casino #foot ul#paymentList li a.papara,
+#registration.casino #foot ul#paymentList li a.papara,
+#lpage3.lpage3_dark #foot ul#paymentList li a.papara {
+	width: 68px;
+	background-image: url(../img/payment/icon_casino_papara-93DAAE21225B005491EB110588456649.png);
+}
+
+/* mpay_papara */
+#foot ul#paymentList li a.mpay_papara {
+	width: 42px;
+	background-image: url(../img/payment/icon_mpay_papara-FEE54D26E0DD1DE653222246FCA211AE.png);
+    margin-top: -1px;
+}
+
+/* payfix */
+#foot ul#paymentList li a.payfix {
+	width: 74px;
+	background-image: url(../img/payment/icon_payfix-01AAB9FFACDF192C80A9E4CFC7468067.png);
+    margin-top: -1px;
+}
+
+/* sofort */
+#foot ul#paymentList li a.sofort {
+	width: 61px;
+	background-image: url(../img/payment/icon_sofortueberweisung-B1475F3014EAE332107720B9528AA652.png);
+    margin-top: -1px;
+}
+
+/* paysafe */
+#foot ul#paymentList li a.paysafe {
+	width: 104px;
+	background-image: url(../img/payment/icon_paysafe-0401D879A8CAFBEF914154DF97071DEC.png);
+    margin-top: -1px;
+}
+
+#casino .container.casino #foot ul#paymentList li a.paysafe,
+#registration.casino #foot ul#paymentList li a.paysafe,
+#lpage3.lpage3_dark #foot ul#paymentList li a.paysafe {
+	width: 106px;
+	background-image: url(../img/payment/icon_casino_paysafe-B221206C48AA5D6925494D3D29538EB5.png);
+}
+
+/* neosurf */
+#foot ul#paymentList li a.neosurf {
+	width: 74px;
+	background-image: url(../img/payment/icon_neosurf-A258ECC1D7D09D08E8D624590180EB95.png);
+    margin-top: -1px;
+}
+
+/* bbva */
+#foot ul#paymentList li a.bbva {
+       width: 74px;
+       background-image: url(../img/payment/icon_bbva-2BC471B3A20E6BF6DBA24D560DB927FC.png);
+}
+
+#casino .container.casino #foot ul#paymentList li a.bbva,
+#registration.casino #foot ul#paymentList li a.bbva,
+#lpage3.lpage3_dark #foot ul#paymentList li a.bbva  {
+       width: 74px;
+       background-image: url(../img/payment/icon_casino_bbva-7661302C2964F497AB70B797A45A8621.png);
+}
+
+/* ukash */
+#foot ul#paymentList li a.ukash {
+	width: 54px;
+	background-image: url(../img/payment/icon_ukash-9A67AC7C034F242077D4754E8E863859.png);
+    margin-top: 1px;
+}
+
+#casino .container.casino #foot ul#paymentList li a.ukash,
+#registration.casino #foot ul#paymentList li a.ukash,
+#lpage3.lpage3_dark #foot ul#paymentList li a.ukash {
+	width: 56px;
+	background-image: url(../img/payment/icon_casino_ukash-8ECDB403C67A8873F60A420BAA6DE448.png);
+}
+
+/* paykasa */
+#foot ul#paymentList li a.paykasa {
+	width: 92px;
+	background-image: url(../img/payment/icon_paykasa-CB9F07B834B21D7DBA0A54B5D0D3ABB4.png);
+    margin-top: 1px;
+}
+
+#casino .container.casino #foot ul#paymentList li a.paykasa,
+#registration.casino #foot ul#paymentList li a.paykasa,
+#lpage3.lpage3_dark #foot ul#paymentList li a.paykasa {
+	width: 92px;
+	background-image: url(../img/payment/icon_casino_paykasa-DBF5B324F9486351FA4B59B881C4F529.png);
+}
+
+
+/* neteller */
+#foot ul#paymentList li a.neteller {
+	width: 70px;
+	background-image: url(../img/payment/icon_neteller-E700BDD9C87CA00629340E0135BC7ACA.png);
+}
+
+#casino .container.casino #foot ul#paymentList li a.neteller,
+#registration.casino #foot ul#paymentList li a.neteller,
+#lpage3.lpage3_dark #foot ul#paymentList li a.neteller {
+	width: 70px;
+	background-image: url(../img/payment/icon_casino_neteller-53F6B028098C88A7D4FE125BBD836DFF.png);
+}
+
+
+/* ecocard (ecopayz) */
+#foot ul#paymentList li a.ecocard {
+	width: 38px;
+	background-image: url(../img/payment/icon_ecocard-22DEDD4C9CE5B8AD3213676BCEC6E680.png);
+}
+
+#casino .container.casino #foot ul#paymentList li a.ecocard,
+#registration.casino #foot ul#paymentList li a.ecocard,
+#lpage3.lpage3_dark #foot ul#paymentList li a.ecocard {
+	width: 40px;
+	background-image: url(../img/payment/icon_casino_ecocard-3CD6BC5A00BFA7009698C3F9A5C2F24D.png);
+}
+
+/* ecovoucher (ecopayz) */
+#foot ul#paymentList li a.ecopayz_ecovoucher {
+	width: 145px;
+	background-image: url(../img/payment/icon_ecovoucher-55F5F46E9B8AEC6D7ADB568C36396689.png);
+}
+
+#casino .container.casino #foot ul#paymentList li a.ecopayz_ecovoucher,
+#registration.casino #foot ul#paymentList li a.ecopayz_ecovoucher,
+#lpage3.lpage3_dark #foot ul#paymentList li a.ecopayz_ecovoucher {
+	width: 145px;
+	background-image: url(../img/payment/icon_casino_ecovoucher-68920C49113C6B78AEAE44B505AA259E.png);
+}
+
+
+/* girogate_p24 */
+#foot ul#paymentList li a.girogate_p24 {
+	width: 74px;
+	background-image: url(../img/payment/icon_przelewy-FFAC8CCC1A87376E7189F92A58E39BF5.png);
+}
+
+#casino .container.casino #foot ul#paymentList li a.girogate_p24,
+#registration.casino #foot ul#paymentList li a.girogate_p24,
+#lpage3.lpage3_dark #foot ul#paymentList li a.girogate_p24 {
+	width: 74px;
+	background-image: url(../img/payment/icon_casino_przelewy-BCA15854E4EB8E7D0072DE0F9A6D63D0.png);
+}
+
+/* minerva_bank */
+#foot ul#paymentList li a.minerva_bank {
+	width: 87px;
+	background-image: url(../img/payment/icon_transferencia_bancaria-E49D8D82D4807127868E511F2002C6AB.png);
+}
+
+#casino .container.casino #foot ul#paymentList li a.minerva_bank,
+#registration.casino #foot ul#paymentList li a.minerva_bank,
+#lpage3.lpage3_dark #foot ul#paymentList li a.minerva_bank {
+	width: 87px;
+	background-image: url(../img/payment/icon_casino_transferencia_bancaria-34CAE5A581CBF0660BA5E8CCAD9EE461.png);
+}
+
+/* tronipay_bank */
+#foot ul#paymentList li a.tronipay_bank {
+	width: 87px;
+	background-image: url(../img/payment/icon_transferencia_bancaria-E49D8D82D4807127868E511F2002C6AB.png);
+}
+
+#casino .container.casino #foot ul#paymentList li a.tronipay_bank,
+#registration.casino #foot ul#paymentList li a.tronipay_bank,
+#lpage3.lpage3_dark #foot ul#paymentList li a.tronipay_bank {
+	width: 87px;
+	background-image: url(../img/payment/icon_casino_transferencia_bancaria-34CAE5A581CBF0660BA5E8CCAD9EE461.png);
+}
+
+/* girogate_qiwi */
+#foot ul#paymentList li a.girogate_qiwi {
+	width: 59px;
+	background-image: url(../img/payment/icon_qiwi-1FF4538EC4490AA050620331AD7B056B.png);
+}
+
+#casino .container.casino #foot ul#paymentList li a.girogate_qiwi,
+#registration.casino #foot ul#paymentList li a.girogate_qiwi,
+#lpage3.lpage3_dark #foot ul#paymentList li a.girogate_qiwi {
+	width: 59px;
+	background-image: url(../img/payment/icon_casino_qiwi-E23B1DA61ED4EDB3F050EAD05545721C.png);
+}
+
+
+/* cepbank */
+#foot ul#paymentList li a.cepbank {
+	width: 75px;
+	background-image: url(../img/payment/icon_cepbank-604CE05375F7421F46DB913CD8C64BA4.png);
+}
+
+#casino .container.casino #foot ul#paymentList li a.cepbank,
+#registration.casino #foot ul#paymentList li a.cepbank,
+#lpage3.lpage3_dark #foot ul#paymentList li a.cepbank {
+	width: 77px;
+	background-image: url(../img/payment/icon_casino_cepbank-910F52B3DDFB445CEEAE0DE8C8707FB9.png);
+}
+
+/* manual cepbank */
+#foot ul#paymentList li a.manual_cep {
+	width: 95px;
+	background-image: url(../img/payment/icon_manual_cep-3F247A3E04B2E2543C770C3618D89B9A.png);
+}
+
+/* toditocash */
+#foot ul#paymentList li a.todito_cash {
+       width: 130px;
+       background-image: url(../img/payment/icon_todito_cash-7C0F38166CFEE154F79B234CD76EF68E.png);
+       margin-top: -2px;
+}
+
+#casino .container.casino #foot ul#paymentList li a.todito_cash,
+#registration.casino #foot ul#paymentList li a.todito_cash,
+#lpage3.lpage3_dark #foot ul#paymentList li a.todito_cash  {
+       width: 130px;
+       background-image: url(../img/payment/icon_casino_todito_cash-1B8AB4FA8953D089E46FFCC69FD67CB0.png);
+}
+
+/* creditcard */
+#foot ul#paymentList li a.creditcard {
+       width: 155px;
+       background-image: url(../img/payment/icon_creditcard-2C341245764B71D64BAE5F20F31B64BA.png);
+}
+
+#casino .container.casino #foot ul#paymentList li a.creditcard,
+#registration.casino #foot ul#paymentList li a.creditcard,
+#lpage3.lpage3_dark #foot ul#paymentList li a.creditcard  {
+       width: 155px;
+       background-image: url(../img/payment/icon_casino_creditcard-4AED3FABDEF82428BBC863D8CB11C51C.png);
+}
+
+/* dineromail_cash */
+#foot ul#paymentList li a.dineromail {
+       width: 89px;
+       background-image: url(../img/payment/icon_dineromail_cash-A9C3E67CC99F2FE2FA06333B6F45EFF6.png);
+}
+
+#casino .container.casino #foot ul#paymentList li a.dineromail,
+#registration.casino #foot ul#paymentList li a.dineromail,
+#lpage3.lpage3_dark #foot ul#paymentList li a.dineromail  {
+       width: 89px;
+       background-image: url(../img/payment/icon_casino_dineromail_cash-DF4C1A212356A03FC8AE451F87F6EF09.png);
+}
+
+/* surtimax */
+#foot ul#paymentList li a.surtimax {
+       width: 74px;
+       background-image: url(../img/payment/icon_surtimax-B761F3656D04010B802A3D0BBB31484E.png);
+}
+
+#casino .container.casino #foot ul#paymentList li a.surtimax,
+#registration.casino #foot ul#paymentList li a.surtimax,
+#lpage3.lpage3_dark #foot ul#paymentList li a.surtimax  {
+       width: 74px;
+       background-image: url(../img/payment/icon_casino_surtimax-97A117083C89A2BFA41E6AC44CCE0490.png);
+}
+
+/* carulla */
+#foot ul#paymentList li a.carulla {
+       width: 47px;
+       background-image: url(../img/payment/icon_carulla-CE5817642A8DD3A124960AFB9CC4CAC2.png);
+}
+
+#casino .container.casino #foot ul#paymentList li a.carulla,
+#registration.casino #foot ul#paymentList li a.carulla,
+#lpage3.lpage3_dark #foot ul#paymentList li a.carulla  {
+       width: 47px;
+       background-image: url(../img/payment/icon_casino_carulla-14D905E7ED32B9A264B2D002187271B0.png);
+}
+
+/* astropaydirect_occidente */
+#foot ul#paymentList li a.astropaydirect_occidente {
+       width: 66px;
+       background-image: url(../img/payment/icon_occidente-527AAB4BBAAF0303F6FAABFDAA5D726A.png);
+}
+
+#casino .container.casino #foot ul#paymentList li a.astropaydirect_occidente,
+#registration.casino #foot ul#paymentList li a.astropaydirect_occidente,
+#lpage3.lpage3_dark #foot ul#paymentList li a.astropaydirect_occidente  {
+       width: 66px;
+       background-image: url(../img/payment/icon_casino_occidente-EE507B84CBB8A582DA390A97E23F4E37.png);
+}
+
+/* astropaydirect_empresa */
+#foot ul#paymentList li a.astropaydirect_empresa {
+       width: 34px;
+       background-image: url(../img/payment/icon_empresa-4E73A10EC5A9EDF7EEB850E4BACF2137.png);
+}
+
+#casino .container.casino #foot ul#paymentList li a.astropaydirect_empresa,
+#registration.casino #foot ul#paymentList li a.astropaydirect_empresa,
+#lpage3.lpage3_dark #foot ul#paymentList li a.astropaydirect_empresa  {
+       width: 34px;
+       background-image: url(../img/payment/icon_casino_empresa-26FA46954423FFA5B2CF2B5CD2146B6C.png);
+}
+
+/* astropaycard */
+#foot ul#paymentList li a.astropaycard {
+       width: 68px;
+       background-image: url(../img/payment/icon_astropaycard-CDA3EF1B368586724C3347F61B205CD8.png);
+       margin-top: -2px;
+}
+
+/* astropaydirect_oxxo */
+#foot ul#paymentList li a.astropaydirect_oxxo {
+       width: 45px;
+       background-image: url(../img/payment/icon_oxxo-04207C437A2345952B9CC20276009935.png);
+       margin-top: -2px;
+}
+
+#casino .container.casino #foot ul#paymentList li a.astropaydirect_oxxo,
+#registration.casino #foot ul#paymentList li a.astropaydirect_oxxo,
+#lpage3.lpage3_dark #foot ul#paymentList li a.astropaydirect_oxxo  {
+       width: 45px;
+       background-image: url(../img/payment/icon_casino_oxxo-3B8EFD7689A301603CCB4BB8EB1790A9.png);
+}
+
+/* exito */
+#foot ul#paymentList li a.exito {
+       width: 24px;
+       background-image: url(../img/payment/icon_exito-11DA15170DEF96B2ADE658811F2D5FE5.png);
+}
+
+#casino .container.casino #foot ul#paymentList li a.exito,
+#registration.casino #foot ul#paymentList li a.exito,
+#lpage3.lpage3_dark #foot ul#paymentList li a.exito  {
+       width: 24px;
+       background-image: url(../img/payment/icon_exito-11DA15170DEF96B2ADE658811F2D5FE5.png);
+}
+
+/* pse */
+#foot ul#paymentList li a.pse {
+       width: 24px;
+       background-image: url(../img/payment/icon_pse-800C5E77FF85FA401863CCAF185A9F0E.png);
+}
+
+#casino .container.casino #foot ul#paymentList li a.pse,
+#registration.casino #foot ul#paymentList li a.pse,
+#lpage3.lpage3_dark #foot ul#paymentList li a.pse  {
+       width: 24px;
+       background-image: url(../img/payment/icon_casino_pse-67198033481E618880C84BF812E8DDF1.png);
+}
+
+/* boleto */
+#foot ul#paymentList li a.boleto {
+	width: 44px;
+	background-image: url(../img/payment/icon_boleto-98BB5BCCF492A3DF17F36B208251DB88.png);
+}
+
+#casino .container.casino #foot ul#paymentList li a.boleto,
+#registration.casino #foot ul#paymentList li a.boleto,
+#lpage3.lpage3_dark #foot ul#paymentList li a.boleto {
+	width: 44px;
+	background-image: url(../img/payment/icon_casino_boleto-C2250893F87E97C441A7118F01F86D42.png);
+}
+
+/* baloto */
+#foot ul#paymentList li a.baloto {
+	width: 95px;
+	background-image: url(../img/payment/icon_baloto-6086862B56C7FC5A2999A519B7187F52.png);
+}
+
+#casino .container.casino #foot ul#paymentList li a.baloto,
+#registration.casino #foot ul#paymentList li a.baloto,
+#lpage3.lpage3_dark #foot ul#paymentList li a.baloto {
+	width: 95px;
+	background-image: url(../img/payment/icon_baloto-6086862B56C7FC5A2999A519B7187F52.png);
+}
+
+/* astropaydirect_webpay */
+#foot ul#paymentList li a.webpay {
+	width: 74px;
+	background-image: url(../img/payment/icon_webpay-193E96BC06B1DE6ACD0E5996437A1C75.png);
+}
+
+#casino .container.casino #foot ul#paymentList li a.webpay,
+#registration.casino #foot ul#paymentList li a.webpay,
+#lpage3.lpage3_dark #foot ul#paymentList li a.webpay {
+	width: 74px;
+	background-image: url(../img/payment/icon_casino_webpay-00F46A85DC031FB744CD55FC85C09EFD.png);
+}
+
+/* ochapay_card_voucher */
+#foot ul#paymentList li a.ochapay_card_voucher {
+       width: 63px;
+       background-image: url(../img/payment/icon_ochapay_card_voucher-33D6F23ABC92EE5B36D19E7A14DDA2E3.png);
+}
+
+#casino .container.casino #foot ul#paymentList li a.ochapay_card_voucher,
+#registration.casino #foot ul#paymentList li a.ochapay_card_voucher,
+#lpage3.lpage3_dark #foot ul#paymentList li a.ochapay_card_voucher  {
+       width: 63px;
+       background-image: url(../img/payment/icon_casino_ochapay_card_voucher-1AE311AEC5AB5E7A99D82B14F4C0DF50.png);
+}
+
+/* qr_code */
+#foot ul#paymentList li a.qr_code {
+       width: 60px;
+       background-image: url(../img/payment/icon_qr_code-18E6FC3F157892EF06A9AD7249BE54DE.png);
+}
+
+#casino .container.casino #foot ul#paymentList li a.qr_code,
+#registration.casino #foot ul#paymentList li a.qr_code,
+#lpage3.lpage3_dark #foot ul#paymentList li a.qr_code  {
+       width: 60px;
+       background-image: url(../img/payment/icon_casino_qr_code-567B9F945DBE527970771C0F58A83E80.png);
+}
+
+/* susuerte */
+#foot ul#paymentList li a.susuerte {
+       width: 68px;
+       background-image: url(../img/payment/icon_susuerte-DD2F8ED1999AEAAA4F5282E55FC33EF1.png);
+}
+
+#casino .container.casino #foot ul#paymentList li a.susuerte,
+#registration.casino #foot ul#paymentList li a.susuerte,
+#lpage3.lpage3_dark #foot ul#paymentList li a.susuerte  {
+       width:68px;
+       background-image: url(../img/payment/icon_casino_susuerte-04760305DFB1FB226BEBFA4A6CA1D17D.png);
+}
+
+/* puntored */
+#foot ul#paymentList li a.puntored {
+       width: 85px;
+       background-image: url(../img/payment/icon_puntored-945DB8C9CA2AB412F3E036BA5D712056.png);
+}
+
+#casino .container.casino #foot ul#paymentList li a.puntored,
+#registration.casino #foot ul#paymentList li a.puntored,
+#lpage3.lpage3_dark #foot ul#paymentList li a.puntored  {
+       width: 85px;
+       background-image: url(../img/payment/icon_casino_puntored-EB00F543BE57DF9AC40D783C6000A383.png);
+}
+
+/* redservi */
+#foot ul#paymentList li a.redservi {
+       width: 43px;
+       background-image: url(../img/payment/icon_redservi-096BD7AA457E989FA2094F8A6C01187F.png);
+}
+
+#casino .container.casino #foot ul#paymentList li a.redservi,
+#registration.casino #foot ul#paymentList li a.redservi,
+#lpage3.lpage3_dark #foot ul#paymentList li a.redservi  {
+       width: 43px;
+       background-image: url(../img/payment/icon_casino_redservi-F072899257D376DB4EF834C2D7DB0CDC.png);
+}
+
+/* efecty */
+#foot ul#paymentList li a.efecty {
+       width: 70px;
+       background-image: url(../img/payment/icon_efecty-69C654C571A2472341072ED98A3639A0.png);
+}
+
+#casino .container.casino #foot ul#paymentList li a.efecty,
+#registration.casino #foot ul#paymentList li a.efecty,
+#lpage3.lpage3_dark #foot ul#paymentList li a.efecty  {
+       width: 70px;
+       background-image: url(../img/payment/icon_casino_efecty-B73DBFC1A9B3E93A9E151CC8566C40F2.png);
+}
+
+/* dimonex */
+#foot ul#paymentList li a.dimonex {
+       width: 74px;
+       background-image: url(../img/payment/icon_dimonex-DB1FC7C9A8AEE2332DFFBCAEE493FB77.png);
+}
+
+#casino .container.casino #foot ul#paymentList li a.dimonex,
+#registration.casino #foot ul#paymentList li a.dimonex,
+#lpage3.lpage3_dark #foot ul#paymentList li a.dimonex  {
+       width: 74px;
+       background-image: url(../img/payment/icon_casino_dimonex-5CEA395648F7F66C3A24CED5FE014DD3.png);
+}
+
+/* cashlib */
+#foot ul#paymentList li a.cashlib {
+       width: 58px;
+       background-image: url(../img/payment/icon_cashlib-5F2387C5B5FF6B855D12FFE5E6C5275B.png);
+       margin-top: -2px;
+}
+
+/* apostar */
+#foot ul#paymentList li a.apostar {
+       width: 74px;
+       background-image: url(../img/payment/icon_apostar-5CED3891AC1F0EBCEACDAB5E0700BA0D.png);
+}
+
+#casino .container.casino #foot ul#paymentList li a.apostar,
+#registration.casino #foot ul#paymentList li a.apostar,
+#lpage3.lpage3_dark #foot ul#paymentList li a.apostar  {
+       width: 74px;
+       background-image: url(../img/payment/icon_casino_apostar-44B600FA36C81E51935E66D6DAC5EC34.png);
+}
+
+/* american_express */
+#foot ul#paymentList li a.american_express {
+       width: 25px;
+       background-image: url(../img/payment/icon_american_express-17B5EA3D33E6937D3CE9063A5C0CB5FC.png);
+}
+
+#casino .container.casino #foot ul#paymentList li a.american_express,
+#registration.casino #foot ul#paymentList li a.american_express,
+#lpage3.lpage3_dark #foot ul#paymentList li a.american_express  {
+       width: 25px;
+       background-image: url(../img/payment/icon_casino_american_express-28D591D4DEF2A0F055567AA38E1A4C47.png);
+}
+
+/* megared */
+#foot ul#paymentList li a.megared {
+       width: 74px;
+       background-image: url(../img/payment/icon_megared-F462ED6CEC7957B5AD9AD0977E87769F.png);
+}
+
+/* superpagos */
+#foot ul#paymentList li a.superpagos {
+       width: 74px;
+       background-image: url(../img/payment/icon_superpagos-BC59F38FC1C218DD3D33944FE3BF30E3.png);
+}
+
+/* other_cards_en */
+#foot ul#paymentList li a.other_cards_en {
+       width: 70px;
+       background-image: url(../img/payment/icon_other_cards_en-344D3172898D1ED5CCD3380566572943.png);
+}
+
+#casino .container.casino #foot ul#paymentList li a.other_cards_en,
+#registration.casino #foot ul#paymentList li a.other_cards_en,
+#lpage3.lpage3_dark #foot ul#paymentList li a.other_cards_en  {
+       width: 70px;
+       background-image: url(../img/payment/icon_casino_other_cards_en-63A67A37A61323FA814073B646B9FBF9.png);
+}
+
+/* other_cards_es */
+#foot ul#paymentList li a.other_cards_es {
+       width: 70px;
+       background-image: url(../img/payment/icon_other_cards_es-0F14A08A7133CC08D75680B520314E00.png);
+}
+
+#casino .container.casino #foot ul#paymentList li a.other_cards_es,
+#registration.casino #foot ul#paymentList li a.other_cards_es,
+#lpage3.lpage3_dark #foot ul#paymentList li a.other_cards_es {
+       width: 70px;
+       background-image: url(../img/payment/icon_casino_other_cards_es-D696D3781D813B698975D220999B1ECF.png);
+}
+
+/* guayaquil_online */
+#foot ul#paymentList li a.guayaquil_online {
+       width: 74px;
+       background-image: url(../img/payment/icon_guayaquil_online-8F5551707B40A297D66F76BCAF6B3C84.png);
+       margin-top: -2px;
+}
+
+/* pichincha_online */
+#foot ul#paymentList li a.pichincha_online {
+       width: 74px;
+       background-image: url(../img/payment/icon_pichincha_online-582B04A2994F5AFE413F6A616631EDD5.png);
+       margin-top: -2px;
+}
+
+/* guayaquil_cash */
+#foot ul#paymentList li a.guayaquil_cash {
+       width: 74px;
+       background-image: url(../img/payment/icon_guayaquil_cash-F8811DAE3846C46E0B82E772837AD9AC.png);
+       margin-top: -2px;
+}
+
+/* pichincha_cash */
+#foot ul#paymentList li a.pichincha_cash {
+       width: 74px;
+       background-image: url(../img/payment/icon_pichincha_cash-14A8E0E4BBE7F512D62EB2484E8C8C70.png);
+       margin-top: -2px;
+}
+
+/* bbva */
+#foot ul#paymentList li a.bbva {
+       width: 74px;
+       background-image: url(../img/payment/icon_bbva-2BC471B3A20E6BF6DBA24D560DB927FC.png);
+       margin-top: -2px;
+}
+/* tambo */
+#foot ul#paymentList li a.tambo {
+       width: 46px;
+       background-image: url(../img/payment/icon_tambo-B93CE02E1AA5084CC632E7B0FD9719F8.png);
+       margin-top: -2px;
+}
+/* banco_de_credito_online */
+#foot ul#paymentList li a.banco_de_credito_online {
+       width: 48px;
+       background-image: url(../img/payment/icon_banco_de_credito_online-DFB6F4CF1143D31974C6806B32B334C3.png);
+       margin-top: -2px;
+}
+/* banco_de_credito_cash */
+#foot ul#paymentList li a.banco_de_credito_cash {
+       width: 42px;
+       background-image: url(../img/payment/icon_banco_de_credito_cash-DAB02D7E51A3E321F0CA5293FBC809F2.png);
+       margin-top: -2px;
+}
+/* scotiabank_online */
+#foot ul#paymentList li a.scotiabank_online {
+       width: 113px;
+       background-image: url(../img/payment/icon_scotiabank_online-9FB17F3265F182B79F05023C39B63C75.png);
+       margin-top: -2px;
+}
+/* scotiabank_cash */
+#foot ul#paymentList li a.scotiabank_cash {
+       width: 81px;
+       background-image: url(../img/payment/icon_scotiabank_cash-C2B5B9FD1859214757498EEB80DA622D.png);
+       margin-top: -2px;
+}
+/* interbank_online */
+#foot ul#paymentList li a.interbank_online {
+       width: 111px;
+       background-image: url(../img/payment/icon_interbank_online-7DE7EC712858BF89CFC66A91A6399A5C.png);
+       margin-top: -2px;
+}
+/* interbank_cash */
+#foot ul#paymentList li a.interbank_cash {
+       width: 75px;
+       background-image: url(../img/payment/icon_interbank_cash-5656BBDA56D1D02D3ADB6DAF5CC1F160.png);
+       margin-top: -2px;
+}
+/* caja_tacna_online */
+#foot ul#paymentList li a.caja_tacna_online {
+       width: 66px;
+       background-image: url(../img/payment/icon_caja_tacna_online-FFE19F3B38759F0A227ABD4631A90A86.png);
+       margin-top: -2px;
+}
+/* caja_tacna_cash */
+#foot ul#paymentList li a.caja_tacna_cash {
+       width: 49px;
+       background-image: url(../img/payment/icon_caja_tacna_cash-1CEF0BFC9C4E4ABD585C2914ACF22E3E.png);
+       margin-top: -2px;
+}
+/* caja_trujillo_online */
+#foot ul#paymentList li a.caja_trujillo_online {
+       width: 71px;
+       background-image: url(../img/payment/icon_caja_trujillo_online-2E3B29CDE291586ACF2999E7B201146F.png);
+       margin-top: -2px;
+}
+/* caja_trujillo_cash */
+#foot ul#paymentList li a.caja_trujillo_cash {
+       width: 57px;
+       background-image: url(../img/payment/icon_caja_trujillo_cash-0F59FF9FEF6BF77596BF3AB35E6BF6EC.png);
+       margin-top: -2px;
+}
+/* caja_huancayo_online */
+#foot ul#paymentList li a.caja_huancayo_online {
+       width: 86px;
+       background-image: url(../img/payment/icon_caja_huancayo_online-159C5DBA01904FF1F655E2C05D9C3AA1.png);
+       margin-top: -2px;
+}
+/* caja_huancayo_cash */
+#foot ul#paymentList li a.caja_huancayo_cash {
+       width: 65px;
+       background-image: url(../img/payment/icon_caja_huancayo_cash-CE18D454D3D2589A67E05A97DB42FB4B.png);
+       margin-top: -2px;
+}
+/* western_union */
+#foot ul#paymentList li a.western_union {
+       width: 46px;
+       background-image: url(../img/payment/icon_western_union-0C2D8DA277809EB7C0AD1D32E1F4BCB1.png);
+       margin-top: -2px;
+}
+/* western_union_co */
+#foot ul#paymentList li a.western_union_co {
+       width: 74px;
+       background-image: url(../img/payment/icon_western_union_co-6ECFF5342710B19AD8EF40450BD34081.png);
+       margin-top: -2px;
+}
+/* banco_ripley */
+#foot ul#paymentList li a.banco_ripley {
+       width: 48px;
+       background-image: url(../img/payment/icon_banco_ripley-159E3E033880E401916862636DD204AE.png);
+       margin-top: -2px;
+}
+/* caja_arequipa_online */
+#foot ul#paymentList li a.caja_arequipa_online {
+       width: 48px;
+       background-image: url(../img/payment/icon_caja_arequipa_online-A508F589C265390FEB0671ED0DE1A730.png);
+       margin-top: -2px;
+}
+/* caja_arequipa_cash */
+#foot ul#paymentList li a.caja_arequipa_cash {
+       width: 42px;
+       background-image: url(../img/payment/icon_caja_arequipa_cash-60F61A264E4D6D134915B7BDB7A1D063.png);
+       margin-top: -2px;
+}
+
+/* community_bank_en */
+#foot ul#paymentList li a.community_bank_en {
+       width: 60px;
+       background-image: url(../img/payment/icon_community_bank_en-72EED4EEC7BE58B7712C42B45D8B458D.png);
+       margin-top: -2px;
+}
+
+/* community_bank_tr */
+#foot ul#paymentList li a.community_bank_tr {
+       width: 60px;
+       background-image: url(../img/payment/icon_community_bank_tr-8BFF2CF605374602ADC7B5E8F3C5FCE3.png);
+       margin-top: -2px;
+}
+
+/* loterias */
+#foot ul#paymentList li a.loterias {
+       width: 74px;
+       background-image: url(../img/payment/icon_loterias-1BCAF816DC6629D3058DE072FE4AB766.png);
+       margin-top: -2px;
+}
+
+
+/* pse */
+#foot ul#paymentList li a.pse {
+       width: 24px;
+       background-image: url(../img/payment/icon_pse-800C5E77FF85FA401863CCAF185A9F0E.png);
+}
+
+#casino .container.casino #foot ul#paymentList li a.pse,
+#registration.casino #foot ul#paymentList li a.se,
+#lpage3.lpage3_dark #foot ul#paymentList li a.pse  {
+       width: 24px;
+       background-image: url(../img/payment/icon_casino_pse-67198033481E618880C84BF812E8DDF1.png);
+}
+
+/* blackhawk_card */
+#foot ul#paymentList li a.blackhawk_card {
+	width: 74px;
+	background-image: url(../img/payment/icon_blackhawk_card-CCC0B380B859816D56F69794C03B69AB.png);
+}
+
+#casino .container.casino #foot ul#paymentList li a.blackhawk_card,
+#registration.casino #foot ul#paymentList li a.blackhawk_card,
+#lpage3.lpage3_dark #foot ul#paymentList li a.blackhawk_card {
+	width: 74px;
+	background-image: url(../img/payment/icon_casino_blackhawk_card-51A5000F18B73F11254C8D2AFAEEF4E0.png);
+}
+
+/* jeton wallet en */
+#foot ul#paymentList li a.jeton_wallet_en {
+       width: 74px;
+       background-image: url(../img/payment/icon_jeton_wallet_en-DC478AB647F85662D9B67B2B517B3369.png);
+       margin-top: -2px;
+}
+
+#casino .container.casino #foot ul#paymentList li a.jeton_wallet_en,
+#registration.casino #foot ul#paymentList li a.jeton_wallet_en,
+#lpage3.lpage3_dark #foot ul#paymentList li a.jeton_wallet_en  {
+       width: 74px;
+       background-image: url(../img/payment/icon_casino_jeton_wallet_en-94C72FB768AAA0A3866313921E7FD2EC.png);
+}
+
+/* jeton wallet tr */
+#foot ul#paymentList li a.jeton_wallet_tr {
+       width: 74px;
+       background-image: url(../img/payment/icon_jeton_wallet_tr-8F2BA8D74D1E3B29003DB842B3943A35.png);
+       margin-top: -2px;
+}
+
+#casino .container.casino #foot ul#paymentList li a.jeton_wallet_tr,
+#registration.casino #foot ul#paymentList li a.jeton_wallet_tr,
+#lpage3.lpage3_dark #foot ul#paymentList li a.jeton_wallet_tr  {
+       width: 74px;
+       background-image: url(../img/payment/icon_casino_jeton_wallet_tr-68576F07CE2FA4991F82C2B9BF311FA3.png);
+}
+
+/* accentpay_webmoney */
+#foot ul#paymentList li a.accentpay_webmoney {
+       width: 74px;
+       background-image: url(../img/payment/icon_webmoney.png);
+}
+
+#casino .container.casino #foot ul#paymentList li a.accentpay_webmoney,
+#registration.casino #foot ul#paymentList li a.accentpay_webmoney,
+#lpage3.lpage3_dark #foot ul#paymentList li a.accentpay_webmoney  {
+       width: 78px;
+       background-image: url(../img/payment/icon_casino_webmoney.png);
+}
+
+/* accentpay_yandexmoney */
+#foot ul#paymentList li a.accentpay_yandexmoney {
+       width: 52px;
+       background-image: url(../img/payment/icon_yandexmoney-DDC2534E06DBD21A1B6EE7E876090091.png);
+}
+
+#casino .container.casino #foot ul#paymentList li a.accentpay_yandexmoney,
+#registration.casino #foot ul#paymentList li a.accentpay_yandexmoney,
+#lpage3.lpage3_dark #foot ul#paymentList li a.accentpay_yandexmoney  {
+       width: 52px;
+       background-image: url(../img/payment/icon_casino_yandexmoney-72852E7D3CA2536B0498D9E775894EB3.png);
+}
+
+/* accentpay_qiwi */
+#foot ul#paymentList li a.accentpay_qiwi {
+       width: 74px;
+       background-image: url(../img/payment/icon_qiwi-1FF4538EC4490AA050620331AD7B056B.png);
+}
+
+#casino .container.casino #foot ul#paymentList li a.accentpay_qiwi,
+#registration.casino #foot ul#paymentList li a.accentpay_qiwi,
+#lpage3.lpage3_dark #foot ul#paymentList li a.accentpay_qiwi  {
+       width: 78px;
+       background-image: url(../img/payment/icon_casino_qiwi-E23B1DA61ED4EDB3F050EAD05545721C.png);
+}
+
+
+/* aninda_havale */
+#foot ul#paymentList li a.aninda_havale {
+	width: 76px;
+	background-image: url(../img/payment/icon_aninda_havale-AFF1967A90439FA50D507E7CE7542C3F.png);
+}
+
+#casino .container.casino #foot ul#paymentList li a.aninda_havale,
+#registration.casino #foot ul#paymentList li a.aninda_havale,
+#lpage3.lpage3_dark #foot ul#paymentList li a.aninda_havale {
+	width: 76px;
+	background-image: url(../img/payment/icon_casino_aninda_havale.png);
+}
+
+/* bitcoin */
+#foot ul#paymentList li a.bitcoin {
+       width: 69px;
+       background-image: url(../img/payment/icon_bitcoin-83B36A4F17964D3E58FFD8C8167B6FBD.png);
+       margin-top: -2px;
+}
+
+#casino .container.casino #foot ul#paymentList li a.bitcoin,
+#registration.casino #foot ul#paymentList li a.bitcoin,
+#lpage3.lpage3_dark #foot ul#paymentList li a.bitcoin  {
+       width: 69px;
+       background-image: url(../img/payment/icon_casino_bitcoin-2A7C89B9072255E51E289C9401B095AD.png);
+}
+
+/* ethereum */
+#foot ul#paymentList li a.ethereum {
+       width: 95px;
+       background-image: url(../img/payment/icon_ethereum-FDC7494D9C9F143DCD929D38E1F8E4EB.png);
+       margin-top: -2px;
+}
+
+#casino .container.casino #foot ul#paymentList li a.ethereum,
+#registration.casino #foot ul#paymentList li a.ethereum,
+#lpage3.lpage3_dark #foot ul#paymentList li a.ethereum  {
+       width: 95px;
+       background-image: url(../img/payment/icon_casino_ethereum-12BC94416958B37A765535B8E2ACABF7.png);
+}
+
+/* litecoin */
+#foot ul#paymentList li a.litecoin {
+       width: 24px;
+       background-image: url(../img/payment/icon_litecoin-0871EB486A5DEC84207597739E7E0141.png);
+       margin-top: -2px;
+}
+
+#casino .container.casino #foot ul#paymentList li a.litecoin,
+#registration.casino #foot ul#paymentList li a.litecoin,
+#lpage3.lpage3_dark #foot ul#paymentList li a.litecoin  {
+       width: 24px;
+       background-image: url(../img/payment/icon_casino_litecoin.png);
+}
+
+/* ripple */
+#foot ul#paymentList li a.ripple {
+       width: 80px;
+       background-image: url(../img/payment/icon_ripple-ED9EFD905B403C1783A983C748C3D12D.png);
+       margin-top: -2px;
+}
+
+#casino .container.casino #foot ul#paymentList li a.ripple,
+#registration.casino #foot ul#paymentList li a.ripple,
+#lpage3.lpage3_dark #foot ul#paymentList li a.ripple {
+       width: 80px;
+       background-image: url(../img/payment/icon_casino_ripple-4DD19250BDB7BDDA0222018054A8F9A3.png);
+}
+
+/* tether */
+#foot ul#paymentList li a.tether {
+	width: 74px;
+	background-image: url(../img/payment/icon_tether-7F238CB997E6C72EF0AB9047FD17B565.png);
+    margin-top: -1px;
+}
+
+/* TBL*/
+#foot ul#paymentList li a.tbl {
+       width: 93px;
+       background-image: url(../img/payment/icon_tbl-EE555FA0572EFA0E0CE54C58B3980BA4.png);
+       margin-top: -2px;
+}
+
+#casino .container.casino #foot ul#paymentList li a.tbl,
+#registration.casino #foot ul#paymentList li a.tbl,
+#lpage3.lpage3_dark #foot ul#paymentList li a.tbl {
+       width: 93px;
+       background-image: url(../img/payment/icon_casino_tbl-F2130768F7715F391F5CCF8F30C051BA.png);
+}
+
+/* GREEN_ TBL*/
+#foot ul#paymentList li a.green_tbl {
+       width: 68px;
+       background-image: url(../img/payment/icon_green_tbl-E0CBE262DF2113D6F2501DE3F0D4F9B8.png);
+       margin-top: -2px;
+}
+
+#casino .container.casino #foot ul#paymentList li a.green_tbl,
+#registration.casino #foot ul#paymentList li a.green_tbl,
+#lpage3.lpage3_dark #foot ul#paymentList li a.green_tbl {
+       width: 68px;
+       background-image: url(../img/payment/icon_casino_green_tbl-23B97BBEC9E58DC59996AD3EA712F511.png);
+}
+
+/* astropay direct eft*/
+#foot ul#paymentList li a.astropaydirect_eft {
+       width: 45px;
+       background-image: url(../img/payment/icon_olepay-5DDFCB33B89841CA183A9A07F058B2A9.png);
+       margin-top: -2px;
+}
+
+#casino .container.casino #foot ul#paymentList li a.astropaydirect_eft,
+#registration.casino #foot ul#paymentList li a.astropaydirect_eft,
+#lpage3.lpage3_dark #foot ul#paymentList li a.astropaydirect_eft  {
+       width: 45px;
+       background-image: url(../img/payment/icon_casino_olepay-583A7C72BEE3C3B2B68AE85511020388.png);
+}
+
+/* astropay direct bank */
+#foot ul#paymentList li a.banktransfer {
+       width: 45px;
+       background-image: url(../img/payment/icon_banktransfer_en-F58060021D9D224D1D9DEA6EC50FD5A9.png);
+       margin-top: -2px;
+}
+
+#casino .container.casino #foot ul#paymentList li a.banktransfer,
+#registration.casino #foot ul#paymentList li a.banktransfer,
+#lpage3.lpage3_dark #foot ul#paymentList li a.banktransfer  {
+       width: 45px;
+       background-image: url(../img/payment/icon_banktransfer_en-F58060021D9D224D1D9DEA6EC50FD5A9.png);
+}
+
+/* banktransfer_de */
+#foot ul#paymentList li a.banktransfer_de {
+       width: 75px;
+       background-image: url(../img/payment/icon_banktransfer_de-224B46D0E7015146380CAC333A542152.png);
+       margin-top: -2px;
+}
+
+#casino .container.casino #foot ul#paymentList li a.banktransfer_de,
+#registration.casino #foot ul#paymentList li a.banktransfer_de,
+#lpage3.lpage3_dark #foot ul#paymentList li a.banktransfer_de  {
+       width: 75px;
+       background-image: url(../img/payment/icon_casino_banktransfer_de-2EDE6C13042E84643DFF9F794893287A.png);
+}
+
+/* bank_es */
+#foot ul#paymentList li a.banktransfer_es {
+       width: 89px;
+       background-image: url(../img/payment/icon_banktransfer_es-33A54B40D9578516EDEEF808D674CD66.png);
+       margin-top: -2px;
+}
+
+#casino .container.casino #foot ul#paymentList li a.banktransfer_es,
+#registration.casino #foot ul#paymentList li a.bank_es,
+#lpage3.lpage3_dark #foot ul#paymentList li a.bank_es  {
+       width: 89px;
+       background-image: url(../img/payment/icon_casino_banktransfer_es-F2026FF6C5894E403A636EC8C4C84F3C.png);
+}
+
+
+/* banktransfer_en */
+#foot ul#paymentList li a.banktransfer_en {
+       width: 62px;
+       background-image: url(../img/payment/icon_banktransfer_en-F58060021D9D224D1D9DEA6EC50FD5A9.png);
+       margin-top: -2px;
+}
+
+#casino .container.casino #foot ul#paymentList li a.banktransfer_en,
+#registration.casino #foot ul#paymentList li a.banktransfer_en,
+#lpage3.lpage3_dark #foot ul#paymentList li a.banktransfer_en  {
+       width: 62px;
+       background-image: url(../img/payment/icon_casino_banktransfer_en-4A9F8264780E49DDBC26F12884CB7294.png);
+}
+
+
+/* banktransfer_fr */
+#foot ul#paymentList li a.banktransfer_fr {
+       width: 61px;
+       background-image: url(../img/payment/icon_banktransfer_fr-64099113C00681A4E472A6C6D0ED2302.png);
+       margin-top: -2px;
+}
+
+#casino .container.casino #foot ul#paymentList li a.banktransfer_fr,
+#registration.casino #foot ul#paymentList li a.banktransfer_fr,
+#lpage3.lpage3_dark #foot ul#paymentList li a.banktransfer_fr  {
+       width: 61px;
+       background-image: url(../img/payment/icon_casino_banktransfer_fr-E14D8747543BCB961EF2CA1DB5D7F5FE.png);
+}
+
+
+/* banktransfer_it */
+#foot ul#paymentList li a.banktransfer_it {
+       width: 90px;
+       background-image: url(../img/payment/icon_banktransfer_it-09F453466238252F9561DCDB294E5947.png);
+       margin-top: -2px;
+}
+
+#casino .container.casino #foot ul#paymentList li a.banktransfer_it,
+#registration.casino #foot ul#paymentList li a.banktransfer_it,
+#lpage3.lpage3_dark #foot ul#paymentList li a.banktransfer_it  {
+       width: 90px;
+       background-image: url(../img/payment/icon_casino_banktransfer_it-F4CC35541CE092200762827597A470C4.png);
+}
+
+
+/* banktransfer_pl */
+#foot ul#paymentList li a.banktransfer_pl {
+       width: 60px;
+       background-image: url(../img/payment/icon_banktransfer_pl-7BAC78090432D36BB06E31F71DD3D085.png);
+       margin-top: -2px;
+}
+
+#casino .container.casino #foot ul#paymentList li a.banktransfer_pl,
+#registration.casino #foot ul#paymentList li a.banktransfer_pl,
+#lpage3.lpage3_dark #foot ul#paymentList li a.banktransfer_pl  {
+       width: 60px;^g);
+}
+
+/* banktransfer_rs */
+#foot ul#paymentList li a.banktransfer_rs {
+       width: 74px;
+       background-image: url(../img/payment/icon_banktransfer_rs-0014DB467213551FD09CD221A13E4701.png);
+       margin-top: -2px;
+}
+
+#casino .container.casino #foot ul#paymentList li a._rs,
+#registration.casino #foot ul#paymentList li a.banktransfer_rs,
+#lpage3.lpage3_dark #foot ul#paymentList li a.banktransfer_rs  {
+       width: 74px;
+       background-image: url(../img/payment/icon_casino_banktransfer_rs-C350EDB5FB553D1950A088BA0E327557.png);
+}
+
+
+/* banktransfer_ru */
+#foot ul#paymentList li a.banktransfer_ru {
+       width: 73px;
+       background-image: url(../img/payment/icon_banktransfer_ru-DBBFC3CE4C54F9FD681BF9BDC36C0528.png);
+       margin-top: -2px;
+}
+
+#casino .container.casino #foot ul#paymentList li a.banktransfer_ru,
+#registration.casino #foot ul#paymentList li a.banktransfer_ru,
+#lpage3.lpage3_dark #foot ul#paymentList li a.banktransfer_ru  {
+       width: 73px;
+       background-image: url(../img/payment/icon_casino_banktransfer_ru-FE938AC668596FB8C94B4EE28CEC0C37.png);
+}
+
+/* banktransfer pt */
+#foot ul#paymentList li a.banktransfer_pt {
+       width: 84px;
+       background-image: url(../img/payment/icon_banktransfer_pt-375AF2249CEAB1E0BC147A8C76B6D578.png);
+       margin-top: -2px;
+}
+
+#casino .container.casino #foot ul#paymentList li a.banktransfer_pt,
+#registration.casino #foot ul#paymentList li a.banktransfer_pt,
+#lpage3.lpage3_dark #foot ul#paymentList li a.banktransfer_pt  {
+       width: 84px;
+       background-image: url(../img/payment/icon_casino_banktransfer_pt-30C38FC3FB407F7F6D03123AF7EDD767.png);
+}
+
+/* banktransfer_tr */
+#foot ul#paymentList li a.banktransfer_tr {
+       width: 64px;
+       background-image: url(../img/payment/icon_banktransfer_tr-49BE0497D9423DAB93A3FCEB4151B3D1.png);
+       margin-top: -2px;
+}
+
+#casino .container.casino #foot ul#paymentList li a.banktransfer_tr,
+#registration.casino #foot ul#paymentList li a.banktransfer_tr,
+#lpage3.lpage3_dark #foot ul#paymentList li a.banktransfer_tr  {
+       width: 64px;
+       background-image: url(../img/payment/icon_casino_banktransfer_tr-82D8EC13B834695B366B460E2818D2EE.png);
+}
+
+/* turkish bank */
+#foot ul#paymentList li a.turkish_bank {
+       width: 45px;
+       background-image: url(../img/payment/icon_banktransfer_en-F58060021D9D224D1D9DEA6EC50FD5A9.png);
+       margin-top: -2px;
+}
+
+#casino .container.casino #foot ul#paymentList li a.turkish_bank,
+#registration.casino #foot ul#paymentList li a.turkish_bank,
+#lpage3.lpage3_dark #foot ul#paymentList li a.turkish_bank  {
+       width: 45px;
+       background-image: url(../img/payment/icon_banktransfer_en-F58060021D9D224D1D9DEA6EC50FD5A9.png);
+}
+
+/* muchbetter */
+#foot ul#paymentList li a.muchbetter {
+       width: 74px;
+       background-image: url(../img/payment/icon_muchbetter-2F1D405BBB1908576DB6A6B51B8D430D.png);
+       margin-top: -2px;
+}
+
+#casino .container.casino #foot ul#paymentList li a.muchbetter,
+#registration.casino #foot ul#paymentList li a.muchbetter,
+#lpage3.lpage3_dark #foot ul#paymentList li a.muchbetter  {
+       width: 74px;
+       background-image: url(../img/payment/icon_muchbetter-2F1D405BBB1908576DB6A6B51B8D430D.png);
+}
+
+/* muchbetter_logo_sofort */
+#foot ul#paymentList li a.muchbetter_logo_sofort {
+       width: 74px;
+       background-image: url(../img/payment/icon_muchbetter_logo_sofort-F2694459355EBB9778014B41C79E83EF.png);
+       margin-top: -2px;
+}
+
+#casino .container.casino #foot ul#paymentList li a.muchbetter_logo_sofort,
+#registration.casino #foot ul#paymentList li a.muchbetter_logo_sofort,
+#lpage3.lpage3_dark #foot ul#paymentList li a.muchbetter_logo_sofort  {
+       width: 74px;
+       background-image: url(../img/payment/icon_muchbetter_logo_sofort-F2694459355EBB9778014B41C79E83EF.png);
+}
+/* visa_master */
+#foot ul#paymentList li a.visa_master {
+       width: 74px;
+       background-image: url(../img/payment/icon_visa_master-A547E54E404BA21800EB97D5A83D5358.png);
+       margin-top: -2px;
+}
+
+#casino .container.casino #foot ul#paymentList li a.visa_master,
+#registration.casino #foot ul#paymentList li a.visa_master,
+#lpage3.lpage3_dark #foot ul#paymentList li a.visa_master  {
+       width: 74px;
+       background-image: url(../img/payment/icon_casino_visa_master-D91F171B64414846FBB0CAED9F4A23CC.png);
+}
+
+/* maestro */
+#foot ul#paymentList li a.maestro {
+       width: 36px;
+       background-image: url(../img/payment/icon_maestro-4C0D7B85D3B0597DAEEA863BC6E34764.png);
+}
+
+#casino .container.casino #foot ul#paymentList li a.maestro,
+#registration.casino #foot ul#paymentList li a.maestro,
+#lpage3.lpage3_dark #foot ul#paymentList li a.maestro  {
+       width: 38px;
+       background-image: url(../img/payment/icon_casino_maestro-9522C5BA800DB89747AB165486BBC0DA.png);
+}
+
+/* pay4fun*/
+#foot ul#paymentList li a.pay4fun {
+       width: 68px;
+       background: url(../img/payment/icon_pay4fun-5874F74C7A3CB34BAAA8D244E98B1A77.png) no-repeat;
+       margin-top: -2px;
+}
+
+#casino .container.casino #foot ul#paymentList li a.pay4fun,
+#registration.casino #foot ul#paymentList li a.pay4fun,
+#lpage3.lpage3_dark #foot ul#paymentList li a.pay4fun {
+       width: 68;
+       background: url(../img/payment/icon_casino_pay4fun-6792BA95525263BC614409C5F7C7BC81.png) no-repeat;
+}
+
+#foot ul#paymentList li a.pay4fun:hover,
+#registration.casino #foot ul#paymentList li a.pay4fun:hover,
+#casino .container.casino #foot ul#paymentList li a.pay4fun:hover {
+	background-position: 0 -24px;
+}
+
+/* rappi*/
+#foot ul#paymentList li a.rappi {
+       width: 42px;
+       background: url(../img/payment/icon_rappi-974EB53E918CD7E05EC52C329D9725B9.png) no-repeat;
+       margin-top: -2px;
+}
+
+#casino #foot ul#paymentList li a.rappi,
+#registration.casino #foot ul#paymentList li a.rappi,
+#lpage3.lpage3_dark #foot ul#paymentList li a.rappi {
+       width: 42;
+       background: url(../img/payment/icon_casino_rappi-B1C0BC8DA64BE0A6EF56234D13CD8C70.png) no-repeat;
+}
+
+#foot ul#paymentList li a.rappi:hover,
+#registration.casino #foot ul#paymentList li a.rappi:hover,
+#casino #foot ul#paymentList li a.rappi:hover {
+	background-position: 0 -24px;
+}
+
+/* inovapay */
+#foot ul#paymentList li a.inovapay {
+       width: 68px;
+       background: url(../img/payment/icon_inovapay-979F8905F709BC75CAE0829D48E2007A.png) no-repeat;
+       margin-top: -2px;
+}
+
+#casino .container.casino #foot ul#paymentList li a.inovapay,
+#registration.casino #foot ul#paymentList li a.inovapay,
+#lpage3.lpage3_dark #foot ul#paymentList li a.inovapay{
+       width: 68;
+       background: url(../img/payment/icon_casino_inovapay-2E8F3278407193D2A264D0100F02DCD6.png) no-repeat;
+}
+
+#foot ul#paymentList li a.inovapay:hover,
+#registration.casino #foot ul#paymentList li a.inovapay:hover,
+#casino .container.casino #foot ul#paymentList li a.inovapay:hover {
+	background-position: 0 -24px;
+}
+
+/*cash_efectivo_es*/
+#foot ul#paymentList li a.cash_efectivo_es {
+       width: 68px;
+       background: url(../img/payment/icon_cash_efectivo_es-DF05E3B557C011749293CB62A91CF972.png) no-repeat;
+       margin-top: -2px;
+}
+
+#casino .container.casino #foot ul#paymentList li a.cash_efectivo_es,
+#registration.casino #foot ul#paymentList li a.cash_efectivo_es,
+#lpage3.lpage3_dark #foot ul#paymentList li a.cash_efectivo_es {
+       width: 68;
+       background: url(../img/payment/icon_casino_cash_efectivo_es-D4BA0DF8CD0F309FAF9FB6D307A7200B.png) no-repeat;
+}
+
+#foot ul#paymentList li a.cash_efectivo_es:hover,
+#registration.casino #foot ul#paymentList li a.cash_efectivo_es:hover,
+#casino .container.casino #foot ul#paymentList li a.cash_efectivo_es:hover {
+	background-position: 0 -24px;
+}
+
+/* webpay*/
+#foot ul#paymentList li a.webpay {
+       width: 68px;
+       background: url(../img/payment/icon_webpay-193E96BC06B1DE6ACD0E5996437A1C75.png) no-repeat;
+       margin-top: -2px;
+}
+
+#casino .container.casino #foot ul#paymentList li a.webpay,
+#registration.casino #foot ul#paymentList li a.webpay,
+#lpage3.lpage3_dark #foot ul#paymentList li a.webpay {
+       width: 68;
+       background: url(../img/payment/icon_casino_webpay-00F46A85DC031FB744CD55FC85C09EFD.png) no-repeat;
+}
+
+#foot ul#paymentList li a.webpay:hover,
+#registration.casino #foot ul#paymentList li a.webpay:hover,
+#casino .container.casino #foot ul#paymentList li a.webpay:hover {
+	background-position: 0 -24px;
+}
+
+/* santander */
+#foot ul#paymentList li a.santander {
+       width: 68px;
+       background: url(../img/payment/icon_santander-7E82FB8A517D2C1601CA713F58386AC4.png) no-repeat;
+       margin-top: -2px;
+}
+
+#casino .container.casino #foot ul#paymentList li a.santander,
+#registration.casino #foot ul#paymentList li a.santander,
+#lpage3.lpage3_dark #foot ul#paymentList li a.santander{
+       width: 68;
+       background: url(../img/payment/icon_casino_santander-E8E3C331C3ACC82DA7E1296F666D3991.png) no-repeat;
+}
+
+#foot ul#paymentList li a.santander:hover,
+#registration.casino #foot ul#paymentList li a.santander:hover,
+#casino .container.casino #foot ul#paymentList li a.santander:hover {
+	background-position: 0 -24px;
+}
+
+/* banktransfer_country_pe */
+#foot ul#paymentList li a.banktransfer_country_pe {
+       width: 75px;
+       background-image: url(../img/payment/icon_banktransfer_country_pe-097A52FCC24E5739B1E20734E6BEE739.png);
+       margin-top: -2px;
+}
+
+#casino .container.casino #foot ul#paymentList li a.banktransfer_country_pe,
+#registration.casino #foot ul#paymentList li a.banktransfer_country_pe,
+#lpage3.lpage3_dark #foot ul#paymentList li a.banktransfer_country_pe  {
+       width: 75px;
+       background-image: url(../img/payment/icon_casino_banktransfer_country_pe-9BD53D885B6A45F1E682B513D83344D5.png);
+}
+/* banktransfer_country_cl */
+#foot ul#paymentList li a.banktransfer_country_cl {
+       width: 75px;
+       background-image: url(../img/payment/icon_banktransfer_country_cl-05B6297C8095AAE9BD933636DC94115A.png);
+       margin-top: -2px;
+}
+
+#casino .container.casino #foot ul#paymentList li a.banktransfer_country_cl,
+#registration.casino #foot ul#paymentList li a.banktransfer_country_cl,
+#lpage3.lpage3_dark #foot ul#paymentList li a.banktransfer_country_cl  {
+       width: 75px;
+       background-image: url(../img/payment/icon_casino_banktransfer_country_cl-190B256409C2C92D5D3B5C3B78E921E9.png);
+}
+
+/* cash_country_pe */
+#foot ul#paymentList li a.cash_country_pe {
+       width: 75px;
+       background-image: url(../img/payment/icon_cash_country_pe-30B013044295FA0424A1A4612CBDE0FC.png);
+       margin-top: -2px;
+}
+
+#casino .container.casino #foot ul#paymentList li a.cash_country_pe,
+#registration.casino #foot ul#paymentList li a.cash_country_pe,
+#lpage3.lpage3_dark #foot ul#paymentList li a.cash_country_pe  {
+       width: 75px;
+       background-image: url(../img/payment/icon_casino_cash_country_pe-EC1FC289E8EE1518902BE8E23DF2CE64.png);
+}
+/* cash_country_cl */
+#foot ul#paymentList li a.cash_country_cl {
+       width: 75px;
+       background-image: url(../img/payment/icon_cash_country_cl-8E07D80BB188F2282D9EF95E0131AA1F.png);
+       margin-top: -2px;
+}
+
+#casino .container.casino #foot ul#paymentList li a.cash_country_cl,
+#registration.casino #foot ul#paymentList li a.cash_country_cl,
+#lpage3.lpage3_dark #foot ul#paymentList li a.cash_country_cl  {
+       width: 75px;
+       background-image: url(../img/payment/icon_casino_cash_country_cl-F90BA4D51D7EC54C7C145C2BDBB0A04A.png);
+}
+
+/* cash_country_br */
+#foot ul#paymentList li a.cash_country_br {
+       width: 75px;
+       background-image: url(../img/payment/icon_cash_country_br-1BCAF816DC6629D3058DE072FE4AB766.png);
+       margin-top: -2px;
+}
+
+#casino .container.casino #foot ul#paymentList li a.cash_country_br,
+#registration.casino #foot ul#paymentList li a.cash_country_br,
+#lpage3.lpage3_dark #foot ul#paymentList li a.cash_country_br  {
+       width: 75px;
+       background-image: url(../img/payment/icon_casino_cash_country_br.png);
+}
+/* cash_country_mx */
+#foot ul#paymentList li a.cash_country_mx {
+       width: 75px;
+       background-image: url(../img/payment/icon_cash_efectivo_es-DF05E3B557C011749293CB62A91CF972.png);
+       margin-top: -2px;
+}
+
+#casino .container.casino #foot ul#paymentList li a.cash_country_mx,
+#registration.casino #foot ul#paymentList li a.cash_country_mx,
+#lpage3.lpage3_dark #foot ul#paymentList li a.cash_country_mx  {
+       width: 75px;
+       background-image: url(../img/payment/icon_casino_cash_efectivo_es-D4BA0DF8CD0F309FAF9FB6D307A7200B.png);
+}
+
+/* banco_do_brasil */
+#foot ul#paymentList li a.banco_do_brasil {
+       width: 25px;
+       background: url(../img/payment/icon_banco_do_brasil-E9B1021FCA64E85A5DCCABD279F294CA.png) no-repeat;
+       margin-top: -2px;
+}
+
+#casino .container.casino #foot ul#paymentList li a.banco_do_brasil,
+#registration.casino #foot ul#paymentList li a.banco_do_brasil,
+#lpage3.lpage3_dark .container.casino #foot ul#paymentList li a.banco_do_brasil{
+       width: 25;
+       background: url(../img/payment/icon_casino_banco_do_brasil-734B71298503ABB30359FE822A49F102.png) no-repeat;
+}
+
+#foot ul#paymentList li a.banco_do_brasil:hover,
+#registration.casino #foot ul#paymentList li a.banco_do_brasil:hover,
+#casino .container.casino #foot ul#paymentList li a.banco_do_brasil:hover {
+	background-position: 0 -24px;
+}
+
+/* bradesco */
+#foot ul#paymentList li a.bradesco {
+       width: 25px;
+       background: url(../img/payment/icon_bradesco-3A1888054FE6A8EE2455C74DDA51C988.png) no-repeat;
+       margin-top: -2px;
+}
+
+#casino .container.casino #foot ul#paymentList li a.bradesco,
+#registration.casino #foot ul#paymentList li a.bradesco,
+#lpage3.lpage3_dark #foot ul#paymentList li a.bradesco{
+       width: 25;
+       background: url(../img/payment/icon_casino_bradesco-A0631265EF28B29FC5762BD0A0320FE2.png) no-repeat;
+}
+
+#foot ul#paymentList li a.bradesco:hover,
+#registration.casino #foot ul#paymentList li a.bradesco:hover,
+#casino #foot ul#paymentList li a.bradesco:hover {
+	background-position: 0 -24px;
+}
+
+/* caixa */
+#foot ul#paymentList li a.caixa {
+       width: 75px;
+       background: url(../img/payment/icon_caixa-1F247AE59F3633768F1EBC70939A4BAA.png) no-repeat;
+       margin-top: -2px;
+}
+
+#casino .container.casino #foot ul#paymentList li a.caixa,
+#registration.casino #foot ul#paymentList li a.caixa,
+#lpage3.lpage3_dark #foot ul#paymentList li a.caixa{
+       width: 75;
+       background: url(../img/payment/icon_casino_caixa-1F247AE59F3633768F1EBC70939A4BAA.png) no-repeat;
+}
+
+#foot ul#paymentList li a.caixa:hover,
+#registration.casino #foot ul#paymentList li a.caixa:hover,
+#casino #foot ul#paymentList li a.caixa:hover {
+	background-position: 0 -24px;
+}
+
+/* itau */
+#foot ul#paymentList li a.itau {
+       width: 25px;
+       background: url(../img/payment/icon_itau-E553833E5445074432183E9C36DC2C81.png) no-repeat;
+       margin-top: -2px;
+}
+
+#casino .container.casino #foot ul#paymentList li a.itau,
+#registration.casino #foot ul#paymentList li a.itau,
+#lpage3.lpage3_dark #foot ul#paymentList li a.itau{
+       width: 25;
+       background: url(../img/payment/icon_itau-E553833E5445074432183E9C36DC2C81.png) no-repeat;
+}
+
+#foot ul#paymentList li a.itau:hover,
+#registration.casino #foot ul#paymentList li a.itau:hover,
+#casino #foot ul#paymentList li a.itau:hover {
+	background-position: 0 -24px;
+}
+
+/* jio money */
+#foot ul#paymentList li a.jio_money {
+       width: 26px;
+       background-image: url(../img/payment/icon_jio_money-330B416987684928FCC1276DF25EAE46.png);
+}
+
+
+/* astropaydirect_diners */
+#foot ul#paymentList li a.diners {
+       width: 74px;
+       background-image: url(../img/payment/icon_diners-CE6E24630098E3ABCEB873264582EC8D.png);
+}
+
+#casino .container.casino #foot ul#paymentList li a.diners,
+#registration.casino #foot ul#paymentList li a.diners,
+#lpage3.lpage3_dark #foot ul#paymentList li a.diners  {
+       width: 74px;
+       background-image: url(../img/payment/icon_casino_diners-B266B1BF37EBB9341BE5722308C22245.png);
+}
+
+/* astropaydirect_bancolombia */
+#foot ul#paymentList li a.bancolombia {
+       width: 74px;
+       background-image: url(../img/payment/icon_bancolombia-78F95C7E2F5738C03954A3C19FC97917.png);
+}
+
+#casino .container.casino #foot ul#paymentList li a.bancolombia,
+#registration.casino #foot ul#paymentList li a.bancolombia,
+#lpage3.lpage3_dark #foot ul#paymentList li a.bancolombia  {
+       width: 74px;
+       background-image: url(../img/payment/icon_casino_bancolombia-485FE81118C4E78365DC7CE9218B6949.png);
+}
+
+/* astropaydirect_picpay */
+#foot ul#paymentList li a.picpay {
+       width: 74px;
+       background-image: url(../img/payment/icon_picpay-D9397E1DE7DE19ECCE506B5095590B79.png);
+}
+
+#casino .container.casino #foot ul#paymentList li a.picpay,
+#registration.casino #foot ul#paymentList li a.picpay,
+#lpage3.lpage3_dark #foot ul#paymentList li a.picpay  {
+       width: 74px;
+       background-image: url(../img/payment/icon_casino_picpay-1AB2C9A7CD25DDD73B7A2D999079E066.png);
+}
+
+/* banco_original */
+#foot ul#paymentList li a.banco_original {
+       width: 74px;
+       background-image: url(../img/payment/icon_banco_original-0916D6B23E3B30155DB76DBFBC79D2E3.png);
+}
+
+#casino .container.casino #foot ul#paymentList li a.banco_original,
+#registration.casino #foot ul#paymentList li a.banco_original,
+#lpage3.lpage3_dark #foot ul#paymentList li a.banco_original  {
+       width: 74px;
+       background-image: url(../img/payment/icon_casino_banco_original-A4B604A9FDF65CED58F78F27B1389A5C.png);
+}
+
+/* banco_safra */
+#foot ul#paymentList li a.banco_safra {
+       width: 74px;
+       background-image: url(../img/payment/icon_banco_safra-D5A56E2A4C82C2AF0BA7B728633CFBAF.png);
+}
+
+#casino .container.casino #foot ul#paymentList li a.banco_safra,
+#registration.casino #foot ul#paymentList li a.banco_safra,
+#lpage3.lpage3_dark #foot ul#paymentList li a.banco_safra  {
+       width: 74px;
+       background-image: url(../img/payment/icon_casino_banco_safra-A7F1648720AE5A519C6B280B2E859009.png);
+}
+
+/* seven_eleven */
+#foot ul#paymentList li a.seven_eleven {
+       width: 20px;
+       background-image: url(../img/payment/icon_seven_eleven-95B3D08446341C703FF4D492A7B5F928.png);
+}
+
+#casino .container.casino #foot ul#paymentList li a.seven_eleven,
+#registration.casino #foot ul#paymentList li a.seven_eleven,
+#lpage3.lpage3_dark #foot ul#paymentList li a.seven_eleven  {
+       width: 20px;
+       background-image: url(../img/payment/icon_casino_seven_eleven-20ED52AB9728025ED7A2E0A7EA743AEB.png);
+}
+
+/* banco_azteca */
+#foot ul#paymentList li a.banco_azteca {
+       width: 61px;
+       background-image: url(../img/payment/icon_banco_azteca-AC6115CAD94687D2E16720EA3A8A3656.png);
+}
+
+#casino .container.casino #foot ul#paymentList li a.banco_azteca,
+#registration.casino #foot ul#paymentList li a.banco_azteca,
+#lpage3.lpage3_dark #foot ul#paymentList li a.banco_azteca  {
+       width: 61px;
+       background-image: url(../img/payment/icon_casino_banco_azteca-75218D16DDDBD710120C0B06557246C1.png);
+}
+
+/* banorte */
+#foot ul#paymentList li a.banorte {
+       width: 61px;
+       background-image: url(../img/payment/icon_banorte-B1AFBACB0E2C659305FC4E9690E6BD63.png);
+}
+
+#casino .container.casino #foot ul#paymentList li a.banorte,
+#registration.casino #foot ul#paymentList li a.banorte,
+#lpage3.lpage3_dark #foot ul#paymentList li a.banorte  {
+       width: 61px;
+       background-image: url(../img/payment/icon_casino_banorte-A4B00A9BB6F2024F7C68C0B49872C331.png);
+}
+
+/* walmart */
+#foot ul#paymentList li a.walmart {
+       width: 26px;
+       background-image: url(../img/payment/icon_walmart-1859D0041B48F9248F86260F8C1AAD61.png);
+}
+
+#casino .container.casino #foot ul#paymentList li a.walmart,
+#registration.casino #foot ul#paymentList li a.walmart,
+#lpage3.lpage3_dark #foot ul#paymentList li a.walmart  {
+       width: 26px;
+       background-image: url(../img/payment/icon_casino_walmart-054587ED5EC25E77D24A3FF1449A646B.png);
+}
+
+/* superama */
+#foot ul#paymentList li a.superama {
+       width: 36px;
+       background-image: url(../img/payment/icon_superama-B2E55BCE466763594B2F4CA9F31801F0.png);
+}
+
+#casino .container.casino #foot ul#paymentList li a.superama,
+#registration.casino #foot ul#paymentList li a.superama,
+#lpage3.lpage3_dark #foot ul#paymentList li a.superama  {
+       width: 36px;
+       background-image: url(../img/payment/icon_casino_superama-FA31FA5DE84BC33CFED54CFAE573154E.png);
+}
+
+/* spei */
+#foot ul#paymentList li a.spei {
+       width: 64px;
+       background-image: url(../img/payment/icon_spei-D2BBC31186626181B0178D9FF98540D1.png);
+}
+
+#casino .container.casino #foot ul#paymentList li a.spei,
+#registration.casino #foot ul#paymentList li a.spei,
+#lpage3.lpage3_dark #foot ul#paymentList li a.spei  {
+       width: 68px;
+       background-image: url(../img/payment/icon_casino_spei-C7B3B2449AFF5DAACF1F02918ACC0D38.png);
+}
+
+/* circulo_k */
+#foot ul#paymentList li a.circulo_k {
+       width: 26px;
+       background-image: url(../img/payment/icon_circulo_k-4CF89CD0B51A0E2DFF027D5C6067F536.png);
+}
+
+#casino .container.casino #foot ul#paymentList li a.circulo_k,
+#registration.casino #foot ul#paymentList li a.circulo_k,
+#lpage3.lpage3_dark #foot ul#paymentList li a.circulo_k  {
+       width: 26px;
+       background-image: url(../img/payment/icon_casino_circulo_k-0603111A094B4ED8362ACA0496E92B0B.png);
+}
+
+/* farmacia_benavides */
+#foot ul#paymentList li a.farmacia_benavides {
+       width: 26px;
+       background-image: url(../img/payment/icon_farmacia_benavides-6AF7AFAD807F25078A7F130C1B17DECE.png);
+}
+
+#casino .container.casino #foot ul#paymentList li a.farmacia_benavides,
+#registration.casino #foot ul#paymentList li a.farmacia_benavides,
+#lpage3.lpage3_dark #foot ul#paymentList li a.farmacia_benavides  {
+       width: 26px;
+       background-image: url(../img/payment/icon_casino_farmacia_benavides-5544FC7420A9FCADFA424281F945FD55.png);
+}
+
+/* sam_club */
+#foot ul#paymentList li a.sam_club {
+       width: 26px;
+       background-image: url(../img/payment/icon_sam_club-7A32B62C22619E3D45D569619AEB0026.png);
+}
+
+#casino .container.casino #foot ul#paymentList li a.sam_club,
+#registration.casino #foot ul#paymentList li a.sam_club,
+#lpage3.lpage3_dark #foot ul#paymentList li a.sam_club  {
+       width: 26px;
+       background-image: url(../img/payment/icon_casino_sam_club-433068C07F2A700DB9044C1BA78CBAA5.png);
+}
+
+/* farmacia_ahorro */
+#foot ul#paymentList li a.farmacia_ahorro {
+       width: 26px;
+       background-image: url(../img/payment/icon_farmacia_ahorro-695F90977DE33E5FA3585DB0BD7D9613.png);
+}
+
+#casino .container.casino #foot ul#paymentList li a.farmacia_ahorro,
+#registration.casino #foot ul#paymentList li a.farmacia_ahorro,
+#lpage3.lpage3_dark #foot ul#paymentList li a.farmacia_ahorro  {
+       width: 26px;
+       background-image: url(../img/payment/icon_casino_farmacia_ahorro-AA3C1D9C6199222B147BF81956D5DA17.png);
+}
+
+/* indian wallets */
+#foot ul#paymentList li a.indian_wallets {
+       width: 26px;
+       background-image: url(../img/payment/icon_indian_wallets-05919861D91588A19D4F42087E19DF01.png);
+}
+
+/* bodega_aurrera */
+#foot ul#paymentList li a.bodega_aurrera {
+       width: 26px;
+       background-image: url(../img/payment/icon_bodega_aurrera-76804C3FF68564AF47506BABC1851DD7.png);
+}
+
+#casino .container.casino #foot ul#paymentList li a.bodega_aurrera,
+#registration.casino #foot ul#paymentList li a.bodega_aurrera,
+#lpage3.lpage3_dark #foot ul#paymentList li a.bodega_aurrera  {
+       width: 26px;
+       background-image: url(../img/payment/icon_casino_bodega_aurrera-7AB1B0A49F6D321CB76DBD27C1895BDE.png);
+}
+
+/* banrisul */
+#foot ul#paymentList li a.banrisul {
+       width: 34px;
+       background-image: url(../img/payment/icon_banrisul-21B3B0B003699EC03B9BDAB045823464.png);
+}
+
+#casino .container.casino #foot ul#paymentList li a.banrisul,
+#registration.casino #foot ul#paymentList li a.banrisul,
+#lpage3.lpage3_dark #foot ul#paymentList li a.banrisul  {
+       width: 34px;
+       background-image: url(../img/payment/icon_casino_banrisul-ABA4EBDDEE4082EEDE4510DB79CEC86E.png);
+}
+
+/* servipag */
+#foot ul#paymentList li a.servipag {
+       width: 26px;
+       background-image: url(../img/payment/icon_servipag-1CA7CAC62C93B5BEF641B62F7CDFD1BC.png);
+}
+
+/* netbanking india */
+#foot ul#paymentList li a.netbanking_india {
+       width: 26px;
+       background-image: url(../img/payment/icon_netbanking_india-E2EBE5FD6E630BF8F01E7F30FF835B96.png);
+}
+
+/* phone pe */
+#foot ul#paymentList li a.phone_pe {
+       width: 26px;
+       background-image: url(../img/payment/icon_phone_pe-9CAE2FA8E87F273F2B52C96722B8EEE1.png);
+}
+
+/* free charge */
+#foot ul#paymentList li a.free_charge {
+       width: 26px;
+       background-image: url(../img/payment/icon_free_charge-AD4C6DADB1146E04A0BE79F07BAB3A66.png);
+}
+
+/* pix */
+#foot ul#paymentList li a.pago_efectivo {
+       width: 60px;
+       background-image: url(../img/payment/icon_pago_efectivo-6213D80B78B2E328B0606AF9EDD1A398.png);
+}
+
+/* pix */
+#foot ul#paymentList li a.pix {
+       width: 65px;
+       background-image: url(../img/payment/icon_pix-925BEF17E1305C605B0E6E848EDEAA72.png);
+}
+
+/* ola money */
+#foot ul#paymentList li a.ola_money {
+       width: 34px;
+       background-image: url(../img/payment/icon_ola_money-DC574AEE71DA2F74D6DC38191D9DBFE4.png);
+}
+
+/* multicaja */
+#foot ul#paymentList li a.multicaja {
+       width: 34px;
+       background-image: url(../img/payment/icon_multicaja-AAD2BEEFB649FF7310BA4B40DBEADEFB.png);
+}
+
+#casino .container.casino #foot ul#paymentList li a.multicaja,
+#registration.casino #foot ul#paymentList li a.multicaja,
+#lpage3.lpage3_dark #foot ul#paymentList li a.multicaja  {
+       width: 34px;
+       background-image: url(../img/payment/icon_casino_multicaja-2BC9B0724A150EFFF8CF9AB176395553.png);
+}
+
+/* upi */
+#foot ul#paymentList li a.upi {
+       width: 68px;
+       background-image: url(../img/payment/icon_upi-080EDE2C86FEB632FA6AC56B65534B89.png);
+}
+
+/* bbva_cash */
+#foot ul#paymentList li a.bbva_cash {
+       width: 100px;
+       background-image: url(../img/payment/icon_bbva_cash-81D553C3604894FE97F50B5E2AB5BA36.png);
+       margin-top: -2px;
+}
+
+#casino .container.casino #foot ul#paymentList li a.bbva_cash,
+#registration.casino #foot ul#paymentList li a.bbva_cash,
+#lpage3.lpage3_dark #foot ul#paymentList li a.bbva_cash  {
+       width: 100px;
+       background-image: url(../img/payment/icon_bbva_cash-81D553C3604894FE97F50B5E2AB5BA36.png);
+}
+
+/* mobikwik */
+#foot ul#paymentList li a.mobikwik {
+       width: 26px;
+       background-image: url(../img/payment/icon_mobikwik-55148732D65C150138B39F702AED0B2A.png);
+}
+
+/* interac_online */
+#foot ul#paymentList li a.interac_online {
+       width: 20px;
+       background-image: url(../img/payment/icon_interac_online-D91C617443510595D5C8EA6DA34DC1FB.png);
+}
+
+/* interac_etransfer */
+#foot ul#paymentList li a.interac_etransfer {
+       width: 20px;
+       background-image: url(../img/payment/icon_interac_etransfer-4CA52CD99839D4729F778ED5DFC0E19A.png);
+}
+
+/* interac_ecashout */
+#foot ul#paymentList li a.interac_ecashout {
+       width: 26px;
+       background-image: url(../img/payment/icon_interac_ecashout-2D237185A52CE8EFABDBA0DD929141EA.png);
+}
+
+/* interac */
+#foot ul#paymentList li a.interac {
+       width: 26px;
+       background-image: url(../img/payment/icon_interac-13E1E6CD6FF959C694247DF338DA7ADC.png);
+}

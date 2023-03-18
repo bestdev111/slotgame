@@ -1,0 +1,8412 @@
+.page.top {			/* sichtbare page */
+	z-index: 10;
+}
+.placeholder { 	/* fuer page handling */
+	visibility:hidden;
+}
+.odlistbeting
+{
+	max-height: 48px;
+	overflow: hidden;
+        border-bottom: 1px dotted #d7dcde;
+}
+
+/* --- preloading --- */
+#hide_url_dummy_div {
+	position: fixed;
+}
+
+.filterbar div.quickFilter span, .showQuickFilter .searchfield + span {
+    font-size: 9px;
+    text-align: center;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    color: #414241;
+    display: block;
+    margin-top: 3px;
+}
+.showQuickFilter .searchfield + span {
+    margin-top: -1px;
+}
+.scroll_container {
+	position: relative;
+	-webkit-backface-visibility: hidden;
+	-webkit-perspective: 0;
+	-webkit-transform: translate3d(0,0,0);
+	background: #fff;
+}
+
+.twocol .scroll_container {
+	height: 98%;
+	overflow: scroll;
+}
+
+.scroll_wrapper {
+	width:100%;
+	padding-top: 44px;
+	padding-bottom: 44px;
+}
+
+body.iframe .scroll_wrapper {
+	padding: 0;
+}
+
+body.iframe .header,
+body.iframe .footer {
+	display: none;
+}
+
+body.twocol {
+    overflow: hidden;
+}
+
+body.twocol #vsmLandscapeMode {
+    display: none !important;
+}
+
+body.virtualSports {
+    overflow: scroll !important;
+}
+
+body.virtualSports .footer {
+    display: none !important;
+}
+
+
+.appcontent{
+	position: relative;
+	-webkit-transform: translate3d(0,0,0);
+/* 	height: 100%; */
+}
+
+/* @media only screen and (min-device-width: 768px) { */
+/* 	.appcontent{ */
+/* 		height: 100%; */
+/* 	} */
+/* } */
+
+#alldebug {
+	position: absolute;
+	bottom: 70px;
+	left: 10px;
+	right: 10px;
+	height: 150px;
+	overflow: scroll;
+	border:1px dashed black;
+	margin:5px;
+	padding:5px;
+	background:#FFFFFF;
+	z-index: 20000;
+}
+
+#debugshow {
+	position: absolute;
+	top: 0px;
+	right: 0px;
+	height: 40px;
+	width: 60px;
+	background: #ffffff;
+	border: 2px solid green;
+	z-index: 20000;
+}
+
+#loading .error {
+	text-align: center;
+}
+
+@media all and (orientation:landscape) {
+	.iphoneinstall {
+		width: 480px;
+		height: 208px;
+	}
+}
+body {
+	margin: 0px;
+	font-weight: normal;
+	color: #3e3e3e;
+	user-select: none;
+	-o-user-select: none;
+	-moz-user-select: none;
+	-khtml-user-select: none;
+	-webkit-user-select: none;
+	text-size-adjust: none;
+	-o-text-size-adjust: none;
+	-moz-text-size-adjust: none;
+	-khtml-text-size-adjust: none;
+	-webkit-text-size-adjust: none;
+	overflow-x: hidden;
+	height: 100vh; /* iPhone Homescreen Fix */
+}
+
+@font-face {
+	font-family: 'Cooper Hewitt Bold';
+    src: url('../fonts/cooperhewitt-heavy-webfont.woff2') format('woff2'),
+         url('../fonts/cooperhewitt-heavy-webfont.woff') format('woff');
+}
+
+@font-face {
+	font-family: 'Cooper Hewitt Heavy';
+    src: url('../fonts/cooperhewitt-heavyitalic-webfont.woff2') format('woff2'),
+         url('../fonts/cooperhewitt-heavyitalic-webfont.woff') format('woff');
+}
+
+body,
+input,
+textarea,
+keygen,
+select,
+button {
+	font-family: 'Roboto Condensed', helvetica, sans-serif;
+}
+
+#themeBackground {
+	position: fixed;
+	width: 100%;
+	height: 100%;
+    background-color: #fff;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    z-index: -1;
+	transition: 1s opacity;
+}
+
+.notheme #themeBackground {
+    opacity: 0;
+}
+
+#themeBackground.activeBetslipImage {
+    transition: none;
+    opacity: 1;
+    background-color: #fff;
+}
+
+.themeBackground .topEventsBox,
+.themeBackground .bar,
+.themeBackground .barmiddleleft,
+.themeBackground .barmiddleright,
+.themeBackground .barbottomleft,
+.themeBackground .barbottomright,
+.themeBackground .barbottom,
+.themeBackground .bonusSloganBox,
+.themeBackground .filterbar,
+.themeBackground .swipeNav,
+.themeBackground .link,
+.themeBackground .spacer {
+	background: rgba(255,255,255,0.8);
+}
+
+.themeBackground .topEventsBox .even,
+.themeBackground .topEventsBox .odd,
+ .themeBackground .footNote .link {
+	background-color: transparent;
+}
+
+.themeBackground .link {
+	margin-top: 0;
+	padding-top: 15px;
+}
+
+.themeBackground .bartitle {
+	background: rgba(243,244,245,0.8);
+}
+
+.themeBackground .qbutton {
+	background-color: rgba(255,255,255,0.8);
+}
+
+.themeBackground .qbutton.stopped {
+	opacity: 0.9;
+}
+
+.hideByBrand {
+    display: none !important;
+}
+
+.selectable {
+	user-select: initial;
+	-o-user-select: initial;
+	-moz-user-select: initial;
+	-khtml-user-select: initial;
+	-webkit-user-select: initial;
+	text-size-adjust: initial;
+	-o-text-size-adjust: initial;
+	-moz-text-size-adjust: initial;
+	-khtml-text-size-adjust: initial;
+	-webkit-text-size-adjust: initial;
+}
+
+@media screen and (max-width: 300px) {
+	body, button, #bonus h2, .form .submit, .form .textfield, .form .select {
+		font-size: 14px;
+	}
+}
+.clear {
+	clear: both;
+}
+.page {
+	position: absolute;
+	top: 0px;
+	bottom: 0px;
+	left: 0px;
+	right: 0px;
+	z-index: 0;
+}
+
+ul {
+	margin-top: -10px;
+}
+
+form .barmiddle ul {
+	margin: 0;
+	padding: 0 20px;
+}
+
+.cms_richtext {
+	padding-bottom: 10px;
+}
+
+.msgtext .cms_richtext {
+	padding-bottom: 0;
+}
+
+.cms_richtext ul {
+	margin-top: 0;
+}
+icon .icons.corner {
+	-webkit-background-size: 705px 20px;
+	background-position: -98px 0px;
+	width: 20px;
+	height: 20px;
+}
+#install .icons.event_close,
+#installAndroid .icons.event_close {
+	-webkit-background-size: 705px 20px;
+	background-position: -137px 0px;
+	width: 20px;
+	height: 19px;
+}
+
+.icons.msg_error,
+.icons.msg_warning,
+.icons.msg_info,
+.icons.msg_cashout {
+	float: left;
+	margin-left: -28px;
+	margin-top: 9px;
+}
+
+.msg_groupError {
+	background: #ffa000;
+	border-radius: 5px;
+}
+
+.msg_groupError .msgtext {
+	padding: 5px 0 5px 2px;
+	margin-left: 30px;
+}
+
+.msgtext .icons.msg_success {
+    float: left;
+    margin-top: 6px;
+    background: url("../img/icons/msg_checkmark_green.png");
+    background-position: 0;
+    background-size: 29px;
+    height: 29px;
+    width: 29px;
+}
+
+#noscript {
+	background-color: #f00;
+    font-size: 20px;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0px;
+    z-index: 10000;
+    position: absolute;
+    width: 100%;
+}
+/* 404 Page */
+
+#pageNotFound .warning_1 {
+	width: 95%;
+	background-color: white;
+	border: 1px solid #f64835;
+	margin-top: 10px;
+	margin-left: 2.5%;
+	padding-top: 10px;
+}
+
+#pageNotFound .wrap {
+	position: relative;
+}
+
+#pageNotFound .wrap img {
+	position: absolute;
+	max-height: 100%;
+	max-width: 94px;
+	left: 2%;
+	bottom: 0;
+}
+
+#pageNotFound .macro {
+	padding: 11px 30px 11px 30px;
+	margin-left: 80px;
+	color: #666666;
+}
+
+#pageNotFound h1 {
+	font-size: 16px
+}
+
+#pageNotFound .barmiddle .text {
+	padding-top: 5px;
+}
+
+#pageNotFound .barbottom .text {
+	font-weight: bold;
+}
+
+@media screen and (max-height: 278px) and (orientation : portrait) {
+	/*Hide footer when keyboard is shown (webkit).*/
+	.appfooter {
+		display: none;
+	}
+	#body {
+		-webkit-transform: translate3d(0px,0px,0px);
+	}
+	#page1,
+	#page2,
+	#page1a,
+    #page2a {
+		height: 278px !important;
+		-webkit-backface-visibility: hidden;
+	}
+}
+
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+	/*Show footer on windows phones.*/
+	.appfooter {
+		display: block !important;
+	}
+}
+
+.iosAppModeInputFocused .appheader,
+.iosAppModeInputFocused .appfooter {
+	position: static !important;
+}
+
+.iosAppModeInputFocused .scroll_wrapper {
+	padding-top: 0px !important;
+	padding-bottom: 0px !important;
+}
+/* END ios7(gm) bugfixes */
+
+/*
+	Ausschliesslich Styles fuer css.html in dieser Datei!
+*/
+
+.db {			/* debug border */
+	border: 1px solid black;
+}
+.rb {			/* debug border */
+	border: 1px solid red;
+}
+.yb {			/* debug border */
+	border: 1px solid yellow;
+}
+.small {
+	font-size: 12px;
+}
+.standard {
+	font-size: 16px;
+}
+.normal{
+	font-weight: normal;
+}
+.bold {
+	font-weight: bold;
+}
+.blink {
+	visibilty: hidden;
+}
+.spacer {
+	height: 10px;
+}
+
+body,.page {
+	background: rgba(0, 0, 0, 0);
+	transition: 1s;
+}
+
+.notheme, .notheme .page {
+	background: #fff;
+	opacity: 1;
+}
+
+.notheme {
+    background: #7c7c7c;
+}
+
+.noapp body {
+	overflow-x: hidden;
+	overflow-y: scroll;
+}
+
+.arrow_blue_up {
+	background: url('../img/arrow_blue_up.png') right center no-repeat transparent;
+	background-size: 20px 20px;
+}
+.arrow_blue_down {
+	background: url('../img/arrow_blue_down.png') right center no-repeat transparent;
+	background-size: 20px 20px;
+}
+.selected.arrow_blue_up {
+	background: url('../img/arrow_blue_up.png') right center no-repeat #f64835;
+	background-size: 20px 20px;
+}
+.selected.arrow_blue_down {
+	background: url('../img/arrow_blue_down.png') right center no-repeat #f64835;
+	background-size: 20px 20px;
+}
+.event .selected.arrow_blue_down {
+	background: url('../img/arrow_blue_down.png') right center no-repeat transparent;
+	background-size: 20px 20px;
+}
+.event .selected.arrow_blue_up {
+	background: url('../img/arrow_blue_up.png') right center no-repeat transparent;
+	background-size: 20px 20px;
+}
+.event .arrow_blue_down,
+.event .arrow_blue_up {
+	padding-left: 30px;
+}
+
+.arrow_grey_up, .arrow_blk_down {
+	background-position: center;
+	background-repeat: no-repeat;
+	background-color: transparent;
+	background-size: 11.5px 6px;
+}
+
+.arrow_grey_up {
+	background-image: url('../img/arrow_grey_up.png');
+}
+
+.arrow_blk_down {
+	background-image: url('../img/arrow_blk_down.png');
+}
+
+.selected.arrow_grey_up,
+.selected.arrow_blk_down {
+	background-color:  #f64835;
+}
+
+.event .selected.arrow_blk_down ,
+.event .selected.arrow_grey_up {
+	background-color: transparent;
+}
+
+.event .arrow_blk_down,
+.event .arrow_grey_up {
+	padding-left: 30px;
+}
+
+.arrow {
+	background: url('../img/arrow-slim.png') 97.5% center no-repeat transparent;
+	background-size: 8.5px 15px;
+}
+
+.arrowdown {
+	background: url('../img/arrowB.png') right center no-repeat #FFFFFF;
+	background-size: 25px 20px;
+}
+
+.selected, .selected .cell .value, .selected .value {
+	color: #FFFFFF;
+}
+
+.selected .label{
+	color: #000000;
+}
+
+.statsIcon {
+	background: url('../img/stats.png') right center no-repeat transparent;
+}
+.helpIcon {
+	background: url('../img/help.png') center center no-repeat transparent;
+	background-size: 70%;
+}
+
+.active:active,
+.selected,
+.selected.submit,
+.msgtextbg[onclick^="go('"]:active .text {
+	color: #FFFFFF;
+	background: #f64835;
+}
+
+.selected.arrow,
+.selected .arrow,
+.arrow:active {
+	background-color: #f64835;
+	background-repeat: no-repeat;
+}
+
+.selected.navup {
+	background:url('../img/arrowUSel.png') #f64835 center center no-repeat;
+	background-size: 25px 20px, auto;
+}
+
+.selected.navdown {
+	background:url('../img/arrowBSel.png') #f64835 center center no-repeat;
+	background-size: 25px 20px, auto;
+}
+
+/* --- bar --- */
+.bartitle .text,.bar .cell,
+.barmiddleleft .text,
+.barmiddleright .text,
+.barbottomleft .text,
+.barbottomright .text,
+.barmiddle .text,
+.bartop .text,
+.barbottom .text {
+	font-weight: normal;
+	background-image: none;
+}
+
+.iconbar .text {
+	padding-left: 0;
+}
+
+.bar,
+.bartop,
+.bartitle,
+.barmiddle,
+.barmiddleleft,
+.barmiddleright,
+.barbottomleft,
+.barbottomright,
+.barfinish,
+.barbottom,
+.navitem,
+.navup,
+.navdown,
+.edtitle {
+	width: 100%;
+	background-color: white;
+	padding-left: 2.5%;
+	padding-right: 2.5%;
+	box-sizing: border-box;
+	overflow: hidden;
+}
+
+.singlebar,
+.barmiddle.singlebar,
+.barbottom.singlebar {
+	padding-left: 0;
+	padding-right: 0;
+	table-layout: fixed;
+}
+
+.barmiddle.full {
+	padding-right: 0;
+}
+
+.bartitle {
+	border-top: 1px solid #dcdbdb;
+	background-color: #f3f4f5;
+}
+
+.bartitle .text {
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+.blank,
+.navitem.w100 {
+	width: 100%;
+}
+
+.navitem.w100 {
+	padding-bottom: 1.3%;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-align-items: center;
+	-ms-flex-align: center;
+	align-items: center;
+}
+
+.bar, .bartop,
+.bartitle,
+.barmiddle,
+.barbottom {
+	display: table;
+}
+
+form .barmiddle,
+form .barbottom {
+	table-layout: fixed;
+}
+
+.text .normal,
+.text.normal {
+	font-weight: normal;
+}
+
+.text.amount {
+    white-space: nowrap;
+}
+
+.center {
+	text-align: center;
+}
+
+.space_2 {
+	height: 2px;
+}
+
+.space_10 {
+	height:10px;
+}
+
+.bar {
+	margin-top: 10px;
+}
+
+.bartop {
+	margin-top: 10px;
+}
+
+.betmatrix .head,
+.betmatrix .foot {
+	background: #fff;
+	background-image: none !important;
+	color: #3e3e3e;
+	font-weight: bold;
+}
+
+.bartitle.bartitlebutton > .text {
+	width: 100%;
+	padding-top: 3px;
+	padding-left: 0;
+}
+
+.cashoutButton_wrapper {
+	width: 100%;
+	text-align: center;
+	margin-top: 10px;
+	height: 42px;
+	position: relative;
+	margin-bottom: 10px;
+}
+
+.cashoutButton_wrapper .button.cashout {
+	min-width: 180px;
+	position: relative;
+}
+
+.button.cashout {
+	position: relative;
+	width: 40%;
+	min-width: 148px;
+	height: 100%;
+	display: inline-block;
+}
+
+.tlitem .button.cashout {
+	position: absolute;
+	z-index: 3;
+}
+
+.button.cashout button {
+	width: 100%;
+	height: 100%;
+	background: #7c7c7c;
+	border-color: #7c7c7c;
+	margin: 0;
+	padding: 0;
+}
+
+.button.cashout .text {
+	position: absolute;
+    display: flex;
+	width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	color: white;
+	line-height: 35px;
+	font-size: 15px;
+	font-weight: bold;
+}
+
+.button.cashout .text span {
+	font-size: 14px;
+	text-transform: uppercase;
+	padding-right: 2px;
+}
+
+.button.cashout .inner {
+	position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.button.cashout .filling {
+	width: 0%;
+    height: 100%;
+    transition-timing-function: ease-in-out;
+    transition-duration: 2s;
+	background: #5c5c5c;
+}
+
+.bartitle.bartitlebutton .button button .text.bb_green,
+.button.cashout .filling.bb_green {
+	background: #54a003;
+}
+
+.button.cashout .bb_green {
+	background: #84b64f;
+	border-color: #84b64f;
+}
+
+.bartitle.bartitlebutton .button button .text.bb_red,
+.button.cashout .filling.bb_red {
+	background: #b40a0b;
+}
+
+.button.cashout .bb_red {
+	background: #ba5354;
+	border-color: #ba5354;
+}
+
+.button.cashout button:focus {
+	background: #7c7c7c;
+	border-color: #7c7c7c;
+}
+
+.bartitle.bartitlebutton .button button:focus {
+	background: inherit;
+	border-color: inherit;
+	outline: none;
+}
+
+.bartitle.bartitlebutton .button button:focus .text {
+	background: #7c7c7c;
+	border-color: #7c7c7c;
+}
+
+.betmatrix {
+	background-color: #ffffff;
+	border-spacing: 0;
+	overflow: hidden;
+	margin-top: 10px;
+	margin-left: 2.5%;
+}
+
+.betmatrix .head td,
+.betmatrix .foot td {
+	font-weight: bold;
+}
+
+.betmatrix td {
+	border-top: 1px solid #B2B2B2;
+	height: 44px;
+	min-width: 35px;
+}
+
+.betmatrix .left {
+	text-align: left;
+	padding-left: 7px;
+}
+
+.betmatrix .right {
+	text-align: right;
+	padding-right: 7px;
+}
+
+.betmatrix .value {
+	padding-right: 7px;
+}
+
+.barmiddle {
+	border-top: 1px solid #dcdbdb;
+}
+.barmiddle.noborder,
+.barbottom.noborder,
+.navitem.noborder,
+.ticketitem.noborder,
+.event.noborder {
+	border-top: none;
+}
+
+.navitem + .navtitle {
+	border-top: 2px solid #d7dcde;
+}
+
+.barbottom,
+.barbottom .event.selected {
+	border-top: 1px solid #dcdbdb;
+}
+
+.barfinish {
+	height: 10px;
+}
+.barfinish.half {
+	height: 5px;
+}
+
+.barmiddleleft,
+.barbottomleft,
+.barmiddleright,
+.barbottomright {
+	border-top: 1px solid #dcdbdb;
+}
+
+.barbottomright.last {
+	border-bottom: 1px solid #dcdbdb;
+}
+
+.barbottom.center .text {
+	padding-right: initial;
+}
+
+.separator {
+	margin-top: 5px;
+}
+
+.link {
+	width:100%;
+	margin-top:10px;
+	text-align:center;
+}
+
+.link a {
+	text-decoration:none;
+	color:#3e3e3e;
+}
+
+.noapp .cell,
+.noapp .icon,
+.noapp .text,
+.noapp .value,
+.noapp .label {
+	overflow-x: hidden;
+}
+
+.noapp .cell {
+	overflow-x: visible;
+}
+
+.cell,
+.icon,
+.text,
+.value,
+.label {
+	display: table-cell;
+	vertical-align: middle;
+}
+
+.wrap > .text {
+    display: block;
+}
+
+.cell,
+.text,
+.value,
+.label {
+	height: 44px;
+}
+
+.bartitle .text,
+.bartitle .value {
+	height: 32px;
+	padding-left: 2px;
+}
+
+.bartitle .text {
+	padding-top: 2px;
+}
+
+.halfsize .cell,
+.halfsize .text,
+.halfsize .value,
+.halfsize .label {
+	height: 22;
+}
+
+.halfsize .value {
+	padding-right: 0;
+}
+
+.icon,
+.icon + .text,
+div.hidden + .text,
+.date + .text,
+form .barmiddle .value,
+.value,
+.label {
+	padding-left: 7px;
+}
+
+.icon {
+	width: 24px;
+}
+
+.icon.right {
+	padding-right:7px;
+	padding-left:5px;
+}
+
+.value {
+	text-align: right;
+	color:  #00384E;
+	padding-right: 5%;
+}
+
+.value2 {
+	padding-right: 10px;
+}
+
+.pr_7, #personalDetails.form .value.pr_7 {
+	padding-right: 0;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	overflow: hidden;
+}
+
+.barmiddle.arrow .value.pr_7 {
+	padding-right: 10%;
+}
+
+.cell.bold {
+	font-weight:bold;
+}
+
+/* --- nav --- */
+
+.navtitle {
+	border-top: 1px solid #eef1f2;
+	background: #eef1f2;
+}
+
+.navtitle.navsub {
+	border-top: 1px solid #d7dcde;
+	background: #fff;
+}
+
+.navtitle.borderBot {
+	border-bottom:1px solid #eef1f2;
+}
+
+.navtitle.navsub.delete .text {
+	color: #76797d;
+}
+
+.navtitle .text {
+	font-weight:bold;
+	padding-left: 0;
+ }
+
+.navtitle .tlsubitem > .text {
+	padding-left: 7px;
+}
+
+.navtitle .tlsubitem .icon + .text {
+	padding-left: 0;
+ }
+
+.navtitle .icon,
+.navtitle .text {
+	display: table-cell;
+	vertical-align: middle;
+	height: 26px;
+	color: #3e3e3e;
+}
+
+.navtitle .deleteOldTickets,
+.navtitle .downloadPage {
+	text-align: center;
+	padding-left: 30px;
+	padding-right: 18px;
+	margin-right: 8px;
+	cursor: pointer;
+	float: right;
+}
+
+.navtitle .downloadPage {
+	text-align: center;
+	padding-left: 30px;
+	padding-right: 18px;
+	padding-right: calc(20px + 15%);
+	margin-right: 0;
+	cursor: pointer;
+	float: right;
+}
+
+.navtitle .deleteOldTickets {
+	background: url('../img/trash.png') center right no-repeat;
+	background-size: 10.5px 13px;
+}
+
+.navtitle .downloadPage {
+	background: url('../img/downloadPage.png') 90% center no-repeat;
+	background-size: 16px 16px;
+	min-height: 40px;
+	line-height: 40px;
+}
+
+.navtitle .downloadPage.selected {
+    color: #f64835;
+}
+
+.navtitle .depositWithdrawalFilter {
+	display: -ms-inline-flexbox;
+    display: -webkit-inline-flex;
+    display: inline-flex;
+	-webkit-align-items: center;
+	-ms-flex-align: center;
+	align-items: center;
+	padding: 5px 10px;
+    border: 1px solid #d7dcde;
+    border-top: none;
+    border-bottom: none;
+    background: #fff;
+    color: #76797d;
+    text-align: center;
+    min-height. 36px;
+    margin: 0;
+    box-sizing: border-box;
+    font-size: 12px;
+    min-height: 40px;
+    font-weight: 100;
+    position: relative
+}
+
+.navtitle .depositWithdrawalFilter.active {
+    background: #ececec;
+}
+
+.navtitle .depositWithdrawalFilter.active:after {
+	content: '';
+	position: absolute;
+	z-index: 2;
+	bottom: 1px;
+	left: 48%;
+	left: calc(50% - 4px);
+	width: 0;
+	height: 0;
+	border-style: solid;
+	border-width: 0 4px 5px 4px;
+	border-color: transparent transparent #76797d transparent;
+}
+
+.navtitle .icon {
+    text-align: center;
+	width: 48px;
+	padding-left: 0;
+}
+
+.navtitle .icon .sports_small {
+    margin: 0 auto;
+	max-height: 15px;
+}
+
+.navitem {
+	border-top: 1px solid #e3e3e3;
+	display: table;
+}
+
+.navitem .account {
+    display: table;
+    width: 100%
+}
+
+.navitem .twoline {
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;
+    -webkit-justify-content: space-between;
+    -ms-flex-pack: justify;
+	justify-content: space-between;
+	width: 100%;
+    padding: 8px 0 1px 0;
+    font-size: 14px;
+}
+
+.navitem .twoline.second {
+    padding: 1px 0 8px 0;
+}
+
+.navitem .text.normal,
+.navitem .label.normal,
+.navitem .cell .normal {
+	font-weight: normal;
+}
+
+.navitem .twoline .text.normal {
+    overflow: hidden;
+}
+
+.navitem .twoline .text.normal span {
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.navitem .twoline .text.normal,
+.navitem .twoline .value {
+    height: initial;
+    color: black;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+	-webkit-align-items: center;
+	-ms-flex-align: center;
+    align-items: flex-start;
+    box-sizing: border-box;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.navitem .twoline .value {
+    font-weight: 100;
+    text-transform: initial;
+}
+
+.navitem .twoline.second .text.normal,
+.navitem .twoline.second .value {
+    color: #76797d;
+    font-weight: 100;
+    text-transform: initial;
+}
+
+.navitem .label {
+	width: 50px;
+}
+
+.barmiddle .count,
+.barbottom .count,
+.navitem .count,
+.dialog .count {
+	background-color:  #AFAFAF;
+	color:  white;
+	font-size: 14px;
+	height: 18px;
+	line-height: 18px;
+	margin-right: 0px;
+	min-width: 16px;
+	padding-left: 2px;
+	padding-right: 1px;
+	text-align: center;
+	display: inline-block;
+}
+
+.navup {
+	height: 32px;
+	background: url('../img/arrowU.png') center center no-repeat #FFFFFF;
+	background-size: 25px 20px;
+}
+
+.navdown {
+	height: 32px;
+	border-top: 1px solid #DCDBDB;
+	background: url('../img/arrowB.png') center center no-repeat #FFFFFF;
+	background-size: 25px 20px;
+}
+
+/* --- header --- */
+.header, .footer {
+	-webkit-tap-highlight-color: rgba(0,0,0,0);	/* disable grey rectangle for clicks */
+	overflow: hidden;
+}
+
+.appheader > div {
+    background: #7c7c7c;
+    box-shadow: 0px 0px 1px 1px rgba(173, 22, 22, 0.6);
+}
+
+.header,
+.upcomingEventsHeader,
+.myEventsHeader {
+	background: #7c7c7c;
+	max-height: 43px;
+	padding: 0px 2.5%;
+	box-sizing: border-box;
+}
+
+.header {
+    background: #f64835;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;
+	position: relative;
+	width: 100%;
+    justify-content: space-between;
+    padding: 0;
+    box-sizing: content-box;
+}
+
+.myEventsHeader,
+.upcomingEventsHeader {
+	background-image: url("../img/live.png");
+	padding-left: 48px;
+	height: 30px;
+	position: relative;
+	background-position: 16px center;
+	background-repeat: no-repeat;
+	background-size: 16px 16px;
+}
+
+.myEventsHeader {
+background-image: url("../img/favorites.png");
+}
+
+.myEventsHeader .title.text,
+.upcomingEventsHeader .title.text {
+	text-align: left;
+	height: 30px;
+	line-height: 30px;
+}
+
+.header .logo {
+	display: inherit;
+	vertical-align: top;
+	padding-top: 12px;
+	-webkit-flex: 0 0 83px;
+	-ms-flex: 0 0 83px;
+	flex: 0 0 83px;
+	padding-left: 0px;
+	background: transparent;
+}
+
+.header .icons.back {
+	background: url('../img/arrow-slim-wht-bck.png') center center no-repeat;
+	background-size: 8.5px 15px;
+	width: 10px;
+	height: 43px;
+}
+
+.header .icon.back {
+     display: block;
+     box-sizing: border-box;
+}
+
+.header .icon.back.hidden,
+.header .tbicon.hidden {
+    display: flex !important;
+    visibility: hidden;
+}
+
+.header .title,
+.upcomingEventsHeader .title,
+.myEventsHeader .title {
+	color: white;
+	width: 100%;
+	text-align: left;
+	font-weight: bold;
+    padding: 0;
+}
+
+.header .title {
+	display: none;
+	text-align: center;
+	text-transform: uppercase;
+	font-weight: normal;
+	font-size: 12px;
+	-webkit-justify-content: center;
+	-ms-flex-pack: center;
+	justify-content: center;
+	align-items: center;
+	overflow: hidden;
+}
+
+.header .title span {
+	display: block;
+	height: 16px;
+	line-height: 16px;
+	align-items: center;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	padding: 0 2px;
+}
+
+.header .title span span {
+	display: inline;
+}
+
+.header .icon.back {
+    display: flex;
+    flex: 0 0 20%;
+    padding-left: 2.5%;
+}
+
+.header .tbicon {
+    display: flex;
+    background: #7c7c7c url("../img/tabbar/payin.png") center 18% no-repeat;
+    background-size: 26px 26px;
+    height: 100%;
+    flex: 0 0 20%;
+    text-align: center;
+    font-weight: bold;
+}
+
+.header .tbicon .text {
+    padding-top: 27px;
+}
+
+.header .tbicon.selected,
+.header .tbicon:active {
+    background-color: #f64835;
+}
+
+.upcomingEventsHeader .title,
+.myEventsHeader .title {
+	display: block;
+	line-height: 26px;
+	vertical-align: middle;
+	text-align: center;
+}
+
+.upcomingEventsHeader.empty,
+.myEventsHeader:not(.open) {
+	background-color: #808080;
+}
+
+.myEventsHeader .minify_icon {
+	position: absolute;
+	width: 11px;
+	height: 100%;
+    right: calc(2.5% + 4px);
+    background: url(../img/arrow_white_down.png) center no-repeat;
+    background-size: 11.5px 6px;
+}
+
+.myEventsHeader.open .minify_icon {
+    background: url(../img/arrow_white_up.png) center no-repeat;
+    background-size: 11.5px 6px;
+}
+
+body.twocol .pagea {
+	border-left-color: #2a7394;
+}
+
+body.twocol .header .icon.back {
+    flex: 0 0 10%;
+    padding-left: 1.25%;
+}
+
+body.twocol .header .title {
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    padding: 0;
+}
+
+body.twocol .header .title span {
+    text-align: center;
+}
+
+body.twocol .header .logo {
+    flex: 0 0 20%;
+    justify-content: center;
+}
+
+body.twocol .header .tbicon {
+    flex: 0 0 10%;
+}
+
+.header.compact {
+	max-height: 54px;
+	height: 54px;
+	width: 100%;
+	text-align: center;
+}
+
+.header.compact .item,
+.header.compact .clicklayer {
+	max-height: 54px;
+	height: 54px;
+	display: table-cell;
+	width: 25%;
+	position: absolute;
+}
+
+.header.compact .item {
+	font-weight: bold;
+	font-size: 10px;
+	text-decoration: underline;
+	color: white;
+}
+
+/* --- start page --- */
+
+.iconbar,
+.imagebar,
+.navitem.arrow,
+.barmiddle.arrow,
+.barbottom.arrow,
+.accountEntry {
+	padding-right: 20px;
+	position: relative;
+	background-image: none;
+}
+
+.accountEntry {
+    table-layout: fixed;
+}
+
+.barmiddle.withlabel,
+.barbottom.withlabel {
+	padding-right: 20px;
+}
+
+.iconbar,
+.imagebar {
+	padding-left: 48px;
+}
+
+.imagebar .icon,
+.imagebar .icon + .text  {
+	padding-left: 0;
+}
+
+.imagebar .icon div  {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+}
+
+.bartitle.iconbar {
+	background-position: 14px center;
+	margin-top: 0;
+}
+
+.iconbar.arrow:after,
+.navitem.arrow:after,
+.barmiddle.arrow:after,
+.barbottom.arrow:after {
+	content: '';
+	position: absolute;
+	height: 100%;
+	width: 20px;
+	right: 0;
+	top: 0;
+	background: url(../img/arrow-slim.png) left center no-repeat transparent;
+	background-size: 8.5px 15px;
+}
+
+.navitem.arrow:after {
+	background-image: url("../img/arrow-slim.png");
+}
+
+.iconbar:before,
+.imagebar .icon {
+	position: absolute;
+	height: 100%;
+	width: 20px;
+	left: 14px;
+	top: 0;
+	overflow:hidden;
+}
+
+.iconbar:before {
+	content: '';
+	background-image: url("../img/icons/icons.png");
+	background-size: auto 20px;
+	background-position: left center;
+	background-repeat: no-repeat;
+}
+
+.iconbar.mybets:before {
+	background-position: -20px center;
+}
+.iconbar.sport:before {
+	background-position: -600px center;
+}
+.iconbar.more:before {
+	background-position: -400px center;
+}
+.iconbar.live:before {
+	background-position: -300px center;
+}
+.iconbar.highlights:before {
+	background-position: -200px center;
+}
+.iconbar.favorites:before {
+	background-position: -120px center;
+}
+.iconbar.lastminute:before {
+	background-position: -280px center;
+}
+.iconbar.results:before {
+	background-position: -560px center;;
+}
+.iconbar.account:before {
+	background-position: -420px center;
+}
+.iconbar.konto:before {
+	background-position: 0 center;
+}
+.iconbar.payin:before {
+	background-position: -460px center;
+}
+.iconbar.withdrawal:before {
+	background-position: -740px center;
+}
+.iconbar.personal:before,
+.iconbar.contactdetails:before {
+	background-position: -100px center;
+}
+.iconbar.messages:before {
+	background-position: -380px center;
+}
+.iconbar.upload:before,
+.iconbar.uploadfile:before {
+	background-position: -700px center;
+}
+.iconbar.security:before {
+	background-position: -580px center;
+}
+.iconbar.myaccount:before {
+	background-position: -420px center;
+}
+
+.iconbar.whatsapp:before {
+    background-image: url(../img/whtsp.png);
+    background-size: auto 25px;
+    background-position: -5px 9px;
+}
+
+.iconbar.login:before {
+	background-position: -340px center;
+}
+.iconbar.logout:before {
+	background-position: -360px center;
+ }
+.iconbar.casino:before {
+	background-position: -60px center;
+}
+.iconbar.further:before {
+	background-position: -160px center;
+}
+.iconbar.settings:before,
+.iconbar.preferences:before {
+	background-position: -520px center;
+}
+.iconbar.terms:before,
+.iconbar.uploaded:before {
+	background-position: -640px center;
+}
+.iconbar.bonus:before {
+	background-position: -40px center;
+}
+.iconbar.responsibility:before {
+	background-position: -540px center;
+}
+.iconbar.contact:before {
+	background-position: -80px center;
+}
+.iconbar.information:before {
+	background-position: -240px center;
+}
+.iconbar.feedback:before,
+.iconbar.chat:before {
+	background-position: -140px center;
+}
+.iconbar.imprint:before {
+	background-position: -220px center;
+}
+.iconbar.mydetails:before,
+.iconbar.mydata:before {
+	background-position: -440px center;
+}
+.iconbar.payments:before {
+	background-position: -480px center;
+}
+.iconbar.help:before {
+	background-position: -180px center;
+}
+.iconbar.install:before {
+	background-position: -260px center;
+}
+.iconbar.system:before {
+	background-position: -620px center;
+}
+.iconbar.virtualsports:before {
+	background-position: -720px center;
+}
+.iconbar.arena:before {
+	background-position: -760px center;
+}
+
+.betpanel .iconbar:not(.bartitle),
+.accountpanel .iconbar:not(.bartitle),
+.informationpanel .iconbar:not(.bartitle),
+.iconbar.virtualsports,
+.iconbar.arena,
+.iconbar.casino,
+.iconbar.mobilecasino {
+    width: 50%;
+    float: left;
+}
+
+.betpanel .iconbar.barmiddleleft,
+.betpanel .iconbar.barbottomleft,
+.accountpanel .iconbar.barbottomleft,
+.informationpanel .iconbar.barmiddleleft,
+.informationpanel .iconbar.barbottomleft,
+.iconbar.virtualsports,
+.iconbar.mobilecasino {
+    border-right: 1px solid #dcdbdb;
+}
+
+.informationpanel .barbottomleft {
+    border-bottom: 1px solid #dcdbdb;
+}
+
+.text.new {
+	position: relative;
+	display: inline-block;
+	line-height: 44px;
+}
+.text.new:after {
+	position: absolute;
+	top: 0;
+	right: -40px;
+	content: "";
+	display: block;
+	width: 40px;
+	height: 44px;
+	background: url("../img/new-badge.png") center no-repeat;
+	background-size: 26px;
+}
+
+/* --- formulare --- */
+select {
+	font-size: 12px;
+}
+
+.form {
+	margin: 0px;
+}
+
+.form .submit,
+.submitCancelWrap .submit,
+#suggestions .button,
+#uploadForm .fileUploadButton .text {
+	font-size: 16px;
+}
+
+.form .select.selectdate {
+	max-width: 70px;
+}
+
+.form .barmiddle .text,
+.form .barmiddle .value {	/* rechte Spalte in Formularen normal */
+	font-weight: normal;
+}
+
+#newPassword.form .barmiddle .text {
+    border-left: 1px solid #dcdbdb;
+}
+
+.form .barbottom.contactHelp {
+    border: none;
+    padding: 2.5%;
+    overflow: hidden;
+}
+
+.form .barbottom.contactHelp .title {
+    display: block;
+    font-weight: bold;
+}
+
+.form .barbottom.contactHelp .text {
+    display: block;
+    margin-top: 10px;
+}
+
+.mydetails + div .barmiddle,
+#personalDetails .barmiddle {
+    table-layout: fixed;
+}
+
+.form .textfield {		/* text field */
+	min-height: 44px;
+	border: none;
+	width: 100%;
+	-webkit-appearance: none;	/* removes iphone border */
+	box-sizing: border-box;
+}
+
+.form .textfield[type="file"] {
+	min-height: inherit;
+	border-left: none;
+}
+
+.form .label {
+	width: 100px;
+	min-width: 100px;
+	background-color: #fff;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+
+.form #newsletter .label,
+#acceptLiveOddsChanges.form .label {
+	width: 60%;
+	background: white;
+	font-weight: normal;
+	padding-left: 0;
+}
+
+.form .label2 {
+	min-width: 40px;
+    padding-right: 5px;
+    text-align: right;
+    width: 50px;
+	background-color: #fff;
+}
+
+.form:not(#filterList) .value {			/* IPhone-Darstellungsfehler korrigieren (ragt nach rechts raus) */
+	padding: 0px;
+}
+
+#filterList .label {
+    padding-left: 0px;
+}
+
+#filterList .navitem .text:first-letter {
+    text-transform: capitalize;
+}
+
+.form .value.amount {
+	padding-right: 30px;
+}
+
+.form .submit,
+#suggestions .button,
+.submitCancelWrap .submit,
+#uploadForm .fileUploadButton .text {			/* submit button */
+	padding-left: 33px;
+	padding-right: 33px;
+	font-weight: bold;
+	border-radius:  0px;
+	-webkit-appearance: none;
+	white-space: pre-wrap;
+	word-wrap: break-word;
+	min-height: 34px;
+	max-height: 42px;
+}
+
+.form .text .submit, .form .text .takePicture {
+	margin: 0 auto;
+	display: block;
+}
+
+ .form .text .takePicture {
+    margin-top: 8px;
+ }
+
+.form .text .submit + .submit {
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+
+.barbottom.payoutBank {
+	text-align: center;
+}
+
+.barbottom.payoutBank .text {
+	height: 34px;
+	padding-top: 5px;
+}
+
+.form .fileUploadBtn, .takePicture {
+	 display: inline-block;
+	 line-height: 33px;
+}
+
+.form .msg {
+	color: red;
+	padding-right: 7px;
+}
+
+.form .radio,
+.form .checkbox,
+.form .select {
+	margin-top: 7px;
+	margin-bottom: 7px;
+}
+
+.submitCancelWrap {
+	background: transparent;
+	display:block;
+	text-align: center;
+	width: 95%;
+	margin-top: 5px;
+	margin-left: 2.5%;
+	transition: 500ms;
+}
+
+.submitCancelWrap.hidden {
+    display: block !important;
+    opacity: 0;
+    pointer-events: none;
+}
+
+.submitCancelWrap .submit {
+	display: inline-block;
+	width: 49.75%;
+}
+
+#newsletter button,
+#newsletter input.submit {
+	margin-left: 0;
+}
+
+#newsletter .select {
+	float: right;
+	margin-right: 30px;
+}
+
+#newsletter .checkbox,
+.checkboxBig,
+.form .checkbox,
+.verification .checkbox {
+	width: 20px;
+	height: 20px;
+	float: right;
+}
+
+#newsletter .submitCancelWrap .submit,
+#personalDetails .submitCancelWrap .submit {
+	width: 46%;
+    width: calc(47.5% - 4px);
+    padding: 0 5px;
+}
+
+.form .select,
+.form input,
+.form .label {
+	height: 30px;
+	font-size: 16px;
+	color: #3E3E40;
+}
+
+.form .label.checkboxLabel {
+    width: auto;
+}
+
+.form input[type = "text"],
+.form input[type = "tel"],
+.form .textfield {
+	font-size: 16px;
+	border-left: 1px solid #dcdbdb;
+	border-radius: 0;
+    padding: 0 5px;
+	float: left;
+	height: 100%;
+}
+
+.form input.readOnly {
+    pointer-events: none;
+}
+
+#newPassword.form .textfield {
+    border: none;
+}
+
+@media screen and (max-width: 479px) {
+	.form .select {
+		max-width: 170px;
+	}
+}
+
+@media screen and (min-width: 480px) {
+	.form .select {
+		max-width: 230px;
+	}
+}
+
+.form .barmiddle .radio.text {
+	font-size: 14px;
+}
+
+/* --- button --- */
+.bartop button,
+.barmiddle button,
+.barbottom button{
+	margin: 5px;
+}
+
+button {
+	font-size: 16px;
+	font-weight: bold;
+	margin-left: 3px;
+	margin-right: 3px;
+	padding-left: 0px;
+	padding-right: 0px;
+}
+
+button,
+form .submit,
+#suggestions .button,
+#suggestions  input[type=button].button,
+.favbutton,
+.fileUploadButton .text,
+.takePicture,
+.submitCancelWrap .submit {
+	background-color: #7c7c7c;
+	border: 1px solid #7c7c7c;
+	color: #fff;
+}
+
+button.simple,
+button.simple.link,
+form .submit.simple,
+#suggestions .button.simple,
+#suggestions  input[type=button].button.simple,
+.favbutton.simple,
+.fileUploadButton .text.simple,
+.submitCancelWrap .submit.simple {
+	background-color: #f3f4f5;
+	border: 1px solid #c6c6c6;
+	color: #000;
+}
+
+button:not(.edit):not(.bigbutton):active,
+form .submit:active,
+#suggestions .button:active,
+#suggestions  input[type=button].button:active,
+.favbutton:active,
+.fileUploadButton .text:active,
+.submitCancelWrap .submit:active {
+	background-color: #f64835;
+	color: #fff;
+	-webkit-appearance: none;
+}
+
+button:focus,
+form .submit:focus,
+#suggestions .button:focus,
+#suggestions  input[type=button].button:focus,
+.favbutton:focus,
+.fileUploadButton .text:focus,
+.submitCancelWrap .submit:focus {
+	-webkit-appearance: none;
+	outline: none;
+}
+
+.stakeButtons {
+	padding-bottom: 4px;
+	padding-left: 0;
+	margin: 0;
+	width: 100%;
+}
+
+.stakeButtons button {
+	background: #fff;
+	border: 1px solid #D7DCE0;
+	color: #3e3e3e;
+	margin-bottom: -2px;
+    margin-top: 8px;
+	margin-left: 0;
+	margin-right: 0;
+	font-size: 14px;
+}
+
+.stakeButtons.center.bartop,
+.stakeButtons.center.barmiddle {
+	padding: 0 2.5% 1.5% 2.5%;
+}
+
+.bartitle.small .text,
+.barmiddle.small .text,
+.barmiddle.small .value,
+.barbottom.small .text,
+.barbottom.small .value {
+	height: 40px;
+	font-size: 13px;
+	text-transform: none;
+}
+
+.barmiddle.small .text,
+.barbottom.small .text {
+	text-transform: none;
+	font-weight: bold;
+}
+
+.barmiddle.small.withlabel .text,
+.barbottom.small.withlabel .text,
+.barmiddle.small.withlabel .value,
+.barbottom.small.withlabel .value {
+	font-size: 16px;
+}
+
+.favbutton {
+	display: table;
+	width: 100%;
+	margin-top: 5px;
+	height: 32px;
+	margin-left: -11px;
+}
+
+.favbutton .table {
+	display: table;
+	text-align: center;
+}
+
+.favbutton .m {
+	border-left: 1px solid #eeeeee;
+	border-right: 1px solid #eeeeee;
+}
+
+button .text {
+	text-align: center;
+	padding-left: 0px;
+	height: 34px;
+	min-height: 34px;
+	width: 1000px;
+}
+
+.qbutton {
+	width: 100%;
+	display: table;
+	border: 1px solid #D7DCE0;
+	border-left-style: none;
+	height: 100%;
+	line-height: 36px;
+	font-size: 14px;
+	box-sizing: border-box;
+}
+
+.qbutton .caption {
+	float: left;
+	padding-left: 10px;
+ 	white-space: nowrap;
+    font-weight: bold;
+	color: #7c7c7c;
+}
+
+.qbutton .quote {
+	float: right;
+	text-align: right;
+	padding-right: 14px;
+	white-space: nowrap;
+}
+
+.qbutton.selected,
+button.selected,
+.selected {
+	background-color: #f64835;
+	color: #FFFFFF;
+	position: relative;
+	border-left: none;
+	border-right: none;
+}
+
+.qbutton.selected:after,
+.stakeButtons button.selected:after {
+	position: absolute;
+	content: '';
+	top: 0;
+	right: 0;
+	z-index: 2;
+	height: 22px;
+	width: 22px;
+	background: url("../img/checked_corner.png") center no-repeat;
+	background-size: 22px 22px;
+}
+
+.betfilterbar.qbutton.selected:after {
+	background: none;
+}
+
+.qbutton.selected .caption {
+	color: #FFFFFF;
+}
+
+.betfilterbar.qbutton {
+	background: #aaa;
+	display: block;
+	height: 30px;
+	line-height: 30px;
+	border-top: 1px solid #a0a0a0;
+}
+
+.betfilterbar.qbutton > div {
+	width: 32%;
+	text-align: center;
+	height: 30px;
+	padding: 0;
+	display: inline-block;
+	font-weight: bold;
+}
+
+.betfilterbar.qbutton > div img {
+	float: left;
+	margin-top: 4px;
+}
+
+.betfilterbar.qbutton > div:first-child img {
+	float: right;
+}
+
+.filterbar_scroll {
+    width: 100%;
+    display: block;
+    overflow-x: scroll;
+}
+
+.filterbar_scroll .betfilterbar {
+    table-layout: fixed;
+}
+
+body:not(.twocol) .filterbar_scroll .betfilterbar .cell {
+     width: calc(25vw - 8px);
+ }
+
+.filterbar_scroll::-webkit-scrollbar {
+    display: none;
+}
+
+.navitem + .navitem .cell.rsDesc {
+	border-top: none;
+}
+
+.navitem.w100 .cell.rsBut {
+	padding: 0;
+}
+
+.navitem.w100 .cell.rsBut,
+.navitem.w100 .cell.w50 {
+	height: 38px;
+}
+
+.navitem.w100 .cell.rsDesc.w50 {
+	height: 36px;
+}
+
+.navitem.w100 .cell.w50:first-child .qbutton.rsMultBut {
+	border-left: 1px solid #d7dcde
+}
+
+.navitem .rsBut .qbutton {
+	border: none;
+}
+
+.navitem .rsBut {
+	border: 1px solid #D7DCE0;
+}
+
+.navitem .rsBut + .rsBut {
+	border-left: none;
+}
+
+.qbutton .caption.small {
+	white-space: normal;
+}
+
+.rsMultBut.qbutton {
+    display: flex;
+    justify-content: space-between;
+}
+
+.rsMultBut.qbutton .caption.small {
+    max-width: initial;
+    padding-right: 5px;
+ 	overflow: hidden;
+ 	text-overflow: ellipsis;
+ 	white-space: nowrap;
+ 	max-width: calc(100% - 68px);
+}
+
+.bigbutton_wrapper {
+	width: 100%;
+	text-align: center;
+	overflow: hidden;
+}
+
+.bigbutton_wrapper.overlay {
+	width: 100%;
+	margin-left: 0;
+	background: #e3e3e3;
+}
+
+.bigbutton, .bigbutton.simple {
+	max-width: 95%;
+	width: 100%;
+	margin-top: 10px;
+	margin-left: 0;
+	background: transparent;
+	border: none;
+}
+
+.bigbutton_wrapper .bigbutton {
+    width: initial;
+}
+
+.bigbutton .text {
+	display: inline-block;
+	width: auto;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	padding: 4px 33px;
+	line-height: 35px;
+	background: #7c7c7c;
+	border: 1px solid #7c7c7c;
+	color: white;
+	max-width: 90%;
+	max-width: calc(100% - 66px);
+	margin: 0 auto 2px auto;
+}
+
+.bigbutton.selected, .bigbutton:focus {
+	background: inherit;
+	border-color: inherit;
+	outline: none;
+}
+
+.bigbutton.simple .text {
+	background: #f3f4f5;
+	border-color: #c6c6c6;
+	color: #000;
+}
+
+.bigbutton.orange .text,
+.bigbutton.selected .text,
+.bigbutton:active .text,
+.bigbutton.simple.selected .text,
+.bigbutton.simple:active .text {
+	background: #f64835;
+	border-color: #f64835;
+	color: #fff;
+}
+
+.w5 {
+	width: 5%;
+}
+
+.w20 {
+	width: 20%;
+}
+
+.w25 {
+	width: 25%;
+}
+
+.w50 {
+	width: 50%;
+}
+
+.w65 {
+	width: 65%;
+}
+
+.w75 {
+	width: 75%;
+}
+
+.w95{
+	width: 95%;
+}
+
+.w100 {
+	width: 100%;
+}
+
+.documentEntry .dateAndFile {
+	display: table;
+}
+
+.documentEntry .dateAndFile div{
+	display: table-cell;
+	font-weight: bold;
+	padding: 0;
+}
+
+.documentEntry .dateAndFile div:first-child {
+	white-space: nowrap;
+}
+
+.documentEntry .dateAndFile div:last-child {
+	text-align: right;
+	width: 100%;
+	word-break: break-all;
+}
+
+.documentEntry div {
+	padding: 5px 7px;
+}
+
+.documentEntry div:last-child{
+	text-align: right;
+}
+
+#uploadForm .label {
+	width: initial;
+	min-width: initial;
+	background: initial;
+	height: initial;
+	display: block;
+	padding-top: 5px;
+}
+
+#uploadForm .barmiddle .text {
+	display: block;
+}
+
+#uploadForm .textfield {
+	width: 0;
+	opacity: 0;
+}
+
+#uploadForm .fileUploadButton {
+	overflow: visible;
+}
+
+#uploadForm .fileUploadButton div {
+	padding: 0 7px;
+}
+
+#uploadForm .fileUploadButton .text {
+	line-height: 40px;
+	text-align: center;
+	margin-top: -37px;
+	overflow: hidden;
+	height: 40px;
+	padding-right: 33px;
+}
+
+#uploadForm .barbottom .label {
+	display: none;
+}
+
+#uploadForm .barbottom .text, #uploadForm .barmiddle .text {
+	text-align: center;
+}
+
+#uploadForm .selectedFile {
+	margin: 5px 0;
+}
+
+/* --- Suche---*/
+.filterbar {
+	background: rgba(0,0,0,0);
+	padding-top: 7px;
+	padding-bottom: 7px;
+	white-space: nowrap;
+}
+
+notheme .filterbar {
+	background: #e6e6e6;
+}
+
+.filterbar .text {
+	width: 100px;
+	font-weight: bold;
+}
+
+.filterbar .value {
+	width:100%;
+}
+
+.filterbar .form {
+    display: inline-block;
+    width: 100%;
+	transition: 0.7s ease-in-out;
+    margin: 0px 8px;
+    position: relative;
+}
+
+.filterbar.showQuickFilter .form {
+    width: 40px;
+    margin-right: 1px;
+    float: left;
+}
+
+.filterbar.showQuickFilter .form input.searchfield {
+    border: 1px solid #fff;
+    background-size: 23px;
+    width: 32px;
+    padding-left: 32px;
+    transition: 0.7s;
+    outline-color: white;
+}
+
+.filterbar .form:after {
+	content: "";
+	display: block;
+	width: 25px;
+	height: 31px;
+	position: absolute;
+	z-index: 6;
+	top: 0;
+	left: 0;
+}
+
+.filterbar .quickFilter,
+.retail .filterbar .quickFilter.casinoIcon {
+    display: inline-block;
+    width: calc(100% - 55px);
+    padding: 5px 0px;
+    vertical-align: middle;
+    overflow-x: scroll;
+}
+
+.filterbar .quickFilter.casinoIcon {
+    width: calc(100% - 103px);
+    margin-right: 8px;
+}
+
+.filterbar .quickFilter::-webkit-scrollbar {
+    background: transparent;
+    height: 0px;
+}
+
+.filterbar div.quickFilter .icon div {
+    margin: 0px 7px;
+    transform: scale(1.2);
+    filter: brightness(150%);
+}
+
+.filterbar div.quickFilter .icon.selected {
+    background-color: transparent;
+    outline-color: red;
+}
+
+.filterbar div.quickFilter .icon.selected div.sports {
+    -webkit-filter: drop-shadow(0px 0px 3px rgba(42, 115, 148, 0.8));
+    filter: drop-shadow(0px 0px 3px rgba(42, 115, 148, 0.8));
+}
+
+#casinoQuickFilterIcon {
+    display: inline-block;
+    height: 21px;
+    transform: scale(1.2);
+    background-image: url(../img/casino_orange.png);
+    background-size: auto 20px;
+    background-position: 0px 1px;
+    background-color: transparent;
+    background-repeat: no-repeat;
+}
+
+.betfilterbar, .eventfilterbar,
+.searchsectionbar, .mybetsbar {
+	background: #e3e3e3;
+	width: 100%;
+	display: table;
+	color: #3e3e3e;
+}
+
+.betfilterbar .preload2 .text {
+	text-transform: capitalize;
+}
+
+.searchsectionbar .cell,
+.betfilterbar .cell,
+.eventfilterbar .cell,
+.mybetsbar .cell {
+	text-align: center;
+	color: #76797d;
+	background: #fff;
+	font-size: 12px;
+	border: 1px solid #d7dcde;
+	border-right: 0;
+	padding: 8px 4px 4px 4px;
+	position: relative;
+}
+
+.searchsectionbar .cell:first-child,
+.betfilterbar .cell:first-child,
+.eventfilterbar .cell:first-child,
+.mybetsbar .cell:first-child{
+	border-left: none;
+}
+
+.betfilterbar .cell:last-child {
+	text-transform: capitalize;
+}
+
+.searchsectionbar .selected,
+.betfilterbar .cell.selected,
+.eventfilterbar .selected,
+.mybetsbar .selected {
+	background: #f3f4f5;
+}
+
+.searchsectionbar .cell.selected:after,
+.betfilterbar .cell.selected:after,
+.eventfilterbar .selected:after,
+.mybetsbar .selected:after {
+	content: '';
+	position: absolute;
+	z-index: 2;
+	bottom: 0;
+	left: 48%;
+	left: calc(50% - 4px);
+	width: 0;
+	height: 0;
+	border-style: solid;
+	border-width: 0 4px 5px 4px;
+	border-color: transparent transparent #76797d transparent;
+}
+
+.searchsectionbar .count,
+.betfilterbar .count,
+.mybetsbar .count{
+	background-color: #AFAFAF;
+	color: white;
+	padding: 1px 2px;
+	position: absolute;
+	top: 0;
+	right: 0;
+}
+
+.searchsectionbar .cell div,
+.betfilterbar .cell div,
+.eventfilterbar .cell div,
+.mybetsbar .cell div{
+	display: inline;
+	height: inherit;
+	width: inherit;
+	padding: 0;
+}
+
+.eventfilterbar .top {
+	padding-top: 2px;
+	padding-left: 7px;
+	height: 22px;
+    overflow: hidden;
+}
+
+.eventfilterbar .value {
+	vertical-align: bottom;
+	overflow: hidden;
+	height: 22px;
+	padding-right: 7px;
+	float: right;
+}
+
+.form.quickSearch {
+    display: none;
+}
+
+.form input.quickSearchInput,
+.form.quickSearch.active {
+    display: block;
+}
+
+.form input.quickSearchInput {
+    position: fixed;
+    top: 50px;
+    left: 2.5%;
+    z-index: 999999;
+}
+
+.form input.quickSearchInput,
+.searchfield, .form input.searchfield {
+	background: url('../img/magnifyto.png') 7px center no-repeat white;
+	background-size: 13px 13px;
+	font-size: 13px;
+	padding-left: 25px;
+	height: 31px;
+	width: 100%;
+	box-sizing: border-box;
+	float: none;
+	border: 1px solid #dcdbdb;
+}
+
+.suggestion {
+	position: absolute;
+	width: 95%;
+	margin-top: -1px; margin-left : 2.5%;
+	margin-right: 2.5%;
+	display: none;
+	border-top: 1px solid #676767;
+	margin-left: 2.5%;
+}
+
+.suggestion ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	white-space: nowrap;
+	overflow: hidden;
+}
+
+.suggestion li.header {
+	background: #f2f2f2;
+	height: 20px;
+	line-height: 20px;
+	border-left: 1px solid #404040;
+	border-right: 1px solid #404040;
+	padding: 0 5px 0 5px;
+	font-weight: bold;
+	border-bottom: 1px solid #404040;
+}
+
+.suggestion ul.section li {
+	height: 30px;
+	line-height: 30px;
+	padding: 0 5px 0 5px;
+	background-color: white;
+	border-bottom: 1px solid #404040;
+	border-left: 1px solid #404040;
+	border-right: 1px solid #404040;
+}
+
+#suggestions {
+    position: absolute;
+    z-index: 5;
+    width: 100%;
+    top: 37px;
+    left: -2.5%;
+    background: #fff;
+    border-bottom: 1px solid #7c7c7c;
+    -webkit-box-shadow: 0 3px 3px 0 rgba(0,0,0,0.2);
+    box-shadow: 0 3px 3px 0 rgba(0,0,0,0.2);
+}
+
+#suggestions:before {
+    content: "";
+    display: block;
+    position: absolute;
+    z-index: 6;
+    width: 100%;
+    height: 5px;
+    top: 0;
+    left: 0;
+}
+
+#suggestions .bartitle {
+    margin-top: 0;
+}
+
+#suggestions .barbottom .text {
+    font-weight: normal;
+}
+
+#suggestions .button {
+    margin: 5px auto;
+    display: block;
+}
+
+#suggestions .barbottomleft, #suggestions .barbottomright {
+    border-left: none;
+    border-right: none;
+}
+
+#searchDeleteIcon {
+    position: absolute;
+    z-index: 2;
+    right: 2.5%;
+    margin-right: 22px;
+    top: -5px;
+    height: 22px;
+    color: #9f9f9f;
+    padding: 10px 0 10px 20px;
+}
+
+/* ---  Favoriten / Alarm --- */
+.favbutton .cell {
+	height: 32px;
+}
+
+.favoriteKey {
+	margin: 10px 0 0 7px;
+	color: #ffffff;
+}
+
+.favoriteKey div {
+	height: 20px;
+	min-height: 20px;
+	display: table;
+}
+
+.favoriteKey div div,
+.favoriteKey img {
+	display: table-cell;
+	vertical-align: middle;
+}
+
+.favoriteKey img {
+	padding-right: 3px;
+}
+
+.addToFav .info {
+	margin: 10px auto;
+	display: table;
+}
+
+.addToFav .info div {
+	text-align: center;
+}
+
+.addToFav .info ul {
+	margin-top: 5px;
+}
+
+/* ---  Ticketliste / Ticketdetail --- */
+.tlsubitem {
+	display: table;
+	border: none;
+	width: 100%;
+	height: 22px;
+	font-size: 14px;
+	background-color: #f3f4f5;
+}
+
+.delete .tlsubitem {
+	background-color: #fff;
+}
+
+.navtitle .tlsubitem .icon {
+	height: 15px;
+}
+
+.tlsubitem .text {
+	min-width: 95px;
+	max-width: 95px;
+	font-size: 12px;
+	height: auto;
+}
+
+.selected .tlsubitem .value,
+.selected.ticketitem .value,
+.selected.ticketitem .label {
+	color: #FFFFFF;
+}
+
+.tlsubitem .text, .tlsubitem .value {
+	height: 18px;
+}
+
+.bank {
+	float: left;
+	border: 1px solid #0d5470;
+	border-top: 1px solid #0d5470;
+	background: #014b68;
+	color: white;
+	font-size: 14px;
+	line-height: 10px;
+	margin-right: 7px;
+	padding: 2px 2px;
+    max-width: 50px;
+    min-width: 42px;
+    white-space: nowrap;
+    text-align: center;
+    overflow-y: hidden;
+}
+
+.not.bank {
+	border: 1px solid #999;
+	border-top: 1px solid #888;
+	background: #888;
+}
+
+.editem .bank {
+	float: none;
+	display: inline-block;
+}
+
+.editem .matchname {
+	overflow: hidden;
+}
+
+.bigbutton.edit {
+	margin-top: 0;
+	padding: 2px 2.5% 5px 2.5%;
+	max-width: 100%;
+	width: 100%;
+}
+
+.bigbutton.edit div {
+	background: #f64835;
+	border-color: #f64835;
+	box-sizing: border-box;
+	width: 100%;
+	min-height: 35px;
+	text-transform: uppercase;
+	padding-top: 0;
+	padding-bottom: 0;
+}
+
+.error{
+	background-image: url('../img/icons/warning_inline.png');
+	background-color: transparent;
+	background-repeat: no-repeat;
+	float: left;
+	width: 22px;
+	height: 22px;
+	margin-right: 7px;
+}
+
+.ticketstatus {
+	float: left;
+	width: 10px;
+	height: 10px;
+	margin: 6px 7px 0px 2px;
+	background: darkgrey;
+}
+
+.ticketstatus.DELIVERED      { background:#00a9ef; }
+.ticketstatus.PAYOUT         { background:#00cc00; }
+.ticketstatus.LOST           { background:#ff0000; }
+.ticketstatus.PAID_OUT       { background:#00cc00; }
+.ticketstatus.BOUGHT_BACK    { background:#0000cc; }
+.ticketstatus.REJECTED    	 { background:black; }
+
+.ticketsubitem .INVALID      	{ color:#ffa900 !important; }
+.ticketsubitem .PAYBACK      	{ color:grey !important; }
+.ticketsubitem .CANCELED, .grey { color:#00a9ef    !important; }
+.ticketsubitem .OPEN, .black 	{ color:black   !important; }
+.ticketsubitem .WON, .green    	{ color:green   !important; }
+.ticketsubitem .LOST, .red     	{ color:red     !important; }
+.ticketListBetDetails:active .ticketsubitem .LOST { color:#fff !important; }
+.ticketsubitem .BUYBACK      	{ color:#f64835 !important; }
+
+.skyblue {
+	color: #29739e !important;
+}
+
+.ticketstatusWrapper {
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-flex-direction: row;
+	-ms-flex-direction: row;
+	flex-direction: row;
+	-webkit-justify-content: space-between;
+	-ms-flex-pack: justify;
+	justify-content: space-between;
+	-webkit-align-items: center;
+	-ms-flex-align: center;
+	align-items: center;
+	overflow: hidden;
+	position: relative;
+	padding: 5px 1.5% 5px 30px;
+}
+
+.ticketstatusWrapper .ticketstatus {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 10px;
+	margin: auto;
+}
+
+.ticketstatusWrapper .tlsubitemColumn {
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-flex-direction: column;
+	-ms-flex-direction: column;
+	flex-direction: column;
+	font-size: 14px;
+	line-height: 18px;
+}
+
+.ticketstatusWrapper .ticketstatus + .tlsubitemColumn .text:first-child {
+	font-size: 14px;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+
+.ticketstatusWrapper .tlsubitemColumn .text,
+.ticketListBetDetails .ticketitem .text {
+	font-size: 14px;
+	height: auto;
+}
+
+.ticketstatusWrapper .value {
+	color: #000;
+	padding-right: 30px;
+	height: auto;
+}
+
+.ticketstatusWrapper .tlsubitemColumn .value + .value {
+	font-weight: bold;
+}
+
+.ticketitem {
+	padding-top: 10px;
+}
+
+.ticketitem,
+.ticketsubitem {
+	width: 95%;
+	margin-left: 2.5%;
+	display: table;
+	font-size: 14px;
+}
+
+.ticketitem .label.date {
+	min-width: 42px;
+	width: 42px;
+}
+
+.ticketitem.arrow .label.date + .text + .value {
+	padding: 5px 30px 12px 0;
+}
+
+.ticketListBetDetails {
+	background-color: #fff;
+}
+
+.ticketListBetDetails.arrow {
+	background-image: url(../img/arrow_blk.png);
+	background-size: 6px 11.5px;
+}
+
+.ticketListBetDetails .ticketitem,
+.ticketListBetDetails .ticketsubitem {
+	margin-left: 0%;
+	padding-right: 30px;
+	width: 95%;
+	width: calc(98.5% - 30px);
+}
+
+.ticketListBetDetails .ticketitem {
+	border-top: 0;
+	padding-top: 5px;
+}
+
+.ticketListBetDetails .ticketitem .text,
+.ticketListBetDetails .ticketitem .value,
+.ticketListBetDetails .ticketsubitem .text,
+.ticketListBetDetails .ticketsubitem .value {
+	vertical-align: text-top;
+	padding-right: 0;
+}
+
+.ticketListBetDetails .ticketsubitem {
+	font-weight: bold;
+}
+
+.ticketitem .text,
+.ticketsubitem .text {
+	padding: 0;
+}
+
+.ticketitem.w100,
+.ticketsubitem.w100{
+	width:100%;
+	margin-left:0;
+}
+
+.ticketitem .label,
+.ticketitem .text,
+.ticketitem .value,
+.ticketsubitem .label,
+.ticketsubitem .text,
+.ticketsubitem .value {
+	height: 22px;
+}
+
+.ticketListBetDetails .barfinish {
+	height: 0;
+}
+
+.ticketitem, .tlitem {
+	border-top: 1px solid #d7dcde;
+	background-position: 97.5% center;
+	position: relative;
+}
+
+.ticketitem, .tlitem .tlsubitem {
+	background-color: transparent;
+}
+
+.even_yellow {
+	background-color: #eedfaa;
+}
+
+.odd_yellow {
+	background-color: #f6efd4;
+}
+
+.ticketitem .label,
+.ticketitem .text {
+	font-weight: bold;
+}
+
+.ticketListBetDetails .ticketitem .label,
+.ticketListBetDetails .ticketitem .text,
+.ticketListBetDetails .ticketitem .text span.normal,
+.ticketListBetDetails .ticketitem .value {
+	font-weight: normal;
+}
+
+.ticketListBetDetails .ticketitem .text span {
+	font-weight: bold;
+}
+
+.editem .comment,
+.ticketitem .text span.comment {
+    display: block;
+    font-weight: 100;
+    margin-bottom: -10px;
+    color: #6d6d6d;
+}
+
+.editem .bank + .comment {
+    margin-bottom: 0;
+}
+
+.ticketitem .label,
+.ticketsubitem .label,
+.ticketListBetDetails .label.date {
+	overflow: hidden;
+	min-width: 39px;
+	width: 39px;
+	font-size: 12px;
+}
+
+.ticketitem .value {
+	padding-right: 7px;
+	color: black;
+	font-weight: bold;
+	min-width: 70px;
+	white-space: normal;
+}
+
+.ticketsubitem .value {
+	padding-right: 7px;
+	color: black;
+}
+
+.ticketitem.arrow .value {
+	padding-right: 22px;
+	min-width: 55px;
+}
+
+/* --- Ticketeditor --- */
+.edtitle .text,
+.editem .text,
+.edsubitem .text,
+.edsubitem .value {
+	height: 22px;
+}
+
+.editem,
+.edsubitem,
+.edtitle {
+	padding-left: 2.5%;
+	padding-right: 2.5%;
+}
+
+.edtitle {
+	display: table;
+}
+
+.edtitle button .text {
+	width: 100px;
+	text-align: center;
+}
+
+.edtitle button .text.go {
+	width: 120px;
+}
+
+.editem .text {
+	display: inline-block;
+	width: 70%;
+	width: calc(100% - 85px);
+	padding-right: 0px;
+	font-weight: bold;
+}
+
+.editem.removeWrapper {
+    position: relative;
+	padding-top: 10px;
+}
+
+.editem .removeButton {
+	position: absolute;
+	top: 13px;
+	right: 0;
+    display: inline-block;
+    font-size: 22px;
+	height: 40px;
+	width: 40px;
+}
+
+.editem .removeButton img {
+	margin: 15px 0 0 15px;
+}
+
+.editem .removeButton.selected {
+	background: transparent;
+}
+
+.edsubitem {
+	font-size: 14px;
+}
+
+.edsubitem .value {
+	color: #00384E;
+	min-width: 50px;
+	width: 50px;
+	padding-right: 40px;
+}
+
+.edsubitem button .text {
+	height: 26px;
+}
+
+.edsubitem .stopped {
+	background: none;
+}
+
+.edtitle {
+	margin-top: 10px;
+}
+
+.edtitle.bartitle {
+	border-bottom: 1px solid #dcdbdb;
+	margin-top: 0;
+}
+
+.edtitle .text {
+	width: 75%;
+	font-weight: bold;
+}
+
+.edtitle .value {
+	padding-right: 7px;
+}
+
+.edtitle .clearValue {
+	border-left: 1px solid #dcdbdb;
+	padding-right: 0;
+}
+
+.edtitle .clearValue div {
+	text-align: left;
+	color: #76797d;
+	font-size: 12px;
+	width: 100%;
+	display: block;
+	line-height: 22px;
+	position: relative;
+}
+
+.edtitle .clearValue div:after {
+	content: '';
+	display: block;
+	width: 20px;
+	width: calc(20px - 2.5%);
+	height: 22px;
+	background: url('../img/trash.png') center left no-repeat;
+	background-size: 10.5px 13px;
+	position: absolute;
+	right: 0;
+	top: 0;
+}
+
+/* --- SoccerScores  ---  */
+.matchscores .icon,
+.matchscores .cell,
+.matchscores .text {
+	height: 22px;
+}
+
+.matchscores .text {
+	padding-left: 3px;
+	padding-right: 5px;
+}
+
+.navitem .headln {
+	font-weight: normal;
+	padding: 0;
+}
+
+.odd + .even .match.event,
+.even + .odd .match.event {
+	padding: 4px 0 2px 0;
+	border-top: 1px dotted #e0e0e0;
+	margin-top: 2px;
+}
+
+.match.event .event_wrapper {
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-flex-direction: row;
+	-ms-flex-direction: row;
+	flex-direction: row;
+	box-sizing: border-box;
+	min-height: 40px;
+	padding: 0 2.5%;
+}
+
+.match.event .sportsIcon {
+	display: none;
+}
+
+.swipe-wrap .match.event .sportsIcon {
+	display: block;
+	padding: 0;
+}
+
+.swipe-wrap .match.event .sportsIcon .icon {
+	width: 17px;
+	height: 17px;
+	padding: 8px 0 5px 15px;
+}
+
+.event .datetime {
+	-webkit-flex: 0 0 25%;
+	-ms-flex: 0 0 25%;
+	flex: 0 0 25%;
+	-webkit-align-content: center;
+	-ms-flex-line-pack: center;
+	align-content: center;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;
+}
+
+.event .datetime .favorites {
+	-webkit-flex: 1 0 32px;
+	-ms-flex: 1 0 32px;
+	flex: 1 0 32px;
+}
+
+.event .datetime .favorites img {
+	padding-left: 0;
+	position: absolute;
+	left: 15px;
+}
+
+.event .datetime.loggedinLive .favorites.hidden {
+	display: block !important;
+	opacity: 0;
+}
+
+.event .datetime .date {
+	width: 100%;
+	font-weight: bold;
+	text-align: center;
+	padding: 0;
+	overflow: hidden;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-flex-direction: column;
+	-ms-flex-direction: column;
+	flex-direction: column;
+	-webkit-justify-content: center;
+	-ms-flex-pack: center;
+	justify-content: center;
+	margin-left: -5%;
+}
+
+.event .datetime.loggedinLive .date {
+    margin-left: -10%;
+}
+
+.event .datetime .date.small {
+	font-size: 10px;
+	word-spacing: 200px;
+}
+
+.event .datetime .date > img {
+	margin: 0 auto;
+}
+
+.event .teamrows {
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-flex-direction: column;
+	-ms-flex-direction: column;
+	flex-direction: column;
+	-webkit-flex: 1 1 auto;
+	-ms-flex: 1 1 auto;
+	flex: 1 1 auto;
+	-webkit-justify-content: center;
+	-ms-flex-pack: center;
+	justify-content: center;
+	max-width: calc(75% - 30px);
+}
+
+.event .teamrow {
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-justify-content: space-between;
+	-ms-flex-pack: justify;
+	justify-content: space-between;
+}
+
+.event .teamrow .score {
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-flex-direction: row;
+	-ms-flex-direction: row;
+	flex-direction: row;
+}
+
+.event .teamrow .score > div {
+	padding: 0 2px;
+}
+
+.event .teamrow .team {
+	width: auto;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+
+.cell.rsDesc {
+	text-align: center;
+	font-weight: bold;
+	height: inherit;
+	min-height: 32px;
+	font-size: 13px;
+	border-right: none;
+	border-left: none;
+	padding: 0 2% 0 0;
+	-webkit-align-items: center;
+	-ms-flex-align: center;
+	align-items: center;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-justify-content: center;
+	-ms-flex-pack: center;
+	justify-content: center;
+	box-sizing: border-box;
+}
+
+.event {
+	width: auto;
+	border-collapse: separate;
+	border-spacing: 1px 0;
+	min-height: 44px;
+}
+
+.navitem .date.small {
+	display: table-cell;
+	vertical-align: middle;
+	font-weight: bold;
+	width: 46px;
+	min-width: 46px;
+	text-align: center;
+	padding: 0;
+}
+
+.redCards {
+	height: 15px;
+	width: 12px;
+	position: relative;
+	bottom: -2px;
+}
+
+.event .team {
+	width: 100%;
+	padding-left: 0;
+	text-align: left;
+	font-weight: bold;
+	overflow: hidden;
+}
+
+.event .left {
+	border-left: 1px solid #C8C8C8;
+}
+
+.event .arrow,
+.event .arrow_blk_down,
+.event .arrow_grey_up,
+.event .placeholder,
+.event .statsIcon {
+	width: 12px;
+	padding-left: 0;
+	margin-left: auto;
+	background-position: center left;
+	background-repeat: no-repeat;
+}
+
+.event .arrow_blk_down,
+.event .arrow_grey_up {
+	width: 16px;
+}
+
+.event .arrow.onlive {
+	background-image: url(../img/arrow_blk.png);
+	background-size: 6px 11.5px;
+}
+
+.topEvent .date,
+.topEvent .team {
+	padding-left:7px;
+	text-align:left !important;
+}
+
+.topEvent {
+	overflow-x: hidden;
+	border-collapse: separate;
+	border-spacing: 2px 0;
+}
+
+.topEvent .date {
+	font-weight: bold;
+}
+
+.topEvent tr td {
+	text-align: center;
+}
+
+.topEvent .top {
+	border-top: 1px solid #C8C8C8;
+}
+
+.topEvent .left {
+	border-left: 1px solid #C8C8C8;
+}
+
+.topEventsBox.swipe .c_comment {
+    display: none;
+}
+
+.c_comment .c_comment {
+	padding-left: 25%;
+}
+
+/*-- EventNavigation --*/
+.navigation {
+    list-style: none;
+    height: 30px;
+    background-color: #373737;
+    padding: 0;
+    margin 0;
+}
+
+.navigation li {
+    float: left;
+    display: block;
+    height: 30px;
+    width: 25%;
+}
+
+.navigation li span {
+	color: #8e8e8e;
+	font-weight: bold;
+	margin: 8px 0 0 23px;
+	display: inline-block;
+	font-size: 12px;
+}
+
+.navigation li.current span {
+	color: #ffffff;
+}
+
+.navigation li.fav {
+    background: url('../img/favorites.png') 5px center no-repeat;
+    background-size: 15px 15px;
+}
+
+.navigation li.alarm {
+    background: url('../img/alarmclock.png') 5px center no-repeat;
+    background-size: 15px 15px;
+}
+
+.navigation li.statistic {
+    background: url('../img/stats_1.png') 5px center no-repeat, #464646;
+    background-size: 15px 15px, 0 0;
+}
+
+.navigation li.info {
+    background: url('../img/tv-show.png') 5px center no-repeat;
+    background-size: 15px 15px;
+}
+
+.sportsIcon {
+	padding: 0 7px 0 0;
+}
+
+.sportsIcon .icon {
+	padding: 0;
+}
+
+/* --- Quoten-Stati: Tendenzen / PAUSED --- */
+.edsubitem .value.tendup {				/* Ticketeditor: Tendenz steigend */
+	background-image: url(../img/icons/button_tendup.png);
+	background-position: left center;
+	background-repeat: no-repeat;
+	background-size: 16px 16px;
+}
+
+.edsubitem .value.tendown {				/* Ticketeditor: Tendenz fallend */
+	background-image: url(../img/icons/button_tendown.png);
+	background-position: left center;
+	background-repeat: no-repeat;
+	background-size: 16px 16px;
+}
+
+.edsubitem .value.paused {
+	background: url(../img/icons/warning_shut.png) left center no-repeat;
+	background-size: 16px 16px;
+}
+
+.stopped {
+	background: url(../img/shade-pattern.png) left top repeat;
+	background-size: 8.5px 8.5px;
+	pointer-events: none;
+	height: 100%;
+	display: block;
+}
+
+.stopped div, .stopped:after {
+  	display: none;
+}
+
+.paused{
+	color: #AAA;
+}
+
+.navitem .tendup {				/* Quoten-Button: Tendenz steigend */
+	background-image: url(../img/icons/quote_tendup.png);
+	background-position: 0 0;
+	background-repeat: repeat-x;
+}
+
+.navitem .tendup.selected {		/* Quoten-Button: Tendenz steigend */
+	background-image: #f64835 url(../img/icons/quote_tendup.png);
+	background-position: 0 0;
+	background-repeat: repeat-x;
+}
+
+.navitem .tendown {				/* Quoten-Button: Tendenz fallend */
+	background-image: url(../img/icons/quote_tendown2.png);
+	background-position: 0 bottom;
+	background-repeat: repeat-x;
+}
+
+.navitem .tendown.selected {	/* Quoten-Button: Tendenz fallend */
+	background-image: #f64835 url(../img/icons/quote_tendown2.png);
+	background-position: 0 bottom;
+	background-repeat: repeat-x;
+}
+
+/* --- neu ---*/
+.scorebox {
+	background-color: #000;
+	color: #fff;
+}
+
+.scorebox.headline, .headline .noBG {
+	background: #fff;
+	color: #3e3e3e;
+	font-weight: bold;
+}
+
+.scorebox.headline .eventpointDG {
+	height: 47px;
+}
+
+.scorebox.headline .eventpointDG .center {
+	background: #fff;
+	font-size: 18px;
+	padding: 0;
+	color: #3e3e3e;
+	border-bottom: none;
+}
+
+.scorebox div > div {
+    display: table-cell;
+	table-layout: fixed;
+}
+
+.scorebox div.eventpointDG > div,
+.scorebox div.eventpointLG > div {
+	padding: 5px;
+	vertical-align: middle;
+}
+
+.scorebox div.eventpointDG > div.center {
+	padding: 0 4px;
+	box-sizing: border-box;
+	border-bottom: 1px solid #000;
+}
+
+.scorebox.headline div div {
+	padding: 2px 5px;
+	vertical-align: middle;
+	height: 29px;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+
+.scorebox.headline .top.time {
+	text-align: center;
+	word-spacing: 100px;
+	padding: 2px;
+	text-overflow: initial;
+}
+
+.scorebox.headline .top.time span {
+	display: block;
+}
+
+.scorebox.headline .top.time span:first-child {
+	padding-left: 0.5px;
+}
+
+.scorebox.headline .left,
+.scorebox.headline .right {
+	font-size: 13px;
+}
+
+.scorebox.eventpoint.statsbox, .statsbox .eventpointDG, .biglink div, .biglink span{
+	height: 33px;
+}
+
+.scorebox.eventpoint.statsbox .right.biglink div {
+	display: none;
+}
+
+.scorebox + div .scorebox.eventpoint.statsbox,
+.scorebox + div .scorebox.eventpoint.statsbox .right.biglink div {
+	display: block;
+}
+
+.biglink span {
+	padding-top: 10px;
+}
+
+.top.left.biglink, .top.right.biglink {
+	padding: 0px;
+}
+
+.scIcon {
+	display:inline-block !important;
+}
+
+.scorebox div.eventpointDG > div.center .scIcon.yellow-card {
+	background-position: -201px 2px;
+}
+
+.headline .right,
+.eventpointDG .right,
+.eventpointLG .right {
+	text-align: center;
+}
+
+.headline .left,
+.eventpointDG .left,
+.eventpointLG .left {
+	text-align: center;
+}
+
+.eventpointLG,
+.eventpointDG {
+    display: table;
+    table-layout: fixed;
+    width: 100%;
+}
+
+.eventpointDG .center,
+.eventpointLG .center {
+	text-align: center;
+	font-weight: bold;
+	color: #fff;
+	background-color: #232323;
+}
+
+.eventpointLG .center {
+	background-color: #000;
+}
+
+.eventpointDG .time, .eventpointLG .time {
+	width: 13%;
+}
+
+.eventpointDG .center, .eventpointLG .center {
+	width: 14%;
+}
+
+.eventpointDG .right, .eventpointLG .right {
+	width: 30%;
+	overflow: hidden;
+}
+
+.eventpointDG .left, .eventpointLG .left,
+.scorebox.eventpoint.statsbox .right {
+	width: 43%;
+	overflow: hidden;
+}
+
+.scorebox.eventpoint.statsbox .time {
+	display: none;
+}
+
+.eventpoint {
+	border-top: 1px solid #000;
+	font-size: 12px;
+}
+
+.eventpoint .posMid  {
+	text-align: center;
+}
+
+.headline .center {
+	text-align: center;
+}
+
+.top.time, .top.center {
+	font-weight: bold;
+}
+
+.headline .top.center {
+	color: #ffffff;
+}
+
+.eventpointLG .center.score {
+	background-color: #000;
+	color: #ffffff;
+}
+
+.eventPointInfo {
+	background-color: #000;
+    border-top: 1px solid #373737;
+    border-bottom: #2b2b2b;
+	display: table;
+	text-align: center;
+	width: 100%;
+}
+
+.eventPointInfo .eventInfo {
+	display: inline-block;
+    margin-left: 5px;
+    color: #ffffff;
+    font-weight: bold;
+    height: 20px;
+    margin: 4px 0 0 4px;
+	font-size: 12px;
+}
+
+.eventPointInfo .eventInfo .icon {
+	padding: 0;
+	width: auto;
+	height: auto;
+}
+
+.eventPointInfo .score {
+	line-height: 20px;
+    max-height: 20px;
+    float: left;
+	padding-left: 3px;
+}
+
+.eventpoint .hide {
+	width: 100%;
+	display: block;
+	text-align: center;
+}
+
+.eventpoint .arrow {
+	width: 100%;
+	background: url(../img/arrowRSel.png) 97.5% center no-repeat;
+	background-size: 10px 15.5px;
+	display: block;
+	text-align: center;
+}
+
+.eventpoint .arrow span {
+	width: 100%;
+	display: block;
+}
+
+.showEventPointsArrowUp, .showEventPointsArrowDown {
+	background: url(../img/arrowUSel.png) center no-repeat;
+	background-size: 15.5px 10px;
+	width: 35px;
+	height: 24px;
+	display: block;
+	margin: 0 auto;
+}
+
+.showEventPointsArrowDown {
+	background: url(../img/arrowBSel.png) center no-repeat;
+	background-size: 15.5px 10px;
+}
+
+.teaser {
+	width: 100%;
+	text-align: center;
+	background-color: #293014;
+}
+
+.teaser .link {
+	background: url('../img/arrowRSel.png'), -webkit-gradient(linear, left top, left bottom, color-stop(1%,#D50032), color-stop(49%,#D3003A), color-stop(50%,#D10039), color-stop(100%,#AB042D));
+	max-height: 43px;
+	background-position: right center, left center;
+	background-repeat: no-repeat, repeat-x;
+	background-size: 20px 20px;
+}
+
+.teaser .title {
+	text-align: center;
+	font-weight: bold;
+	color: #ffffff;
+	width: 100%;
+	height: 43px;
+	padding: 12px 0;
+}
+
+/* -- Statistiken --- */
+.stats {
+	background-color: #464646;
+}
+
+.stats table {
+	padding: 0 4px;
+	width: 100%;
+	font-size: 12px;
+	color: #ffffff;
+	text-align: center;
+	border-spacing: 0;
+	table-layout: fixed;
+}
+
+.stats .left {
+	text-align: left;
+}
+
+.stats .right {
+	text-align: right;
+}
+
+.stats .table {
+	color: #8e8e8e;
+}
+
+.stats .form div {
+	width: 16px;
+	height: 16px;
+	text-align: center;
+	vertical-align: middle;
+	background: #d7d7d7;
+	display: inline-block;
+	color: #484848;
+	margin-right: 2px;
+}
+
+.stats div {
+    display: table-cell;
+    width: 100%;
+}
+
+.stats div.notable {
+    display: block;
+}
+
+.stats div tbody, .stats div tr {
+    width: 100%;
+}
+
+.stats .dotted td {
+	border-top: 1px dotted #ffffff;
+	padding: 2px 0;
+}
+
+.stats #matchFacts .information {
+    float: left;
+    display: block;
+}
+
+.stats #matchFacts tr span {
+    line-height: 15px;
+    padding-top: 1px;
+    display: block;
+    overflow: hidden;
+}
+
+.stats .dark {
+	background: #adadad;
+}
+
+.stats .light {
+	background: #dbdbdb;
+	color: #000000;
+}
+
+.stats .borderL td {
+	border-left: 1px dotted #191919;
+}
+
+.stats td.noBorder {
+	border-left: none;
+}
+
+.stats .headln td {
+	height: 27px;
+}
+
+.odd, .even {
+	background-color: #FFFFFF;
+}
+
+.ticketListBetDetails .odd,
+.ticketListBetDetails .even {
+	background: none;
+}
+
+/* --- messages --- */
+.inlineerror {
+	color: red;
+	font-weight: normal;
+	padding-left: 7px;
+}
+
+.msg .inlineerror {
+	text-align: left;
+}
+
+.edsubitem .inlineerror {
+	padding-left: 0;
+}
+
+.msgtext.optionList {
+	padding: 0 0 0 18px;
+}
+
+.msgtext.optionList .text {
+	height: auto;
+}
+
+.msgtext.optionList .text.normal {
+	overflow: visible;
+}
+
+.msgtext {
+	background: none;
+	color: #3e3e3e;
+	padding: 5px;
+	margin-left: 2.5%;
+	margin-right: 2.5%;
+}
+
+#page1 .msgtext,
+#page1a .msgtext {
+	background: none;
+}
+
+.msgtext .text {
+	overflow: hidden;
+	font-weight: bold;
+}
+
+.msgtext .text.normal {
+	font-weight: normal;
+}
+
+.msgtext .text {
+	overflow: hidden;
+	font-weight: bold;
+}
+
+.msgtextbg {
+	padding-left: 40px;
+}
+
+.msgtext + .space_2 {
+	margin-bottom: -10px;
+}
+
+#registrationWrap .msgtext + .space_2 {
+	margin-bottom: 2px;
+}
+
+.msgtext .icons.msg_optionlist {
+	background-image: none;
+	height: initial;
+}
+
+/*--- Messages ---*/
+.messages .text {
+	font-weight: normal;
+	padding-left: 0;
+	padding-right: 25px;
+}
+
+.messages .text.bold {
+	font-weight: bold;
+}
+
+ .messageContent {
+	padding: 10px 15px;
+}
+
+#newsletter .msgtext, #personalDetails .msgtext {
+	background: white;
+	color: black;
+	margin-top: 3px;
+}
+
+#newsletter .icons, #personalDetails .icons {
+	background-image: url("../img/icons/msg_checkmark_green.png");
+	background-position: 0 0;
+	background-size: 100%;
+	margin-top: 8px;
+}
+
+/* --- footer --- */
+.footer,
+.footerbutton {
+	color: #A2A2A2;
+	background: #e6e6e6;
+}
+
+.footer {
+	display: table;
+	table-layout: fixed;
+	width: 100%;
+	background: #7c7c7c;
+}
+
+#oneColumnFooter,
+#twoColumnFooter {
+    box-shadow: 0px 0px 1px 1px rgba(0, 0, 0, 0.6);
+}
+
+body.twocol #oneColumnFooter {
+    display: none;
+}
+
+body.twocol #twoColumnTitle {
+    display: flex;
+}
+
+body.twocol #twoColumnFooter {
+    display: block;
+}
+
+#twoColumnTitle,
+#twoColumnFooter,
+body.twocol.virtualSports #twoColumnTitle {
+    display: none;
+}
+
+#footerLeft,
+#footerRight {
+    position: fixed;
+    width: 50.3%;
+    bottom: 0;
+    left: 0;
+    display: table;
+}
+
+#footerRight {
+    left: 50%;
+    margin-left: 4px;
+}
+
+.footerbutton {
+	-webkit-tap-highlight-color: rgba(0,0,0,0);
+	margin-top: 15px;
+	height: 59px;
+	margin-bottom: 15px;
+}
+
+.footerbutton .tbicon {
+	min-width: 59px;
+	height: 59px;
+}
+
+.footerbutton .tbicon .text {
+	width: 59px;
+	line-height: 10px;
+	overflow: hidden;
+	padding-top: 35px;
+	display: block;
+}
+
+.footerbutton .tbicon .count {
+	margin: -79px 5px 0px -10px;
+}
+
+.footer .cell, .footer iframe {
+	display: none;
+}
+
+.footer.tabbar1 .tbicon.editor.orange {
+    background-color: #f64835;
+}
+
+.footer .tbicon {
+	display: table-cell;
+	min-width: 20%;
+	height: 47px;
+	text-align: center;
+	position: relative;
+}
+
+.footer.tabbar1 .tbicon {
+	background-size: 20px 20px !important;
+	height: 47px !important;
+}
+
+.footer.tabbar1 .tbicon.home {
+	background: url("../img/tabbar/hometo.png") center 22% no-repeat;
+}
+
+.footer.tabbar1 .tbicon.live {
+	background: url("../img/tabbar/live.png") center 22% no-repeat;
+}
+
+.footer.tabbar1 .tbicon.sportbets {
+	background: url("../img/tabbar/sportbets.png") center 22% no-repeat;
+}
+
+.footer.tabbar1 .tbicon.tickets {
+	background: url("../img/tabbar/tickets.png") center 22% no-repeat;
+}
+
+.footer.tabbar1 .tbicon.account {
+	background: url("../img/tabbar/account.png") center 22% no-repeat;
+}
+
+.footer.tabbar1 .tbicon.editor {
+	background: url("../img/tabbar/editor.png") center 22% no-repeat;
+}
+
+.footer.tabbar1 .tbicon.login {
+	background: url("../img/tabbar/login.png") center 22% no-repeat;
+}
+
+.footer.tabbar1 .tbicon.logout {
+	background: url("../img/tabbar/logout.png") center 22% no-repeat;
+}
+
+.footer.tabbar1 .tbicon.favorites {
+	background: url("../img/tabbar/favorites.png") center 22% no-repeat;
+}
+
+.footer.tabbar1 .tbicon.valve {
+	background: url("../img/tabbar/valve.png") center 22% no-repeat;
+}
+
+.footer.tabbar1 .tbicon.information {
+	background: url("../img/tabbar/information.png") center 22% no-repeat;
+}
+
+.footer.tabbar1 .tbicon.virtualsports {
+	background: url("../img/tabbar/virtualsports.png") center 22% no-repeat;
+}
+
+.footer.tabbar1 .tbicon.casino, .footer.tabbar1 .tbicon.livecasino {
+    background: url(../img/tabbar/casino.png) center 22% no-repeat;
+}
+.footer.tabbar1 .tbicon.selected {
+	background-color: #f64835;
+	background-position: center 22%;
+}
+
+.appfooter iframe {
+    height: 0;
+    border: none;
+    display: block;
+}
+
+.infoFooter .barbottomright {
+    border-top: none;
+}
+
+.infoFooter .footerRow {
+    width: 47.5%;
+    float: left;
+    border-left: 1px solid #7a7a7a;
+    padding-left: 5px;
+    margin: 10px 0;
+    text-align: left;
+}
+
+.infoFooter .footerTime {
+    text-align: center;
+    margin: 10px 0 7px 0;
+    font-weight: bold;
+}
+
+.infoFooter .footerRow > div {
+	padding-top: 7px;
+	padding-bottom: 7px;
+}
+
+.infoFooter .footerRow > div a {
+    color: inherit;
+    text-decoration: none;
+}
+
+.infoFooter .footerRow > div:first-child {
+	padding-top: 0;
+}
+
+.infoFooter .footerRow > div:last-child {
+	padding-bottom: 0;
+}
+
+.infoFooter .eighteenPlus {
+	background: url("../img/eighteenPlus.png") left 5px no-repeat;
+	background-size: 20px;
+	padding-left: 28px;
+	line-height: 20px;
+}
+
+.socialFooter {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.socialFooter .text {
+    display: block;
+    line-height: 44px;
+}
+
+.socialFooter ul {
+    list-style: none;
+    display: inline-block;
+    margin: 0 auto;
+    padding-left: 0;
+}
+
+.socialFooter ul:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.socialFooter li {
+    float: left;
+    margin-right: 14px;
+    width: 36px;
+    border-left: 0;
+    padding-left: 0;
+}
+
+.socialFooter li:last-child {
+    margin-right: 0;
+}
+
+.socialFooter a {
+    width: 36px;
+    height: 36px;
+    display: block;
+}
+
+.socialFooter .facebook a {
+    background: url(../img/share/facebook.png) center no-repeat;
+    background-size: 36px;
+}
+
+.socialFooter .twitter a {
+    background: url(../img/share/twitter.png) center no-repeat;
+    background-size: 36px;
+}
+
+.socialFooter .instagram a {
+    background: url(../img/share/instagram.png) center no-repeat;
+    background-size: 36px;
+}
+
+.licenseLogo div {
+    display: table;
+    margin: 0 auto;
+    width: 80px;
+    margin-top: 20px;
+    table-layout: fixed;
+}
+
+#licenseText {
+    text-align: center;
+    font-size: 12px;
+    margin-top: 5px;
+    padding-top: 5px;
+    padding-left: 2.5%;
+    padding-right: 2.5%;
+    color: #00384E;
+}
+
+#licenseText .eighteenPlus {
+    width: 20px;
+    height: 20px;
+    margin-bottom: -5px;
+}
+
+.tbicon .text,
+.tbicon div.hidden +.text {
+	font-size: 10px;
+	padding-left: 0px;
+	padding-top: 31px;
+	width: 100%;
+	color: #ececec;
+	display: block;
+	height: 16px;
+	text-transform: uppercase;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+
+.tbicon .count,
+.editorCount,
+.tbicon .messageCount {
+	position: absolute;
+	z-index: 1;
+	bottom: 28px;
+	left: 50%;
+	margin-left: 6px;
+	text-align: center;
+	font-size: 9px;
+	float: right;
+	color: #FFFFFF;
+	background: #000;
+	border-radius: 5px;
+	min-width:8px;
+	padding: 2px 2px 1px 2px;
+	height: 10px;
+	line-height: 10px
+}
+
+.editorCombiLength.barmiddle .text {
+	padding-right:25px;
+}
+
+#overlay .editorCombiLength.barmiddle .text,
+#overlay .editorCombiLength.barbottom .text {
+	width: auto;
+	padding-right: 0;
+}
+
+.tbicon .count.buyback,
+.tbicon .messageCount {
+    background: #fff !important;
+    color: #000 !important;
+	left: initial;
+	right: 50%;
+	margin-left:0;
+	margin-right: 6px;
+}
+
+.hidden {
+	display: none !important;
+}
+
+.invisible {
+	opacity: 0;
+	pointer-events: none;
+}
+
+.affiliate {
+	background-image: url('/../img/affiliate/bgAffiliate.png');
+}
+
+.affiliate .title {
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#949191),color-stop(3%, #f4f2f2),color-stop(4%, #ffffff), color-stop(100%,#c6c6c6));
+	height: 49px;
+	width: 100%;
+}
+
+.affiliate .label {
+	vertical-align: top;
+	padding-left: 12px;
+	padding-top: 5px;
+	font-weight: bold;
+	font-size: 12px;
+}
+
+.affiliate .value {
+	padding-left: 10px;
+	text-align: center;
+	color: #000000;
+}
+
+.affiliate .bonus {
+	width: 95%;
+	margin-left: 2.5%;
+	padding-top: 9px;
+}
+
+.affiliate .bonus .value {
+	width: 50%;
+	font-size: 58px;
+	color: #ffffff;
+	padding-right: 0;
+	text-align: right;
+}
+
+.affiliate .bonus .text {
+	padding-left: 12px;
+	text-align: left;
+	color: #ffffff;
+}
+
+.affiliate .bar {
+	background: #f7f7f7;
+	border-top: 1px solid #d2d2d2;
+	border-right: 1px solid #c4c8c5;
+	border-bottom: 1px solid #cdcdcd;
+	border-left: 1px solid #acacac;
+	margin-top: 3px;
+}
+
+.affiliate .bar .item {
+	padding-top: 9px;
+	padding-right: 14px;
+}
+
+.affiliate .bar .text {
+	padding-left: 10px;
+}
+
+.affiliate .bar .text .headln {
+	color: #DB0036;
+	font-size: 18px;
+	font-weight: bold;
+}
+
+.affiliate .bigbutton {
+	background: #f64835;
+	border: none;
+	margin-top: 12px;
+	color: #ffffff;
+	font-size: 18px;
+}
+
+/* --- ajax --- */
+#dialog,
+.dialog,
+#install,
+#installAndroid,
+#ajax {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	z-index: 10000;
+	top: 0px;
+	left: 0px;
+	bottom: 0px;
+	right: 0px;
+}
+
+#dialog .block,
+.dialog .block,
+#install .block,
+#installAndroid .block,
+#ajax .block {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0px;
+	left: 0px;
+	bottom: 0px;
+	right: 0px;
+	background-color: #000000;
+	opacity: 0.5;
+}
+
+#dialog .window,
+.dialog .window,
+#ajax .window {
+	position: relative;
+	opacity: 1;
+	z-index: 10001;
+	width: 110px;
+	min-width:  110px;
+	max-width: 210px;
+	min-height: 80px;
+	background: #ffffff;
+	border: 1px solid grey;
+	padding: 20px;
+	text-align: center;
+	color: #000000;
+	-webkit-box-shadow: #333 5px 5px 5px;
+	box-shadow: #333 5px 5px 5px;
+}
+
+#pinDialog .window {
+    max-width: 250px;
+    width: 250px;
+}
+
+#pinDialog .text {
+     text-align: center;
+}
+
+#pinDialog .bartitle .text {
+     text-align: left;
+}
+
+#pinDialog button.w95 {
+     margin: 5px;
+}
+
+#install .window,
+#install .window .rotate1,
+#installAndroid .window,
+#installAndroid .window .rotate1 {
+	position: fixed;
+	z-index: 10001;
+	background: #ffffff;
+	border: 1px solid grey;
+	text-align :center;
+	color: #000000;
+	-webkit-box-shadow: #333 5px 5px 5px;
+	box-shadow: #333 5px 5px 5px;
+}
+
+#install .window {
+	padding: 3px;
+	min-height:80px;
+	bottom: 20px;
+	left: 20px;
+	right: 20px;
+}
+
+#installAndroid .window {
+	top: 20px;
+	left: 38px;
+	right: 2px;
+	padding: 10px 3px;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+}
+
+#install .window .close,
+#installAndroid .window .close {
+	float: right;
+}
+
+#install .window .msg,
+#installAndroid .window .msg {
+	float: right;
+	font-size: 15px;
+	vertical-align: top;
+	z-index: 10004;
+	position: relative;
+	width: 100%;
+}
+
+#install .window img {
+	float: left;
+	padding: 2px 5px 5px 2px;
+}
+
+#installAndroid .window img {
+	float: left;
+	padding: 5px;
+}
+
+#install .window .msg2 {
+	float: left;
+	min-width: 50%;
+	max-width: 60%;
+	min-width: calc(100% - 120px);
+	max-width: calc(100% - 100px);
+}
+
+#installAndroid .window .msg2 {
+	float: center;
+	margin-left: 64px;
+}
+
+#install .window .rotate1 {
+	left: 50%;
+	margin-left: -10px;
+	bottom: 10px;
+	width: 30px;
+	height: 30px;
+	-webkit-transform: rotate(45deg);
+}
+
+#installAndroid .window .rotate1 {
+	right: 10px;
+	margin-left: -10px;
+	top: 7px;
+	width: 25px;
+	height: 30px;
+	-webkit-transform: rotate(50deg);
+}
+
+#install .window .rotate2 {
+	position: fixed;
+	z-index: 10002;
+	left: 50%;
+	margin-left: -30px;
+	bottom: 21px;
+	width: 60px;
+	height: 30px;
+	background-color: #ffffff;
+}
+
+#installAndroid .window .rotate2 {
+	position: fixed;
+	z-index: 10002;
+	right: 3px;
+	margin-left: -30px;
+	top: 21px;
+	width: 60px;
+	height: 40px;
+	background-color: #ffffff;
+}
+
+#ajax .image {
+	display: inline-block;
+	background: url("../img/ajax.gif") center no-repeat;
+	width: 100px;
+	height:20px;
+	padding-bottom: 30px;
+}
+
+#ajax .image.check {
+	width: 64px;
+    height: 56px;
+    background: url(../img/icons/msg_info_big.png);
+    background-size: 64px 56px;
+    padding: 0;
+    margin: 10px 0;
+}
+
+#dialog .options {
+	margin-top: 20px;
+}
+
+.dialog .options {
+	margin-top: 0;
+}
+
+#dialog .options img {
+	float: left;
+	margin: 1px 2px;
+	height: 36px;
+}
+
+#dialog .options button.w100 {
+	margin-bottom: 5px;
+}
+
+#dialog .options button.w100.link {
+    margin-top: 0;
+    padding-top: 0;
+}
+
+#dialog .window,
+.dialog .window {
+	width: 210px;
+}
+
+.dialog .window {
+	padding: 0;
+}
+
+.dialog .bartop,
+.dialog .barmiddle,.dialog .barbottom {
+	margin: 0;
+}
+
+.dialog .text {
+	text-align: left;
+}
+
+#overlay {
+	position: fixed;
+    display: flex;
+    width: 100%;
+    height: 100%;
+    z-index: 1000;
+    top: 0;
+    left: 0;
+    align-items: center;
+    justify-content: center;
+    background: rgba(0,0,0,0.5);
+    transition: .3s ease-in-out;
+    -webkit-transition: .3s ease-in-out;
+}
+
+#overlay.hidden {
+	visibility: hidden;
+	display: flex !important;
+	pointer-events: none;
+	opacity: 0;
+}
+
+#overlay #overlayContent {
+	width: 95%;
+	background: #fff;
+    box-shadow: #333 5px 5px 5px;
+	-webkit-box-shadow: #333 5px 5px 5px;
+	transition: .3s ease-in-out;
+	-webkit-transition: .3s ease-in-out;
+}
+
+#overlay.hidden #overlayContent {
+	pointer-events: none;
+	transform: scale(0);
+	-webkit-transform: scale(0);
+}
+
+#passwordExpiredDialog .title span:first-child,
+#acceptPrivacyPolicyDialog .title span:first-child,
+#promptUserToChangeDialog .title span:first-child {
+	color: #066f90;
+	display: block
+}
+
+#passwordExpiredDialog,
+#acceptPrivacyPolicyDialog,
+#promptUserToChangeDialog,
+#confirmLimitIncreaseDialog {
+	color: #066f90;
+}
+
+#passwordExpiredDialog .content,
+#promptUserToChangeDialog .content  {
+	padding: 20px 0 10px 0;
+}
+
+#confirmLimitIncreaseDialog .content div {
+    margin: 10px 0px;
+}
+
+#dialog .options.passwordExpired button:first-child,
+#dialog .options.promptUserToChangeDialog button:first-child {
+    margin-bottom: 20px;
+}
+
+/* ---agb--- */
+#terms .space_20,
+#terms .space,
+#terms .hr.line_grey,
+#terms .clear,
+#terms-sh .space_20,
+#terms-sh .space,
+#terms-sh .hr.line_grey,
+#terms-sh .clear {
+	display: none;
+}
+
+#terms h1 span,
+#terms h3 strong,
+#terms .macro.main_space,
+#terms .macro.bg_grey.main_space li,
+#terms-sh h1 span,
+#terms-sh h3 strong,
+#terms-sh .macro.main_space,
+#terms-sh .macro.bg_grey.main_space li  {
+	padding-left: 7px;
+}
+
+#terms,
+#functionalities,
+#privayPolicy,
+#bettingRules,
+#howto {
+	margin-left: 2.5%;
+	width: 95%;
+}
+
+#terms h2.h1,
+#terms-sh h2.h1 {
+	color: #3e3e3e;
+}
+
+#terms .macro.bg_grey.main_space,
+#terms-sh .macro.bg_grey.main_space {
+	padding: 0px;
+}
+
+#terms .macro.bg_grey.main_space li,
+#terms-sh .macro.bg_grey.main_space li {
+	background: url('../img/arrowR.png') right center no-repeat #FFFFFF;
+	background-size: 20px 20px;
+	border-top: 1px solid #DCDBDB;
+	list-style: none;
+	line-height: 32px;
+	padding-top: 0px;
+	padding-left: 7px;
+}
+
+#terms a,
+#terms-sh a,
+#betting-glossary a {
+	text-decoration: none;
+	color: #00384E;
+	display: block;
+}
+
+#terms h1,
+#terms h3,
+#terms-sh h1 {
+	background: #eee;
+	font-size: 16px;
+	line-height: 36px;
+	margin-top: 10px;
+	margin-bottom: 0px;
+}
+
+#terms h3 {
+	margin-left: -7px;
+}
+
+#terms-sh h3 {
+	background-color: white;
+	font-size: 16px;
+	line-height: 36px;
+	margin: 0;
+	padding-left: 7px;
+	font-weight: normal;
+}
+
+#terms ul,
+#terms ol,
+#terms-sh ul,
+#terms-sh ol {
+	padding: 0px;
+	margin: 0px;
+}
+
+#terms li,
+#terms-sh li {
+	list-style-position: inside;
+	min-height: 32px;
+	padding-top: 10px;
+}
+
+#terms .macro.main_space,
+#terms-sh .macro.main_space {
+	background-color: #FFFFFF;
+}
+
+#terms .macro.main_space:last-child,
+#terms-sh .macro.main_space:last-child {
+	line-height: 32px;
+	padding-left: 7px;
+}
+
+#terms .right.main_space,
+#terms-sh .right.main_space {
+	background: url(../img/arrow_grey_up.png) left center no-repeat #FFFFFF;
+	background-size: 11.5px 6px;
+	padding-left: 10px;
+	font-weight: bold;
+	line-height: 32px;
+}
+
+#terms .right.main_space img,
+#terms-sh .right.main_space img {
+	display: none;
+}
+
+#terms .download_button {
+    display: block;
+    font-size: 14px;
+    font-weight: 100;
+    margin-top: -35px;
+}
+
+#terms .download_button span {
+    background: url("../img/icon_download_small.png") 97% center no-repeat;
+    background-size: 15px 15px;
+    padding-right: 20px;
+    cursor: pointer;
+    display: inline-block;
+}
+
+/* --- BonusOverview ---*/
+.bonusDetails, .dropBonusHead{
+	font-size: 16px;
+	background: #fff;
+}
+
+.bonusDetails .dropBonusHint {
+	padding: 5px;
+	text-align: center;
+	color: #666;
+	margin: 5px 0;
+}
+
+.bonusDetails .messageContainer {
+	display: table;
+	width: 100%;
+}
+
+.bonusDetails .info, .bonusDetails .warning {
+	padding-left: 36px;
+	display: table-cell;
+	vertical-align: middle;
+	height: 35px;
+}
+
+.bonusDetails .info {
+	background: #c3e79d url(../img/icons/msg_checkmark_green.png) no-repeat 12px 50%;
+	background-size: 29px;
+}
+
+.bonusDetails .warning {
+	background: #fef1bc url(../img/icons/msg_exclamationmark_yellow.png) no-repeat 12px 50%;
+	background-size: 29px;
+}
+
+.bonusDetails .message {
+	padding: 5px 12px;
+	font-weight: bold;
+}
+.bonusDetails .tlitem {
+	padding: 5px;
+}
+
+.bonusDetails .tlitem .value {
+	padding-right:7px;
+	font-size: 16px;
+}
+
+.bonusDetails .tlsubitem .text {
+	text-transform: none;
+	font-size: 16px;
+}
+
+.bonusEntryDropDown {
+	padding-top: 5px;
+}
+
+.bonusEntryDropDown .label {
+	display: none;
+}
+
+.bonusEntryDropDown .text,
+.selectBoxReg .selectwrap{
+	height: 30px;
+	border: 1px solid #c6c6c6;
+	text-decoration: none;
+	text-align: center;
+	min-height: 1px;
+	position: relative;
+	margin: 7px;
+	overflow: hidden;
+}
+
+.selectBoxReg .selectwrap{
+    width: 100%;
+	margin: 4px;
+	height: 34px;
+}
+
+.bonusEntryDropDown .select ,
+.selectBoxReg select{
+	text-decoration: none;
+	display: block;
+	text-align: center;
+	background: url(../img/arrow_grey_d.gif) no-repeat center right;
+	border: none;
+	outline: none;
+	-webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    margin: auto;
+	width: 95%;
+	max-width: initial;
+	font-size: 16px;
+}
+
+.selectBoxReg select{
+	height: 32px;
+}
+
+/* --- Bonusbedingungen Wettscheineditor --- */
+#bonusconditions {
+	font-weight: normal;
+}
+
+#bonusconditions ul {
+	margin-top: 0;
+}
+
+/* --- Bonusbedingungen --- */
+#bonus {
+	padding: 10px 2.5%;
+	width: 95%;
+	background-color: white;
+
+}
+
+#bonus h2 {
+	background: #eee;
+	font-size: 16px;
+	line-height: 36px;
+	margin-top: 0px;
+	margin-left: -7px;
+	padding-left: 7px;
+}
+
+#bonus ul {
+	padding: 0px 2.5%;
+	margin-top: -20px;
+}
+
+#bonus li {
+	margin-left: 5%;
+	min-height: 32px;
+	padding-top: 10px;
+	padding-left: 7px;
+}
+
+#bonus a {
+	border-top: 1px solid #B2B2B2;
+	color: black;
+	padding-top: 10px;
+	display: block;
+	padding-bottom: 5px;
+	padding-left: 7px;
+	margin-bottom: -20px;
+	margin-left: -7px;
+}
+
+.form .paysafePinField {
+	text-align: center;
+	width: 45px;
+	min-height: 30px;
+	margin: 0px;
+	padding: 0px;
+	background-image: #eee;
+}
+
+.topEventsBox .even {
+	background-color: #fff;
+}
+
+.topEventsBox .event {
+	border: 0;
+}
+
+.swipeNav {
+	height: 12px;
+	border-top: 0px;
+	text-align: center;
+	border-top: 1px solid #dcdbdb;
+    padding-top: 5px;
+}
+
+.swipeNav div{
+	display: inline-block;
+	background: #ececec;
+	width: 7px;
+	height: 6px;
+	margin: 0 3px 10px 0;
+}
+
+.swipeNav div.currentView {
+	background: #7c7c7c;
+}
+/* --- Swipe Gestures --- */
+.swipe {
+  overflow: hidden;
+  visibility: hidden;
+  position: relative;
+}
+.swipe-wrap {
+  overflow: hidden;
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+.swipe-wrap .data {
+  float:left;
+  width:100%;
+  position: relative;
+  overflow: hidden;
+}
+
+.swipe-wrap .data img {
+    width: 100%;
+    max-width: 420px;
+    object-fit: contain;
+    vertical-align: middle;
+    padding: 0;
+    margin: 0 auto;
+    display: flex
+}
+
+.swipe-wrap .data img.redCards {
+    display: inline;
+    bottom: 3px;
+    width: 20px;
+    height: 20px;
+}
+
+.topEventsBox .swipe-wrap table {
+	padding-bottom: 3px;
+	position: relative;
+}
+
+.topEventsBox .swipe-wrap table.event .sportsIcon {
+	display: table-cell;
+	padding: 0;
+	width: 12.5%;
+}
+
+.topEventsBox .swipe-wrap table.event .sportsIcon .icon {
+	width: 48px;
+	height: 100%;
+	display: block;
+	position: relative;
+	margin: 0 auto;
+}
+
+.topEventsBox .swipe-wrap table.event .sportsIcon .icon div {
+	margin: auto;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	position: absolute;
+}
+
+.topEventsBox .swipe-wrap .event tr td {
+	line-height: 17px;
+}
+
+.topEventsBox .swipe-wrap .event tr td.date.small div {
+	line-height: 12px;
+}
+
+.topEventsBox .event tr td.favorites.hidden {
+	display: none !important;
+}
+
+/* --- Verantwortung --- */
+#responsibility,
+#help,
+#betting-glossary,
+#payment-methods {
+	margin-left: 2.5%;
+	margin-right: 2.5%;
+	margin-top: 10px;
+	background-color: white;
+	padding: 0 2.5% 10px 2.5%;
+}
+
+#responsibility h1 {
+	background: #eee;
+	font-size: 16px;
+	line-height: 36px;
+	margin-top: 10px;
+	margin-bottom: 0px;
+	margin-left: -7px;
+}
+
+#responsibility h1 span {
+	padding-left: 7px;
+}
+
+#responsibility a {
+	text-decoration:none;
+}
+
+#responsibility-sh #static ul {
+	margin-top: 10px;
+}
+
+/* --- Kontobewegungen --- */
+.accountEntrySimple {
+	font-size: 14px;
+}
+
+.accountEntrySimple .text,
+.accountEntrySimple .label,
+.accountEntrySimple .value {
+	height: 10px;
+}
+
+.accountEntrySimple .label {
+	width: 82px;
+}
+
+.accountEntrySimple .value {
+	padding-right: 5px;
+}
+
+.iconlabel {
+	padding-left: 10px;
+	float: right;
+	padding-top: 5px;
+}
+
+.flag {
+	width: 25px;
+	float: right;
+	line-height: 44px;
+	height: 44px;
+	display: table;
+	padding-left: 35px;
+}
+
+.flag.tr {
+	background: url("/assets/img/flags/tr.png") no-repeat left center;
+	background-size: 25px;
+}
+.flag.en {
+	background: url("/assets/img/flags/en.png") no-repeat left center;
+	background-size: 25px;
+}
+.flag.de {
+	background: url("/assets/img/flags/de.png") no-repeat left center;
+	background-size: 25px;
+}
+.flag.ar {
+	background: url("/assets/img/flags/ar.png") no-repeat left center;
+	background-size: 25px;
+}
+.flag.frs {
+	background: url("/assets/img/flags/frs.png") no-repeat left center;
+	background-size: 25px;
+}
+.flag.srp {
+	background: url("/assets/img/flags/srp.png") no-repeat left center;
+	background-size: 25px;
+}
+.flag.ru {
+	background: url("/assets/img/flags/ru.png") no-repeat left center;
+	background-size: 25px;
+}
+
+#personalDetails>div>.barmiddle {
+	overflow: hidden;
+	white-space: nowrap;
+	text-indent: 7px;
+}
+
+#personalDetails>div>.barmiddle .title {
+  	display: table-cell;
+  	vertical-align: middle;
+  	margin-top: 13px;
+  	text-indent: 0px;
+  	white-space: normal;
+}
+
+#personalDetails>div>.barmiddle .wrap {
+	display: table-cell;
+	width: 66%;
+	padding-right: 2.5%;
+}
+
+#personalDetails .wrap input {
+	margin: 4px;
+}
+
+#personalDetails .formGroup {
+	margin: 0 2.5%;
+	display: inline-flex;
+	vertical-align: top;
+	width: 95%;
+	background: #fff;
+	border-top: 1px solid #DCDBDB;
+}
+
+#personalDetails .formGroup .col-xs-4 {
+	margin-top: 5px;
+	display: inline-block;
+}
+
+#personalDetails .formGroup .col-xs-8 {
+	margin-top: 1px;
+	padding-right: 10px !important;
+	display: inline-block;
+}
+
+#personalDetails .formGroup .col-xs-8 .error {
+	margin-left: 4px;
+}
+
+#personalDetails .formGroup select {
+	width: 100% !important;
+}
+
+#personalDetails .error {
+	float: inherit;
+	margin-top:  4px;
+  	margin-left: 4px;
+}
+
+#personalDetails .selectwrap + .error,
+	.customSelect + .error {
+	margin-top: -4px;
+}
+
+/* BEGIN News Mobile Registration */
+
+#registrationPage.checkData {
+	padding-bottom: 20px;
+}
+
+#registrationPage *, #personalDetails * {
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+}
+
+#personalDetails .barmiddle .text {
+    text-indent: 0px;
+    white-space: initial;
+    text-align: left;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#registrationPage .bonusSlogan, .bonusSloganBox {
+	padding: 10px 0px;
+	font-size: 32px;
+	line-height: 34px;
+	font-weight: bolder;
+	text-transform: uppercase;
+	text-align: center;
+	width: 100%;
+	overflow-wrap: break-word;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+
+#registrationPage .bonusSlogan span:first-child,
+.bonusSloganBox span:first-child {
+	color: #7c7c7c;
+}
+
+#registrationPage .bonusSlogan span:last-child,
+.bonusSloganBox span:last-child {
+	color: #f64835;
+}
+
+#registrationPage.checkData .bonusSlogan {
+	text-transform: none;
+	font-size: 24px;
+	font-weight: normal;
+}
+
+.bonusSloganBox {
+	border-top: 1px solid #dcdbdb;
+    background-color: #fff;
+    padding-left: 2.5%;
+	padding-right: 2.5%;
+    box-sizing: border-box;
+}
+
+#registrationWrap {
+	padding: 0 2.5%;
+}
+
+#registration {
+	color: #666;
+	padding-top: 10px;
+}
+
+#registration .space_10 {
+	display: none;
+}
+
+#registration .formGroup {
+	margin-bottom: 10px;
+}
+
+#registration .formGroup .error,
+#personalDetails .error,
+#paymentForm .error {
+	height: auto;
+	min-height: 34px;
+	width: 100%;
+	padding: 10px;
+	text-align: left;
+	background: #f64835;
+	color: #fff;
+	background-clip: padding-box;
+	border: 1px solid #CCC;
+	border: 1px solid rgba(0, 0, 0, 0.2);
+	-webkit-box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+	box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+	white-space: normal;
+	border-top: 0;
+}
+
+#paymentForm .error {
+	min-height: 0px;
+}
+
+#registration .formGroup:after,
+#registration .formGroup:before,
+#registration .paymentLogos ul:after,
+#registration .paymentLogos ul:before {
+    content: " ";
+    display: table;
+}
+
+#registration .formGroup:after,
+#registration .paymentLogos ul:after {
+    clear: both;
+}
+
+#registration .formGroup .col-xs-12 {
+	float: left;
+	width: 100%;
+	position: relative;
+	min-height: 1px;
+	padding-left: 5px;
+	padding-right: 5px;
+}
+
+#registration .formGroup .col-xs-9,
+#personalDetails .formGroup .col-xs-9 {
+	float: left;
+	width: 75%;
+	position: relative;
+	min-height: 1px;
+	padding-left: 5px;
+	padding-right: 5px;
+}
+
+#registration .formGroup .col-xs-8,
+#personalDetails .formGroup .col-xs-8 {
+	float: left;
+	width: 66.66666666%;
+	position: relative;
+	min-height: 1px;
+	padding-left: 5px;
+	padding-right: 5px;
+}
+
+#registration .formGroup .col-xs-6,
+#personalDetails .formGroup .col-xs-6 {
+	float: left;
+	width: 50%;
+	position: relative;
+	min-height: 1px;
+	padding-left: 5px;
+	padding-right: 5px;
+}
+
+#registration .formGroup .col-xs-4,
+#personalDetails .formGroup .col-xs-4 {
+	float: left;
+	width: 33.33333333%;
+	position: relative;
+	min-height: 1px;
+	padding-left: 5px;
+	padding-right: 5px;
+}
+
+#registration .formGroup .col-xs-3,
+#personalDetails .formGroup .col-xs-3 {
+	float: left;
+	width: 25%;
+	position: relative;
+	min-height: 1px;
+	padding-left: 5px;
+	padding-right: 5px;
+}
+
+#registration .formGroup .col-xs-2,
+#personalDetails .formGroup .col-xs-2 {
+	float: left;
+	width: 16.66666667%;
+	position: relative;
+	min-height: 1px;
+	padding-left: 5px;
+	padding-right: 5px;
+}
+
+#registration .salutation {
+	padding-left: 5px;
+}
+
+#registration .salutation .salutationBtn {
+	min-width: 34px;
+	padding: 2px 7px;
+	background: #eee !important;
+	background-color: #eee !important;
+	border: 1px solid #d0d0d0;
+	float: left;
+	margin: 0 10px 0 0;
+	cursor: pointer;
+}
+
+#registration .salutation .salutationBtn.selected {
+	max-width: none;
+	background: #fbfbfb !important;
+	background-color: #fbfbfb !important;
+	-webkit-box-shadow: inset 1px 1px 1px 0px rgba(0, 0, 0, 0.3); /* WebKit */
+	-moz-box-shadow: inset 1px 1px 1px 0px rgba(0, 0, 0, 0.3); /* Firefox */
+	box-shadow: inset 1px 1px 1px 0px rgba(0, 0, 0, 0.3); /* Standard */
+	height: auto;
+	margin: 0 5px 0 0;
+	color: inherit;
+}
+
+#registration .formGroup input, #personalDetails .wrapinput {
+	-webkit-appearance: caret; /* delete the inner shadows */
+	-moz-appearance: caret;
+	appearance: caret;
+}
+
+#registration .formGroup select, #personalDetails .formGroup select {
+	margin: 0;
+	max-width: none;
+	height: 34px !important;
+	line-height: 34px;
+	padding-top: 7px; /* to align the text inside a select, because of stupidity of firefox */
+	font-size: 1em !important;
+}
+
+#registration .formGroup select.hasCustomSelect + span.customSelect, #newsletter select,
+#personalDetails .formGroup select.hasCustomSelect + span.customSelect {
+	width: 100%;
+	max-width: none;
+	height: 34px;
+	line-height: 34px;
+	border: 1px solid #cecece;
+	padding-right:25px;
+	text-align: center;
+	background: white;
+	margin: 0;
+}
+
+#registration .formGroup.labelGroup {
+    color: grey;
+    font-size: 12px;
+    margin-top: -19px;
+    margin-bottom: 0px;
+}
+
+#newsletter .barmiddle .text {
+	text-align: center;
+}
+
+#acceptLiveOddsChanges .bartop {
+	margin-top: 0;
+}
+
+#acceptLiveOddsChanges .bartop .text {
+	width: 18%;
+	text-align: right;
+}
+
+#acceptLiveOddsChanges .bartop .text:active,
+#acceptLiveOddsChanges .bartop .text:focus,
+#acceptLiveOddsChanges .bartop.selected {
+	background: #fff !important;
+}
+
+#acceptLiveOddsChanges .bartop .label {
+	font-size: 16px;
+}
+
+#newsletter .selectwrap {
+	width: 90%;
+    width: calc(100% - 25px);
+    display: block;
+    overflow: hidden;
+    position: relative;
+    border: 1px solid #cecece;
+    -webkit-border-radius: 0;
+    border-radius: 0;
+    padding: 0;
+    height: 34px;
+    margin-top: 5px;
+	float: right;
+}
+
+#newsletter .selectwrap select {
+	width: 110%;
+    width: calc(100% + 25px);
+    float: none;
+    border: none;
+    -webkit-border-radius: 0;
+    border-radius: 0;
+    -webkit-appearance:none;
+    text-align: center;
+    padding-left: 8px;
+}
+
+#newsletter .selectwrap select:focus {
+    outline: none;
+}
+
+#registration .formGroup select.hasCustomSelect + span.customSelect:after,
+#personalDetails .formGroup select.hasCustomSelect + span.customSelect:after,
+#newsletter .selectwrap:after {
+	content: "";
+	display: block;
+	position: absolute;
+	width: 25px;
+	height: 34px;
+	border-left: 1px solid #cccccc;
+	top: 0;
+	right: 5px;
+	background: url("../img/iconSelectArrow.png") no-repeat center center;
+	background-size: 10px 7px;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	pointer-events: none;
+}
+
+#newsletter .selectwrap:after {
+    right: 0px;
+}
+
+#registration .formGroup select[name="country"].hasCustomSelect + span.customSelect,
+#registration .formGroup select[name="currency"].hasCustomSelect + span.customSelect,
+#registration .formGroup select[name="phonePrefix"].hasCustomSelect + span.customSelect,
+#personalDetails .formGroup select[name="phonePrefix"].hasCustomSelect + span.customSelect {
+	background: #eeeeee;
+}
+
+#registration .formGroup select[name="country"].hasCustomSelect + span.customSelect:after,
+#registration .formGroup select[name="currency"].hasCustomSelect + span.customSelect:after,
+#registration .formGroup select[name="phonePrefix"].hasCustomSelect + span.customSelect:after,
+#personalDetails .formGroup select[name="phonePrefix"].hasCustomSelect + span.customSelect:after {
+	background: url("../img/iconSelectArrow_white.png") no-repeat center center;
+	background-size: 10px 7px;
+}
+
+#registration .formGroup span.customSelectInner,
+#personalDetails .formGroup span.customSelectInner {
+	width: 100% !important;
+	height: 100%;
+	overflow: hidden;
+}
+
+#registration .formGroup input, #personalDetails .wrap input {
+	width: 100%;
+	max-width: none;
+	height: 34px;
+	border: 1px solid #CECECE;
+	padding: 0 10px;
+	-webkit-appearance: none; /* delete the inner shadows */
+	-moz-appearance: none;
+	appearance: none;
+}
+
+#registration .formGroup input[type="checkbox"] {
+	opacity: 0;
+	float: left;
+	width: 28px;
+	height: 28px;
+	position: absolute;
+	cursor: pointer;
+	padding: 0;
+	margin: 0;
+	-webkit-appearance: none; /* delete the inner shadows */
+	-moz-appearance: none;
+	appearance: none;
+}
+
+#registration .formGroup input[type="checkbox"] + label.customCheckbox {
+	display: block;
+	height: 28px;
+	line-height: 28px;
+	margin: 0;
+	clear: none;
+	padding: 0 0 0 38px;
+	cursor: pointer;
+	background: url("../img/customCheckbox.png") no-repeat;
+	background: url("../img/customCheckbox.png") no-repeat;
+	background-size: 28px 56px;
+	background-position: 0px -28px;
+}
+
+#registration .formGroup input[type="checkbox"]:checked + label.customCheckbox {
+	padding: 0 0 0 38px;
+	background: url("../img/customCheckbox.png") no-repeat;
+	background-position: 0px 0px;
+	background-size: 28px 56px;
+}
+
+#registration .formGroup #registerButton {
+	width: 100%;
+	color: #FFF;
+	background: #7c7c7c;
+	min-height: 40px;
+	border: 1px dashed #FFF;
+	outline: 3px solid #7c7c7c;
+	font-size: 26px;
+	font-weight: bold;
+	text-transform: uppercase;
+	letter-spacing: 0.05em;
+	margin: 3px 0px 0px 0px;
+}
+
+#registration .formGroup .buttonIcon.iconReg {
+	display: inline-block;
+	margin-right: 5px;
+	width: 19px;
+	height: 21px;
+	background: url("../img/iconReg.png") no-repeat;
+}
+
+#registration .msgtext {
+	border: 1px solid #f64835;
+	background: white;
+	margin: 0 5px 12px 5px;
+}
+
+.bottomSuccess {
+	margin: 0 -8px;
+	padding: 10px 12px 0 12px;
+}
+
+.bottomSuccess .msgtext, #registration .bottomSuccess .msgtext {
+	border:none;
+}
+
+.bottomSuccess .icons, .bottomSuccess .icons.msg_info {
+	background-image: url("../img/icons/msg_checkmark_green.png");
+	background-position: 0 0;
+	background-size: 100%;
+	margin-top: 8px;
+}
+
+#registration .msgtext .icons.msg_error {
+	width: 28px;
+	height: 28px;
+	background: url('../img/icon_message_cross.png') no-repeat;
+	background-size: 28px;
+}
+
+#registration .msgtext .text {
+	color: #666;
+	font-weight: normal;
+}
+
+#registration .footNote p {
+	margin: 0;
+	padding: 0px 0px 10px 0px;
+}
+
+#registration .footNote .link {
+	cursor: pointer;
+	color: #7c7c7c;
+}
+
+#registration .footNote .link:hover {
+	cursor: pointer;
+	color: #f64835;
+}
+
+#registration .footNote img {
+    float: left;
+    margin-right: 5px;
+}
+
+#registration .footNote {
+	margin: 0px 5px;
+}
+
+#registration .footNote p:first-child span:first-child {
+	color: #7c7c7c;
+}
+
+#registration .footNote p:last-child span:nth-child(2) {
+	color: #7c7c7c;
+}
+
+#registration .footNote .link {
+	text-decoration: underline;
+}
+
+#registration .formGroup.limits .col-xs-9 {
+    width: 33.33%;
+}
+
+.#registration formGroup.limits .formGroup label {
+   margin-bottom: 2px;
+   display: block;
+}
+
+#registration .formGroup.limits .title {
+   font-size: 12px;
+}
+
+#registrationPage + .contentbottom.hidden + div:last-child {
+	display: none;
+}
+
+#registration .paymentLogos h2 {
+	color: #7c7c7c;
+	padding: 7px 5px 0px;
+	border-top: 1px dashed #666;
+	font-size: 16px;
+	font-weight: normal;
+}
+
+#registration .paymentLogos h2 span:first-of-type{
+	float:left
+}
+
+#registration .paymentLogos h2 span:nth-of-type(2) {
+	float:right
+}
+
+#registration .paymentLogos ul {
+	margin: 0;
+	padding: 0px;
+	list-style: none;
+	clear:both;
+}
+
+#registration .paymentLogos ul li {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	float: left;
+}
+
+#registration .paymentLogos ul li span {
+	display: block;
+	height: 24px;
+	margin: 6px 5px;
+}
+
+#registration .paymentLogos ul li span.visa {
+	width: 36px;
+	background: url(../img/payment_footer/icon_visa.png);
+}
+
+#registration .paymentLogos ul li span.paypal {
+	width: 70px;
+	background: url(../img/payment_footer/icon_paypal.png);
+}
+
+#registration .paymentLogos ul li span.paybox {
+	width: 59px;
+	background: url(../img/payment_footer/icon_paybox.png);
+}
+
+#registration .paymentLogos ul li span.mastercard {
+	width: 41px;
+	background: url(../img/payment_footer/icon_mastercard.png);
+}
+
+#registration .paymentLogos ul li span.moneybookers {
+	width: 36px;
+	background: url(../img/payment_footer/icon_moneybookers_skrill.png);
+}
+
+#registration .paymentLogos ul li span.paysafe {
+	width: 104px;
+	background: url(../img/payment_footer/icon_paysafe.png);
+}
+
+#registration .paymentLogos ul li span.ukash {
+	width: 54px;
+	background: url(../img/payment_footer/icon_ukash.png);
+}
+
+#registration .paymentLogos ul li span.neteller {
+	width: 70px;
+	background: url(../img/payment_footer/icon_neteller.png);
+}
+
+#registration .paymentLogos ul li span.ecocard {
+	width: 38px;
+	background: url(../img/payment_footer/icon_ecocard.png);
+}
+
+#registration .paymentLogos ul li span.ecopayz_ecovoucher {
+	width: 145px;
+	background: url(../img/payment_footer/icon_ecovoucher.png);
+}
+
+#registration .paymentLogos ul li span.girogate_raberil {
+	width: 44px;
+	background: url(../img/payment_footer/icon_girogate_raberil_boleto.png);
+}
+
+#registration .paymentLogos ul li span.girogate_raberil {
+	width: 54px;
+	background: url(../img/payment_footer/icon_girogate_raberil_bank.png);
+}
+
+#registration .paymentLogos ul li span.girogate_p24 {
+	width: 74px;
+	background: url(../img/payment_footer/icon_przelewy.png);
+}
+
+#registration .paymentLogos ul li span.cepbank {
+	width: 75px;
+	background: url(../img/payment_footer/icon_cepbank.png) no-repeat;
+}
+
+#registration .paymentLogos ul li span.bkm_express {
+	width: 74px;
+	background: url(../img/payment_footer/icon_bkm_express.png) no-repeat;
+}
+
+#registration .paymentLogos ul li span.evoucher_bank {
+	width: 86px;
+	background: url(../img/payment_footer/icon_evoucher.png) no-repeat;
+}
+
+#registration .paymentLogos ul li span.evoucher_ccard {
+	width: 68px;
+	background: url(../img/payment_footer/icon_evoucher_ccard.png);
+}
+
+#registration .paymentLogos ul li span.sofort {
+	width: 74px;
+	background: url(../img/payment_footer/icon_qiwi.png);
+}
+
+#registration .paymentLogos ul li span.girogate_qiwi {
+	width: 74px;
+	background: url(../img/payment_footer/icon_qiwi.png);
+}
+
+#registration .paymentLogos ul li span.webmoney {
+	width: 69px;
+	background: url(../img/payment_footer/icon_webmoney.png);
+}
+
+#registration .paymentLogos ul li span.skrill_1tap {
+	width: 104px;
+	background: url(../img/payment_footer/icon_skrill_one.png);
+}
+
+#registration .paymentLogos ul li span.obt {
+	width: 60px;
+	background: url(../img/payment_footer/icon_obt.png);
+}
+
+#registration .paymentLogos ul li span.giropay {
+	width: 53px;
+	background: url(../img/payment_footer/icon_giropay.png);
+}
+
+#registration .paymentLogos ul li span.sofort {
+	width: 61px;
+	background: url(../img/payment_footer/icon_sofort.png);
+}
+
+#registration .paymentLogos ul li span.visa_bleue {
+	width: 40px;
+	background: url(../img/payment_footer/icon_bleue-visa.png);
+}
+
+#registration .paymentLogos ul li span.visa_postepay {
+	width: 54px;
+	background: url(../img/payment_footer/icon_postepay.png);
+}
+
+#registration .paymentLogos ul li span.visa_speedcard {
+	width: 59px;
+	background: url(../img/payment_footer/icon_speedcard.png);
+}
+
+#registration .paymentLogos ul li span.accentpay_webmoney {
+	width: 74px;
+	background: url(../img/payment_footer/icon_webmoney_new.png);
+}
+
+#registration .paymentLogos ul li span.accentpay_yandexmoney {
+	width: 52px;
+	background: url(../img/payment_footer/icon_yandexmoney.png);
+}
+
+#registration .paymentLogos ul li span.accentpay_qiwi {
+	width: 74px;
+	background: url(../img/payment_footer/icon_qiwi.png);
+}
+
+#registration .paymentLogos ul li span.cubits {
+	width: 69px;
+	background: url(../img/payment_footer/icon_cubits.png);
+}
+
+#registration .paymentLogos ul li span.todito_cash {
+	width: 130px;
+	background: url(../img/payment_footer/icon_todito_cash.png);
+}
+
+#registration .paymentLogos ul li span.minerva_tbl {
+	width: 93px;
+	background: url(../img/payment_footer/icon_minerva_tbl.png);
+}
+
+/* reset this class here */
+#registration .paymentLogos ul li span.bank {
+	float: none;
+	border: none;
+	background: none;
+	line-height: normal;
+}
+
+#registration .paymentLogos ul li span.bank {
+	width: 66px;
+	max-width: 66px;
+	background: url(../img/payment_footer/icon_banktransfer_all.png) no-repeat;
+}
+
+#registration .paymentLogos ul li span.ochapay_bank_voucher_de,
+#registration .paymentLogos ul li span.ochapay_jeton_bank_de,
+#registration .paymentLogos ul li span.astropaydirect_bank_de {
+	width: 89px;
+	background: url(../img/payment_footer/icon_banktransfer_de.png);
+}
+
+#registration .paymentLogos ul li span.ochapay_bank_voucher_en,
+#registration .paymentLogos ul li span.ochapay_jeton_bank_en,
+#registration .paymentLogos ul li span.astropaydirect_bank_en {
+	width: 72px;
+	background: url(../img/payment_footer/icon_banktransfer_en.png);
+}
+
+#registration .paymentLogos ul li span.ochapay_bank_voucher_es,
+#registration .paymentLogos ul li span.ochapay_jeton_bank_es,
+#registration .paymentLogos ul li span.astropaydirect_bank_es {
+	width: 87px;
+	background: url(../img/payment_footer/icon_banktransfer_es.png);
+}
+
+#registration .paymentLogos ul li span.ochapay_bank_voucher_fr,
+#registration .paymentLogos ul li span.ochapay_jeton_bank_fr,
+#registration .paymentLogos ul li span.astropaydirect_bank_fr {
+	width: 68px;
+	background: url(../img/payment_footer/icon_banktransfer_fr.png);
+}
+
+#registration .paymentLogos ul li span.ochapay_bank_voucher_hr,
+#registration .paymentLogos ul li span.ochapay_jeton_bank_hr,
+#registration .paymentLogos ul li span.astropaydirect_bank_hr {
+	width: 84px;
+	background: url(../img/payment_footer/icon_banktransfer_hr.png);
+}
+
+#registration .paymentLogos ul li span.ochapay_bank_voucher_it,
+#registration .paymentLogos ul li span.ochapay_jeton_bank_it,
+#registration .paymentLogos ul li span.astropaydirect_bank_it {
+	width: 99px;
+	background: url(../img/payment_footer/icon_banktransfer_it.png);
+}
+
+#registration .paymentLogos ul li span.ochapay_bank_voucher_pt,
+#registration .paymentLogos ul li span.ochapay_jeton_bank_pt,
+#registration .paymentLogos ul li span.astropaydirect_bank_pt {
+	width: 84px;
+	background: url(../img/payment_footer/icon_banktransfer_pt.png);
+}
+
+#registration .paymentLogos ul li span.ochapay_bank_voucher_tr,
+#registration .paymentLogos ul li span.ochapay_jeton_bank_tr,
+#registration .paymentLogos ul li span.astropaydirect_bank_tr {
+	width: 72px;
+	background: url(../img/payment_footer/icon_banktransfer_tr.png);
+}
+
+#registration .paymentLogos ul li span.astropaydirect_creditcards_en {
+	width: 74px;
+	background: url(../img/payment_footer/icon_astropay_creditcard_en.png);
+}
+
+#registration .paymentLogos ul li span.astropaydirect_creditcards_es {
+	width: 74px;
+	background: url(../img/payment_footer/icon_astropay_creditcard_es.png);
+}
+
+#registration .paymentLogos ul li span.astropaydirect_creditcards_pt {
+	width: 74px;
+	background: url(../img/payment_footer/icon_astropay_creditcard_pt.png);
+}
+
+.paymentType {
+	width: 50%;
+	float: left;
+	box-sizing: border-box;
+	border-bottom: 1px solid #dcdbdb;
+	border-right: 1px solid #dcdbdb;
+	border-top: none;
+	display: table;
+	table-layout: fixed;
+	padding: 0;
+}
+
+.paymentTypeButton {
+	height: 66px;
+	width: 100%;
+	padding: 0px;
+}
+
+.wrap.cancel {
+	display: block;
+	margin: 0 -8px;
+	text-align: center;
+	padding: 5px 0;
+}
+
+.wrap.cancel .submit {
+	display: inline-block;
+	width: inherit;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	padding: 0 15px;
+	max-width: 40%;
+	max-width: calc(50% - 30px);
+}
+
+.verification.barmiddle input[type="number"] {
+	max-width: none;
+	height: 34px;
+	border: 1px solid #CECECE;
+	padding: 0 10px;
+	margin: 10px 0;
+	-webkit-appearance: none; /* delete the inner shadows */
+	-moz-appearance: none;
+	appearance: none;
+	font-size: 1em !important;
+	width: 100%;
+	box-sizing: border-box;
+}
+
+.verification.barmiddle {
+	display: block;
+	padding-top: 7px;
+	padding-bottom: 7px;
+}
+
+.verification.barmiddle .checkWrapper {
+	overflow: hidden;
+	line-height: 28px;
+}
+
+.verification.barmiddle input[type="checkbox"] {
+	margin-right: 5px;
+	margin-bottom: 10px;
+	float: left;
+}
+
+.verification.bigbutton_wrapper {
+	width: 50%;
+	margin-left: 25%;
+}
+
+.verification.bigbutton_wrapper button {
+	margin-top: 7%;
+}
+
+.verification.barmiddle .text .code {
+	font-size: 18px;
+	font-weight: bold;
+	text-align: center;
+	padding-top: 5px;
+	user-select: initial;
+	-o-user-select: initial;
+	-moz-user-select: initial;
+	-khtml-user-select: initial;
+	-webkit-user-select: initial;
+}
+
+.password-text {
+	position: relative;
+}
+
+.show-password {
+	position: absolute;
+	z-index: 2;
+	top: 0;
+	right: 0;
+	width: calc(40px + 2.5%);
+	height: 100%;
+	cursor: pointer;
+}
+
+.show-password:after {
+	content: '';
+	position: absolute;
+	z-index: 2;
+	left: 10.5px;
+	top: 13px;
+	background: url(../img/togglePassword.png) bottom center no-repeat;
+	background-size: 24px 37px;
+	width: 24px;
+	height: 18px;
+    overflow: hidden;
+}
+
+input[type="password"] + .show-password:after {
+	background-position: top center;
+}
+
+form .title + .wrap {
+    position: relative;
+}
+
+form .title + .wrap input.active,
+#registration .formGroup input.active,
+#personalDetails .wrap input.active {
+    padding-right: 40px;
+}
+
+form .title + .wrap input + div + .clear {
+    position: absolute;
+    z-index: 3;
+    right: 0;
+    top: 0;
+    width: 40px;
+    height: 100%;
+    min-height: 34px;
+    background: url(../img/remove.png) center no-repeat;
+    background-size: 12px;
+    opacity: 0.6;
+}
+
+form .title + .wrap input + .show-password + .clear {
+    right: 45px;
+}
+
+form#personalDetails .title + .wrap input + div + .clear {
+    right: 2.5%;
+}
+
+#registrationPage .wrap {
+	position: relative;
+}
+
+#registrationPage .show-password:after {
+	top: 8px;
+}
+
+.loginApproval .text {
+	display: block;
+	line-height: 44px;
+	height: auto;
+}
+
+.loginApproval button .text {
+	display: inline;
+}
+
+.loginApproval .barmiddle .text {
+	line-height: 26px;
+	margin: 5px 0;
+}
+
+.loginApproval .text.buttonWrap {
+    line-height: inherit;
+    justify-content: space-between;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+	padding-left: 0;
+}
+
+.loginApproval .text.buttonWrap.single {
+	display: block;
+}
+
+.loginApproval .text.buttonWrap button {
+	border-radius: 0px;
+	text-transform: none;
+	max-height: none;
+	width: 46%;
+	align-items: center;
+	font-size: 16px;
+	border-radius: 0;
+}
+
+.loginApproval .text.buttonWrap button span {
+	display: -ms-inline-flexbox;
+	display: -webkit-inline-flex;
+	display: inline-flex;
+	display: -webkit-box;
+	display: -moz-box;
+	-webkit-box-direction: normal;
+	-moz-box-direction: normal;
+	-webkit-box-orient: horizontal;
+	-moz-box-orient: horizontal;
+	-webkit-flex-direction: row;
+	-ms-flex-direction: row;
+	flex-direction: row;
+	-webkit-flex-wrap: nowrap;
+	-ms-flex-wrap: nowrap;
+	flex-wrap: nowrap;
+	-webkit-box-pack: center;
+	-moz-box-pack: center;
+	-webkit-justify-content: center;
+	-ms-flex-pack: center;
+	justify-content: center;
+	-webkit-align-content: stretch;
+	-ms-flex-line-pack: stretch;
+	align-content: stretch;
+	-webkit-box-align: center;
+	-moz-box-align: center;
+	-webkit-align-items: center;
+	-ms-flex-align: center;
+	align-items: center;
+}
+
+.loginApproval .text.buttonWrap.single button {
+    width: 94%;
+    margin-bottom: 3%;
+    display: inline-block;
+	min-height: 44px;
+}
+
+.loginApproval .inlineerror {
+	padding-bottom: 10px;
+}
+
+/* END News Mobile Registration */
+.imageBox .barmiddle {
+	box-sizing: border-box;
+}
+
+input[type=number]::-webkit-outer-spin-button {
+	 margin: 0;
+}
+
+.androidBox a {
+	display: block;
+}
+
+.androidBox .androidImage,
+.androidBox .barmiddle .text {
+	padding: 10px;
+}
+
+.shareBetslipIcon img {
+	width: 32px;
+	height: 32px;
+	padding-top: 4px;
+}
+
+.clipped {
+	text-overflow: ellipsis;
+    max-width: 0;
+}
+
+.ibanValuePart {
+	float: left;
+	overflow: hidden;
+}
+
+.ibanLabelPart {
+	float: left;
+	line-height: 44px;
+	padding-left: 1px;
+	padding-right: 1px;
+}
+
+.ibanTextfield {
+	background-color: #f6f6f6;
+}
+
+.infoTicker {
+	background-color: #AFAFAF;
+	color: white;
+	padding: 7px 7px 7px 0px;
+}
+
+.infoTicker .icon {
+	width: 48px;
+	padding-left: 0;
+}
+
+.infoTicker .icons.msg_exclamationmark_yellow {
+	background-position: -901px 0;
+	width: 15px;
+	height: 15px;
+	background-size: auto 15px;
+	margin: 0 auto;
+}
+
+.appcontent > .infoTicker .icons.msg_exclamationmark_yellow,
+.matchscores .infoTicker .icons.msg_exclamationmark_yellow,
+.details.infoTicker .icons.msg_exclamationmark_yellow {
+    background-position: 0 0;
+    width: 29px;
+    height: 29px;
+    background-size: auto 29px;
+    background-image: url("/img/icons/msg_exclamationmark_yellow.png");
+}
+
+.details .icons.msg_exclamationmark_yellow {
+     background-position: 0 0;
+     width: 18px;
+     height: 18px;
+     margin-left: 3px;
+     background-size: auto 18px;
+     background-image: url("/img/icons/msg_exclamationmark_yellow.png");
+}
+
+.details .icon + .text {
+     height: 30px;
+}
+
+.table {
+	display: table;
+}
+.column {
+	display: table-cell;
+}
+
+.row {
+	display: table-row;
+}
+
+/* Begin StakeRace page */
+.stakeRacePage ul {
+	margin: 5px 0px;
+}
+.stakeRacePage .fg_blue {
+	color: #066f90;
+}
+.stakeRacePage .fg_orange {
+	color: #f64835;
+}
+.stakeRacePage .fg_grey {
+	color: #a5a5a5;
+}
+.stakeRacePage .bg_blue {
+	background: #066f90;
+}
+.stakeRacePage .bg_orange {
+	background: #f64835;
+}
+.stakeRacePage .inline_block {
+	display: inline-block;
+}
+.stakeRacePage {
+	font-size: 14px;
+	line-height: 18px;
+	color: #32334e;
+}
+.stakeRacePage > div {
+	width: 95%;
+	width: calc(100% - 20px);
+	padding: 10px;
+}
+.stakeRacePage h1 {
+	font-size: 22px;
+	line-height: 20px;
+    text-transform: uppercase;
+    margin: 5px 0px;
+    padding: 0;
+}
+.stakeRacePage.main img {
+	width: 100%;
+	vertical-align: middle;
+}
+.stakeRacePage.main,
+.stakeRacePage.main ul {
+	color: white;
+}
+.stakeRacePage.main .joinNow {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+	font-weight: bold;
+}
+.stakeRacePage.main .doubleArrowIcon {
+	display: inline-block;
+	width: 26px;
+	height: 16px;
+	background: url("../img/arrowDoubleRight.png") no-repeat;
+	background-size: 26px;
+	margin-left: 6px;
+}
+
+.stakeRacePage.winnings .column {
+	text-align: left;
+	padding-right: 10px;
+}
+.stakeRacePage.winnings > div {
+	padding-bottom: 0px;
+}
+.stakeRacePage.winnings div {
+	font-size: 14px;
+}
+.stakeRacePage.winnings div strong {
+	font-size: 15px;
+	font-weight: bold;
+}
+.winnings .column div {
+	padding-top: 3px;
+}
+.stakeRacePage.winnings .cupIcon {
+	display: inline-block;
+	width: 17px;
+	height: 17px;
+	background: url("../img/cup.png") no-repeat;
+	background-size: 15px;
+	margin-right: 2px;
+}
+
+.stakeRacePage.ranks {
+	background: #efefef;
+	margin-top: 7px;
+}
+.stakeRacePage.ranks table {
+	width: 100%;
+}
+.stakeRacePage.ranks th {
+	color: #066f90;
+	font-weight: bold;
+}
+.stakeRacePage.ranks td,
+.stakeRacePage.ranks th {
+	text-align: center;
+	line-height: 18px;
+}
+.stakeRacePage.ranks td.align_l,
+.stakeRacePage.ranks th.align_l {
+	text-align: left;
+}
+.stakeRacePage.ranks .userRank {
+	padding: 4px 0px;
+}
+.stakeRacePage.terms {
+	text-align: center;
+	font-size: 17px;
+	text-transform: uppercase;
+	padding: 5px;
+	margin-bottom: -10px;
+}
+.stakeRacePage.terms .arrowIcon {
+	display: inline-block;
+	width: 12px;
+	height: 12px;
+	background: url("../img/iconSelectArrowRight.png") no-repeat;
+	background-size: 8px;
+	margin-left: 2px;
+}
+/* End StakeRace page */
+
+.rsGroupHeader {
+	background: url("../img/arrow_grey_up.png") no-repeat 97.5% center #f6f6f6;
+    background-size: 11.5px 6px;
+	padding-left: 25px;
+    line-height: 40px;
+    font-weight: bold;
+	height: 40px;
+    border-bottom: 1px solid #e8eaec;
+}
+
+.rsGroupHeader.closed {
+	background: url("../img/arrow_blk_down.png") no-repeat 97.5% center #f6f6f6;
+	background-size: 11.5px 6px;
+}
+
+.rsGroupHeader.mdetails {
+	margin-bottom: 5px;
+}
+
+.rsGroupHeader.mdetails.closed {
+	margin-bottom: 0;
+}
+
+.betSelector {
+	overflow: hidden;
+	padding: 5px 0;
+}
+
+.betSelector .leftScore,
+.betSelector .rightScore {
+	width: 30%;
+	margin-left: 2%;
+}
+
+.betSelector .betResult {
+    margin: 0 1%;
+    width: 34%;
+}
+
+.betSelector .leftScore,
+.betSelector .betResult,
+.betSelector .leftScore div,
+.betSelector .rightScore div {
+	float: left;
+}
+
+.betSelector .rightScore {
+	float: right;
+}
+
+.betSelector .adjustSelector,
+.betSelector .value {
+	width: 30%;
+	height: 36px;
+	text-align: center;
+	line-height: 36px;
+	padding: 0;
+	font-size: 24px;
+	font-weight: bold;
+
+}
+
+.betSelector .adjustSelector {
+	border: 1px solid #ccc;
+	font-size: 30px;
+	color: #737373;
+	font-weight: normal;
+}
+
+.betSelector .betResult .qbutton {
+	border: 1px solid #D7DCE0;
+}
+
+.betSelector .betResult .cell {
+	height: 38px;
+	width: 1%;
+}
+
+.betSelectorToggle {
+	text-align: center;
+	padding: 8px 0;
+}
+
+.betSelectorToggle div {
+	display: inline-block;
+	font-size: 14px;
+}
+
+.betSelectorToggle .showAll:before,
+.betSelectorToggle .showAll:after,
+.betSelectorToggle .showLess:before,
+.betSelectorToggle .showLess:after {
+	content: '';
+	display: block;
+	float: left;
+	width: 0;
+	height: 0;
+	border-style: solid;
+	margin: 5px 4px 0 4px;
+	border-width: 0 6px 8px 6px;
+	border-color: transparent transparent #a4c3d3 transparent;
+}
+
+.betSelectorToggle .showAll:after,
+.betSelectorToggle .showLess:after {
+	float: right;
+}
+
+.betSelectorToggle .showLess:before,
+.betSelectorToggle .showLess:after {
+	border-width: 8px 6px 0 6px;
+	border-color: #a4c3d3 transparent transparent transparent;
+}
+
+#dialog .title {
+	color: #066f90;
+	font-size: 24px;
+    font-weight: bold;
+    text-transform: uppercase;
+    word-wrap: break-word;
+}
+#dialog .sub,
+#dialog .title span {
+	color: #d8852b;
+	font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: -10px;
+}
+
+.centered_dialog {
+    font-size: 15px;
+    color: #666;
+}
+
+centered_dialog p:first-of-type {
+    color: #066f90;
+}
+
+.centered_dialog .title {
+	font-size: 24px;
+}
+
+.centered_dialog .sub,
+#dialog .title span {
+    margin: 0;
+    font-size: 24px;
+}
+
+#mobileAgreementDialog,
+#depositAfterLoginDialog {
+    font-size: 15px;
+    color: #666;
+}
+
+#mobileAgreementDialog p:first-of-type,
+#depositAfterLoginDialog p:first-of-type {
+    color: #066f90;
+}
+
+#mobileAgreementDialog h4:first-of-type,
+#depositAfterLoginDialog h4:first-of-type {
+    color: #7c7c7c;
+}
+
+#mobileAgreementDialog .title,
+#depositAfterLoginDialog .title {
+	font-size: 24px;
+}
+
+#mobileAgreementDialog .sub,
+#depositAfterLoginDialog .sub {
+    margin: 0;
+    font-size: 24px;
+}
+
+.zopim {
+	display: none !important;
+}
+
+.magnoliaBanner {
+	padding: 0;
+	margin-top: 0;
+}
+
+.magnoliaBanner img {
+	width: 100%;
+    vertical-align: middle;
+}
+
+.favorites img {
+	width: 17px;
+	height: 17px;
+	padding: 8px 8px 5px 7px;
+}
+
+#vsmBetslipButtonContainer {
+	bottom: 18px !important;
+}
+
+.vsm-page {
+	margin-bottom: 20px !important;
+}
+
+.generatePassword{
+	display: table;
+	height: 20px;
+	max-height: 34px;
+}
+
+.generatePassword .icon {
+	display: table-cell;
+    margin-right: 5px;
+    height: 100%;
+    width: 20px;
+    background: url("../img/icon_securePassword.png") no-repeat;
+    background-size: contain;
+    background-position-y: 50%;
+}
+
+.generatePassword .text {
+	display: table-cell;
+	height: 100%;
+	color: #7c7c7c;
+}
+
+.changeShopPasswordLink {
+    padding-top: 10px;
+    padding-left: 4%;
+	color: #7c7c7c;
+}
+
+.contentbox .text {
+	padding-right: 2.5%;
+}
+
+#logoutWarning {
+    display: none;
+    position: absolute;
+    top: 10px;
+    left: 0px;
+    padding: 1%;
+    width: 98%;
+    text-align: center;
+    z-index: 100;
+    background: black;
+    color: white;
+}
+
+#endlessScroll_backToTop {
+	display: block;
+	position: fixed;
+    width: 38px;
+	height: 38px;
+	bottom: 47px;
+	right: 0px;
+	margin: 20px;
+	z-index: 10000;
+}
+
+.twocol #endlessScroll_backToTop {
+    right: 50%;
+}
+
+#endlessScroll_backToTop.deactivated {
+	display: none;
+}
+
+#endlessScroll_backToTop_image {
+	display: block;
+	background: url("../img/arrowScrollTop.png") no-repeat;
+	width: 100%;
+	height: 100%;
+	opacity: 0.63;
+}
+
+#endlessScroll_backToTop.fadeOut {
+  visibility: hidden;
+  opacity: 0;
+  transition: visibility 0s linear 300ms, opacity 300ms;
+}
+
+#endlessScroll_backToTop.fadeIn {
+  visibility: visible;
+  opacity: 0.63;
+  transition: visibility 0s linear 0s, opacity 300ms;
+}
+
+#betslipImageWrapper {
+    position: absolute;
+    display: table-cell;
+    vertical-align: middle;
+    background: #fff url("../img/ShareBetslipBg.jpg") center no-repeat;
+    background-size: cover;
+    z-index: -10;
+}
+
+.noScroll {
+    overflow: hidden;
+}
+
+.overlayLandscape, .overlayPortrait {
+   position: relative;
+   overflow: scroll;
+   height: inherit;
+}
+
+.overlayPortrait {
+height: initial;
+}
+
+#betslipImage,
+#betslipImageWrapper > div {
+    margin:auto;
+    background: #fff;
+}
+
+#betslipImage {
+    padding: 8px 4px 0 4px;
+}
+
+.lastLoginText {
+    width: 100%;
+	margin-top: 0;
+    padding-top: 10px;
+    text-align: center;
+    color: #3e3e3e;
+}
+
+.accountOverview .bartitle .text {
+	height: auto;
+	padding-top: 5px;
+}
+
+.accountOverview .bartitle .lastLogin {
+	height: auto;
+    padding-left: 2px;
+    padding-bottom: 5px;
+    vertical-align: middle;
+}
+
+#betslipImageWrapper #oneColumnFooter,
+#betslipImage #oneColumnFooter {
+    display: flex;
+}
+
+.copyLinkAreaWrap {
+    height: 42px;
+    margin-bottom: 5px;
+}
+
+.copyLinkArea {
+    width: 100%;
+    height: inherit;
+    margin: 0 3px 0 3px;
+    background-color: #f3f4f5;
+    border: 1px solid #c6c6c6;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 0 6px;
+    text-overflow: ellipsis;
+    overflow: auto;
+    resize: none;
+    box-sizing: border-box;
+    cursor: pointer;
+}
+
+.mentalassessment {
+	color: #b8b8b8;
+}
+
+.mentalassessment h1 {
+	color: #7c7c7c;
+	margin: 0;
+}
+
+.mentalassessment h4 {
+	font-weight: normal;
+	text-align: left;
+	font-size: 15px;
+	margin: 15px 0;
+}
+
+.mentalassessment.button.disabled, .mobileButtonDisabled  {
+	opacity: 0.5;
+	pointer-events: none;
+}
+
+.mentalassessment.button.disabled .text {
+	opacity: 0.3;
+}
+
+.question_group {
+	text-align: left;
+	margin-bottom: 20px;
+	font-weight: 100;
+	font-size: 13px;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-align-items: center;
+	-ms-flex-align: center;
+	align-items: center;
+	-webkit-justify-content: space-between;
+	-ms-flex-pack: justify;
+	justify-content: space-between;
+}
+
+.question_group .question {
+	max-width: 146px;
+}
+
+.question_group .checkbox {
+	background: #ccc;
+	width: 60px;
+	height: 34px;
+	border-radius: 20px;
+}
+
+.question_group .checkbox.checked span {
+	float: right;
+}
+
+.question_group .checkbox span {
+	background: #fff;
+	width: 30px;
+	height: 30px;
+	line-height: 30px;
+	text-align: center;
+	float: left;
+	border-radius: 20px;
+	margin: 2px;
+	font-size: 12px;
+	font-weight: normal;
+}
+
+#btcAddress {
+  border-left: 0;
+  text-align: center;
+}
+
+#copyAddress {
+  border: 0;
+  max-width: 45%;
+  background-color: #fc6d22;
+}
+
+#copyAddress.selected {
+  background-color: #7c7c7c;
+}
+
+#changePasswordNewPassword input[type=number],
+#changePasswordPasswordRepetition input[type=number] {
+    -webkit-text-security: disc;
+}
+
+/* iPhone X Full Size Fixes */
+body .appheader > div {
+    padding-top: env(safe-area-inset-top);
+}
+
+body .page {
+    padding-top: env(safe-area-inset-top);
+}
+
+body .page:after {
+    content: "";
+    display: block;
+    height: env(safe-area-inset-bottom);
+}
+
+#oneColumnFooter, #twoColumnFooter {
+    padding-bottom: env(safe-area-inset-bottom);
+}
+
+#vsm_app_container div#vsmNavigationBar.vsm-navigation,
+#vsm_app_container div#vsmStickyOverlayContainer.vsm-stickyoverlay-container,
+#vsm_app_container div#vsmMenuContainer.vsm-menu-container.vsm-menu-active,
+ #vsm_app_container div#vsm-shell.vsm-shell {
+    margin-top: env(safe-area-inset-top);
+}
+
+@media (orientation: landscape) {
+    .page,
+    .header,
+    #oneColumnFooter {
+         width: calc(100% - env(safe-area-inset-left) - env(safe-area-inset-right)) !important;
+         border-left: env(safe-area-inset-left) solid #F5F6F7;
+         border-right: env(safe-area-inset-right) solid #F5F6F7;
+    }
+
+    .page .scroll_container:before,
+    body:not(.twocol) .page .scroll_container:after {
+        content: "";
+        display: block;
+        height: 100%;
+        width: 1px;
+        background: #dcdbdb;
+        position: fixed;
+        z-index: 2;
+        top: 0;
+        left: 0;
+    }
+
+    body:not(.twocol) .page .scroll_container:after,
+    .pagea .scroll_container:before {
+        left: auto;
+        right: 0;
+    }
+
+    body.twocol .header {
+        width: calc(100% - env(safe-area-inset-left) - env(safe-area-inset-right) + 4px) !important;
+    }
+
+    body.twocol .page,
+    #twoColumnFooter > div {
+         width: calc(50% - env(safe-area-inset-left)) !important;
+         border-left: env(safe-area-inset-left) solid #F5F6F7;
+         border-right: none;
+    }
+
+    body.twocol .pagea,
+    #twoColumnFooter #footerRight {
+         right: env(safe-area-inset-right);
+         border-left: none;
+         border-right: env(safe-area-inset-right) solid #F5F6F7;
+    }
+
+    .header {
+         border-color: #f64835;
+    }
+
+    #oneColumnFooter,
+    #twoColumnFooter #footerLeft,
+    #twoColumnFooter #footerRight {
+         border-color: #7c7c7c;
+    }
+
+    .notheme,
+    #themeBackground {
+        background: #F5F6F7;
+    }
+}
+/* END iPhone X Full Size Fixes */
+
+/* Retail App Styles */
+.retail .socialFooter,
+.retail .bonusSloganBox,
+.retail .bonusSlogan,
+.retail .feedback,
+.retail .uservoice,
+.retail .externalLinks,
+.retail #casinoQuickFilterIcon,
+.retail .shareBetslipButton,
+.retail .shareBetslipIcon,
+.retail .bartitle.information,
+.retail .iconbar.bonus,
+.retail #terms .download_button,
+.retail .downloadPage {
+    display: none;
+}
+
+.retail ::-webkit-scrollbar {
+    width: 0px;  /* remove scrollbar space */
+}
+
+.retail a[href^="http"],
+.retail a[href^="mailto"],
+.retail a[href^="/cms/"],
+.retail div[onclick^="javascript"],
+.retail div[onclick^="window.location='http"],
+.retail div[onclick^="go('/"],
+.retail .logo.coljuegos,
+.retail #coljuegos_logo,
+.retail .licenseLogo {
+    pointer-events: none;
+    cursor: default;
+    text-decoration: none;
+    color: #3e3e3e;
+}
+
+ul.astropaySuccessMessageList {
+    margin: 0px;
+    padding: 0px;
+}
+
+ul.astropaySuccessMessageList li {
+    list-style: inside;
+}
+
+ul.astropaySuccessMessageList li {
+    list-style: inside;
+}
+
+ul.astropaySuccessMessageList {
+    margin: 0px;
+    padding: 0px;
+}
+
+ul.astropaySuccessMessageList li {
+    list-style: inside;
+}
+
+input:focus,
+textarea:focus,
+.textfield:focus,
+select:focus {
+    border-color: #f64835;
+    box-shadow: 0 0 1px #7c7c7c inset, 0 0 1px #2E303B;
+    outline: 0 none;
+}
+
+#takePicture {
+    z-index:1000000;
+    position: absolute;
+    background-color:#000000;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    width: 100%;
+    height: 100%;
+    display: table;
+    position: absolute;
+    user-select: none;
+}
+#takePicture video {
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+}
+#takePicture div {
+    position: absolute;
+    top: 50%;
+    bottom: 0px;
+    height: 100%;
+}
+#takePicture div.controls div {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+}
+#takePicture div.controls div.green {
+    background: url("../img/upload_check.png") center no-repeat;
+    background-size: 40px;
+    top: -65px;
+}
+#takePicture div.controls div.yellow {
+    background: url("../img/upload_reset.png") center no-repeat;
+    background-size: 40px;
+    top: -20px;
+}
+#takePicture div.controls div.red {
+    background: url("../img/upload_delete.png") center no-repeat;
+    background-size: 40px;
+    top: 25px;
+}
+
+#takePicture div.controls.pos1,
+#takePicture div.controls.pos2 {
+    right: 10px;
+    width: 40px;
+    opacity: 0.8;
+}
+
+.processing {
+  display: inline-block;
+  width: 64px;
+  height: 64px;
+  right: 45%;
+}
+.processing:after {
+  content: " ";
+  display: block;
+  width: 46px;
+  height: 46px;
+  margin: 1px;
+  border-radius: 50%;
+  border: 5px solid #fff;
+  border-color: #fff transparent #fff transparent;
+  animation: processing 1.2s linear infinite;
+}
+@keyframes processing {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+.flags{background-image:url('flags.png');background-color:transparent;background-repeat:no-repeat;height:24px;width:24px;background-size: 264px 24px}
+.flags.flag_co{background-position:-0px 0}
+.flags.flag_de{background-position:-24px 0}
+.flags.flag_en{background-position:-48px 0}
+.flags.flag_es{background-position:-72px 0}
+.flags.flag_fr{background-position:-96px 0}
+.flags.flag_it{background-position:-120px 0}
+.flags.flag_pl{background-position:-144px 0}
+.flags.flag_pt{background-position:-168px 0}
+.flags.flag_rs{background-position:-192px 0}
+.flags.flag_ru{background-position:-216px 0}
+.flags.flag_tr{background-position:-240px 0}
+.sports{background-image:url('sports.png');background-color:transparent;background-repeat:no-repeat;height:21px;width:21px;background-size: 1069px 21px}
+.sports.athletics{background-position:-0px 0}
+.sports.aussie-rules{background-position:-21px 0}
+.sports.australian-football{background-position:-42px 0}
+.sports.badminton{background-position:-63px 0}
+.sports.bandy{background-position:-84px 0}
+.sports.baseball{background-position:-105px 0}
+.sports.basketball{background-position:-126px 0}
+.sports.beach-soccer{background-position:-147px 0}
+.sports.beach-volleyball{background-position:-168px 0}
+.sports.blank{background-position:-189px 0}
+.sports.boxing{background-position:-210px 0}
+.sports.checkmark{background-position:-231px 0}
+.sports.competition{background-position:-252px 0}
+.sports.competition-soccer{background-position:-273px 0}
+.sports.cricket{background-position:-294px 0}
+.sports.curling{background-position:-315px 0}
+.sports.cycling{background-position:-336px 0}
+.sports.darts{background-position:-357px 0}
+.sports.darts-bdo{background-position:-378px 0}
+.sports.esports{background-position:-399px 0}
+.sports.favorites{background-position:-420px 0}
+.sports.field-hockey{background-position:-441px 0}
+.sports.floorball{background-position:-462px 0}
+.sports.football{background-position:-483px 0}
+.sports.futsal{background-position:-504px 0}
+.sports.golf{background-position:-525px 0}
+.sports.group-soccer{background-position:-546px 0}
+.sports.handball{background-position:-567px 0}
+.sports.highlights{background-position:-588px 0}
+.sports.ice-hockey{background-position:-609px 0}
+.sports.indoor-soccer{background-position:-630px 0}
+.sports.lastminute{background-position:-651px 0}
+.sports.live{background-position:-672px 0}
+.sports.long-term-bets{background-position:-693px 0}
+.sports.motor-sports{background-position:-714px 0}
+.sports.other{background-position:-735px 0}
+.sports.pesaepallo{background-position:-756px 0}
+.sports.pesapallo{background-position:-777px 0}
+.sports.rugby{background-position:-798px 0}
+.sports.selected{background-position:-819px 0}
+.sports.snooker{background-position:-840px 0}
+.sports.soccer{background-position:-861px 0}
+.sports.table-tennis{background-position:-882px 0}
+.sports.tennis{background-position:-903px 0}
+.sports.today{background-position:-924px 0;width:20px;height:20px}
+.sports.tv-show{background-position:-944px 0}
+.sports.unihockey{background-position:-965px 0}
+.sports.upcoming{background-position:-986px 0;width:20px;height:20px}
+.sports.volleyball{background-position:-1006px 0}
+.sports.waterball{background-position:-1027px 0}
+.sports.winter-sports{background-position:-1048px 0}
+.sports_small{background-image:url('sports_small.png');background-color:transparent;background-repeat:no-repeat;height:12px;width:12px;background-size: 641px 12px}
+.sports_small.athletics{background-position:-0px 0}
+.sports_small.aussie-rules{background-position:-12px 0}
+.sports_small.australian-football{background-position:-25px 0}
+.sports_small.badminton{background-position:-37px 0}
+.sports_small.bandy{background-position:-50px 0}
+.sports_small.baseball{background-position:-63px 0}
+.sports_small.basketball{background-position:-75px 0}
+.sports_small.beach-soccer{background-position:-88px 0}
+.sports_small.beach-volleyball{background-position:-100px 0}
+.sports_small.blank{background-position:-113px 0}
+.sports_small.boxing{background-position:-126px 0}
+.sports_small.checkmark{background-position:-138px 0}
+.sports_small.competition{background-position:-151px 0}
+.sports_small.competition-soccer{background-position:-163px 0}
+.sports_small.cricket{background-position:-176px 0}
+.sports_small.curling{background-position:-189px 0}
+.sports_small.cycling{background-position:-201px 0}
+.sports_small.darts{background-position:-214px 0}
+.sports_small.darts-bdo{background-position:-226px 0}
+.sports_small.esports{background-position:-239px 0}
+.sports_small.favorites{background-position:-252px 0}
+.sports_small.field-hockey{background-position:-264px 0}
+.sports_small.floorball{background-position:-277px 0}
+.sports_small.football{background-position:-289px 0}
+.sports_small.futsal{background-position:-302px 0}
+.sports_small.golf{background-position:-315px 0}
+.sports_small.group-soccer{background-position:-327px 0}
+.sports_small.handball{background-position:-340px 0}
+.sports_small.highlights{background-position:-352px 0}
+.sports_small.ice-hockey{background-position:-365px 0}
+.sports_small.indoor-soccer{background-position:-378px 0}
+.sports_small.lastminute{background-position:-390px 0}
+.sports_small.live{background-position:-403px 0}
+.sports_small.long-term-bets{background-position:-415px 0}
+.sports_small.motor-sports{background-position:-428px 0}
+.sports_small.other{background-position:-441px 0}
+.sports_small.pesaepallo{background-position:-453px 0}
+.sports_small.pesapallo{background-position:-466px 0}
+.sports_small.rugby{background-position:-478px 0}
+.sports_small.selected{background-position:-491px 0}
+.sports_small.snooker{background-position:-504px 0}
+.sports_small.soccer{background-position:-516px 0}
+.sports_small.table-tennis{background-position:-529px 0}
+.sports_small.tennis{background-position:-541px 0}
+.sports_small.today{background-position:-554px 0;width:12px;height:12px}
+.sports_small.tv-show{background-position:-566px 0}
+.sports_small.unihockey{background-position:-579px 0}
+.sports_small.upcoming{background-position:-591px 0;width:12px;height:12px}
+.sports_small.volleyball{background-position:-603px 0}
+.sports_small.waterball{background-position:-616px 0}
+.sports_small.winter-sports{background-position:-628px 0}
+.icons{background-image:url('icons.png');background-color:transparent;background-repeat:no-repeat;height:0px;width:0px;background-size: 2363px 56px}
+.icons.account{background-position:-0px 0;width:20px;height:20px}
+.icons.arena{background-position:-20px 0;width:20px;height:20px}
+.icons.back{background-position:-40px 0;width:20px;height:20px}
+.icons.bonus{background-position:-60px 0;width:20px;height:20px}
+.icons.button_tendown{background-position:-80px 0;width:11px;height:11px}
+.icons.button_tendup{background-position:-91px 0;width:11px;height:11px}
+.icons.casino{background-position:-102px 0;width:20px;height:20px}
+.icons.casinoHeadline{background-position:-122px 0;width:22px;height:15px}
+.icons.caution{background-position:-144px 0;width:31px;height:28px}
+.icons.contact{background-position:-175px 0;width:20px;height:20px}
+.icons.contactdata{background-position:-195px 0;width:20px;height:20px}
+.icons.event_close{background-position:-215px 0;width:19px;height:19px}
+.icons.favorites{background-position:-234px 0;width:20px;height:20px}
+.icons.feedback{background-position:-254px 0;width:20px;height:20px}
+.icons.further{background-position:-274px 0;width:20px;height:20px}
+.icons.help{background-position:-294px 0;width:20px;height:20px}
+.icons.highlights{background-position:-314px 0;width:20px;height:20px}
+.icons.icons{background-position:-334px 0;width:780px;height:20px}
+.icons.icons-18-white{background-position:-1114px 0;width:279px;height:9px}
+.icons.imprint{background-position:-1393px 0;width:20px;height:20px}
+.icons.infoHeadline{background-position:-1413px 0;width:22px;height:15px}
+.icons.information{background-position:-1436px 0;width:20px;height:20px}
+.icons.install{background-position:-1456px 0;width:20px;height:20px}
+.icons.lastminute{background-position:-1476px 0;width:20px;height:20px}
+.icons.live{background-position:-1496px 0;width:20px;height:20px}
+.icons.live_rain{background-position:-1516px 0;width:11px;height:11px}
+.icons.livescore{background-position:-1527px 0;width:20px;height:20px}
+.icons.login{background-position:-1547px 0;width:20px;height:20px}
+.icons.logout{background-position:-1567px 0;width:20px;height:20px}
+.icons.messages{background-position:-1587px 0;width:20px;height:20px}
+.icons.mobilecasino{background-position:-1607px 0;width:28px;height:28px}
+.icons.msg_checkmark_green{background-position:-1635px 0;width:29px;height:29px}
+.icons.msg_error{background-position:-1664px 0;width:28px;height:28px}
+.icons.msg_exclamationmark_yellow{background-position:-1692px 0;width:29px;height:29px}
+.icons.msg_info{background-position:-1721px 0;width:28px;height:28px}
+.icons.msg_info_big{background-position:-1749px 0;width:64px;height:56px}
+.icons.msg_warning{background-position:-1813px 0;width:28px;height:28px}
+.icons.myaccount{background-position:-1841px 0;width:20px;height:20px}
+.icons.mybets{background-position:-1861px 0;width:20px;height:20px}
+.icons.mydata{background-position:-1881px 0;width:20px;height:20px}
+.icons.payin{background-position:-1901px 0;width:20px;height:20px}
+.icons.payin_old{background-position:-1921px 0;width:20px;height:20px}
+.icons.payment{background-position:-1941px 0;width:20px;height:20px}
+.icons.personal{background-position:-1961px 0;width:20px;height:20px}
+.icons.preferences{background-position:-1981px 0;width:20px;height:20px}
+.icons.quote_selected_tendown{background-position:-2001px 0;height:1px}
+.icons.quote_selected_tendup{background-position:-2002px 0;height:1px}
+.icons.quote_tendown{background-position:-2002px 0;width:19px;height:5px}
+.icons.quote_tendown2{background-position:-2022px 0;height:1px}
+.icons.quote_tendup{background-position:-2022px 0;height:1px}
+.icons.responsibility{background-position:-2023px 0;width:20px;height:20px}
+.icons.results{background-position:-2043px 0;width:20px;height:20px}
+.icons.security{background-position:-2063px 0;width:20px;height:20px}
+.icons.service{background-position:-2083px 0;width:23px;height:23px}
+.icons.settings{background-position:-2106px 0;width:20px;height:20px}
+.icons.settingsHeadline{background-position:-2126px 0;width:22px;height:15px}
+.icons.sport{background-position:-2148px 0;width:20px;height:20px}
+.icons.sports{background-position:-2168px 0;width:20px;height:20px}
+.icons.system{background-position:-2188px 0;width:20px;height:20px}
+.icons.tennis_racket{background-position:-2208px 0;width:13px;height:14px}
+.icons.terms{background-position:-2221px 0;width:20px;height:20px}
+.icons.today{background-position:-2241px 0;width:20px;height:20px}
+.icons.upcoming{background-position:-2261px 0;width:20px;height:20px}
+.icons.upload{background-position:-2281px 0;width:20px;height:20px}
+.icons.virtualsports{background-position:-2301px 0;width:20px;height:20px}
+.icons.warning_inline{background-position:-2321px 0;width:11px;height:11px}
+.icons.warning_shut{background-position:-2332px 0;width:11px;height:11px}
+.icons.withdrawal{background-position:-2343px 0;width:20px;height:20px}
+.payment{background-image:url('payment.png');background-color:transparent;background-repeat:no-repeat;height:148px;width:48px;background-size: 12282px 48px}
+.payment.ACCENTPAY_QIWI{background-position:-0px 0}
+.payment.ACCENTPAY_WEBMONEY{background-position:-148px 0}
+.payment.ACCENTPAY_YANDEXMONEY{background-position:-296px 0}
+.payment.ASTROPAYCARD{background-position:-444px 0}
+.payment.ASTROPAYDIRECT_ALMACENES_EXITO{background-position:-592px 0}
+.payment.ASTROPAYDIRECT_BOLETO{background-position:-740px 0}
+.payment.ASTROPAYDIRECT_CARULLA{background-position:-888px 0}
+.payment.ASTROPAYDIRECT_CREDIT_CARD{background-position:-1036px 0}
+.payment.ASTROPAYDIRECT_DINEROMAIL_CASH{background-position:-1184px 0}
+.payment.ASTROPAYDIRECT_EMPRESA{background-position:-1332px 0}
+.payment.ASTROPAYDIRECT_OCCIDENTE{background-position:-1480px 0}
+.payment.ASTROPAYDIRECT_OXXO{background-position:-1628px 0}
+.payment.ASTROPAYDIRECT_PSE{background-position:-1776px 0}
+.payment.ASTROPAYDIRECT_SURTIMAX{background-position:-1924px 0}
+.payment.ASTROPAYDIRECT_WEBPAY{background-position:-2072px 0}
+.payment.BANK{background-position:-2220px 0}
+.payment.BANKATRANSFERI{background-position:-2368px 0}
+.payment.BKM_EXPRESS{background-position:-2516px 0}
+.payment.BONUSNEW{background-position:-2664px 0}
+.payment.CEPBANK{background-position:-2812px 0}
+.payment.CUBITS{background-position:-2960px 0}
+.payment.ECOCARD{background-position:-3108px 0}
+.payment.ECOPAYZ_ECOVOUCHER{background-position:-3256px 0;height:40px}
+.payment.EFECTY_BANK{background-position:-3404px 0}
+.payment.EVOUCHER_BANK{background-position:-3552px 0}
+.payment.EVOUCHER_CCARD{background-position:-3700px 0}
+.payment.GIROGATE_P24{background-position:-3848px 0}
+.payment.GIROGATE_QIWI{background-position:-3996px 0}
+.payment.GIROPAY{background-position:-4144px 0}
+.payment.JETON_WALLET_EN{background-position:-4292px 0}
+.payment.JETON_WALLET_TR{background-position:-4440px 0}
+.payment.MASTERCARD{background-position:-4588px 0}
+.payment.MINERVA_BOLETO{background-position:-4736px 0}
+.payment.MINERVA_TBL{background-position:-4884px 0}
+.payment.MONEYBOOKERS{background-position:-5032px 0}
+.payment.MUCHBETTER{background-position:-5180px 0}
+.payment.NETELLER{background-position:-5328px 0}
+.payment.NETELLER_BONUS_BRAZIL{background-position:-5476px 0}
+.payment.OCHAPAY_APCO_MASTERCARD{background-position:-5624px 0}
+.payment.OCHAPAY_APCO_VISA{background-position:-5772px 0}
+.payment.OCHAPAY_CARD_MASTERCARD{background-position:-5920px 0}
+.payment.OCHAPAY_CARD_VISA{background-position:-6068px 0}
+.payment.OCHAPAY_CARD_VOUCHER{background-position:-6216px 0}
+.payment.OCHAPAY_CEP{background-position:-6364px 0}
+.payment.OCHAPAY_JETON_BANK_EN{background-position:-6512px 0}
+.payment.OCHAPAY_JETON_BANK_TR{background-position:-6660px 0}
+.payment.OCHAPAY_QR_CODE{background-position:-6808px 0}
+.payment.OLEPAY{background-position:-6956px 0}
+.payment.PAYKASA{background-position:-7104px 0}
+.payment.PAYPAL{background-position:-7252px 0}
+.payment.PAYSAFE{background-position:-7400px 0}
+.payment.PAYU{background-position:-7548px 0}
+.payment.PAYVALIDA_AMERICAN_EXPRESS{background-position:-7696px 0}
+.payment.PAYVALIDA_APOSTAR{background-position:-7844px 0}
+.payment.PAYVALIDA_BALOTO{background-position:-7992px 0}
+.payment.PAYVALIDA_DIMONEX{background-position:-8140px 0}
+.payment.PAYVALIDA_EFECTY{background-position:-8288px 0}
+.payment.PAYVALIDA_MASTERCARD{background-position:-8436px 0}
+.payment.PAYVALIDA_PSE{background-position:-8584px 0}
+.payment.PAYVALIDA_PUNTORED{background-position:-8732px 0}
+.payment.PAYVALIDA_REDSERVI{background-position:-8880px 0}
+.payment.PAYVALIDA_SUSUERTE{background-position:-9028px 0}
+.payment.PAYVALIDA_VISA{background-position:-9176px 0}
+.payment.POSTEPAY{background-position:-9324px 0}
+.payment.SKRILL_1TAP{background-position:-9472px 0}
+.payment.SOFORT{background-position:-9620px 0}
+.payment.TODITO_CASH{background-position:-9768px 0}
+.payment.TRANSACTWORLD_MASTERCARD{background-position:-9916px 0}
+.payment.TRANSACTWORLD_VISA{background-position:-10064px 0}
+.payment.TRONIPAY_BITCOIN{background-position:-10212px 0}
+.payment.TRONIPAY_BOLETO{background-position:-10360px 0}
+.payment.TRONIPAY_MASTERCARD{background-position:-10508px 0}
+.payment.TRONIPAY_TBL{background-position:-10656px 0}
+.payment.TRONIPAY_VISA{background-position:-10804px 0}
+.payment.UKASH{background-position:-10952px 0}
+.payment.UNIVOUCHER{background-position:-11100px 0}
+.payment.VISA{background-position:-11248px 0}
+.payment.VISA_BLEUE{background-position:-11396px 0}
+.payment.VISA_POSTEPAY{background-position:-11544px 0;width:146px;height:23px}
+.payment.VISA_SPEEDCARD{background-position:-11690px 0}
+.payment.ZOTAPAY_MAESTRO{background-position:-11838px 0}
+.payment.ZOTAPAY_MASTERCARD{background-position:-11986px 0}
+.payment.ZOTAPAY_VISA{background-position:-12134px 0}
+.tabbar .tbicon{background-image:url('tabbar.png');background-color:transparent;background-repeat:no-repeat;height:32px;width:23px;background-size: 438px 47px}
+.tabbar .tbicon.account{background-position:-0px 0;width:20px;height:20px}
+.tabbar .tbicon.editor{background-position:-20px 0;width:20px;height:20px}
+.tabbar .tbicon.favorites{background-position:-40px 0;width:20px;height:20px}
+.tabbar .tbicon.favorites.selected{background-position:-60px 0;width:64px;height:47px}
+.tabbar .tbicon.information{background-position:-124px 0;width:20px;height:20px}
+.tabbar .tbicon.information.selected{background-position:-144px 0;width:64px;height:47px}
+.tabbar .tbicon.live{background-position:-208px 0;width:20px;height:20px}
+.tabbar .tbicon.login{background-position:-228px 0;width:20px;height:20px}
+.tabbar .tbicon.logout{background-position:-248px 0;width:20px;height:20px}
+.tabbar .tbicon.payin{background-position:-268px 0;width:26px;height:26px}
+.tabbar .tbicon.sportbets{background-position:-294px 0;width:20px;height:20px}
+.tabbar .tbicon.sports{background-position:-314px 0;width:64px;height:47px}
+.tabbar .tbicon.tickets{background-position:-378px 0;width:20px;height:20px}
+.tabbar .tbicon.valve{background-position:-398px 0;width:20px;height:20px}
+.tabbar .tbicon.virtualsports{background-position:-418px 0;width:20px;height:20px}
+.tabbar2 .tbicon{background-image:url('tabbar2.png');background-color:transparent;background-repeat:no-repeat;height:29px;width:30px;background-size: 944px 60px}
+.tabbar2 .tbicon.account{background-position:-0px 0;width:59px;height:60px}
+.tabbar2 .tbicon.account.selected{background-position:-59px 0;width:59px;height:60px}
+.tabbar2 .tbicon.dollar{background-position:-118px 0;width:59px;height:60px}
+.tabbar2 .tbicon.dollar.selected{background-position:-177px 0;width:59px;height:60px}
+.tabbar2 .tbicon.editor{background-position:-236px 0;width:59px;height:60px}
+.tabbar2 .tbicon.editor.selected{background-position:-295px 0;width:59px;height:60px}
+.tabbar2 .tbicon.home{background-position:-354px 0;width:59px;height:60px}
+.tabbar2 .tbicon.home.selected{background-position:-413px 0;width:59px;height:60px}
+.tabbar2 .tbicon.information{background-position:-472px 0;width:59px;height:60px}
+.tabbar2 .tbicon.information.selected{background-position:-531px 0;width:59px;height:60px}
+.tabbar2 .tbicon.key{background-position:-590px 0;width:59px;height:60px}
+.tabbar2 .tbicon.key.selected{background-position:-649px 0;width:59px;height:60px}
+.tabbar2 .tbicon.sports{background-position:-708px 0;width:59px;height:60px}
+.tabbar2 .tbicon.sports.selected{background-position:-767px 0;width:59px;height:60px}
+.tabbar2 .tbicon.tickets{background-position:-826px 0;width:59px;height:60px}
+.tabbar2 .tbicon.tickets.selected{background-position:-885px 0;width:59px;height:60px}
+.scIcon{background-image:url('scorebox.png');background-color:transparent;background-repeat:no-repeat;height:20px;width:20px;background-size: 221px 20px}
+.scIcon.blank{background-position:-0px 0;width:10px;height:10px}
+.scIcon.corner-kick{background-position:-10px 0}
+.scIcon.dang-attack{background-position:-30px 0}
+.scIcon.foul{background-position:-50px 0}
+.scIcon.free-kick{background-position:-70px 0}
+.scIcon.goal-kick{background-position:-90px 0}
+.scIcon.offside{background-position:-110px 0}
+.scIcon.penalty{background-position:-130px 0}
+.scIcon.point{background-position:-150px 0;width:10px;height:10px}
+.scIcon.red-card{background-position:-161px 0}
+.scIcon.throw-in{background-position:-181px 0}
+.scIcon.yellow-card{background-position:-201px 0}
+
+
+/* start casino styles */
+.casino .casinoTeaser {
+    width: 100%;
+}
+
+.casino .filterbar {
+    padding: 0 2.5%;
+    width: 95%;
+    border-bottom: 1px solid #f8f7f7;
+    background: #fff;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 44px;
+    z-index: 10;
+}
+
+.casino .searchLink {
+ 	background: url('../img/casino/magnify_start.png') 7px center no-repeat white;
+ 	background-size: 14px 14px;
+ 	width: 38px;
+ 	height: 40px;
+    float: left;
+}
+
+.casino .filterbar div.quickFilter {
+    padding: 0;
+    width:  calc(100% - 40px);
+    font-size: 0;
+}
+
+.casino .filterbar div.quickFilter span {
+    font-size: 13px;
+}
+
+.casino .filterbarContent {
+    overflow: hidden;
+}
+
+.casino .showQuickFilter .filterbarContent {
+    width: calc(100% - 40px);
+    float: left;
+}
+
+.casino .filterbar div.quickFilter .icon {
+    height: 40px;
+    padding: 0;
+    width: initial;
+    overflow: visible;
+    display: inline-block;
+    line-height: 33px;
+    box-sizing: border-box;
+    padding: 0 4px;
+    margin: 0 4px;
+}
+
+.casino .filterbar .selected {
+    border-bottom: 1px solid #f64835;
+}
+
+.casino .gameSection {
+    clear: both;
+    padding: 0 0 0 2.5%;
+    width: 100%;
+    overflow: hidden;
+    box-sizing: border-box;
+}
+
+.casinoOverview.gameSection {
+    padding: 0 2.5%;
+}
+
+.casino .toggleHeader {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    line-height: 5px;
+    width: 97.5%;
+    min-height: 40px;
+}
+
+.casino .gameRow .game_box a {
+    width: 100%;
+    height: 0;
+    display: block;
+    overflow: hidden;
+    padding-bottom: 66.6%;
+    position: relative;
+}
+.casino .gameRow .game_box a span {
+    z-index: 999;
+    display: block;
+    float: left;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    text-align: center;
+    font-size: 11px;
+    background: #8a8a8a;
+    color: #fff;
+}
+.casinoOverview.gameSection .toggleHeader {
+    width: 100%;
+}
+
+.casino .toggleHeader + div {
+    clear: both;
+}
+
+.casino .toggleHeader h3 {
+    font-size: 14px;
+}
+
+.casino .toggleHeader h3 + span {
+    font-size: 12px;
+    text-align: right;
+}
+
+.casino .toggleHeader h3 + span.selected {
+    color: #f64835;
+    background: none;
+}
+
+.casino .toggleHeader h3 + span span {
+    color: #f64835;
+}
+
+.casino .gameRow {
+    display: flex;
+    overflow-x: auto;
+    overflow-y: hidden;
+    -webkit-overflow-scrolling: touch;
+    padding-top: 5px;
+    width: 100.5%
+}
+
+.casino .toggleHeader + .gameRow {
+    display: flex;
+    padding-top: 0px;
+}
+
+.casino .gameRow::-webkit-scrollbar {
+    background: transparent;
+    height: 0px;
+}
+
+.casinoOverview.gameSection .gameRow {
+    display: block;
+    width: 102%;
+    overflow: hidden;
+}
+
+.casino .gameRow .game_box {
+    flex: 0 0 35.33%;
+    margin-right: 2%;
+    margin-bottom: 2%;
+    float: left;
+}
+
+.casinoOverview.gameSection .gameRow .game_box {
+    width: 47.99%;
+    flex: initial;
+}
+
+@media only screen and (min-width: 576px) {
+    .casino .gameRow .game_box {
+        flex: 0 0 25.5%;
+    }
+
+    .casinoOverview.gameSection .gameRow .game_box {
+        width: 31%;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    .casino .toggleHeader h3 + span {
+        z-index: 5;
+    }
+
+    .casino .gameRow .game_box {
+        flex: 0 0 19.5%;
+    }
+
+    .casinoOverview.gameSection .gameRow .game_box {
+        width: 31%;
+    }
+}
+
+@media only screen and (min-width: 992px) {
+    .casino .gameRow {
+        width: 101%;
+    }
+
+    .casino .gameRow .game_box {
+        flex: 0 0 16%;
+    }
+
+    .casinoOverview.gameSection .gameRow .game_box {
+        width: 31.66%;
+        margin-right: 1%;
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    .casino .gameRow {
+        width: 100.5%;
+    }
+
+    .casino .gameRow .game_box {
+        flex: 0 0 12.5%;
+    }
+
+    .casinoOverview.gameSection .gameRow .game_box {
+        width: 19%;
+        margin-right: 0.5%;
+    }
+}
+
+
+
+.casino .gameRow .game_box a {
+    width: 100%;
+    height: 0;
+    display: block;
+    overflow: hidden;
+    padding-bottom: 66.6%;
+    position: relative;
+}
+
+.casino .gameRow .game_box img {
+    min-width: 100%;
+    max-height: 100%;
+    display: block;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+}
+
+.casino .gameRow .game_box img.vendor {
+    border: 1px solid rgba(255, 255, 255, .7);
+    min-height: 15px;
+    max-height: 15px;
+    max-width: 15px;
+    min-width: 15px;
+    position: absolute;
+    top: auto;
+    left: 4px;
+    bottom: 4px;
+}
+
+.casino .searchSection {
+    position: -webkit-sticky;
+    position: sticky;
+    z-index: 10;
+    top: 83px;
+    background: #fff;
+    padding: 10px 0 5px 0;
+}
+
+.casino .searchSection {
+    position: -webkit-sticky;
+    position: sticky;
+    z-index: 10;
+    top: 83px;
+    background: #fff;
+    padding: 10px 0 5px 0;
+    height: 40px;
+    transition: 200ms;
+    overflow: hidden;
+}
+
+.casino .searchSection.hidden {
+    height: 0;
+    display: block !important;
+    padding: 0;
+}
+
+.casinoSearch {
+    background: #f0eeee;
+    background-size: 13px 13px;
+    font-size: 13px;
+    padding: 0 0 0 40px;
+    height: 40px;
+    line-height: 39px;
+    width: 100%;
+    box-sizing: border-box;
+    border: 1px solid #dcdbdb;
+    float: left;
+}
+
+.casino .searchSection .close {
+    position: absolute;
+    z-index: 11;
+    left: 0;
+    top: 0;
+	background: url("../img/remove.png") center 26px/10px no-repeat;
+	height: 100%;
+	width: 40px;
+}
+
+.casino h2 {
+	color: #cccccc;
+	font-weight: normal;
+	font-size: 14px;
+	text-transform: uppercase;
+	min-height: 22px;
+	padding-top: 20px;
+	padding-bottom: 15px;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: flex-start;
+	align-content: stretch;
+	align-items: center;
+	margin: 0;
+}
+
+.casino h2 span:nth-child(2) {
+	max-width: 80%;
+	flex: 0 1 auto;
+	align-self: auto;
+}
+
+.casino .pageHeadline h2 span:first-child,
+.casino .pageHeadline h2 span:last-child {
+	height: 1px;
+	margin: 0 10px;
+	background: #888;
+	display: flex;
+	width: 1px;
+	flex: 1 1 auto;
+	align-self: auto;
+}
+
+.casino .appfooter {
+	border-top: 1px solid #ccc;
+	background: #23262d;
+	-webkit-box-shadow: 0px -5px 10px 0px rgba(0, 0, 0, 0.2);
+	-moz-box-shadow: 0px -5px 10px 0px rgba(0, 0, 0, 0.2);
+	box-shadow: 0px -5px 10px 0px rgba(0, 0, 0, 0.2);
+}
+
+.casino .footer {
+	background: #23262d;
+}
+
+.casino #oneColumnFooter,
+.casino #twoColumnFooter {
+     box-shadow: none;
+}
+
+.casino .appfooter .tbicon {
+    opacity: 0.8;
+}
+
+.casino .tbicon.selected,
+.casino .footer.tabbar1 .tbicon.selected {
+    background-color: #f64835;
+    opacity: 1;
+}
+
+@media (orientation: landscape) {
+      .casino .page,
+      .casino .header,
+      .casino #oneColumnFooter {
+         border-left-color: #23262d;
+         border-right-color: #23262d;
+      }
+
+      .page .scroll_container:before,
+      body:not(.twocol) .page .scroll_container:after {
+        background: transparent;
+      }
+
+      body.casino.twocol .page,
+      .casino #twoColumnFooter > div {
+         border-left-color: #23262d;
+      }
+
+      body.casino.twocol .pagea,
+      .casino #twoColumnFooter #footerRight {
+         border-right-color: #23262d;
+      }
+
+      .casino .header,
+      .casino #oneColumnFooter,
+      .casino #twoColumnFooter #footerLeft,
+      .casino #twoColumnFooter #footerRight {
+         border-color: #23262d;
+      }
+ }
+
+.casino .scroll_wrapper {
+    margin: 1px 0;
+}
+
+.casino .languageItem,
+.casino .gameNavItem,
+.casino .textNavItem  {
+	height: 43px;
+	background: #23262d;
+	margin-bottom: 1px;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: flex-start;
+	align-content: stretch;
+	align-items: center;
+	color: #fff;
+}
+
+.casino .languageItem.selected,
+.casino .textNavItem.selected {
+	background-color: #f64835;
+}
+
+.casino .gameNavItem .gameTitle {
+	padding-left: 13px;
+	font-size: 16px;
+	align-items: center;
+	width: 1px;
+	flex: 1 1 auto;
+}
+
+.casino .gameNavItem .gameTitle {
+	margin-right: 50px;
+	overflow: hidden;
+}
+
+.casino .gameNavItem.noArrow .gameTitle {
+	margin-right: 40px;
+}
+
+.gameNavItem.clicked,
+#.textNavItem.clicked,
+.gameNavItem.selected {
+	background-color: #303030;
+}
+
+.casino .gameNavItem .gameThumb {
+	height: 43px;
+	width: 54px;
+	background: url("../img/game_thumb.jpg") no-repeat;
+	background-size: 100%;
+}
+
+.casino .gameNavItem .gameThumb.em {
+	width: 43px;
+}
+
+.casino .gameNavItem {
+    background-size: 23px 23px;
+    background-position: calc(100% - 33px);
+}
+
+.casino .gameNavItem.noArrow{
+    background-position: calc(100% - 13px);
+}
+
+.casino .gameNavItem .favouriteIcon,
+.casino .gameNavItem .arrowIcon,
+.casino .textNavItem .arrowIcon,
+.casino .languageItem .checkmark {
+	margin-right: 13px;
+}
+
+.casino .gameNavItem .favouriteIcon {
+	margin-right: 23px;
+}
+
+.casino .gameNavItem .favouriteIcon.noArrow {
+	margin-right: 43px;
+}
+
+.casino .gameNavItem .gameGroup {
+	width: 42px;
+	height: 21px;
+	margin-left: 15px;
+	background-repeat: no-repeat;
+}
+
+.casino .gameNavItem .gameGroup.LIVEBLACKJACK,
+.casino .gameNavItem .gameGroup.liveBlackjack,
+.casino .menuCategories li.liveblackjack {
+	background-image: url("../img/groups/groupIcon_liveblackjack.svg");
+    background-size: 26px;
+    margin-top: 12px;
+}
+
+.casino .gameNavItem .gameGroup.LIVEROULETTE,
+.casino .gameNavItem .gameGroup.liveRoulette,
+.casino .menuCategories li.liveroulette {
+	background-image: url("../img/groups/groupIcon_liveroulette.svg");
+    background-size: 26px;
+    margin-top: 12px;
+}
+
+.casino .gameNavItem .gameGroup.VIDEOSLOTS,
+.casino .gameNavItem .gameGroup.videoSlots,
+.casino .menuCategories li.videoslots {
+	background-image: url("../img/groups/groupIcon_videoslots.svg");
+	background-size: 20px;
+}
+
+.casino .gameNavItem .gameGroup.CLASSICSLOTS,
+.casino .gameNavItem .gameGroup.classicSlots,
+.casino .menuCategories li.classicslots {
+	background-image: url("../img/groups/groupIcon_classicslots.svg");
+	background-size: 20px;
+}
+
+.casino .gameNavItem .gameGroup.TABLEGAMES,
+.casino .gameNavItem .gameGroup.tableGames,
+.casino .menuCategories li.tablegames {
+	background-image: url("../img/groups/groupIcon_tablegames.svg");
+	background-size: 20px;
+}
+
+.casino .gameNavItem .gameGroup.VIDEOBINGO,
+.casino .gameNavItem .gameGroup.videoBingo,
+.casino .menuCategories li.videobingo {
+	background-image: url("../img/groups/groupIcon_videobingo.svg");
+	background-size: 20px;
+}
+
+.casino .gameNavItem .gameGroup.VIDEOPOKER,
+.casino .gameNavItem .gameGroup.videoPoker,
+.casino .menuCategories li.videopokers {
+	background-image: url("../img/groups/groupIcon_videopoker.svg");
+	background-size: 20px;
+}
+
+.casino .gameNavItem .gameGroup.JACKPOTGAMES,
+.casino .gameNavItem .gameGroup.jackpotGames,
+.casino .menuCategories li.jackpotgames {
+	background-image: url("../img/groups/groupIcon_jackpotgames.svg");
+	background-size: 20px;
+}
+
+.casino .gameNavItem .gameGroup.OTHERGAMES,
+.casino .gameNavItem .gameGroup.otherGames,
+.casino .menuCategories li.othergames {
+	background-image: url("../img/groups/groupIcon_othergames.svg");
+	background-size: 20px;
+}
+
+.casino .gameNavItem .gameGroup.LIVEDEALER,
+.casino .gameNavItem .gameGroup.liveDealer,
+.casino .menuCategories.jq_MENU_LIVECASINO li {
+	background-image: url("../img/groups/groupIcon_live.svg");
+	background-size: 20px;
+}
+
+.casino .favouriteIcon {
+	width: 18px;
+	height: 18px;
+	background: url("../img/favourite_icon.svg") no-repeat;
+	background-size: 18px auto;
+}
+
+.casino .deleteIcon {
+	width: 43px;
+	height: 43px;
+	background: url("../img/casino/cross_orange.svg") center no-repeat;
+	background-size: 15px auto;
+}
+
+.casino .gameSearch #searchDeleteIcon {
+	position: absolute;
+	z-index: 2;
+	right: 22px;
+	height: 100%;
+	background-position: center;
+	padding: 0;
+	margin: 0;
+	top: 0;
+}
+
+.casino .arrowIcon {
+	width: 14px;
+	height: 100%;
+	background: url("../img/arrowRight.svg") no-repeat center;
+	background-size: auto 14px;
+	margin-left: 8px;
+}
+
+.casino .navItem {
+	cursor: pointer;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	width: 25px;
+	height: 25px;
+}
+
+.casino .navItem.on {
+	color: #f64835;
+}
+
+.casino .navItem {
+	cursor: pointer;
+	display: block;
+	width: 33%;
+	float: left;
+    line-height: 38px;
+    text-align: center;
+    position: relative;
+}
+
+.casino .gameListSlider .navItem.menu_favorites,
+.casino .gameListSlider .navItem.menu_search {
+    width: 16.5%;
+}
+
+.casino .navItem.menu_favorites span {
+    color: transparent;
+	background: url("../img/casino/favourite_icon_white.svg") center no-repeat;
+	background-size: 20px;
+}
+
+.casino .navItem.menu_search {
+    float: right;
+}
+
+.casino .navItem.menu_search span {
+    color: transparent;
+ 	background: url('../img/casino/magnify.png') center no-repeat;
+	background-size: 24px;
+}
+
+.casino .gameListSlider .navItem> span {
+    width: 100%;
+}
+
+.casino .gameListSlider .navItem.selected> span {
+    color: #f64835;
+}
+
+.casino .menuCategories {
+    position: absolute;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    background: #4a4a4a;
+    max-height: calc(100vh - 132px);
+    overflow: auto;
+}
+
+.casino .navItem:last-child .menuCategories {
+    right: 0;
+}
+
+.casino .menuCategories li {
+    min-height: 32px;
+    border-top: 1px solid #23262d;
+    display: flex;
+    align-items: center;
+    padding: 0 8px 0 41px;
+    background-position: 10px center;
+    background-repeat: no-repeat;
+    background-image: url("../img/groups/groupIcon_othergames.svg");
+    background-size: 20px;
+    white-space: nowrap;
+}
+
+.casino .moreGames .wrap .navItem {
+	padding: 0 10px;
+}
+
+.casino .navItem {
+    display: inline-flex;
+}
+
+.casino .bartitle.iconbar,
+.casino.themeBackground .barbottom {
+    background-color: transparent;
+    border-top: none;
+}
+
+.casino .bartitle.iconbar:before {
+    -webkit-filter: invert(100) brightness(0.8);
+    filter: invert(100) brightness(0.8);
+}
+
+.casino form .barmiddle,
+.casino form .barbottom,
+.casino .form .label {
+    background-color: #23262d;
+    color: #fff;
+    border-top: none;
+    margin-bottom: 1px;
+}
+
+.casino .barmiddle.arrow,
+.casino .barbottom.arrow {
+	height: 43px;
+    font-size: 16px;
+	line-height: 43px;
+	background: #23262d;
+	margin-bottom: 1px;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: flex-start;
+	align-content: stretch;
+	align-items: center;
+	color: #fff;
+    border-top: none;
+}
+
+.casino .barmiddle.arrow:after,
+.casino .barbottom.arrow:after {
+	background-image: url("../img/arrowRight.svg");
+	background-size: auto 14px;
+	margin-left: 8px;
+}
+
+.casino form .submit {
+    background-color: #f64835;
+}
+
+.casino .spacer {
+    display: none;
+}
+
+.casino .msgtext,
+.casino .footNote,
+.casino .generatePassword .text,
+.casino #registrationPage .bonusSlogan span:first-child,
+.casino  #registration .footNote p:first-child span:first-child,
+.casino #registration .paymentLogos h2 {
+    color: #fff;
+}
+
+.casino .casinoOverview .msgtext {
+    color: #3e3e3e;
+}
+
+.casino #registration .footNote .link {
+    color: #f64835;
+}
+
+.casino  #registration .footNote .custom-checkbox {
+    filter: invert(1) brightness(2);
+}
+
+/* BEGIN search */
+.casino .gameSearch {
+	position: relative;
+	height: 44px;
+	padding: 0 10px;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: flex-start;
+	align-content: stretch;
+	align-items: center;
+}
+
+.casino .gameSearch .search {
+	color: white;
+	border: none;
+	height: 32px;
+	padding: 0 42px;
+	background: url("../img/casino/searchIcon.svg") no-repeat 12px,
+		#4a4a4a;
+	background-size: 15px auto, auto;
+	border-radius: 24px;
+	width: 1px;
+	display: flex;
+	flex: 1 1 auto;
+	align-self: auto;
+}
+
+.casino .gameSearch .deleteIcon {
+	position: absolute;
+	z-index: 2;
+	right: 22px;
+	height: 100%;
+	background-position: center;
+}
+
+.forepen
+{
+
+    display: block;
+    width: 100%;
+    height: 30px;
+    background: #f64835;
+    margin-bottom: 15px;
+
+
+}
+
+
+
+
+.casinoFooter .footer {
+    background: #23262d;
+}
+
+
+
+
+
+/* END search */

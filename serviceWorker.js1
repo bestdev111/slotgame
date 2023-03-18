@@ -1,0 +1,239 @@
+'use strict';
+
+const IS_MOBILE = false;
+const DESKTOP_NOTIFICATION = "DESKTOP_NOTIFICATION";
+const MOBILE_NOTIFICATION = "MOBILE_NOTIFICATION";
+const NOTIFICATION_TYPE_EVENT = "EVENT";
+
+importScripts('https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js');
+workbox['setConfig']({
+    debug: false
+});
+workbox['loadModule']('workbox-strategies');
+workbox['googleAnalytics']['initialize']({
+    hitFilter: (params) => {
+        const queueTimeInSeconds = Math.round(params.get('qt') / 1000);
+        params.set('cm1', queueTimeInSeconds);
+    },
+});
+
+self.addEventListener('install', event => {
+    self.skipWaiting();
+});
+
+self.addEventListener('activate', event => {
+    event.waitUntil(self.clients.claim());
+});
+
+self.addEventListener('message', function(event) {
+    // Currently there's no messages send from the page to the serviceWorker,
+    // if this changes use a system similar to the trackInteraction() method, to support multiple types of messages.
+});
+
+self.addEventListener('fetch', function(event) {
+    if (event.request.method != 'GET') return;
+    // check for everymatrix images if there is an optimized version available, if so, use it
+    var url = event.request.url;
+    if (url.includes('static.everymatrix.com') && url.endsWith('.png') && !url.includes('.optimized')) {
+        url = url.replace('.png', '.optimized.png');
+        const respondWithPromise = fetch(url, {
+            'method': 'HEAD'
+        });
+        event.respondWith(respondWithPromise.then(
+            (response) => {
+                if (response.ok) {
+                    return fetch(url);
+                } else {
+                    console.log('There was no optimized version of', event.request.url);
+                    return fetch(event.request);
+                }
+            }
+        ));
+    }
+});
+
+// handle Web Push Notication
+self.addEventListener('push', function(event) {
+    var payload = event['data']['json']();
+    if (payload['options']['data']['pushNotificationExtendedLogging'])
+        console.log('Received push event with data: ', payload);
+
+    var options = payload['options'];
+    var handlePush = registration.getNotifications({
+        "tag": options.tag
+    }).then(((notifications) => {
+        if (options['data']['notificationType'] === NOTIFICATION_TYPE_EVENT) {
+            if (payload['pushNotificationExtendedLogging'])
+                console.log("FROM PROMISE: Received new notification with same tag as existing notifications: ", notifications);
+            var eventPoints = options['data']['eventPointInfos'];
+            var lastEventPoint = eventPoints[eventPoints.length - 1];
+
+            // Sort by creation date
+            notifications.sort(function(a, b) {
+                return b['timestamp'] - a['timestamp'];
+            });
+
+            // Add all event points from previous notifications to eventPoints list
+            notifications.forEach(function(oldNotification) {
+                if (payload['pushNotificationExtendedLogging'])
+                    console.log("Merging notification with oldNotification: ", oldNotification);
+                Array['prototype']['push']['apply'](eventPoints, oldNotification['data']['eventPointInfos']);
+            });
+
+
+            // Put all event points with the same pointType / team combination into the set
+            var setOfEpKeys = new Set();
+            eventPoints.forEach(function(oldEpModel) {
+                setOfEpKeys.add(oldEpModel['translatedPointType'] + oldEpModel['scoringTeam']);
+            });
+
+            // For each combination count the occurrences
+            // and create a line for displaying in the merged notification
+            options['body'] = "";
+            var separator = IS_MOBILE ? "\n" : " - "; //On Desktop Browsers Display notification in one line to handle cropping better.
+
+            // add the current score to the start of the merged notification.
+            options['body'] += format(lastEventPoint['currentScoreText'], [lastEventPoint['currentScore']]) + separator;
+
+            setOfEpKeys.forEach(function(epKey) {
+                var oldEpModel = eventPoints.filter(function(ep) {
+                    return ep['translatedPointType'] + ep['scoringTeam'] === epKey;
+                }).pop();
+                var pointType = oldEpModel['translatedPointType'];
+                var scoringTeam = oldEpModel['scoringTeam'];
+
+                var pointTypeCount = eventPoints.filter(function(ep) {
+                    return ep['translatedPointType'] === pointType && ep['scoringTeam'] === scoringTeam;
+                }).length;
+
+                var stringForPointType = format(oldEpModel['pointForTeam'], [pointType, scoringTeam]);
+                if (pointTypeCount > 1) {
+                    // In case one point has been scored multiple times by the same team
+                    // for example if they are two occurences of Goal for Fortuna Düsseldorf
+                    // change the text to "2x Goal for Fortuna Düsseldorf"
+                    stringForPointType = `${pointTypeCount}x ${stringForPointType}`;
+                }
+                options['body'] += stringForPointType + separator;
+            });
+        }
+        trackNotificationInteraction('SHOW');
+        if (payload['pushNotificationExtendedLogging'])
+            console.log("Displaying notification with title: '" + payload['title'] + "' and options:", options);
+        return self['registration']['showNotification'](payload['title'], options);
+    }));
+    event.waitUntil(handlePush);
+});
+
+function format(source, params) {
+    var i = 0;
+    params.forEach(function(param) {
+        source = source.replace(new RegExp("\\{" + i + "\\}", "g"), param);
+        i++;
+    });
+    return source;
+}
+
+// Handle user click on a notification or a notification action.
+self.addEventListener('notificationclick', function(event) {
+    var resolveUserInteraction = new Promise(function(resolve, reject) {
+        var data = event['notification']['data'];
+        var defaultActionUrl = IS_MOBILE ? data['defaultActionMobile'] : data['defaultActionWeb'];
+        var actionCashoutUrl = IS_MOBILE ? data['cashoutActionMobile'] : data['cashoutActionWeb'];
+        switch (event['action']) {
+            case 'snooze':
+                trackNotificationInteraction('SNOOZE_CLICKED');
+                fetchInBackground('/snoozePushNotifications',
+                    'snoozeToken', event['notification']['data']['snoozeToken']);
+                break;
+            case 'cashout':
+                trackNotificationInteraction('CASHOUT_CLICKED');
+                openInApp(actionCashoutUrl);
+                break;
+            default:
+                trackNotificationInteraction('CLICK');
+                openInApp(defaultActionUrl);
+                break;
+        }
+        // Chrome on mobile doesn’t close the notification when you click on it
+        // See: http://crbug.com/463146
+        event.notification.close();
+    });
+    event.waitUntil(resolveUserInteraction);
+});
+
+self.addEventListener('notificationclose', function(event) {
+    var trackClosing = new Promise(function(resolve, reject) {
+        trackNotificationInteraction('CLOSED');
+    });
+    event.waitUntil(trackClosing);
+});
+
+// If url is already open in a tab, focuses it.
+// else tries to navigate an existing window / PWA instance to url
+// If neither is possible, open url in new window.
+function openInApp(url) {
+    var found = false;
+    var navigateAbleClient = null;
+    self.clients.matchAll({
+        includeUncontrolled: true,
+        type: 'window'
+    }).then(function(clientsArr) {
+        var i;
+        for (i = 0; i < clientsArr.length; i++) {
+            var client = clientsArr[i];
+            if ('navigate' in client) {
+                // remember that this client supports navigation
+                navigateAbleClient = client;
+            }
+            if (client.url.endsWith(url)) {
+                // We already have a window to use, focus it.
+                found = true;
+                clientsArr[i].focus();
+                break;
+            }
+        }
+        if (!found) {
+            if (navigateAbleClient != null) {
+                navigateAbleClient.navigate(url);
+                navigateAbleClient.focus();
+            } else {
+                // Create a new window.
+                clients.openWindow(url);
+            }
+        }
+    });
+}
+
+function trackNotificationInteraction(action, opt_label, opt_value) {
+    var category = IS_MOBILE ? MOBILE_NOTIFICATION : DESKTOP_NOTIFICATION;
+    trackInteraction(category, action, opt_label, opt_value);
+}
+
+function trackInteraction(category, action, opt_label, opt_value) {
+    self.clients.matchAll({
+        includeUncontrolled: true,
+        type: 'window'
+    }).then(function(clientsArr) {
+        if (clientsArr.length > 0) {
+            clientsArr[0].postMessage({
+                'messageType': 'TRACKING',
+                'trackingData': {
+                    'category': category,
+                    'action': action,
+                    'opt_label': opt_label,
+                    'opt_value': opt_value
+                }
+            });
+        }
+    });
+}
+
+function fetchInBackground(url, parameterName, parameterValue) {
+    var apiPrefix = IS_MOBILE ? 'ajax' : 'spring';
+    var finalUrl = apiPrefix + url + '?' + parameterName + '=' + parameterValue;
+    console.log('Snoozing event by fetching: ', finalUrl);
+    fetch(finalUrl).catch(function(e) {
+        console.log('Fetch Error ', e);
+        trackNotificationInteraction('SNOOZE_FAILED');
+    });
+}

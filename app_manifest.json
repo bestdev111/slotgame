@@ -1,0 +1,26 @@
+{
+  "name": "Bahigo Sports",
+  "short_name": "Bahigo Sports",
+  "icons": [
+    {
+      "src": "img/touch-icon-144x144-pic.png",
+      "sizes": "144x144",
+      "type": "image/png"
+    },
+    {
+      "src": "img/touch-icon-192x192-pic.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "img/touch-icon-512x512-pic.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ],
+  "start_url": "/",
+  "display": "standalone",
+  "gcm_sender_id": "571595530715",
+  "theme_color": "#f74835",
+  "background_color": "#f74835"
+}

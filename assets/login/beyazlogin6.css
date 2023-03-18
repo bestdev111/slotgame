@@ -1,0 +1,338 @@
+@font-face {
+  font-family: 'simple-line-icons';
+  src: url('font/Simple-Line-Icons.eot?v=2.4.0');
+  src: url('font/Simple-Line-Icons.eot?v=2.4.0#iefix') format('embedded-opentype'), url('font/Simple-Line-Icons.woff2?v=2.4.0') format('woff2'), url('font/Simple-Line-Icons.ttf?v=2.4.0') format('truetype'), url('font/Simple-Line-Icons.woff?v=2.4.0') format('woff'), url('font/Simple-Line-Icons.svg?v=2.4.0#simple-line-icons') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+.loginpage {
+    background: #e4e5e6;
+    /* background-size: cover; */
+    /* background-attachment: fixed; */
+    overflow: hidden;
+    height: 100%;
+    position: relative;
+    min-height: 100vh;
+    padding: 0;
+    margin: 0;
+    background: #171717 url(main-bg.jpg) no-repeat center top;
+}
+body {
+    font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #333;
+    background-color: #fff;
+}
+body {
+    font-family: Roboto,sans-serif;
+}
+html {
+    font-size: 10px;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+}
+html {
+    font-family: sans-serif;
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+}
+*, :after, :before {
+    box-sizing: border-box;
+}
+.loginpage .container-fluid {
+    padding: 0;
+}
+.container-fluid {
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 4px;
+    padding-right: 4px;
+}
+.btn-group-vertical>.btn-group:after, .btn-group-vertical>.btn-group:before, .btn-toolbar:after, .btn-toolbar:before, .clearfix:after, .clearfix:before, .container-fluid:after, .container-fluid:before, .container:after, .container:before, .dl-horizontal dd:after, .dl-horizontal dd:before, .form-horizontal .form-group:after, .form-horizontal .form-group:before, .modal-footer:after, .modal-footer:before, .modal-header:after, .modal-header:before, .nav:after, .nav:before, .navbar-collapse:after, .navbar-collapse:before, .navbar-header:after, .navbar-header:before, .navbar:after, .navbar:before, .pager:after, .pager:before, .panel-body:after, .panel-body:before, .row:after, .row:before {
+    content: " ";
+    display: table;
+}
+@media (min-width: 1200px)
+.col-lg-16 {
+    width: 100%;
+}
+@media (min-width: 1200px)
+.col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg-13, .col-lg-14, .col-lg-15, .col-lg-16 {
+    float: left;
+}
+@media (min-width: 992px)
+.col-md-16 {
+    width: 100%;
+}
+@media (min-width: 992px)
+.col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12, .col-md-13, .col-md-14, .col-md-15, .col-md-16 {
+    float: left;
+}
+@media (min-width: 768px)
+.col-sm-16 {
+    width: 100%;
+}
+@media (min-width: 768px)
+.col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm-13, .col-sm-14, .col-sm-15, .col-sm-16 {
+    float: left;
+}
+.col-xs-16 {
+    width: 100%;
+}
+.col-xs-1, .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6, .col-xs-7, .col-xs-8, .col-xs-9, .col-xs-10, .col-xs-11, .col-xs-12, .col-xs-13, .col-xs-14, .col-xs-15, .col-xs-16 {
+    float: left;
+}
+.col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg-13, .col-lg-14, .col-lg-15, .col-lg-16, .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12, .col-md-13, .col-md-14, .col-md-15, .col-md-16, .col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm-13, .col-sm-14, .col-sm-15, .col-sm-16, .col-xs-1, .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6, .col-xs-7, .col-xs-8, .col-xs-9, .col-xs-10, .col-xs-11, .col-xs-12, .col-xs-13, .col-xs-14, .col-xs-15, .col-xs-16 {
+    position: relative;
+    min-height: 1px;
+    padding-left: 4px;
+    padding-right: 4px;
+}
+.loginpage .login {
+    /* float: left; */
+    border-radius: 10px;
+    width: 650px;
+    /* margin-left: 30%; */
+    margin: 0 auto;
+    margin-top: 100px;
+    /* padding: 0; */
+    text-align: center;
+}
+.loginalt1{width: 50%;float: left;background: white;height: 323px;}
+.loginalt1 span{
+    /* color: white; */
+    /* height: 20px; */
+    /* width: 100%; */
+    float: left;
+}
+.input-group-addon:not(:last-child) {
+    border-right: 0;
+}
+.input-group-addon, .input-group-btn {
+    /* min-width: 40px; */
+    white-space: nowrap;
+    vertical-align: middle;
+}
+.input-group-addon {
+    padding: 0.5rem 0rem;
+    margin-bottom: 0;
+    height: 30px;
+    line-height: 1.25;
+    font-size: 15px;
+    font-weight: normal;
+    line-height: 1.25;
+    color: #607d8b;
+    text-align: center;
+    background-color: #cfd8dc;
+    /* border: 1px solid rgba(0, 0, 0, 0.15); */
+}
+.input-group-addon, .input-group-btn {
+    width: 10%;
+    /* white-space: nowrap; */
+    /* vertical-align: middle; */
+}
+.input-group-addon, .input-group-btn, .input-group .form-control {
+    display: table-cell;
+}
+.loginalt2{
+width: 50%;
+    float: left;
+    background-color: #F64835;
+    height: 300px;
+}
+@media (min-width: 576px)
+.card-group .card + .card {
+    margin-left: 0;
+    border-left: 0;
+}
+@media (min-width: 576px)
+.card-group .card {
+    display: table-cell;
+    vertical-align: top;
+}
+.py-3 {
+    /* padding-top: 3rem !important; */
+    /* padding-bottom: 3rem !important; */
+}
+.card-inverse {
+    color: #200322;
+}
+.card-primary {
+    background-color: #F64835;
+}
+.card {
+    margin-bottom: 1.5rem;
+}
+.card-primary {
+    background-color: #F64835;
+    border-color: #F64835;
+    margin-top: 0%;
+}
+.card {
+    /* position: relative; */
+    /* display: block; */
+    /* margin-bottom: 0.75rem; */
+    /* background-color: #fff; */
+    /* border: 1px solid #cfd8dc; */
+}
+.text-xs-center {
+    text-align: center !important;
+}
+.card-block {
+    padding: 1.25rem;
+}
+h2, .h2 {
+    font-size: 5rem;
+}
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+    margin-bottom: 0.5rem;
+    font-family: inherit;
+    font-weight: 500;
+    line-height: 1.1;
+    color: inherit;
+}
+h1, h2, h3, h4, h5, h6 {
+    margin-top: 0;
+    margin-bottom: .5rem;
+}
+p {
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+user agent stylesheet
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+.input-group .form-control:focus, .input-group .form-control:active, .input-group .form-control:hover {
+    z-index: 3;
+}
+.input-group-addon, .input-group-btn, .input-group .form-control {
+    display: table-cell;
+}
+.input-group .form-control {
+    position: relative;
+    z-index: 2;
+    float: left;
+    width: 100%;
+    margin-bottom: 0;
+}
+.form-control {
+    display: block;
+    float: left;
+    width: 84%;
+    margin-bottom: 12px;
+    padding: 1rem 0rem;
+    padding-left: 5%;
+    font-size: 15px;
+    te: center;
+    /* text-align: initial; */
+    line-height: 1.25;
+    color: #607d8b;
+    background-color: #fff;
+    background-image: none;
+    background-clip: padding-box;
+    border: 1px solid rgba(0, 0, 0, 0.15);
+    border-radius: 0;
+    transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s;
+}
+input, button, select, textarea {
+    line-height: inherit;
+}
+a, area, button, [role="button"], input, label, select, summary, textarea {
+    touch-action: manipulation;
+}
+button, input {
+    overflow: visible;
+}
+button, input, optgroup, select, textarea {
+    font: inherit;
+    margin: 0;
+}
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+user agent stylesheet
+input:-internal-autofill-selected {
+    background-color: rgb(232, 240, 254) !important;
+    background-image: none !important;
+    color: rgb(0, 0, 0) !important;
+}
+user agent stylesheet
+input {
+    -webkit-writing-mode: horizontal-tb !important;
+    text-rendering: auto;
+    color: initial;
+    letter-spacing: normal;
+    word-spacing: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    display: inline-block;
+    text-align: start;
+    -webkit-appearance: textfield;
+    background-color: white;
+    -webkit-rtl-ordering: logical;
+    cursor: text;
+    margin: 0em;
+    font: 400 13.3333px Arial;
+    padding: 1px 0px;
+    border-width: 2px;
+    border-style: inset;
+    border-color: initial;
+    border-image: initial;
+}
+.btn-primary:hover {
+    color: #fff;
+    background-color: #f56c5c;
+    border-color: #f56c5c;
+}
+.btn:focus, .btn:hover {
+    text-decoration: none;
+}
+.px-2 {
+    padding-right: 1.5rem !important;
+    padding-left: 1.5rem !important;
+}
+.btn-primary {
+    color: #e4e5e6;
+    background-color: #F64835;
+    border-color: #F64835;
+}
+.btn {
+    display: inline-block;
+    font-weight: normal;
+    line-height: 1.25;
+    float: left;
+    width: 84%;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    cursor: pointer;
+    user-select: none;
+    border: 1px solid transparent;
+    padding: 1.5rem 1rem;
+    font-size: 0.875rem;
+    transition: all 0.2s ease-in-out;
+}
+.icon-user, .icon-people, .icon-user-female, .icon-user-follow, .icon-user-following, .icon-user-unfollow, .icon-login, .icon-logout, .icon-emotsmile, .icon-phone, .icon-call-end, .icon-call-in, .icon-call-out, .icon-map, .icon-location-pin, .icon-direction, .icon-directions, .icon-compass, .icon-layers, .icon-menu, .icon-list, .icon-options-vertical, .icon-options, .icon-arrow-down, .icon-arrow-left, .icon-arrow-right, .icon-arrow-up, .icon-arrow-up-circle, .icon-arrow-left-circle, .icon-arrow-right-circle, .icon-arrow-down-circle, .icon-check, .icon-clock, .icon-plus, .icon-minus, .icon-close, .icon-event, .icon-exclamation, .icon-organization, .icon-trophy, .icon-screen-smartphone, .icon-screen-desktop, .icon-plane, .icon-notebook, .icon-mustache, .icon-mouse, .icon-magnet, .icon-energy, .icon-disc, .icon-cursor, .icon-cursor-move, .icon-crop, .icon-chemistry, .icon-speedometer, .icon-shield, .icon-screen-tablet, .icon-magic-wand, .icon-hourglass, .icon-graduation, .icon-ghost, .icon-game-controller, .icon-fire, .icon-eyeglass, .icon-envelope-open, .icon-envelope-letter, .icon-bell, .icon-badge, .icon-anchor, .icon-wallet, .icon-vector, .icon-speech, .icon-puzzle, .icon-printer, .icon-present, .icon-playlist, .icon-pin, .icon-picture, .icon-handbag, .icon-globe-alt, .icon-globe, .icon-folder-alt, .icon-folder, .icon-film, .icon-feed, .icon-drop, .icon-drawer, .icon-docs, .icon-doc, .icon-diamond, .icon-cup, .icon-calculator, .icon-bubbles, .icon-briefcase, .icon-book-open, .icon-basket-loaded, .icon-basket, .icon-bag, .icon-action-undo, .icon-action-redo, .icon-wrench, .icon-umbrella, .icon-trash, .icon-tag, .icon-support, .icon-frame, .icon-size-fullscreen, .icon-size-actual, .icon-shuffle, .icon-share-alt, .icon-share, .icon-rocket, .icon-question, .icon-pie-chart, .icon-pencil, .icon-note, .icon-loop, .icon-home, .icon-grid, .icon-graph, .icon-microphone, .icon-music-tone-alt, .icon-music-tone, .icon-earphones-alt, .icon-earphones, .icon-equalizer, .icon-like, .icon-dislike, .icon-control-start, .icon-control-rewind, .icon-control-play, .icon-control-pause, .icon-control-forward, .icon-control-end, .icon-volume-1, .icon-volume-2, .icon-volume-off, .icon-calendar, .icon-bulb, .icon-chart, .icon-ban, .icon-bubble, .icon-camrecorder, .icon-camera, .icon-cloud-download, .icon-cloud-upload, .icon-envelope, .icon-eye, .icon-flag, .icon-heart, .icon-info, .icon-key, .icon-link, .icon-lock, .icon-lock-open, .icon-magnifier, .icon-magnifier-add, .icon-magnifier-remove, .icon-paper-clip, .icon-paper-plane, .icon-power, .icon-refresh, .icon-reload, .icon-settings, .icon-star, .icon-symbol-female, .icon-symbol-male, .icon-target, .icon-credit-card, .icon-paypal, .icon-social-tumblr, .icon-social-twitter, .icon-social-facebook, .icon-social-instagram, .icon-social-linkedin, .icon-social-pinterest, .icon-social-github, .icon-social-google, .icon-social-reddit, .icon-social-skype, .icon-social-dribbble, .icon-social-behance, .icon-social-foursqare, .icon-social-soundcloud, .icon-social-spotify, .icon-social-stumbleupon, .icon-social-youtube, .icon-social-dropbox, .icon-social-vkontakte, .icon-social-steam {
+    font-family: 'simple-line-icons';
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+.icon-user:before {
+    content: "\e005";
+}

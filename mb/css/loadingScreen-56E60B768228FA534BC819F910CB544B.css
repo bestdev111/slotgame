@@ -1,0 +1,44 @@
+#loading,
+#loading .spinner {
+    position: fixed;
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    z-index: 1000;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+#loading {
+    margin-top: -84px;
+    background-image: url('../img/logobg_blue_big-4391428D2DB0AE4A237268001041C4EA.png');
+    background-size: 150px auto;
+    background-color: #fff;
+}
+
+#loading.premium {
+    background-image: url('../img/logobg_blue_big_plus-EF4E58E8D1D2B0B09D5806720E997922.png');
+}
+
+#loading .spinner {
+    margin-top: 44px;
+}
+
+#loading .spinner img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+}
+
+#loading .spinner img.loading {
+    opacity: 0;
+    transition: all 1000ms ease-in;
+}
+
+#loading .logo {
+    display: none;
+}

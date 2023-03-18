@@ -1,0 +1,2 @@
+[14-Feb-2022 20:36:10 Europe/Istanbul] PHP Warning:  include(/header.php): failed to open stream: No such file or directory in /home/jackp478/public_html/players/kuponlarim.php on line 7
+[14-Feb-2022 20:36:10 Europe/Istanbul] PHP Warning:  include(): Failed opening '/header.php' for inclusion (include_path='.:/opt/alt/php74/usr/share/pear') in /home/jackp478/public_html/players/kuponlarim.php on line 7

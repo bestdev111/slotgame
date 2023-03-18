@@ -1,0 +1,59 @@
+body {
+cursor: default;
+}
+
+a:hover,
+a:active {
+text-decoration: none;
+}
+
+.easy-autocomplete input {
+border-radius: 0;
+display: block;
+width: 100%;
+padding: 0.5rem 0.75rem;
+font-size: 0.875rem;
+line-height: 1.25;
+transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s;
+}
+
+.form-group > label {
+font-weight: bold;
+}
+
+.card-header {
+font-weight: bold;
+}
+
+input[required] {
+border-left: 2px solid #20a8d8;
+}
+
+#error {
+display: none;
+font-weight: bold;
+}
+
+#info {
+display: none;
+font-weight: bold;
+}
+
+#success {
+display: none;
+font-weight: bold;
+}
+
+.btn-secondary.active {
+font-weight: bold;
+letter-spacing: 1px;
+outline: none;
+}
+
+.pagination {
+margin-bottom: 0;
+}
+
+.tag {
+padding: 5px;
+}
